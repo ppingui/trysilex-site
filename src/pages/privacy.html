@@ -1,0 +1,222 @@
+<!--meta
+{
+  "slug": "privacy",
+  "type": "page",
+  "title": "Privacy Policy — Silex",
+  "description": "Silex runs no servers, holds no accounts, and cannot read anything you write in the app. The full GDPR and UK GDPR notice, including the few places data does leave your phone.",
+  "h1": "Privacy Policy"
+}
+-->
+<p class="small">Last updated: 10 August 2026. Canonical version of this notice; it
+  replaces the Notion-hosted copy linked from older builds of the app.</p>
+
+<p class="lede">Silex is built on one principle: <strong>your recovery is nobody's
+  dataset.</strong></p>
+
+<p>We run no servers, hold no accounts, and have no way to read anything you write in
+  this app. This page explains exactly what that means — including the few places where
+  data does leave your phone, because a privacy policy that only lists the reassuring
+  parts is not a privacy policy.</p>
+
+<p>This notice is written to meet the EU General Data Protection Regulation (GDPR) and
+  the UK GDPR. If you are in the EEA or the UK, the sections on legal bases, transfers
+  and your rights apply to you in full.</p>
+
+<h2>1. What you enter stays on your device</h2>
+<p>Everything you record — quiz answers, check-ins, journal reflections, program
+  answers, urge logs, lapse entries, streak dates, money figures, your signature and
+  your collection — is stored in two places, both of which belong to you:</p>
+<ul>
+  <li><strong>On your iPhone</strong>, in the app's local database.</li>
+  <li><strong>In your private iCloud</strong>, via Apple CloudKit's private database,
+    so your history survives a lost or replaced device.</li>
+</ul>
+<p>Your private iCloud database is accessible only to your Apple ID. We are not a party
+  to it and cannot read it. If iCloud is unavailable or disabled, the app stores data
+  only on your device.</p>
+<p><strong>We never receive this content.</strong> There is no API call that sends it,
+  no backup on our side, and no key that would let us decrypt it. Because we have no
+  access to it and no ability to use it, we do not consider ourselves the controller of
+  what you write in the app — you are. We describe it here for transparency, not because
+  we process it.</p>
+
+<h2>2. What actually reaches anyone else</h2>
+<p>Four narrow cases, all optional or technically unavoidable.</p>
+
+<h3>Purchases — Apple, and RevenueCat</h3>
+<p>Subscriptions are processed by Apple. We use RevenueCat to verify and manage
+  subscription status. It acts as our processor and receives:</p>
+<ul>
+  <li>device type and operating system,</li>
+  <li>last-seen time, and Apple receipt files,</li>
+  <li>optionally, a user identifier and attribution metadata.</li>
+</ul>
+<p>It never receives your journal, answers, streak or any recovery content. See
+  <a href="https://www.apple.com/legal/privacy/" rel="nofollow">Apple's privacy
+  policy</a> and <a href="https://www.revenuecat.com/privacy/" rel="nofollow">RevenueCat's
+  privacy policy</a>.</p>
+
+<h3>The DNS shield — only if you turn it on</h3>
+<p>This installs an encrypted-DNS (DoH) configuration so gambling domains fail to
+  resolve across your apps and browsers. While it is on, your device's DNS lookups are
+  answered by
+  <a href="https://mullvad.net/en/help/dns-over-https-and-dns-over-tls" rel="nofollow">Mullvad's
+  public resolver</a> under their
+  <a href="https://mullvad.net/en/help/no-logging-data-policy/" rel="nofollow">no-logging
+  policy</a>. Advanced users may point it at their own NextDNS configuration instead.
+  Mullvad or NextDNS act as independent controllers for those lookups under their own
+  policies — we are not in that path and never see your browsing. Turning the shield off
+  in iOS Settings ends this immediately.</p>
+
+<h3>Blocklist updates</h3>
+<p>The app periodically downloads public gambling-domain lists from jsDelivr and
+  GitHub. As with any file download, those servers can see the request and your IP
+  address. The request carries no identifier and nothing about you or your recovery.</p>
+
+<h3>Usage counts — which reach no one</h3>
+<p>The app keeps a first-party tally of <em>how the app is used</em> (for example, how
+  many times a screen was opened on a given day), stored as counts by day in a single
+  file in the app's own storage. It contains no identifiers and no content you wrote,
+  and <strong>is never transmitted anywhere</strong>. Deleting the app deletes it.</p>
+
+<p><strong>Nothing else.</strong> The app makes no other network requests. There are no
+  advertising identifiers, no third-party analytics SDKs, no cross-app tracking, and no
+  profiling or automated decision-making that produces legal or similarly significant
+  effects.</p>
+
+<h2>3. Legal bases (GDPR Art. 6 and Art. 9)</h2>
+<div class="table-scroll">
+<table>
+  <thead><tr><th>What</th><th>Purpose</th><th>Legal basis</th></tr></thead>
+  <tbody>
+    <tr>
+      <td>Purchase &amp; subscription status (via Apple / RevenueCat)</td>
+      <td>Provide and restore the subscription you bought; prevent fraudulent entitlement</td>
+      <td><strong>Art. 6(1)(b)</strong> — performance of a contract with you</td>
+    </tr>
+    <tr>
+      <td>IP address visible to the blocklist CDN when the app downloads a list</td>
+      <td>Deliver the blocking feature the app exists to provide</td>
+      <td><strong>Art. 6(1)(f)</strong> — legitimate interests (keeping protection lists
+        current). Our assessment: minimal data, no profiling, no linkage to you</td>
+    </tr>
+    <tr>
+      <td>DNS lookups, while the shield is enabled</td>
+      <td>Block gambling domains device-wide</td>
+      <td><strong>Art. 6(1)(a)</strong> — your consent, given by enabling the shield and
+        approving the iOS dialog; withdrawable at any time by turning it off</td>
+    </tr>
+    <tr>
+      <td>What you write in the app</td>
+      <td>Deliver the recovery programme to you on your own device</td>
+      <td>We do not receive it, so we carry out no processing to justify. To the extent
+        it is processed at all, it is on your device under your control</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+<p><strong>Special-category (health) data.</strong> What you record here reveals
+  information about health and about a possible behavioural addiction, which is
+  special-category data under <strong>Art. 9</strong>. That is exactly why the app is
+  designed the way it is: that data never reaches us, so we never rely on an Art. 9
+  condition for it. Nothing in §2 reaching a third party is special-category data — a
+  subscription receipt does not reveal a health condition beyond the fact that you
+  bought an app.</p>
+
+<h2>4. International transfers</h2>
+<p><strong>RevenueCat</strong> is a US company (Brandon, Florida) storing data on Amazon
+  Web Services in the United States. Transfers are covered by its data processing
+  agreement, which incorporates the European Commission's <strong>Standard Contractual
+  Clauses</strong> (Implementing Decision (EU) 2021/914), <strong>Module Two —
+  controller to processor</strong>. For the UK it additionally applies the ICO's
+  <strong>International Data Transfer Addendum</strong> of 21 March 2022, and for
+  Switzerland the SCCs adapted to the Swiss FADP. RevenueCat is <strong>not</strong>
+  certified under the EU–US Data Privacy Framework; the SCCs are the mechanism.
+  <em>Verified against RevenueCat's published DPA on 6 August 2026.</em></p>
+<p><strong>Apple</strong> — see Apple's privacy policy for its own transfer safeguards.
+  Your private iCloud data is governed by Apple's terms and is not transferred by us,
+  because we never hold it.</p>
+<p><strong>Us.</strong> We are established in Ukraine, which is outside the EEA and has
+  no European Commission adequacy decision. Where you give data to us directly, that is
+  a direct collection rather than a Chapter V transfer (per EDPB Guidelines 05/2021 on
+  the interplay of Art. 3 and Chapter V). In practice there is almost nothing to
+  collect: there is no account, and the only personal data we can see is the pseudonymous
+  subscription record in RevenueCat's dashboard.</p>
+
+<h2>5. How long anything is kept</h2>
+<ul>
+  <li><strong>On your device and in your private iCloud:</strong> until you delete it.
+    We cannot delete it for you, and we cannot stop you deleting it.</li>
+  <li><strong>On our systems:</strong> nothing, because we operate none.</li>
+  <li><strong>Purchase records:</strong> retained by Apple and RevenueCat under their
+    own retention schedules, and as required by tax and accounting law.</li>
+  <li><strong>Usage counts:</strong> on your device only, removed when the app is
+    deleted.</li>
+</ul>
+
+<h2>6. Who is responsible</h2>
+<p><strong>Controller:</strong> Kyrylo Lozovyi<br>
+  <strong>Address:</strong> Vidpochinku 12, Kyiv, Ukraine<br>
+  <strong>Privacy contact:</strong>
+  <a href="mailto:support@trysilex.com">support@trysilex.com</a>
+  (also reachable at
+  <a href="mailto:stopgamblesupport@gmail.com">stopgamblesupport@gmail.com</a>, the
+  address shown inside current builds of the app)</p>
+<p>We have not appointed a Data Protection Officer; we are not required to, because we
+  carry out no large-scale monitoring and hold no special-category data on our systems
+  (see §3).</p>
+
+<h2>7. Your rights</h2>
+<p>If you are in the EEA or UK you have the right to <strong>access</strong> your data,
+  to <strong>rectification</strong>, to <strong>erasure</strong>, to
+  <strong>restriction</strong> of processing, to <strong>data portability</strong>, to
+  <strong>object</strong> to processing based on legitimate interests, and to
+  <strong>withdraw consent</strong> at any time where consent is the basis (the DNS
+  shield — withdraw by turning it off; this does not affect processing already carried
+  out).</p>
+<p><strong>An honest limitation.</strong> For almost everything this app touches, we
+  hold no identifiable data about you and no account that could link a request to a
+  person. Under <strong>GDPR Art. 11</strong> we are not required to obtain extra
+  information purely to identify you, and we will not ask you for identity documents to
+  service a request we have no data to answer. In practice:</p>
+<ul>
+  <li><strong>Content you wrote</strong> — exercise these rights directly: it is on your
+    device and in your iCloud, and deleting the app (plus the iCloud copy) erases it
+    completely.</li>
+  <li><strong>Purchase data</strong> — contact Apple, or contact us and we will pass the
+    request to RevenueCat, which acts as our processor.</li>
+</ul>
+<p>Write to <a href="mailto:support@trysilex.com">support@trysilex.com</a> and we will
+  respond within one month, as required by Art. 12(3).</p>
+<p><strong>Right to complain.</strong> You may lodge a complaint with your national data
+  protection authority. The list is at
+  <a href="https://edpb.europa.eu/about-edpb/board/members_en" rel="nofollow">edpb.europa.eu</a>;
+  in the UK it is the <a href="https://ico.org.uk/make-a-complaint/" rel="nofollow">ICO</a>.
+  You do not have to contact us first, though we would rather you did.</p>
+
+<h2>8. Deleting everything</h2>
+<ul>
+  <li>Delete the app from your iPhone.</li>
+  <li>Remove the iCloud copy: Settings → your name → iCloud → Manage Account Storage →
+    Silex.</li>
+  <li>Cancel a subscription: Settings → your name → Subscriptions, or the Manage
+    Subscription link in the app.</li>
+</ul>
+
+<h2>9. Sensitive information, and why the design is the policy</h2>
+<p>What you record here concerns your health and your finances, and we treat it that
+  way. No accounts to breach, no servers to subpoena, no analytics vendor holding a
+  copy. The strongest protection we can offer is not holding your data at all — and that
+  is a structural decision, not a promise we could quietly reverse.</p>
+
+<h2>10. Children</h2>
+<p>Silex is intended for adults and is not directed at children. We do not knowingly
+  collect information from anyone under 18. The App Store listing is rated
+  accordingly.</p>
+
+<h2>11. Changes</h2>
+<p>If this policy changes, the date at the top changes and the current version is always
+  published at this address. Material changes will be surfaced in the app.</p>
+
+<h2>12. Contact</h2>
+<p><a href="mailto:support@trysilex.com">support@trysilex.com</a></p>

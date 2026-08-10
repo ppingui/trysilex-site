@@ -1,0 +1,155 @@
+<!--meta
+{
+  "slug": "gambling-self-check",
+  "type": "article",
+  "published": "2026-08-10",
+  "title": "Gambling self-check: the 9-question PGSI test, free and private",
+  "description": "Take the Problem Gambling Severity Index (PGSI) — the same 9-question screener clinicians and helplines use. Runs entirely in your browser, stores nothing, sends nothing.",
+  "h1": "The 9-question gambling self-check (PGSI)",
+  "tldr": "These nine questions are the <strong>Problem Gambling Severity Index</strong>, the standard screener from the Canadian Problem Gambling Index (Ferris &amp; Wynne, 2001). Score 0–27. A score of 8 or more puts you in the highest-risk band. It runs in your browser — nothing is stored, nothing is sent anywhere, and there is no email box at the end.",
+  "faq": [
+    ["What score means I have a gambling problem?", "On the PGSI, 0 is non-problem gambling, 1–2 is low risk, 3–7 is moderate risk, and 8 or above is the band usually described as problem gambling. But the PGSI is a screener, not a diagnosis — only a qualified clinician can diagnose gambling disorder, using the DSM-5 criteria."],
+    ["Is this test stored or shared?", "No. The scoring happens in JavaScript inside your own browser. There is no form submission, no cookie, no analytics event, and no email capture. Closing the tab erases it."],
+    ["Can I take it about someone else?", "The PGSI is written in the first person and validated as a self-report, so answering it for a partner or family member gives you a rough impression at best. If you're worried about someone else, the helplines below take calls from family members too."],
+    ["What if I score low but still feel out of control?", "Trust that feeling over the number. The PGSI weights financial and social consequences heavily, so someone early in a heavy pattern — or someone gambling money they can technically afford — can score low and still be in trouble."]
+  ]
+}
+-->
+<p>The PGSI asks about the <strong>last 12 months</strong>. Answer for that window, not
+  for your worst month ever and not for last week. Being honest with a page that can't
+  remember your answers is the easiest honesty available.</p>
+
+<form class="tool" id="pgsi">
+  <p class="noscript"><noscript>This self-check needs JavaScript to score itself. With
+    JavaScript off, you can still answer the questions below and add them up by hand:
+    Never = 0, Sometimes = 1, Most of the time = 2, Almost always = 3.</noscript></p>
+  <div id="pgsi-questions"></div>
+  <div class="result" id="pgsi-result" hidden aria-live="polite">
+    <span class="num" id="pgsi-score">0</span>
+    <p><span class="band" id="pgsi-band"></span> — <span id="pgsi-line"></span></p>
+    <p class="small">This isn't a diagnosis — it's a snapshot of risk based on a standard
+      self-check (PGSI). Scores range from 0 to 27.</p>
+    <div id="pgsi-next"></div>
+  </div>
+  <p class="small" id="pgsi-progress">Answer all nine questions to see your score.</p>
+</form>
+
+<h2>How the scoring works</h2>
+<p>Each of the nine items scores 0 for <em>never</em>, 1 for <em>sometimes</em>, 2 for
+  <em>most of the time</em> and 3 for <em>almost always</em>, giving a total from 0 to 27.
+  The bands come from the Canadian Problem Gambling Index:</p>
+<div class="table-scroll">
+<table>
+  <thead><tr><th>Score</th><th>Standard band</th><th>What it usually means</th></tr></thead>
+  <tbody>
+    <tr><td>0</td><td>Non-problem gambling</td><td>No indicators reported in the last 12 months.</td></tr>
+    <tr><td>1–2</td><td>Low risk</td><td>Early signs most casual bettors don't report — worth watching.</td></tr>
+    <tr><td>3–7</td><td>Moderate risk</td><td>A heavier pattern, often with some financial or social consequence already.</td></tr>
+    <tr><td>8–27</td><td>Problem gambling</td><td>The highest band on the screener. Most people here benefit from structured help, not willpower alone.</td></tr>
+  </tbody>
+</table>
+</div>
+<p class="src">Instrument: Ferris, J. &amp; Wynne, H. (2001), <em>The Canadian Problem
+  Gambling Index: Final Report</em>, Canadian Centre on Substance Abuse. The PGSI is a
+  screening instrument; clinical diagnosis of gambling disorder uses the DSM-5 criteria and
+  requires a qualified clinician.</p>
+
+<h2>Whatever your score, the next step is the same</h2>
+<p>A number doesn't change anything by itself. Two things do, and both work at any score:</p>
+<ul>
+  <li><strong>Put distance between you and the bet.</strong> Not willpower — friction.
+    <a href="/block-gambling-sites-iphone/">Block gambling on your phone</a>, then add the
+    two layers you can't undo in a craving:
+    <a href="/self-exclusion-guide/">self-exclusion</a> and a
+    <a href="/block-gambling-transactions-bank/">bank gambling block</a>.</li>
+  <li><strong>Learn what the urge actually is.</strong> Urges rise, crest and fall,
+    typically within about 20–30 minutes, whether or not you bet.
+    <a href="/how-long-do-gambling-urges-last/">That pattern is the thing to lean on.</a></li>
+</ul>
+
+{{cta:selfcheck}}
+
+<script>
+(function () {
+  var ITEMS = [
+    "In the last 12 months, have you bet more than you could really afford to lose?",
+    "In the last 12 months, have you needed to gamble with larger amounts to get the same feeling?",
+    "In the last 12 months, have you gone back another day to try to win back money you lost?",
+    "In the last 12 months, have you borrowed money or sold anything to gamble?",
+    "In the last 12 months, have you felt you might have a problem with gambling?",
+    "In the last 12 months, has gambling caused you health problems, including stress or anxiety?",
+    "In the last 12 months, have people criticized your betting, or told you you had a problem?",
+    "In the last 12 months, has your gambling caused financial problems for you or your household?",
+    "In the last 12 months, have you felt guilty about the way you gamble, or what happens when you gamble?"
+  ];
+  var SCALE = [["Never", 0], ["Sometimes", 1], ["Most of the time", 2], ["Almost always", 3]];
+
+  var BANDS = [
+    { max: 0, label: "Low risk",
+      line: "your answers suggest gambling isn't running your life — let's keep it that way." },
+    { max: 2, label: "Emerging risk",
+      line: "your answers show early warning signs that most casual bettors don't have." },
+    { max: 7, label: "Elevated risk",
+      line: "your answers place you in the moderate-risk band — a heavier pattern than most people who gamble." },
+    { max: 27, label: "High risk",
+      line: "your answers place you in the highest-risk band on this screener. You're in the right place, and you're not alone." }
+  ];
+
+  var NEXT = {
+    "Low risk": "<p>Nothing here needs fixing today. If you want to keep it that way, the cheapest insurance is a spending limit you set while calm, not while chasing.</p>",
+    "Emerging risk": "<p>This is the easiest stage to act in, and the one people skip. Set the blocks up now, while it still feels unnecessary — <a href=\"/block-gambling-sites-iphone/\">start with your phone</a>.</p>",
+    "Elevated risk": "<p>Blocking alone tends not to hold at this level. Pair it with something structured: <a href=\"/self-exclusion-guide/\">self-exclude from the operators you use</a>, and consider talking to one of the free helplines below — they are advice lines, not emergency services, and calling one commits you to nothing.</p>",
+    "High risk": "<p>Please talk to a person as well as installing anything. The helplines below are free, confidential and answer 24/7, and they take calls from people who are nowhere near ready to quit. If gambling has left you with debt you can't service, free debt-advice charities can stop the immediate pressure — <a href=\"/self-exclusion-guide/\">self-exclusion</a> is the block that holds while you do that.</p>"
+  };
+
+  var form = document.getElementById("pgsi");
+  var host = document.getElementById("pgsi-questions");
+  if (!form || !host) return;
+
+  ITEMS.forEach(function (text, i) {
+    var fs = document.createElement("fieldset");
+    var legend = document.createElement("legend");
+    legend.textContent = (i + 1) + ". " + text;
+    fs.appendChild(legend);
+    var opts = document.createElement("div");
+    opts.className = "opts";
+    SCALE.forEach(function (pair) {
+      var label = document.createElement("label");
+      var input = document.createElement("input");
+      input.type = "radio";
+      input.name = "q" + i;
+      input.value = String(pair[1]);
+      var span = document.createElement("span");
+      span.textContent = pair[0];
+      label.appendChild(input);
+      label.appendChild(span);
+      opts.appendChild(label);
+    });
+    fs.appendChild(opts);
+    host.appendChild(fs);
+  });
+
+  var result = document.getElementById("pgsi-result");
+  var progress = document.getElementById("pgsi-progress");
+
+  form.addEventListener("change", function () {
+    var total = 0, answered = 0;
+    for (var i = 0; i < ITEMS.length; i++) {
+      var picked = form.querySelector('input[name="q' + i + '"]:checked');
+      if (picked) { answered++; total += parseInt(picked.value, 10); }
+    }
+    if (answered < ITEMS.length) {
+      progress.textContent = answered + " of " + ITEMS.length + " answered.";
+      result.hidden = true;
+      return;
+    }
+    var band = BANDS.find(function (b) { return total <= b.max; });
+    document.getElementById("pgsi-score").textContent = total + " / 27";
+    document.getElementById("pgsi-band").textContent = band.label;
+    document.getElementById("pgsi-line").textContent = band.line;
+    document.getElementById("pgsi-next").innerHTML = NEXT[band.label];
+    progress.textContent = "Nothing was saved or sent. Reload the page to clear it.";
+    result.hidden = false;
+  });
+})();
+</script>

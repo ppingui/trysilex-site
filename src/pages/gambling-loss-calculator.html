@@ -1,0 +1,129 @@
+<!--meta
+{
+  "slug": "gambling-loss-calculator",
+  "type": "article",
+  "published": "2026-08-10",
+  "title": "Gambling loss calculator: what your habit costs per year",
+  "description": "Put in what you lose in a typical week and see the yearly, 5-year and 10-year total, plus what the same money would have compounded to. Runs in your browser; nothing is stored.",
+  "h1": "Gambling loss calculator",
+  "tldr": "Enter what you lose in a typical week. The yearly figure is that number × 52; the long-run figures add compounding for scale. Most people are shocked less by the weekly number than by the ten-year one. Nothing you type is stored or sent.",
+  "faq": [
+    ["Should I use my losses or my total stakes?", "Use net losses — money gone, not money wagered. Total stakes are usually far higher than losses because winnings get re-bet, and counting them makes the figure look dramatic but meaningless."],
+    ["I don't know what I lose in a week. How do I find out?", "Take the last three months of bank or card statements and add every transfer to a gambling operator, then subtract every withdrawal from one. Divide by 13. Card statements catch what memory doesn't — most people underestimate by a wide margin."],
+    ["Why include an investment comparison at all?", "Because the honest cost of gambling isn't only the money lost, it's what that money would have become. The figure uses an 8% average annual return compounded monthly, which is an illustration for scale — not a forecast, not a recommendation, and not financial advice."],
+    ["Does the number include what I owe?", "No. This calculates ongoing losses only. If gambling has left you with debt, a free debt-advice charity is a better next call than a calculator — StepChange or National Debtline in the UK, an NFCC member agency in the US."]
+  ]
+}
+-->
+<form class="tool" id="calc">
+  <fieldset>
+    <legend><label for="amount">What do you lose in a typical week?</label></legend>
+    <p>
+      <select id="currency" aria-label="Currency">
+        <option value="$">$ USD</option>
+        <option value="£">£ GBP</option>
+        <option value="€">€ EUR</option>
+        <option value="C$">C$ CAD</option>
+        <option value="A$">A$ AUD</option>
+      </select>
+    </p>
+    <p><input type="number" id="amount" min="0" step="5" value="100" inputmode="numeric"></p>
+    <p class="small">Net losses, not total stakes. If you're not sure, three months of bank
+      statements divided by 13 is more accurate than memory.</p>
+  </fieldset>
+
+  <div class="result" aria-live="polite">
+    <p class="small">Gone in a year</p>
+    <span class="num" id="year">$5,200</span>
+    <div class="table-scroll">
+      <table>
+        <thead><tr><th>Period</th><th>Lost</th><th>Had it compounded instead*</th></tr></thead>
+        <tbody>
+          <tr><td>1 year</td><td id="l1">—</td><td id="i1">—</td></tr>
+          <tr><td>5 years</td><td id="l5">—</td><td id="i5">—</td></tr>
+          <tr><td>10 years</td><td id="l10">—</td><td id="i10">—</td></tr>
+          <tr><td>20 years</td><td id="l20">—</td><td id="i20">—</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="small">*For scale only: the same amount paid in monthly at an 8% average
+      annual return, compounded monthly. An illustration, not a forecast, and not financial
+      advice. Nothing you typed was stored or sent.</p>
+  </div>
+</form>
+
+<h2>Why the ten-year number is the one that lands</h2>
+<p>A £60 weekend feels like the price of entertainment. Ten years of £60 weekends is a
+  deposit on a flat. Nothing about the arithmetic is surprising — what's surprising is that
+  almost nobody does it, because gambling losses arrive in small pieces and never appear on
+  a single statement line.</p>
+<p>This is also why the money figure works as a recovery tool rather than a guilt trip.
+  Silex takes the same weekly number and counts <em>upward</em> from the day you stop, so
+  the sum you'd have lost becomes the sum you kept. Same arithmetic, opposite direction.</p>
+
+<h2>What the number does not include</h2>
+<ul>
+  <li><strong>Borrowing.</strong> Interest on money borrowed to gamble often costs more
+    than the losses themselves. The PGSI asks about borrowing for a reason — it's one of the
+    strongest markers of a heavy pattern.</li>
+  <li><strong>Time.</strong> Hours in an app at 1am don't show up in a currency figure and
+    are frequently the loss people most regret.</li>
+  <li><strong>The near-misses that kept you in.</strong> Losses disguised as wins — a
+    return smaller than your stake, presented with celebration sound and colour — are a
+    designed feature of modern slots and betting apps, not an accident.
+    <a href="/methodology/">The research on that is worth reading.</a></li>
+</ul>
+
+<h2>If the figure is worse than you expected</h2>
+<p>That reaction is information, not a verdict. Two next steps, in this order:</p>
+<ul>
+  <li><a href="/gambling-self-check/">Take the 9-question PGSI self-check</a> — it takes two
+    minutes and tells you where the pattern sits.</li>
+  <li><a href="/block-gambling-sites-iphone/">Put blocks between you and the operators</a>,
+    starting with your phone, then the two that don't rely on willpower:
+    <a href="/self-exclusion-guide/">self-exclusion</a> and a
+    <a href="/block-gambling-transactions-bank/">bank gambling block</a>.</li>
+</ul>
+<p>If gambling has left debt behind, deal with that alongside — free, non-judgemental debt
+  advice is available from <a href="https://www.stepchange.org" rel="nofollow">StepChange</a>
+  and <a href="https://nationaldebtline.org" rel="nofollow">National Debtline</a> in the UK,
+  and from <a href="https://www.nfcc.org" rel="nofollow">NFCC</a> member agencies in the US.
+  None of them charge, and none of them will lecture you.</p>
+
+{{cta:calculator}}
+
+<script>
+(function () {
+  var amount = document.getElementById("amount");
+  var currency = document.getElementById("currency");
+  if (!amount || !currency) return;
+
+  function money(sym, n) {
+    return sym + Math.round(n).toLocaleString("en-US");
+  }
+
+  // Same math as the app's LossMath: weekly * 52, and monthly contributions
+  // compounded at 8%/yr for the "instead" column.
+  function invested(weekly, years) {
+    var monthly = weekly * 52 / 12;
+    var r = 0.08 / 12;
+    var n = years * 12;
+    return monthly * ((Math.pow(1 + r, n) - 1) / r);
+  }
+
+  function update() {
+    var weekly = parseFloat(amount.value);
+    if (!isFinite(weekly) || weekly < 0) weekly = 0;
+    var sym = currency.value;
+    document.getElementById("year").textContent = money(sym, weekly * 52);
+    [1, 5, 10, 20].forEach(function (y) {
+      document.getElementById("l" + y).textContent = money(sym, weekly * 52 * y);
+      document.getElementById("i" + y).textContent = money(sym, invested(weekly, y));
+    });
+  }
+
+  amount.addEventListener("input", update);
+  currency.addEventListener("change", update);
+  update();
+})();
+</script>

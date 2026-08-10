@@ -1,0 +1,180 @@
+<!--meta
+{
+  "slug": "block-gambling-sites-iphone",
+  "type": "article",
+  "published": "2026-08-10",
+  "title": "How to block gambling sites and apps on iPhone (2026)",
+  "description": "Every working method for blocking gambling on an iPhone — Screen Time, a system-wide DNS profile, Safari content blockers, bank blocks and self-exclusion — with what each one actually covers and how easily you can undo it.",
+  "h1": "How to block gambling sites and apps on iPhone",
+  "tldr": "Screen Time alone won't do it. The combination that holds is: a <strong>system-wide DNS profile</strong> (covers every app and browser), <strong>Screen Time restrictions with the passcode held by someone else</strong> (stops reinstalling), and the two layers you cannot undo in a craving — <strong>operator self-exclusion</strong> and a <strong>bank gambling block</strong>. Setting up all four takes about 30 minutes.",
+  "faq": [
+    ["Can I block gambling apps on iPhone without an app?", "Yes. Screen Time can block the App Store and specific websites, and iOS can install a DNS configuration that makes gambling domains fail to resolve in every app. Both are free and built in. What iOS cannot do on its own is maintain the list of hundreds of thousands of gambling domains — that is what a blocker app or a filtering DNS service adds."],
+    ["Does Screen Time block gambling apps?", "Partly. Screen Time can stop new apps being installed, hide apps you have, and block specific websites in Safari. It has no gambling category, so 'Limit Adult Websites' is not a gambling filter — you have to add domains to Never Allow yourself, or use a filtering DNS resolver that keeps the list for you."],
+    ["Can gambling apps be blocked permanently on iPhone?", "No, and any app claiming otherwise is overselling. On iOS you can always remove a profile or delete an app. Permanence has to come from outside the phone: self-exclusion with the operator, and a block at your bank. Those two you genuinely cannot reverse in the ninety seconds a craving lasts."],
+    ["Will a VPN block gambling sites?", "A general-purpose VPN will not — it changes where your traffic exits, not what it can reach. A filtering DNS service or DNS-based blocker is what you want. Some privacy VPNs bundle a content-filtering DNS option, which does work."],
+    ["Does blocking work on cellular data as well as Wi-Fi?", "A DNS configuration installed on the iPhone does, because it belongs to the device. Router-level blocking does not — it stops at your front door, and the phone falls straight back to gambling as soon as it switches to 5G. This is the single most common reason home blocking fails."]
+  ]
+}
+-->
+<p>There are five distinct ways to block gambling on an iPhone, and they cover different
+  things. Most guides list one, that one has a hole in it, and the hole is where the relapse
+  goes. Here is all of it, with the honest limitations of each.</p>
+
+<h2>Start here: what each method actually covers</h2>
+<div class="table-scroll">
+<table>
+  <thead>
+    <tr><th>Method</th><th>Covers</th><th>How fast can you undo it?</th><th>Cost</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Screen Time restrictions</td>
+      <td>App installs, named websites in Safari, app hiding</td>
+      <td>Seconds — unless someone else holds the passcode</td>
+      <td>Free</td>
+    </tr>
+    <tr>
+      <td>System-wide DNS profile</td>
+      <td><strong>Every app and every browser</strong>, on Wi-Fi and cellular</td>
+      <td>About a minute, in Settings</td>
+      <td>Free options exist</td>
+    </tr>
+    <tr>
+      <td>Safari content blocker</td>
+      <td>Safari only</td>
+      <td>Seconds</td>
+      <td>Free or bundled with an app</td>
+    </tr>
+    <tr>
+      <td>Bank gambling block</td>
+      <td>Card payments to gambling merchants</td>
+      <td>Often a 48-hour cooling-off before it lifts</td>
+      <td>Free</td>
+    </tr>
+    <tr>
+      <td>Operator self-exclusion</td>
+      <td>Your accounts, at the source</td>
+      <td><strong>You can't</strong> — months to years</td>
+      <td>Free</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+<p>Read that table as a stack, not a menu. The first three make gambling inconvenient; the
+  last two make it genuinely hard. People who only do the first three tend to relapse
+  through a browser or a payment method they forgot about.</p>
+
+<h2>1. Screen Time: block installs and named sites</h2>
+<p>Screen Time is free, built in, and more useful for what it <em>prevents</em> than for
+  what it filters.</p>
+<p><strong>Stop new gambling apps appearing:</strong> Settings → Screen Time → Content
+  &amp; Privacy Restrictions → turn on → iTunes &amp; App Store Purchases → Installing Apps
+  → <strong>Don't Allow</strong>. This is the highest-value switch on the whole phone. Delete
+  the sportsbook apps first, then flip it — now reinstalling requires the Screen Time
+  passcode.</p>
+<p><strong>Block gambling websites in Safari:</strong> Content &amp; Privacy Restrictions →
+  Content Restrictions → Web Content → <strong>Limit Adult Websites</strong>, then add each
+  operator under <strong>Never Allow</strong>. Turning on Limit Adult Websites also disables
+  Private Browsing in Safari, which is a genuine bonus.</p>
+<p><strong>The catch nobody mentions:</strong> iOS has no gambling category. "Limit Adult
+  Websites" is an adult-content filter; it catches some gambling sites incidentally and
+  misses most sportsbooks. If you rely on it alone you will be blocked from nothing you
+  actually use. The Never Allow list works, but you are maintaining it by hand against an
+  industry with thousands of mirror domains.</p>
+<p><strong>Do this bit properly:</strong> set a Screen Time passcode you don't know. Have
+  your partner, a friend, or a family member type it in and keep it. Everything above is a
+  five-second undo for whoever holds that code — so make sure that isn't you at 1am.</p>
+
+<h2>2. A system-wide DNS profile: the one that covers everything</h2>
+<p>This is the method most guides skip, and it is the strongest thing that lives on the
+  phone itself. Every app and browser has to look up a domain name before it can connect. If
+  the lookup fails, the app fails — no extension needed, no per-browser setup, and it works
+  on cellular data as well as Wi-Fi.</p>
+<p>iOS lets an app or a configuration profile install an encrypted-DNS (DoH) setting that
+  applies device-wide. Point it at a resolver that filters gambling and every sportsbook,
+  casino and slots site stops resolving.</p>
+<p>Free and paid options that filter gambling:</p>
+<ul>
+  <li><strong>Mullvad's public DoH resolvers</strong> — a free "family" resolver that blocks
+    gambling among other categories, run under a published no-logging policy.</li>
+  <li><strong>NextDNS</strong> — free tier for moderate query volumes, with a gambling
+    blocklist you switch on plus a large catalogue of community lists.</li>
+  <li><strong>Control D</strong> — similar idea, category filtering, free tier available.</li>
+  <li><strong>A blocker app that installs the profile for you</strong> — including
+    <a href="/">Silex</a>, which sets up an encrypted-DNS shield and merges public
+    gambling-domain lists so you never maintain one by hand.</li>
+</ul>
+<p>Verify it after setup: Settings → General → VPN, DNS &amp; Device Management → DNS
+  should show your chosen configuration as selected, and a known gambling site should fail to
+  load in a browser you don't normally use.</p>
+<p><strong>Its limitation, stated plainly:</strong> you can turn it off in Settings in under
+  a minute. DNS filtering is a speed bump against a determined craving, not a wall. It is an
+  excellent speed bump — most relapses are impulsive, and one minute of friction is often
+  enough — but do not treat it as the last line.</p>
+
+<h2>3. Safari content blockers</h2>
+<p>A content blocker extension can refuse to load a list of domains inside Safari. Enable
+  one at Settings → Apps → Safari → Extensions, then switch the blocker on. Silex ships one;
+  so do most dedicated blocker apps.</p>
+<p>Useful, and narrow: it covers Safari and nothing else. Chrome, Firefox, Edge, the
+  in-app browser inside a social app and the sportsbook's own native app are all untouched.
+  Treat a Safari blocker as a supplement to DNS filtering, never a replacement.</p>
+
+<h2>4. Make your bank decline the payment</h2>
+<p>Blocking access is only half of it — the other half is making the money hard to move.
+  Most UK banks and a growing number of US and Canadian ones offer a gambling-merchant block
+  that declines transactions to gambling operators outright, and many enforce a cooling-off
+  period (often 48 hours) before they will lift it.</p>
+<p>That cooling-off is the point: it makes the block outlast the urge.
+  <a href="/block-gambling-transactions-bank/">Here's how to turn it on, bank by bank.</a></p>
+
+<h2>5. Self-exclude at the source</h2>
+<p>The strongest layer isn't on your phone at all. Self-exclusion means telling the
+  operator, or a national scheme, to close your accounts and refuse you service for a fixed
+  period. In the UK, <strong>GAMSTOP</strong> covers every UK-licensed online operator with
+  one free registration. In the US, most states run self-exclusion programmes, and every
+  licensed sportsbook has its own.</p>
+<p>You cannot undo this in a craving — that is precisely why it works.
+  <a href="/self-exclusion-guide/">The full self-exclusion guide is here.</a></p>
+
+<h2>What doesn't work</h2>
+<ul>
+  <li><strong>Just deleting the apps.</strong> Reinstalling takes fifteen seconds, and the
+    mobile website works fine without any app at all.</li>
+  <li><strong>Router-level blocking on its own.</strong> Home Wi-Fi filtering, including a
+    Pi-hole or a router-level DNS change, evaporates the moment the phone switches to
+    cellular. Do it as well, never instead.</li>
+  <li><strong>A general VPN.</strong> It relocates your traffic; it doesn't filter it. Some
+    privacy VPNs offer a content-filtering DNS mode, which does work — the plain VPN does
+    nothing for you here.</li>
+  <li><strong>An app whose only feature is a streak counter.</strong> Tracking is a
+    motivator, not a barrier. You need both, and the barrier goes in first.</li>
+  <li><strong>Anything that promises to be unremovable on iOS.</strong> The sandbox does not
+    permit it. Claims like that are marketing, and believing them is how people end up with
+    one layer instead of four.</li>
+</ul>
+
+<h2>The 30-minute setup, in order</h2>
+<ol>
+  <li>Delete every gambling app. Sign out of any operator accounts still logged in on the
+    browser.</li>
+  <li>Turn on a filtering DNS profile, and confirm a gambling site fails to load.</li>
+  <li>Screen Time → Installing Apps → Don't Allow, plus Never Allow entries for the sites
+    you actually used. Hand the passcode to someone else.</li>
+  <li>Enable a Safari content blocker.</li>
+  <li>Call or message your bank and ask for the gambling block.</li>
+  <li>Self-exclude with every operator you have an account with — and with GAMSTOP if you
+    are in the UK.</li>
+</ol>
+<p>Steps 5 and 6 are the ones people postpone, and they are the ones that hold. Do them
+  first if you only have ten minutes.</p>
+
+<h2>Blocking is the floor, not the plan</h2>
+<p>Every layer above buys you time in the ninety seconds when an urge peaks. What you do
+  with that time decides whether it works twice.
+  <a href="/how-long-do-gambling-urges-last/">Urges rise, crest and fall on a fairly
+  predictable curve</a>, and learning to wait one out is a skill that improves with
+  repetition. That is what the <a href="/how-to-stop-gambling/">90-day side of this</a> is
+  for.</p>
+
+{{cta:iphone_guide}}
