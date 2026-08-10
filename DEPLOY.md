@@ -54,24 +54,27 @@ Confirm:
 curl -sI https://trysilex.com/ | head -2
 ```
 
-## 3. trysilex.app redirect
+## 3. Defensive domain — decided against, for now
 
-Point `trysilex.app` at a 301 to `https://trysilex.com`. Porkbun's URL-forwarding does
-this in one field — set it to a **permanent (301)** redirect, not a frame or a 302. Never
-host content on the `.app` domain; it exists only to stop a near-miss squat.
+`trysilex.app` was deliberately **not** bought (decision, 2026-08-10). The only cost of
+skipping it is that if someone else registers it later they can catch traffic from people
+who mistype the TLD. Low risk while the brand has no recognition; worth revisiting if the
+app gets traction. If you do buy it, point it at a **permanent (301)** to
+`https://trysilex.com` and never host content there.
 
-## 4. Submit for indexing
+## 4. Indexing — done
 
-- **Google Search Console** — add `trysilex.com` as a domain property, verify by DNS TXT
-  record at Porkbun, then submit `https://trysilex.com/sitemap.xml`.
-- **Bing Webmaster Tools** — non-negotiable, not optional: ChatGPT's live retrieval runs
-  on Bing, so a site missing from Bing's index cannot be cited there. Add the site, verify,
-  submit the same sitemap. Bing can import the property straight from Search Console.
-- **IndexNow** (optional, after Bing verification): generate a key in Bing Webmaster
-  Tools, commit it as `<key>.txt` at the repo root, then ping on publish:
+- **Google Search Console** — property verified, `sitemap.xml` submitted (2026-08-10).
+- **Bing Webmaster Tools** — needed for the query data, and because ChatGPT's live
+  retrieval runs on Bing. Bing can import the property straight from Search Console.
+- **IndexNow** — live. Key file `2c0401c6323f4aa5bea0ce293dc66e70.txt` is served from the
+  root; first submission of all 15 URLs returned `202 Accepted`. After any publish:
   ```bash
-  curl "https://api.indexnow.org/indexnow?url=https://trysilex.com/&key=YOUR_KEY"
+  python3 submit_indexnow.py                     # everything in sitemap.xml
+  python3 submit_indexnow.py /about/ /support/    # just these
   ```
+  Run it only after the push has actually deployed — IndexNow fetches the URLs. The script
+  refuses to submit if the hosted key file stops matching.
 
 ## 5. Analytics
 
@@ -88,10 +91,23 @@ use GA4: it contradicts the app's no-tracking claim and would require a consent 
    drives installs.
 3. Rebuild, commit, push.
 
-## 7. Content owner's to-do
+## 7. Standing editorial duties
 
-- `src/pages/about.html` has a `TODO(Kyrylo)` placeholder — one paragraph in your own
-  words about why you built this. It is the highest-value paragraph on the site for both
-  trust and AI citation, and it has to be yours.
 - Re-verify every competitor price and every helpline number before each publish. Prices
   in this niche go stale fast; the helplines are the one place a stale fact could do harm.
+- When you edit a page, bump its `"updated"` date in the meta block — visible freshness
+  affects both ranking and whether answer engines treat the page as current.
+
+## Current state (2026-08-10)
+
+| Item | State |
+|---|---|
+| DNS | Porkbun → GitHub's four A records, `www` CNAME. Resolving. |
+| HTTPS | Cert approved for apex + `www`, `https_enforced=true`. HTTP and `www` both 301 to the https apex. |
+| Pages | 15 URLs, all 200. Custom 404 working. |
+| Lighthouse (live) | Performance 99, Accessibility 100, Best practices 100, SEO 100. LCP 0.9s, CLS 0, TBT 0ms. |
+| Search Console | Verified, sitemap submitted. |
+| IndexNow | Key live, 15 URLs accepted. |
+| Bing Webmaster | **Not yet set up.** |
+| Analytics | **Not yet set up** — `ANALYTICS_TOKEN` empty. |
+| App Store link | **`APP_STORE_LIVE = False`** — CTAs show the "in review" line. |
