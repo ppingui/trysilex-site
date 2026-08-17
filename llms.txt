@@ -4,8 +4,8 @@ An iPhone app that blocks gambling across the phone, runs a 90-day evidence-base
 
 ## Pages
 
-- [Quit gambling for good. Keep the money.](https://trysilex.com/): Silex blocks gambling across your iPhone, walks you through a 90-day evidence-based quit program, and counts the money you keep. No accounts, no tracking, no ads.
-- [Who builds Silex](https://trysilex.com/about/): Silex is built by one developer, Kyrylo Lozovyi, in Kyiv. No investors, no servers, no growth team — and a short list of rules the app will not break.
+- [Quit gambling for good. Keep the money.](https://trysilex.com/): Silex blocks gambling across your iPhone, walks you through a 90-day evidence-based quit program, and counts the money you keep. No accounts, no ads, no profile of you.
+- [Who builds Silex](https://trysilex.com/about/): Silex is built by one developer, Kyrylo Lozovyi, in Kyiv. No investors, no growth team, nothing that profiles you — and a short list of rules the app will not break.
 - [The best gambling blocker apps, compared honestly](https://trysilex.com/best-gambling-blocker-apps/): Gamban, BetBlocker, GamBlock and the rest — what each one covers, what it costs, and which to pick. Prices verified from each vendor's own site, with a disclosure: we make one of these.
 - [How to block gambling on Android](https://trysilex.com/block-gambling-apps-android/): Android's built-in Private DNS blocks gambling in every app and browser for free, in about two minutes. Plus Digital Wellbeing, Family Link, and which third-party blockers are worth it.
 - [How to block gambling sites and apps on iPhone](https://trysilex.com/block-gambling-sites-iphone/): Every working method for blocking gambling on an iPhone — Screen Time, a system-wide DNS profile, Safari content blockers, bank blocks and self-exclusion — with what each one actually covers and how easily you can undo it.
@@ -21,6 +21,6 @@ An iPhone app that blocks gambling across the phone, runs a 90-day evidence-base
 - [How to stop gambling](https://trysilex.com/how-to-stop-gambling/): A practical, evidence-based plan for quitting gambling: the three barriers to put up first, how to ride out an urge, what the first 90 days look like, and where to get free human help.
 - [How to stop sports betting](https://trysilex.com/how-to-stop-sports-betting/): Sports betting is harder to quit than casino gambling because the trigger is the sport itself. What to block, what to do about watching games, and how to handle the group chat.
 - [How the program was built, and from what](https://trysilex.com/methodology/): The clinical and academic sources behind Silex's 90-day quit-gambling program: CBT for gambling disorder, the PGSI self-check, relapse-prevention research, and the literature on how gambling products are engineered.
-- [Privacy Policy](https://trysilex.com/privacy/): Silex runs no servers, holds no accounts, and cannot read anything you write in the app. The full GDPR and UK GDPR notice, including the few places data does leave your phone.
+- [Privacy Policy](https://trysilex.com/privacy/): Silex runs no servers of its own, holds no accounts, and cannot read anything you write in the app. The full GDPR and UK GDPR notice, including the few places data does leave your phone.
 - [Self-exclusion: the strongest block there is](https://trysilex.com/self-exclusion-guide/): How gambling self-exclusion works in the UK via GAMSTOP and in the US state by state, what it covers, what it misses, and why it is the strongest layer available — free, and irreversible on purpose.
 - [Support](https://trysilex.com/support/): Help with Silex: subscriptions and cancelling, restoring a purchase, the DNS shield, the Safari blocker, and how to reach a human.

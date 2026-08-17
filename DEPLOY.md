@@ -80,7 +80,9 @@ app gets traction. If you do buy it, point it at a **permanent (301)** to
 
 Cloudflare Web Analytics is free and cookieless and needs no Cloudflare hosting — add the
 site, copy the beacon token into `ANALYTICS_TOKEN` in `build.py`, rebuild, push. Do not
-use GA4: it contradicts the app's no-tracking claim and would require a consent banner.
+use GA4: the app's whole privacy claim is that nothing profiles you, and GA4 would both
+contradict that and require a consent banner. The app's own analytics (TelemetryDeck,
+anonymous, install-scoped, switchable off in Settings) is the ceiling for this site too.
 
 ## 6. On App Store approval
 

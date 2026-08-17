@@ -54,7 +54,7 @@ renders, and the Open Graph card. Only needs re-running when the app's art chang
 |---|---|
 | `APP_STORE_LIVE` | `False` shows "in App Store review" under every CTA. **Flip to `True` the moment 1.0 is approved.** |
 | `PROVIDER_TOKEN` | Apple provider token from App Store Connect → Analytics → Campaigns. Until set, App Store links carry no campaign params. |
-| `ANALYTICS_TOKEN` | Cloudflare Web Analytics beacon token. Cookieless by design — do not swap in GA4, it would contradict the app's no-tracking claim and require a consent banner. |
+| `ANALYTICS_TOKEN` | Cloudflare Web Analytics beacon token. Cookieless by design — do not swap in GA4. The app's privacy claim is that nothing profiles you; GA4 would contradict it and require a consent banner. |
 | `HELPLINES` | Kept in sync with `App/Services/RegionResources.swift`. Re-verify every publish. |
 
 ## Editorial rules
