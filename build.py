@@ -24,6 +24,15 @@ BRAND_FULL = "Silex — Stop Gambling"
 APP_ID = "6798826038"
 AUTHOR = "Kyrylo Lozovyi"
 
+# The same person builds vitalityrize.me, and both sites reference one Person
+# node by the same @id so search engines merge the entity rather than seeing
+# two unrelated developers with the same name.
+PERSON_ID = "https://www.vitalityrize.me/#kyrylo"
+PERSON_SAME_AS = [
+    "https://github.com/ppingui",
+    "https://www.vitalityrize.me/about/",
+]
+
 # Set to True the moment 1.0 clears App Review. Flips every CTA on the site.
 APP_STORE_LIVE = False
 
@@ -166,10 +175,19 @@ def jsonld_for(meta: dict) -> str:
         "@id": f"{SITE}/#org",
         "name": BRAND_FULL,
         "url": SITE,
-        "founder": {"@type": "Person", "name": AUTHOR},
+        "founder": {"@id": PERSON_ID},
         "email": "support@trysilex.com",
     }
-    graph: list[dict] = [org]
+    person = {
+        "@type": "Person",
+        "@id": PERSON_ID,
+        "name": AUTHOR,
+        "url": f"{SITE}/about/",
+        "jobTitle": "Independent iOS developer",
+        "worksFor": {"@id": f"{SITE}/#org"},
+        "sameAs": PERSON_SAME_AS,
+    }
+    graph: list[dict] = [person, org]
 
     if meta["slug"] == "":
         graph += [
@@ -205,7 +223,7 @@ def jsonld_for(meta: dict) -> str:
             "description": meta["description"],
             "datePublished": meta["published"],
             "dateModified": meta.get("updated", meta["published"]),
-            "author": {"@type": "Person", "name": AUTHOR, "url": f"{SITE}/about/"},
+            "author": {"@id": PERSON_ID},
             "publisher": {"@id": f"{SITE}/#org"},
             "mainEntityOfPage": canonical_for(meta["slug"]),
         })
