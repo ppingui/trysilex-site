@@ -34,7 +34,7 @@ PERSON_SAME_AS = [
 ]
 
 # Set to True the moment 1.0 clears App Review. Flips every CTA on the site.
-APP_STORE_LIVE = False
+APP_STORE_LIVE = True
 
 # Apple provider token from App Store Connect (Analytics → Campaigns). Until it
 # is filled in, links carry no campaign params rather than broken ones.
