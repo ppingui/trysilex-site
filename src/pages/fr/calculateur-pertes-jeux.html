@@ -1,0 +1,85 @@
+<!--meta
+{
+  "slug": "calculateur-pertes-jeux",
+  "en": "gambling-loss-calculator",
+  "type": "article",
+  "published": "2026-10-26",
+  "title": "Calculateur de pertes aux jeux d'argent : ce que ça vous coûte",
+  "description": "Indiquez ce que vous perdez en une semaine normale et voyez le total sur un, cinq et dix ans, et ce que cet argent serait devenu. Rien n'est enregistré.",
+  "h1": "Calculateur de pertes aux jeux d'argent",
+  "tldr": "Indiquez ce que vous perdez en une semaine normale. Le chiffre annuel, c'est ce montant × 52 ; les chiffres à long terme ajoutent les intérêts composés pour donner l'échelle. La plupart des gens ne sont pas frappés par le chiffre de la semaine, mais par celui des dix ans. Rien de ce que vous saisissez n'est enregistré ni envoyé.",
+  "faq": [
+    ["J'indique mes pertes ou mes mises ?", "Vos pertes nettes : l'argent parti, pas l'argent misé. Le total des mises est généralement bien plus élevé parce que les gains sont remisés, et l'utiliser donne un chiffre spectaculaire mais sans signification."],
+    ["Je ne sais pas combien je perds par semaine. Comment le savoir ?", "Prenez vos relevés des trois derniers mois, additionnez chaque paiement vers un opérateur de jeux et soustrayez chaque retrait. Divisez par 13. Le relevé se souvient de ce que la mémoire oublie."],
+    ["Pourquoi une comparaison avec un placement ?", "Parce que le vrai coût n'est pas seulement l'argent perdu, mais ce qu'il serait devenu. Nous utilisons un rendement moyen de 8 % par an, capitalisé chaque mois, pour donner l'échelle : ce n'est ni une prévision, ni un conseil financier."]
+  ]
+}
+-->
+<form class="tool" id="calc">
+  <fieldset>
+    <legend><label for="amount">Combien perdez-vous en une semaine normale ?</label></legend>
+    <p>
+      <select id="currency" aria-label="Devise">
+        <option value="EUR">€ EUR</option>
+        <option value="CHF">CHF</option>
+        <option value="CAD">$ CAD</option>
+      </select>
+    </p>
+    <p><input type="number" id="amount" min="0" step="5" value="100" inputmode="numeric"></p>
+    <p class="small">Pertes nettes, pas le total misé. En cas de doute, trois mois de relevés divisés par 13
+      sont plus fiables que la mémoire.</p>
+  </fieldset>
+
+  <div class="result" aria-live="polite">
+    <p class="small">Perdu en un an</p>
+    <span class="num" id="year">5 200 €</span>
+    <div class="table-scroll">
+      <table>
+        <thead><tr><th>Période</th><th>Perdu</th><th>Si cet argent avait été placé*</th></tr></thead>
+        <tbody>
+          <tr><td>1 an</td><td id="l1">—</td><td id="i1">—</td></tr>
+          <tr><td>5 ans</td><td id="l5">—</td><td id="i5">—</td></tr>
+          <tr><td>10 ans</td><td id="l10">—</td><td id="i10">—</td></tr>
+          <tr><td>20 ans</td><td id="l20">—</td><td id="i20">—</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="small">*Pour l'échelle uniquement : le même montant versé chaque mois avec un rendement moyen de
+      8 % par an, capitalisé mensuellement. Une illustration, ni une prévision ni un conseil financier. Rien de
+      ce que vous avez saisi n'a été enregistré ni envoyé.</p>
+  </div>
+</form>
+
+<h2>Pourquoi c'est le chiffre à dix ans qui frappe</h2>
+<p>Soixante euros un week-end, cela ressemble au prix d'un loisir. Dix ans de week-ends à soixante euros,
+  c'est l'apport d'un appartement. Le calcul n'a rien de surprenant ; ce qui surprend, c'est que presque
+  personne ne le fait, parce que les pertes arrivent par petits morceaux et n'apparaissent jamais ensemble
+  sur une ligne du relevé.</p>
+<p>C'est pourquoi ce chiffre fonctionne comme un outil pour arrêter, pas comme un reproche. Silex reprend ce
+  même montant hebdomadaire et compte <em>vers le haut</em> à partir du jour où vous arrêtez : ce que vous
+  auriez perdu devient ce que vous avez gardé.</p>
+
+<h2>Ce que ce chiffre n'inclut pas</h2>
+<ul>
+  <li><strong>Les dettes.</strong> Les intérêts d'un emprunt pour jouer coûtent souvent plus que les pertes
+    elles-mêmes.</li>
+  <li><strong>Le temps.</strong> Les heures passées sur une app à une heure du matin n'apparaissent dans aucun
+    total en euros, et ce sont souvent les plus regrettées.</li>
+  <li><strong>Les quasi-gains qui vous retenaient.</strong> Les « pertes déguisées en gains » — un gain
+    inférieur à la mise, célébré par des lumières et des sons — sont un choix de conception, pas un
+    hasard.</li>
+</ul>
+
+<h2>Si le chiffre est pire que prévu</h2>
+<p>Cette réaction est une information, pas un verdict. Deux étapes :</p>
+<ul>
+  <li><a href="/fr/test-addiction-jeux-argent/">Faites le test ICJE</a> : deux minutes pour situer votre
+    pratique.</li>
+  <li><a href="/fr/arreter-de-jouer-aux-jeux-d-argent/">Posez des barrières entre vous et les
+    opérateurs</a>, en commençant par <a href="/fr/bloquer-sites-paris-iphone/">le téléphone</a>.</li>
+</ul>
+
+{{cta:fr_calculator}}
+
+<script>window.LOSSCALC = { locale: "fr-FR" };</script>
+<script src="/assets/losscalc.js"></script>

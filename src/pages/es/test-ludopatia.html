@@ -1,0 +1,99 @@
+<!--meta
+{
+  "slug": "test-ludopatia",
+  "en": "gambling-self-check",
+  "type": "article",
+  "published": "2026-10-26",
+  "title": "Test de ludopatía (PGSI): 9 preguntas, gratis y anónimo",
+  "description": "Haz el test PGSI, el cuestionario estándar de 9 preguntas para valorar el riesgo de adicción al juego. Funciona en tu navegador: no guarda ni envía nada.",
+  "h1": "Test de ludopatía: las 9 preguntas del PGSI",
+  "tldr": "Estas nueve preguntas son el <strong>PGSI</strong> (Problem Gambling Severity Index), el cuestionario de cribado del Índice Canadiense de Juego Problemático (Ferris y Wynne, 2001). Puntuación de 0 a 27; con 8 o más estás en la franja de riesgo más alta. Funciona en tu navegador: no se guarda nada, no se envía nada y no te pedimos el correo.",
+  "faq": [
+    ["¿Qué puntuación indica ludopatía?", "En el PGSI, 0 es juego sin problemas, 1–2 riesgo bajo, 3–7 riesgo moderado y 8 o más la franja que suele describirse como juego problemático. Pero es un cribado, no un diagnóstico: solo un profesional puede diagnosticar el trastorno de juego."],
+    ["¿Se guardan mis respuestas?", "No. La puntuación se calcula en tu propio navegador. No hay envío de formulario, ni cookies, ni analítica, ni petición de correo. Al cerrar la pestaña desaparece."],
+    ["¿Puedo hacerlo por otra persona?", "El PGSI está validado como autoevaluación, así que responderlo por tu pareja o un familiar solo da una impresión aproximada. Las líneas de ayuda de abajo también atienden a familiares."],
+    ["Me sale bajo pero siento que no lo controlo", "Confía más en esa sensación que en el número. El PGSI pesa mucho las consecuencias económicas y sociales, y alguien al principio de un patrón intenso puede puntuar bajo y aun así estar en apuros."]
+  ]
+}
+-->
+<p>El PGSI pregunta por los <strong>últimos 12 meses</strong>. Responde pensando en ese periodo,
+  no en tu peor mes ni en la semana pasada. Ser sincero con una página que no recuerda tus
+  respuestas es la sinceridad más fácil que hay.</p>
+
+<form class="tool" id="pgsi">
+  <p class="noscript"><noscript>Este test necesita JavaScript para calcular la puntuación. Sin él,
+    puedes sumar a mano: Nunca = 0, A veces = 1, La mayoría de las veces = 2, Casi siempre = 3.</noscript></p>
+  <div id="pgsi-questions"></div>
+  <div class="result" id="pgsi-result" hidden aria-live="polite">
+    <span class="num" id="pgsi-score">0</span>
+    <p><span class="band" id="pgsi-band"></span> — <span id="pgsi-line"></span></p>
+    <p class="small">Esto no es un diagnóstico: es una foto del riesgo basada en un cuestionario
+      estándar (PGSI). La puntuación va de 0 a 27.</p>
+    <div id="pgsi-next"></div>
+  </div>
+  <p class="small" id="pgsi-progress">Responde las nueve preguntas para ver tu puntuación.</p>
+</form>
+
+<h2>Cómo se puntúa</h2>
+<p>Cada pregunta suma 0 (<em>nunca</em>), 1 (<em>a veces</em>), 2 (<em>la mayoría de las
+  veces</em>) o 3 (<em>casi siempre</em>), con un total de 0 a 27:</p>
+<div class="table-scroll">
+<table>
+  <thead><tr><th>Puntuación</th><th>Franja estándar</th><th>Qué suele significar</th></tr></thead>
+  <tbody>
+    <tr><td>0</td><td>Sin problemas</td><td>Ningún indicador en los últimos 12 meses.</td></tr>
+    <tr><td>1–2</td><td>Riesgo bajo</td><td>Señales tempranas que la mayoría de jugadores ocasionales no tiene.</td></tr>
+    <tr><td>3–7</td><td>Riesgo moderado</td><td>Un patrón más intenso, a menudo con alguna consecuencia económica o social.</td></tr>
+    <tr><td>8–27</td><td>Juego problemático</td><td>La franja más alta. Aquí suele hacer falta ayuda estructurada, no solo fuerza de voluntad.</td></tr>
+  </tbody>
+</table>
+</div>
+<p class="src">Instrumento: Ferris, J. y Wynne, H. (2001), <em>The Canadian Problem Gambling
+  Index: Final Report</em>, Canadian Centre on Substance Abuse. Traducción propia de los nueve
+  ítems. El PGSI es una herramienta de cribado; el diagnóstico del trastorno de juego lo hace un
+  profesional con criterios clínicos.</p>
+
+<h2>Sea cual sea tu resultado, el siguiente paso es el mismo</h2>
+<ul>
+  <li><strong>Pon distancia entre tú y la apuesta.</strong> No fuerza de voluntad: fricción.
+    <a href="/es/bloquear-apuestas-iphone/">Bloquea el juego en el móvil</a> y añade las dos barreras
+    que no se deshacen en un mal momento: la autoprohibición y el bloqueo en el banco
+    (<a href="/es/como-dejar-de-apostar/">aquí explicamos ambas</a>).</li>
+  <li><strong>Aprende qué es un impulso.</strong> Las ganas suben y bajan, normalmente en 20–30
+    minutos, apuestes o no. <a href="/es/cuanto-duran-las-ganas-de-apostar/">Ese patrón es tu
+    mejor aliado.</a></li>
+</ul>
+
+{{cta:es_selfcheck}}
+
+<script>
+window.SELFCHECK = {
+  items: [
+    "En los últimos 12 meses, ¿has apostado más de lo que realmente podías permitirte perder?",
+    "En los últimos 12 meses, ¿has necesitado apostar cantidades mayores para sentir la misma emoción?",
+    "En los últimos 12 meses, ¿has vuelto otro día para intentar recuperar el dinero que perdiste?",
+    "En los últimos 12 meses, ¿has pedido dinero prestado o vendido algo para apostar?",
+    "En los últimos 12 meses, ¿has sentido que podrías tener un problema con el juego?",
+    "En los últimos 12 meses, ¿el juego te ha causado problemas de salud, como estrés o ansiedad?",
+    "En los últimos 12 meses, ¿te han criticado por apostar o te han dicho que tenías un problema, aunque no estuvieras de acuerdo?",
+    "En los últimos 12 meses, ¿el juego ha causado problemas económicos a ti o a tu hogar?",
+    "En los últimos 12 meses, ¿te has sentido culpable por cómo juegas o por lo que pasa cuando juegas?"
+  ],
+  scale: [["Nunca", 0], ["A veces", 1], ["La mayoría de las veces", 2], ["Casi siempre", 3]],
+  bands: [
+    { max: 0,  label: "Riesgo bajo",      line: "tus respuestas indican que el juego no está dirigiendo tu vida. Que siga así." },
+    { max: 2,  label: "Riesgo emergente", line: "tus respuestas muestran señales tempranas que la mayoría de jugadores ocasionales no tiene." },
+    { max: 7,  label: "Riesgo elevado",   line: "tus respuestas te sitúan en la franja de riesgo moderado: un patrón más intenso que el de la mayoría." },
+    { max: 27, label: "Riesgo alto",      line: "tus respuestas te sitúan en la franja más alta de este cuestionario. Estás en el sitio correcto y no estás solo." }
+  ],
+  next: {
+    "Riesgo bajo": "<p>Hoy no hay nada que arreglar. Si quieres que siga así, el seguro más barato es un límite de gasto que fijes en calma, no persiguiendo pérdidas.</p>",
+    "Riesgo emergente": "<p>Es la etapa más fácil para actuar y la que más se salta. Pon los bloqueos ahora, aunque parezcan innecesarios: <a href=\"/es/bloquear-apuestas-iphone/\">empieza por el móvil</a>.</p>",
+    "Riesgo elevado": "<p>A este nivel, bloquear no suele bastar. Combínalo con algo estructurado: <a href=\"/es/como-dejar-de-apostar/\">autoprohíbete con los operadores que usas</a> y plantéate llamar a una de las líneas gratuitas de abajo; llamar no te compromete a nada.</p>",
+    "Riesgo alto": "<p>Por favor, habla con una persona además de instalar lo que sea. Las líneas de abajo son gratuitas y confidenciales, y atienden también a quien aún no está listo para dejarlo. Si el juego te ha dejado deudas que no puedes pagar, pide asesoramiento antes que otro préstamo.</p>"
+  },
+  progress: "{n} de 9 respondidas.",
+  done: "No se ha guardado ni enviado nada. Recarga la página para borrarlo."
+};
+</script>
+<script src="/assets/selfcheck.js"></script>

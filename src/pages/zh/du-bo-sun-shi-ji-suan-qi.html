@@ -1,0 +1,74 @@
+<!--meta
+{
+  "slug": "du-bo-sun-shi-ji-suan-qi",
+  "en": "gambling-loss-calculator",
+  "type": "article",
+  "published": "2026-10-26",
+  "title": "赌博损失计算器：赌博到底让你损失了多少钱",
+  "description": "输入你一周通常输掉多少，看看一年、五年、十年的总额，以及这笔钱本可以变成多少。不保存任何内容。",
+  "h1": "赌博损失计算器",
+  "tldr": "输入你一周通常输掉的金额。一年的数字就是它 × 52；长期数字加上了复利，用来体现规模。大多数人被震到的不是每周的数字，而是十年的那个。你输入的任何内容都不会被保存或发送。",
+  "faq": [
+    ["填输掉的钱，还是下注的钱？", "填净输掉的钱：真正没了的钱，而不是下注总额。下注总额通常大得多，因为赢来的钱又被押了回去——用它算出的数字看着吓人，却没有意义。"],
+    ["我不知道自己每周输多少，怎么算？", "拿出最近三个月的银行和电子钱包流水，把所有转给博彩平台的钱加起来，再减去所有提现，然后除以 13。流水记得住记忆忘掉的东西。"],
+    ["为什么要和投资对比？", "因为真正的代价不只是输掉的钱，还有这笔钱本可以变成什么。我们用年均 8%、按月复利来体现规模：这只是示意，不是预测，也不是理财建议。"]
+  ]
+}
+-->
+<form class="tool" id="calc">
+  <fieldset>
+    <legend><label for="amount">你一周通常输掉多少？</label></legend>
+    <p>
+      <select id="currency" aria-label="货币">
+        <option value="CNY">¥ CNY</option>
+        <option value="HKD">$ HKD</option>
+        <option value="TWD">$ TWD</option>
+        <option value="SGD">$ SGD</option>
+        <option value="MYR">RM MYR</option>
+        <option value="USD">$ USD</option>
+      </select>
+    </p>
+    <p><input type="number" id="amount" min="0" step="50" value="1000" inputmode="numeric"></p>
+    <p class="small">填净损失，不是下注总额。如果不确定，三个月的流水除以 13 比记忆更准。</p>
+  </fieldset>
+
+  <div class="result" aria-live="polite">
+    <p class="small">一年输掉</p>
+    <span class="num" id="year">¥52,000</span>
+    <div class="table-scroll">
+      <table>
+        <thead><tr><th>时间</th><th>输掉</th><th>如果拿去投资*</th></tr></thead>
+        <tbody>
+          <tr><td>1 年</td><td id="l1">—</td><td id="i1">—</td></tr>
+          <tr><td>5 年</td><td id="l5">—</td><td id="i5">—</td></tr>
+          <tr><td>10 年</td><td id="l10">—</td><td id="i10">—</td></tr>
+          <tr><td>20 年</td><td id="l20">—</td><td id="i20">—</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="small">*仅用于体现规模：同样的金额每月投入，按年均 8%、按月复利计算。这只是示意，不是预测，也不是理财建议。你输入的内容没有被保存或发送。</p>
+  </div>
+</form>
+
+<h2>为什么十年的数字最扎心</h2>
+<p>一个周末输掉一千块，感觉像是娱乐的价钱。十年这样的周末，就是一套房的首付。这笔账本身一点都不意外；意外的是几乎没人去算，因为损失总是一小笔一小笔地来，从来不会出现在流水的同一行里。</p>
+<p>所以这个数字是帮你戒赌的工具，而不是责备。Silex 拿同样的每周金额，从你停下的那天开始<em>往上</em>数：你本来会输掉的，变成了你留住的。</p>
+
+<h2>这个数字没有算进去的</h2>
+<ul>
+  <li><strong>债务。</strong>为了赌而借钱的利息，往往比输掉的钱本身还多。</li>
+  <li><strong>时间。</strong>凌晨一点刷 App 的那些小时，不会出现在任何金额里——而那往往是最后悔的。</li>
+  <li><strong>让你停不下来的“差一点就中”。</strong>“伪装成赢的输”——赢回来的比下注的少，却配上灯光和音效来庆祝——这是设计出来的，不是巧合。</li>
+</ul>
+
+<h2>如果这个数字比你想的更糟</h2>
+<p>这种反应是一个信息，而不是判决。两步：</p>
+<ul>
+  <li><a href="/zh/du-bo-cheng-yin-ce-shi/">做一下赌博成瘾测试（PGSI）</a>：两分钟，看看你处在什么位置。</li>
+  <li><a href="/zh/ru-he-jie-du/">在你和博彩平台之间设好屏障</a>，先从<a href="/zh/iphone-ping-bi-du-bo/">手机</a>开始。</li>
+</ul>
+
+{{cta:zh_calculator}}
+
+<script>window.LOSSCALC = { locale: "zh-CN" };</script>
+<script src="/assets/losscalc.js"></script>

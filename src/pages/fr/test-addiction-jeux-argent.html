@@ -1,0 +1,98 @@
+<!--meta
+{
+  "slug": "test-addiction-jeux-argent",
+  "en": "gambling-self-check",
+  "type": "article",
+  "published": "2026-10-26",
+  "title": "Test d'addiction aux jeux d'argent (ICJE) : 9 questions",
+  "description": "Faites l'ICJE, le questionnaire de référence en 9 questions sur le risque d'addiction aux jeux d'argent. Anonyme : rien n'est enregistré.",
+  "h1": "Test d'addiction aux jeux : les 9 questions de l'ICJE",
+  "tldr": "Ces neuf questions forment l'<strong>ICJE</strong> (Indice canadien du jeu excessif, ou PGSI en anglais ; Ferris et Wynne, 2001), l'outil de repérage utilisé notamment par Santé publique France. Score de 0 à 27 ; à partir de 8, vous êtes dans la catégorie de risque la plus élevée. Le test tourne dans votre navigateur : rien n'est enregistré, rien n'est envoyé, aucune adresse e-mail demandée.",
+  "faq": [
+    ["Quel score indique une addiction au jeu ?", "À l'ICJE, 0 correspond à un joueur sans risque, 1–2 à un risque faible, 3–7 à un risque modéré et 8 ou plus au jeu excessif. Mais c'est un repérage, pas un diagnostic : seul un professionnel peut diagnostiquer un trouble lié aux jeux d'argent."],
+    ["Mes réponses sont-elles enregistrées ?", "Non. Le score est calculé dans votre propre navigateur. Pas d'envoi de formulaire, pas de cookies, pas de suivi, pas d'e-mail. Fermez l'onglet, tout disparaît."],
+    ["Puis-je répondre pour un proche ?", "L'ICJE est validé comme auto-évaluation ; répondre pour quelqu'un d'autre ne donne qu'une idée approximative. Joueurs Info Service répond aussi aux proches."],
+    ["Mon score est bas mais je ne me sens pas maître de mon jeu", "Fiez-vous davantage à ce ressenti qu'au chiffre. L'ICJE pèse beaucoup les conséquences financières et sociales, et quelqu'un au début d'une pratique intensive peut obtenir un score bas tout en étant en difficulté."]
+  ]
+}
+-->
+<p>L'ICJE porte sur les <strong>12 derniers mois</strong>. Répondez pour cette période, pas pour votre pire
+  mois ni pour la semaine dernière. Être honnête avec une page qui ne retient pas vos réponses est
+  l'honnêteté la plus facile qui soit.</p>
+
+<form class="tool" id="pgsi">
+  <p class="noscript"><noscript>Ce test a besoin de JavaScript pour calculer le score. Sans lui, vous pouvez
+    compter à la main : Jamais = 0, Parfois = 1, La plupart du temps = 2, Presque toujours = 3.</noscript></p>
+  <div id="pgsi-questions"></div>
+  <div class="result" id="pgsi-result" hidden aria-live="polite">
+    <span class="num" id="pgsi-score">0</span>
+    <p><span class="band" id="pgsi-band"></span> — <span id="pgsi-line"></span></p>
+    <p class="small">Ce n'est pas un diagnostic, mais un instantané du risque à partir d'un questionnaire
+      de référence (ICJE). Le score va de 0 à 27.</p>
+    <div id="pgsi-next"></div>
+  </div>
+  <p class="small" id="pgsi-progress">Répondez aux neuf questions pour voir votre score.</p>
+</form>
+
+<h2>Comment le score est calculé</h2>
+<p>Chaque question vaut 0 (<em>jamais</em>), 1 (<em>parfois</em>), 2 (<em>la plupart du temps</em>) ou 3
+  (<em>presque toujours</em>), soit un total de 0 à 27 :</p>
+<div class="table-scroll">
+<table>
+  <thead><tr><th>Score</th><th>Catégorie</th><th>Ce que cela signifie en général</th></tr></thead>
+  <tbody>
+    <tr><td>0</td><td>Joueur sans risque</td><td>Aucun signe au cours des 12 derniers mois.</td></tr>
+    <tr><td>1–2</td><td>Risque faible</td><td>Des signes précoces que la plupart des joueurs occasionnels n'ont pas.</td></tr>
+    <tr><td>3–7</td><td>Risque modéré</td><td>Une pratique plus intense, souvent déjà avec des conséquences financières ou sociales.</td></tr>
+    <tr><td>8–27</td><td>Jeu excessif</td><td>La catégorie la plus élevée. Une aide structurée est généralement utile, pas seulement la volonté.</td></tr>
+  </tbody>
+</table>
+</div>
+<p class="src">Instrument : Ferris, J. et Wynne, H. (2001), <em>The Canadian Problem Gambling Index: Final
+  Report</em>, Canadian Centre on Substance Abuse. Formulation adaptée des neuf items. L'ICJE est un outil
+  de repérage ; le diagnostic d'un trouble lié aux jeux d'argent relève d'un professionnel.</p>
+
+<h2>Quel que soit votre résultat, l'étape suivante est la même</h2>
+<ul>
+  <li><strong>Mettez de la distance entre vous et le pari.</strong> Pas de la volonté : de la friction.
+    <a href="/fr/bloquer-sites-paris-iphone/">Bloquez les jeux sur votre téléphone</a> et ajoutez les deux
+    barrières qui ne se défont pas dans un moment de faiblesse : l'interdiction volontaire de jeux et le
+    blocage bancaire (<a href="/fr/arreter-de-jouer-aux-jeux-d-argent/">expliqués ici</a>).</li>
+  <li><strong>Comprenez l'envie.</strong> Elle monte et redescend, en général en 20 à 30 minutes, que vous
+    jouiez ou non. <a href="/fr/combien-de-temps-dure-une-envie-de-jouer/">C'est sur ce schéma que vous
+    pouvez vous appuyer.</a></li>
+</ul>
+
+{{cta:fr_selfcheck}}
+
+<script>
+window.SELFCHECK = {
+  items: [
+    "Au cours des 12 derniers mois, avez-vous misé plus d'argent que vous ne pouviez vous permettre de perdre ?",
+    "Au cours des 12 derniers mois, avez-vous eu besoin de miser plus d'argent pour obtenir la même excitation ?",
+    "Au cours des 12 derniers mois, êtes-vous retourné jouer un autre jour pour récupérer l'argent perdu ?",
+    "Au cours des 12 derniers mois, avez-vous emprunté de l'argent ou vendu quelque chose pour jouer ?",
+    "Au cours des 12 derniers mois, avez-vous senti que vous pourriez avoir un problème avec le jeu ?",
+    "Au cours des 12 derniers mois, le jeu vous a-t-il causé des problèmes de santé, comme du stress ou de l'anxiété ?",
+    "Au cours des 12 derniers mois, des personnes ont-elles critiqué vos habitudes de jeu ou dit que vous aviez un problème, que vous soyez d'accord ou non ?",
+    "Au cours des 12 derniers mois, le jeu a-t-il causé des difficultés financières à vous ou à votre foyer ?",
+    "Au cours des 12 derniers mois, vous êtes-vous senti coupable de votre façon de jouer ou de ce qui arrive quand vous jouez ?"
+  ],
+  scale: [["Jamais", 0], ["Parfois", 1], ["La plupart du temps", 2], ["Presque toujours", 3]],
+  bands: [
+    { max: 0,  label: "Joueur sans risque", line: "vos réponses indiquent que le jeu ne dirige pas votre vie. Que cela continue." },
+    { max: 2,  label: "Risque faible",      line: "vos réponses montrent des signes précoces que la plupart des joueurs occasionnels n'ont pas." },
+    { max: 7,  label: "Risque modéré",      line: "vos réponses vous placent dans la catégorie à risque modéré : une pratique plus intense que la plupart." },
+    { max: 27, label: "Jeu excessif",       line: "vos réponses vous placent dans la catégorie la plus élevée de ce questionnaire. Vous êtes au bon endroit, et vous n'êtes pas seul." }
+  ],
+  next: {
+    "Joueur sans risque": "<p>Rien à réparer aujourd'hui. Pour que cela dure, la meilleure assurance est une limite de dépenses fixée au calme, pas en courant après ses pertes.</p>",
+    "Risque faible": "<p>C'est le moment le plus facile pour agir, et celui que l'on saute le plus. Posez les blocages maintenant, même s'ils semblent superflus : <a href=\"/fr/bloquer-sites-paris-iphone/\">commencez par le téléphone</a>.</p>",
+    "Risque modéré": "<p>À ce niveau, bloquer seul suffit rarement. Associez-y quelque chose de structuré : <a href=\"/fr/arreter-de-jouer-aux-jeux-d-argent/\">l'interdiction volontaire de jeux auprès de l'ANJ</a>, et envisagez d'appeler Joueurs Info Service (09 74 75 13 13) — appeler ne vous engage à rien.</p>",
+    "Jeu excessif": "<p>Parlez à une personne, en plus de ce que vous installez. Joueurs Info Service (09 74 75 13 13) est anonyme et non surtaxé, et les CSAPA accompagnent gratuitement les joueurs. Si le jeu a laissé des dettes, demandez conseil avant tout nouveau crédit.</p>"
+  },
+  progress: "{n} sur 9 répondues.",
+  done: "Rien n'a été enregistré ni envoyé. Rechargez la page pour effacer."
+};
+</script>
+<script src="/assets/selfcheck.js"></script>

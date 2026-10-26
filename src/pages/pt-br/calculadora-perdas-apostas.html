@@ -1,0 +1,84 @@
+<!--meta
+{
+  "slug": "calculadora-perdas-apostas",
+  "en": "gambling-loss-calculator",
+  "type": "article",
+  "published": "2026-10-26",
+  "title": "Calculadora de perdas: quanto as bets já custaram para você",
+  "description": "Coloque quanto você perde numa semana normal e veja o total em um, cinco e dez anos, e o que esse dinheiro teria virado. Nada fica salvo.",
+  "h1": "Calculadora de perdas com apostas",
+  "tldr": "Digite quanto você perde numa semana normal. O valor anual é esse número × 52; os valores de longo prazo somam juros compostos para dar escala. Quase ninguém se assusta com o número da semana — o que pesa é o de dez anos. Nada do que você digita é salvo ou enviado.",
+  "faq": [
+    ["Coloco o que perco ou o que aposto?", "O que você perde líquido: dinheiro que foi embora, não o total apostado. O total apostado costuma ser muito maior porque os ganhos são reapostados, e usar esse número dá um valor chamativo, mas sem sentido."],
+    ["Não sei quanto perco por semana. Como descubro?", "Pegue os extratos dos últimos três meses, some cada Pix e pagamento para casas de apostas e subtraia cada saque. Divida por 13. O extrato lembra o que a memória esquece."],
+    ["Por que comparar com investimento?", "Porque o custo real não é só o dinheiro perdido, é o que ele teria virado. Usamos 8% ao ano com capitalização mensal como ilustração de escala: não é previsão, nem recomendação, nem consultoria financeira."]
+  ]
+}
+-->
+<form class="tool" id="calc">
+  <fieldset>
+    <legend><label for="amount">Quanto você perde numa semana normal?</label></legend>
+    <p>
+      <select id="currency" aria-label="Moeda">
+        <option value="BRL">R$ BRL</option>
+        <option value="EUR">€ EUR</option>
+        <option value="USD">$ USD</option>
+      </select>
+    </p>
+    <p><input type="number" id="amount" min="0" step="10" value="200" inputmode="numeric"></p>
+    <p class="small">Perdas líquidas, não o total apostado. Se não tiver certeza, três meses de
+      extrato divididos por 13 são mais confiáveis do que a memória.</p>
+  </fieldset>
+
+  <div class="result" aria-live="polite">
+    <p class="small">Perdido em um ano</p>
+    <span class="num" id="year">R$ 10.400</span>
+    <div class="table-scroll">
+      <table>
+        <thead><tr><th>Período</th><th>Perdido</th><th>Se tivesse sido investido*</th></tr></thead>
+        <tbody>
+          <tr><td>1 ano</td><td id="l1">—</td><td id="i1">—</td></tr>
+          <tr><td>5 anos</td><td id="l5">—</td><td id="i5">—</td></tr>
+          <tr><td>10 anos</td><td id="l10">—</td><td id="i10">—</td></tr>
+          <tr><td>20 anos</td><td id="l20">—</td><td id="i20">—</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="small">*Só para dar escala: o mesmo valor aplicado todo mês com rendimento médio de
+      8% ao ano, capitalizado mensalmente. Uma ilustração, não uma previsão nem consultoria
+      financeira. Nada do que você digitou foi salvo ou enviado.</p>
+  </div>
+</form>
+
+<h2>Por que o número de dez anos é o que pesa</h2>
+<p>Duzentos reais num fim de semana parecem o preço da diversão. Dez anos de fins de semana assim
+  são a entrada de um apartamento. A conta não tem nada de surpreendente; o surpreendente é que quase
+  ninguém faz, porque as perdas chegam em pedaços pequenos — um Pix aqui, outro ali — e nunca aparecem
+  juntas numa linha do extrato.</p>
+<p>Por isso esse número funciona como ferramenta para parar, e não como bronca. O Silex pega o
+  mesmo valor semanal e conta <em>para cima</em> a partir do dia em que você para: o que você
+  perderia vira o que você guardou.</p>
+
+<h2>O que este número não inclui</h2>
+<ul>
+  <li><strong>Dívidas.</strong> Os juros de pegar dinheiro emprestado para apostar muitas vezes
+    custam mais que as próprias perdas.</li>
+  <li><strong>O tempo.</strong> As horas no app de madrugada não aparecem em reais, e costumam ser o
+    que mais se lamenta.</li>
+  <li><strong>As quase-vitórias que te prendiam.</strong> As «perdas disfarçadas de ganho» — um
+    prêmio menor que a aposta, comemorado com luz e som — são decisão de design, não acidente.</li>
+</ul>
+
+<h2>Se o número foi pior do que você esperava</h2>
+<p>Essa reação é informação, não sentença. Dois passos:</p>
+<ul>
+  <li><a href="/pt-br/teste-vicio-em-apostas/">Faça o teste de vício em apostas (PGSI)</a>: dois
+    minutos para ver onde está o seu padrão.</li>
+  <li><a href="/pt-br/como-parar-de-apostar/">Coloque barreiras entre você e as bets</a>, começando
+    pelo <a href="/pt-br/bloquear-apostas-iphone/">celular</a>.</li>
+</ul>
+
+{{cta:ptbr_calculator}}
+
+<script>window.LOSSCALC = { locale: "pt-BR" };</script>
+<script src="/assets/losscalc.js"></script>

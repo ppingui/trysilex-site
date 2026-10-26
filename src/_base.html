@@ -1,15 +1,16 @@
 <!doctype html>
-<html lang="en">
+<html lang="{{lang}}">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{{title}}</title>
 <meta name="description" content="{{description}}">
 <link rel="canonical" href="{{canonical}}">
-{{head_extra}}<meta name="apple-itunes-app" content="app-id={{app_id}}">
+{{alternates}}{{head_extra}}<meta name="apple-itunes-app" content="app-id={{app_id}}">
 <meta name="theme-color" content="#0A0B10">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Silex">
+<meta property="og:locale" content="{{og_locale}}">
 <meta property="og:title" content="{{title}}">
 <meta property="og:description" content="{{description}}">
 <meta property="og:url" content="{{canonical}}">
@@ -22,15 +23,15 @@
 {{analytics}}
 </head>
 <body>
-<a class="skip" href="#main">Skip to content</a>
+<a class="skip" href="#main">{{skip}}</a>
 
 <header class="site-head">
   <div class="wrap head-inner">
-    <a class="logo" href="/"><span>Silex</span></a>
+    <a class="logo" href="{{home_href}}"><span>Silex</span></a>
     <nav aria-label="Main">{{nav}}</nav>
   </div>
 </header>
-
+{{langs}}
 <main id="main" class="wrap {{main_class}}">
   <h1>{{h1}}</h1>
 {{byline}}
@@ -45,19 +46,9 @@
 
 <footer class="site-foot">
   <div class="wrap">
-    <p class="disclaimer">Silex helps you build healthier habits around gambling.
-      It is not medical care and doesn't diagnose or treat any condition. If you are
-      in crisis, use the numbers above.</p>
-    <nav aria-label="Footer">
-      <a href="/">Home</a>
-      <a href="/about/">About</a>
-      <a href="/methodology/">Methodology</a>
-      <a href="/support/">Support</a>
-      <a href="/privacy/">Privacy</a>
-    </nav>
-    <p class="copy">© {{year}} {{brand}} · Built by <a href="/about/">Kyrylo Lozovyi</a>
-      in Kyiv, Ukraine · <a href="mailto:support@trysilex.com">support@trysilex.com</a>
-      · Also by the developer: <a href="https://www.vitalityrize.me/">VitalityRise</a>, men's pelvic floor training</p>
+    <p class="disclaimer">{{disclaimer}}</p>
+    <nav aria-label="Footer">{{footer_nav}}</nav>
+    <p class="copy">{{copy}}</p>
   </div>
 </footer>
 </body>

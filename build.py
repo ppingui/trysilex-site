@@ -1,9 +1,15 @@
 #!/usr/bin/env python3
 """Static site generator for trysilex.com.
 
-Stdlib only. Reads page fragments from src/pages/*.html, wraps them in
-src/_base.html, and writes plain HTML to the repo root so GitHub Pages can
-serve it with no build step. Run: python3 build.py
+Stdlib only. Reads page fragments from src/pages/*.html (English) and
+src/pages/<locale>/*.html (translations), wraps them in src/_base.html, and
+writes plain HTML to the repo root so GitHub Pages can serve it with no build
+step. Run: python3 build.py
+
+Languages: per-locale strings and verified crisis resources live in i18n.py.
+A translated page names its English source in its meta ("en": "<english slug>");
+pages sharing a source are one hreflang group, each listing every other version
+plus an x-default pointing at English.
 """
 
 from __future__ import annotations
@@ -12,7 +18,10 @@ import html
 import json
 import re
 import shutil
+import unicodedata
 from pathlib import Path
+
+from i18n import LOCALES, pretty_date
 
 ROOT = Path(__file__).parent
 SRC = ROOT / "src"
@@ -43,62 +52,44 @@ PROVIDER_TOKEN = ""
 # Cloudflare Web Analytics beacon token (cookieless). Empty = no analytics.
 ANALYTICS_TOKEN = ""
 
-NAV = [
-    ("/how-to-stop-gambling/", "How to stop"),
-    ("/best-gambling-blocker-apps/", "Blockers"),
-    ("/gambling-self-check/", "Self-check"),
-    ("/about/", "About"),
-]
+# Search snippets truncate around here. CJK characters count double.
+TITLE_MAX, DESC_MAX = 62, 160
 
 
 def app_store_url(campaign: str) -> str:
-    """App Store link, with campaign attribution when the provider token is set."""
+    """App Store link, with campaign attribution when the provider token is set.
+    The bare /app/id URL redirects each visitor to their own storefront, which is
+    right for every language."""
     base = f"https://apps.apple.com/app/id{APP_ID}"
     if PROVIDER_TOKEN:
         return f"{base}?pt={PROVIDER_TOKEN}&ct={campaign}&mt=8"
     return f"{base}?mt=8"
 
 
-# --- helplines: kept in sync with App/Services/RegionResources.swift -----------
-# Verify every number at each publish (product rule).
-HELPLINES = [
-    ("US", "1-800-GAMBLER", "tel:18004262537",
-     "National Problem Gambling Helpline — free, confidential, 24/7"),
-    ("US", "988", "tel:988",
-     "Suicide &amp; Crisis Lifeline — call or text if it feels like too much"),
-    ("UK", "0808 8020 133", "tel:08088020133",
-     "National Gambling Helpline (GamCare) — free, confidential, 24/7"),
-    ("UK", "116 123", "tel:116123", "Samaritans"),
-    ("Elsewhere", "findahelpline.com", "https://findahelpline.com",
-     "Crisis lines for your country"),
-]
-
-
-def helpline_block() -> str:
+def helpline_block(L: dict) -> str:
     rows = "\n".join(
         f'      <li><span class="hl-region">{r}</span>'
         f'<a href="{u}">{n}</a><span class="hl-note">{d}</span></li>'
-        for r, n, u, d in HELPLINES
+        for r, n, u, d in L["helplines"]
     )
     return (
-        '  <aside class="helplines" aria-label="Crisis helplines">\n'
-        "    <h2>If you need someone right now</h2>\n"
+        f'  <aside class="helplines" aria-label="{html.escape(L["help_title"])}">\n'
+        f'    <h2>{L["help_title"]}</h2>\n'
         f"    <ul>\n{rows}\n    </ul>\n"
         "  </aside>"
     )
 
 
-def cta_block(campaign: str, heading: str, sub: str) -> str:
+def cta_block(campaign: str, L: dict) -> str:
     """The one CTA component. Honest about review status until the app is live."""
     pending = "" if APP_STORE_LIVE else (
         '\n      <p class="cta-pending">Silex is in App Store review. '
         "This link goes live at launch.</p>"
     )
     return (
-        f'  <section class="cta">\n    <h2>{heading}</h2>\n'
-        f"    <p>{sub}</p>\n"
-        f'    <p><a class="btn" href="{app_store_url(campaign)}">'
-        "Get Silex on iPhone</a></p>"
+        f'  <section class="cta">\n    <h2>{L["cta_h"]}</h2>\n'
+        f'    <p>{L["cta_p"]}</p>\n'
+        f'    <p><a class="btn" href="{app_store_url(campaign)}">{L["cta_btn"]}</a></p>'
         f"{pending}\n  </section>"
     )
 
@@ -109,67 +100,88 @@ META_RE = re.compile(r"^<!--meta\s*(\{.*?\})\s*-->\s*", re.DOTALL)
 SHORTCODE_RE = re.compile(r"\{\{cta:([a-z0-9_]+)\}\}")
 
 
-def parse_fragment(path: Path) -> tuple[dict, str]:
+def parse_fragment(path: Path, loc: str) -> tuple[dict, str]:
     raw = path.read_text(encoding="utf-8")
     m = META_RE.match(raw)
     if not m:
-        raise SystemExit(f"{path.name}: missing leading <!--meta {{...}} --> block")
+        raise SystemExit(f"{path}: missing leading <!--meta {{...}} --> block")
     meta = json.loads(m.group(1))
     for key in ("slug", "title", "description", "h1"):
         if key not in meta:
-            raise SystemExit(f"{path.name}: meta is missing '{key}'")
+            raise SystemExit(f"{path}: meta is missing '{key}'")
+    if loc != "en" and "en" not in meta:
+        raise SystemExit(f"{path}: translated page needs an \"en\" key naming its English source")
+    meta["loc"] = loc
+    meta["path"] = meta["slug"] if loc == "en" else f"{loc}/{meta['slug']}"
+    meta["group"] = meta["slug"] if loc == "en" else meta["en"]
     return meta, raw[m.end():]
 
 
-def canonical_for(slug: str) -> str:
-    return f"{SITE}/" if slug == "" else f"{SITE}/{slug}/"
+def canonical_for(path: str) -> str:
+    return f"{SITE}/" if path == "" else f"{SITE}/{path}/"
 
 
-def nav_html(active_slug: str) -> str:
+def nav_html(L: dict, active_path: str) -> str:
     items = []
-    for href, label in NAV:
-        cur = ' aria-current="page"' if href.strip("/") == active_slug else ""
+    for href, label in L["nav"]:
+        cur = ' aria-current="page"' if href.strip("/") == active_path else ""
         items.append(f'<a href="{href}"{cur}>{label}</a>')
     return "".join(items)
 
 
-def faq_html(faq: list) -> str:
+def faq_html(faq: list, L: dict) -> str:
     if not faq:
         return ""
     rows = "\n".join(
         f"    <h3>{html.escape(q)}</h3>\n    <p>{a}</p>" for q, a in faq
     )
     return (
-        '  <section class="faq" id="faq">\n    <h2>Common questions</h2>\n'
+        f'  <section class="faq" id="faq">\n    <h2>{L["faq"]}</h2>\n'
         f"{rows}\n  </section>"
     )
 
 
-def byline_html(meta: dict) -> str:
+def byline_html(meta: dict, L: dict) -> str:
     if meta.get("type") != "article":
         return ""
+    loc = meta["loc"]
     pub, upd = meta["published"], meta.get("updated", meta["published"])
-    same = pub == upd
-    updated = "" if same else f' · Updated <time datetime="{upd}">{pretty(upd)}</time>'
+    updated = "" if pub == upd else \
+        f' · {L["updated"]} <time datetime="{upd}">{pretty_date(upd, loc)}</time>'
     reviewer = meta.get("reviewer")
     rev = f' · Reviewed by {html.escape(reviewer)}' if reviewer else ""
     return (
-        '  <p class="byline">By <a rel="author" href="/about/">'
+        f'  <p class="byline">{L["by"]} <a rel="author" href="/about/">'
         f"{AUTHOR}</a>{rev} · "
-        f'<time datetime="{pub}">{pretty(pub)}</time>{updated}</p>'
+        f'<time datetime="{pub}">{pretty_date(pub, loc)}</time>{updated}</p>'
     )
 
 
-MONTHS = ("January", "February", "March", "April", "May", "June", "July",
-          "August", "September", "October", "November", "December")
+def alternates_html(meta: dict, groups: dict) -> str:
+    versions = groups.get(meta["group"], {})
+    if len(versions) < 2:
+        return ""
+    lines = [f'<link rel="alternate" hreflang="{LOCALES[loc]["hreflang"]}" href="{canonical_for(p)}">'
+             for loc, p in sorted(versions.items())]
+    if "en" in versions:
+        lines.append(f'<link rel="alternate" hreflang="x-default" href="{canonical_for(versions["en"])}">')
+    return "\n".join(lines) + "\n"
 
 
-def pretty(iso: str) -> str:
-    y, m, d = iso.split("-")
-    return f"{MONTHS[int(m) - 1]} {int(d)}, {y}"
+def langs_html(meta: dict, groups: dict) -> str:
+    versions = groups.get(meta["group"], {})
+    if len(versions) < 2:
+        return ""
+    order = list(LOCALES)
+    links = []
+    for loc in sorted(versions, key=order.index):
+        cur = ' aria-current="true"' if loc == meta["loc"] else ""
+        links.append(f'<a href="/{versions[loc]}/" hreflang="{LOCALES[loc]["hreflang"]}" '
+                     f'lang="{LOCALES[loc]["html"]}"{cur}>{LOCALES[loc]["label"]}</a>')
+    return f'<nav class="langs" aria-label="Language"><div class="wrap">{"".join(links)}</div></nav>\n'
 
 
-def jsonld_for(meta: dict) -> str:
+def jsonld_for(meta: dict, L: dict) -> str:
     org = {
         "@type": "Organization",
         "@id": f"{SITE}/#org",
@@ -188,8 +200,9 @@ def jsonld_for(meta: dict) -> str:
         "sameAs": PERSON_SAME_AS,
     }
     graph: list[dict] = [person, org]
+    url = canonical_for(meta["path"])
 
-    if meta["slug"] == "":
+    if meta["path"] == "":
         graph += [
             {
                 "@type": "WebSite",
@@ -218,27 +231,29 @@ def jsonld_for(meta: dict) -> str:
     if meta.get("type") == "article":
         graph.append({
             "@type": "Article",
-            "@id": canonical_for(meta["slug"]) + "#article",
+            "@id": url + "#article",
             "headline": meta["h1"],
             "description": meta["description"],
+            "inLanguage": L["hreflang"],
             "datePublished": meta["published"],
             "dateModified": meta.get("updated", meta["published"]),
             "author": {"@id": PERSON_ID},
             "publisher": {"@id": f"{SITE}/#org"},
-            "mainEntityOfPage": canonical_for(meta["slug"]),
+            "mainEntityOfPage": url,
         })
+        home = SITE if meta["loc"] == "en" else SITE + L["nav"][0][0]
         graph.append({
             "@type": "BreadcrumbList",
             "itemListElement": [
-                {"@type": "ListItem", "position": 1, "name": "Home", "item": SITE},
-                {"@type": "ListItem", "position": 2, "name": meta["h1"],
-                 "item": canonical_for(meta["slug"])},
+                {"@type": "ListItem", "position": 1, "name": L["home"], "item": home},
+                {"@type": "ListItem", "position": 2, "name": meta["h1"], "item": url},
             ],
         })
 
     if meta.get("faq"):
         graph.append({
             "@type": "FAQPage",
+            "inLanguage": L["hreflang"],
             "mainEntity": [
                 {"@type": "Question", "name": q,
                  "acceptedAnswer": {"@type": "Answer", "text": re.sub("<[^>]+>", "", a)}}
@@ -248,22 +263,23 @@ def jsonld_for(meta: dict) -> str:
 
     payload = {"@context": "https://schema.org", "@graph": graph}
     return ('<script type="application/ld+json">'
-            + json.dumps(payload, separators=(",", ":")) + "</script>")
+            + json.dumps(payload, separators=(",", ":"), ensure_ascii=False) + "</script>")
 
 
-def render(meta: dict, body: str, template: str) -> str:
-    body = SHORTCODE_RE.sub(
-        lambda m: cta_block(
-            m.group(1),
-            "Quit for good. Keep the money.",
-            "Silex blocks gambling across your iPhone and walks you through 90 days, "
-            "one at a time.",
-        ),
-        body,
-    )
+def footer_html(L: dict) -> tuple[str, str]:
+    nav = "\n      ".join(f'<a href="{h}">{t}</a>' for h, t in L["footer"])
+    copy = (f'© 2026 {BRAND} · {L["built_by"]} <a href="/about/">{AUTHOR}</a> '
+            f'{L["in_city"]} · <a href="mailto:support@trysilex.com">support@trysilex.com</a>\n'
+            f'      · {L["also_by"]}: <a href="https://www.vitalityrize.me/">VitalityRise</a>, {L["vr_desc"]}')
+    return nav, copy
+
+
+def render(meta: dict, body: str, template: str, groups: dict) -> str:
+    L = LOCALES[meta["loc"]]
+    body = SHORTCODE_RE.sub(lambda m: cta_block(m.group(1), L), body)
     tldr = meta.get("tldr")
     tldr_html = (
-        f'  <div class="tldr"><p><strong>Short answer:</strong> {tldr}</p></div>\n'
+        f'  <div class="tldr"><p><strong>{L["short"]}</strong> {tldr}</p></div>\n'
         if tldr else ""
     )
     analytics = (
@@ -272,64 +288,100 @@ def render(meta: dict, body: str, template: str) -> str:
         if ANALYTICS_TOKEN else ""
     )
     noindex = bool(meta.get("noindex"))
-    out = template
+    footer_nav, copy = footer_html(L)
     subs = {
+        "lang": L["html"],
+        "og_locale": L["og"],
         "title": html.escape(meta["title"]),
         "description": html.escape(meta["description"]),
         # A noindex page has no canonical URL of its own — point at the root.
-        "canonical": SITE + "/" if noindex else canonical_for(meta["slug"]),
+        "canonical": SITE + "/" if noindex else canonical_for(meta["path"]),
+        "alternates": "" if noindex else alternates_html(meta, groups),
         "head_extra": '<meta name="robots" content="noindex">\n' if noindex else "",
         "og_image": f"{SITE}/assets/og.png",
-        "nav": nav_html(meta["slug"]),
+        "skip": L["skip"],
+        "home_href": "/" if meta["loc"] == "en" else L["nav"][0][0],
+        "nav": nav_html(L, meta["path"]),
+        "langs": langs_html(meta, groups),
         "h1": meta["h1"],
-        "byline": byline_html(meta),
+        "byline": byline_html(meta, L),
         "tldr": tldr_html,
         "body": body.strip(),
-        "faq": faq_html(meta.get("faq", [])),
-        "helplines": helpline_block(),
-        "jsonld": jsonld_for(meta),
+        "faq": faq_html(meta.get("faq", []), L),
+        "helplines": helpline_block(L),
+        "jsonld": jsonld_for(meta, L),
         "analytics": analytics,
         "app_id": APP_ID,
-        "year": "2026",
-        "brand": BRAND,
+        "disclaimer": L["disclaimer"],
+        "footer_nav": footer_nav,
+        "copy": copy,
         "main_class": "article" if meta.get("type") == "article" else "page",
     }
+    out = template
     for key, value in subs.items():
         out = out.replace("{{" + key + "}}", value)
     leftover = re.findall(r"\{\{[a-z_]+\}\}", out)
     if leftover:
-        raise SystemExit(f"{meta['slug'] or 'index'}: unresolved {set(leftover)}")
+        raise SystemExit(f"{meta['path'] or 'index'}: unresolved {set(leftover)}")
     return out
+
+
+def visual_len(s: str) -> int:
+    """Length as a search snippet sees it: wide (CJK) characters count double."""
+    return sum(2 if unicodedata.east_asian_width(c) in "WF" else 1 for c in s)
+
+
+def load_pages() -> list[tuple[dict, str, Path]]:
+    pages = [(*parse_fragment(p, "en"), p) for p in sorted(PAGES.glob("*.html"))]
+    for loc in LOCALES:
+        if loc == "en":
+            continue
+        for p in sorted((PAGES / loc).glob("*.html")):
+            pages.append((*parse_fragment(p, loc), p))
+    return pages
 
 
 def main() -> None:
     template = (SRC / "_base.html").read_text(encoding="utf-8")
-    pages = []
+    pages = load_pages()
 
-    for path in sorted(PAGES.glob("*.html")):
-        meta, body = parse_fragment(path)
-        out_path = ROOT / "index.html" if meta["slug"] == "" \
-            else ROOT / meta["slug"] / "index.html"
+    # hreflang groups: English slug -> {locale: path}
+    groups: dict[str, dict[str, str]] = {}
+    for meta, _, path in pages:
+        g = groups.setdefault(meta["group"], {})
+        if meta["loc"] in g:
+            raise SystemExit(f"{path}: duplicate {meta['loc']} page for group '{meta['group']}'")
+        g[meta["loc"]] = meta["path"]
+    english = {m["slug"] for m, _, _ in pages if m["loc"] == "en"}
+    for key, versions in groups.items():
+        if key not in english:
+            raise SystemExit(f"translations point at English page '{key}', which does not exist")
+
+    warnings = []
+    for meta, body, src in pages:
+        out_path = ROOT / "index.html" if meta["path"] == "" else ROOT / meta["path"] / "index.html"
         out_path.parent.mkdir(parents=True, exist_ok=True)
-        out_path.write_text(render(meta, body, template), encoding="utf-8")
-        pages.append(meta)
-        print(f"  {path.name:38} -> {out_path.relative_to(ROOT)}")
+        out_path.write_text(render(meta, body, template, groups), encoding="utf-8")
+        print(f"  {str(src.relative_to(PAGES)):46} -> {out_path.relative_to(ROOT)}")
+        if meta["loc"] != "en" and meta.get("slug") != "404":
+            if visual_len(meta["title"]) > TITLE_MAX:
+                warnings.append(f"{meta['path']}: title {visual_len(meta['title'])} > {TITLE_MAX}")
+            if visual_len(meta["description"]) > DESC_MAX:
+                warnings.append(f"{meta['path']}: description {visual_len(meta['description'])} > {DESC_MAX}")
 
     # 404 (GitHub Pages serves /404.html for unknown paths)
-    nf = next((m for m in pages if m["slug"] == "404"), None)
-    if nf:
+    if any(m["path"] == "404" for m, _, _ in pages):
         shutil.copyfile(ROOT / "404" / "index.html", ROOT / "404.html")
         shutil.rmtree(ROOT / "404")
-        print("  404/index.html                         -> 404.html")
+        print("  404/index.html                                 -> 404.html")
 
+    indexable = [m for m, _, _ in pages if m["path"] != "404" and not m.get("noindex")]
     urls = []
-    for meta in sorted(pages, key=lambda m: m["slug"]):
-        if meta["slug"] == "404":
-            continue
+    for meta in sorted(indexable, key=lambda m: m["path"]):
         lastmod = meta.get("updated", meta.get("published", "2026-08-10"))
-        prio = "1.0" if meta["slug"] == "" else "0.8"
+        prio = "1.0" if meta["path"] == "" else "0.8"
         urls.append(
-            f"  <url><loc>{canonical_for(meta['slug'])}</loc>"
+            f"  <url><loc>{canonical_for(meta['path'])}</loc>"
             f"<lastmod>{lastmod}</lastmod><priority>{prio}</priority></url>"
         )
     (ROOT / "sitemap.xml").write_text(
@@ -355,14 +407,18 @@ def main() -> None:
              "No accounts, no tracking, no ads. Built by "
              f"{AUTHOR}. Weekly $4.99 or annual $49.99 with a 3-day free trial.",
              "", "## Pages", ""]
-    for meta in sorted(pages, key=lambda m: m["slug"]):
-        if meta["slug"] == "404":
-            continue
-        lines.append(f"- [{meta['h1']}]({canonical_for(meta['slug'])}): "
+    for meta in sorted((m for m in indexable if m["loc"] == "en"), key=lambda m: m["path"]):
+        lines.append(f"- [{meta['h1']}]({canonical_for(meta['path'])}): {meta['description']}")
+    lines += ["", "## Other languages", ""]
+    for meta in sorted((m for m in indexable if m["loc"] != "en"), key=lambda m: m["path"]):
+        lines.append(f"- [{meta['h1']}]({canonical_for(meta['path'])}) ({LOCALES[meta['loc']]['label']}): "
                      f"{meta['description']}")
     (ROOT / "llms.txt").write_text("\n".join(lines) + "\n", encoding="utf-8")
 
-    print(f"\n{len(urls)} pages, sitemap + robots + llms.txt + CNAME written.")
+    n_loc = sum(1 for m in indexable if m["loc"] != "en")
+    print(f"\n{len(urls)} pages ({n_loc} translated), sitemap + robots + llms.txt + CNAME written.")
+    for w in warnings:
+        print("  warn:", w)
 
 
 if __name__ == "__main__":

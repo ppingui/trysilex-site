@@ -65,3 +65,18 @@ renders, and the Open Graph card. Only needs re-running when the app's art chang
 - Every page carries the helpline block and the not-medical-care disclaimer.
 - No fabricated statistics, no invented study citations, no effectiveness claims for the
   app — it applies evidence-based material, it has not itself been trialled.
+
+## Languages
+
+English is the source. Translations live in `src/pages/<locale>/` (`es`, `pt-br`, `de`, `fr`, `ru`,
+`zh`) and each names its English original in its meta: `"en": "<english slug>"`. The build groups
+pages by that key and writes reciprocal `hreflang` links (plus `x-default` → English) and the
+language switcher automatically. Per-locale UI strings and **crisis resources** live in `i18n.py`.
+
+- Localize, don't translate: self-exclusion schemes, banks and helplines are national. Every
+  helpline in `i18n.py` was verified against an official source on 2026-10-26 — re-verify before
+  each publish, and leave a number out rather than ship one you can't confirm.
+- The two tools share `assets/selfcheck.js` and `assets/losscalc.js`; a translated page only
+  supplies its strings (`window.SELFCHECK`, `window.LOSSCALC`). Scoring lives in one place.
+- The build warns when a translated title passes 62 or a description passes 160 characters
+  (CJK characters count double). Fix every warning before pushing.

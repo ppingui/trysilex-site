@@ -1,0 +1,84 @@
+<!--meta
+{
+  "slug": "verlustrechner-gluecksspiel",
+  "en": "gambling-loss-calculator",
+  "type": "article",
+  "published": "2026-10-26",
+  "title": "Verlustrechner: Was dich das Glücksspiel wirklich kostet",
+  "description": "Gib ein, was du in einer normalen Woche verlierst, und sieh die Summe nach einem, fünf und zehn Jahren – und was aus dem Geld geworden wäre.",
+  "h1": "Verlustrechner fürs Glücksspiel",
+  "tldr": "Gib ein, was du in einer normalen Woche verlierst. Der Jahreswert ist diese Zahl × 52; die Langzeitwerte rechnen Zinseszins dazu, um die Größenordnung zu zeigen. Die meisten erschreckt nicht die Wochenzahl, sondern die nach zehn Jahren. Nichts, was du eingibst, wird gespeichert oder gesendet.",
+  "faq": [
+    ["Gebe ich Verluste oder Einsätze ein?", "Deine Nettoverluste: Geld, das weg ist, nicht Geld, das eingesetzt wurde. Die Einsätze sind meist viel höher, weil Gewinne wieder eingesetzt werden – damit sähe die Zahl dramatisch, aber sinnlos aus."],
+    ["Ich weiß nicht, was ich pro Woche verliere. Wie finde ich es heraus?", "Nimm die Kontoauszüge der letzten drei Monate, addiere jede Zahlung an einen Glücksspielanbieter und zieh jede Auszahlung ab. Teile durch 13. Der Kontoauszug erinnert sich an das, was das Gedächtnis vergisst."],
+    ["Warum ein Vergleich mit Anlegen?", "Weil die echten Kosten nicht nur das verlorene Geld sind, sondern was daraus hätte werden können. Wir rechnen mit 8 % Durchschnittsrendite pro Jahr bei monatlicher Verzinsung – als Veranschaulichung, nicht als Prognose, Empfehlung oder Anlageberatung."]
+  ]
+}
+-->
+<form class="tool" id="calc">
+  <fieldset>
+    <legend><label for="amount">Wie viel verlierst du in einer normalen Woche?</label></legend>
+    <p>
+      <select id="currency" aria-label="Währung">
+        <option value="EUR">€ EUR</option>
+        <option value="CHF">CHF</option>
+        <option value="USD">$ USD</option>
+      </select>
+    </p>
+    <p><input type="number" id="amount" min="0" step="5" value="100" inputmode="numeric"></p>
+    <p class="small">Nettoverluste, nicht Einsätze. Wenn du unsicher bist: drei Monate Kontoauszüge
+      geteilt durch 13 sind genauer als das Gedächtnis.</p>
+  </fieldset>
+
+  <div class="result" aria-live="polite">
+    <p class="small">Verloren in einem Jahr</p>
+    <span class="num" id="year">5.200 €</span>
+    <div class="table-scroll">
+      <table>
+        <thead><tr><th>Zeitraum</th><th>Verloren</th><th>Wäre es angelegt worden*</th></tr></thead>
+        <tbody>
+          <tr><td>1 Jahr</td><td id="l1">—</td><td id="i1">—</td></tr>
+          <tr><td>5 Jahre</td><td id="l5">—</td><td id="i5">—</td></tr>
+          <tr><td>10 Jahre</td><td id="l10">—</td><td id="i10">—</td></tr>
+          <tr><td>20 Jahre</td><td id="l20">—</td><td id="i20">—</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="small">*Nur zur Einordnung: derselbe Betrag monatlich angelegt bei durchschnittlich 8 %
+      pro Jahr, monatlich verzinst. Eine Veranschaulichung, keine Prognose und keine Anlageberatung.
+      Nichts von deinen Eingaben wurde gespeichert oder gesendet.</p>
+  </div>
+</form>
+
+<h2>Warum die Zehn-Jahres-Zahl die ist, die trifft</h2>
+<p>Sechzig Euro an einem Wochenende wirken wie der Preis für Unterhaltung. Zehn Jahre solcher
+  Wochenenden sind das Eigenkapital für eine Wohnung. Die Rechnung ist nicht überraschend; überraschend
+  ist, dass sie fast niemand macht, weil Verluste in kleinen Stücken kommen und nie gesammelt auf einer
+  Zeile des Kontoauszugs stehen.</p>
+<p>Deshalb funktioniert diese Zahl als Werkzeug zum Aufhören und nicht als Vorwurf. Silex nimmt
+  denselben Wochenbetrag und zählt ab dem Tag, an dem du aufhörst, <em>nach oben</em>: Was du verloren
+  hättest, wird zu dem, was du behalten hast.</p>
+
+<h2>Was diese Zahl nicht enthält</h2>
+<ul>
+  <li><strong>Schulden.</strong> Zinsen für geliehenes Spielgeld kosten oft mehr als die Verluste
+    selbst.</li>
+  <li><strong>Zeit.</strong> Die Stunden nachts in der App tauchen in keiner Eurosumme auf – und werden
+    oft am meisten bereut.</li>
+  <li><strong>Die Beinahe-Gewinne, die dich gehalten haben.</strong> «Verluste, getarnt als Gewinne» –
+    ein Gewinn kleiner als dein Einsatz, gefeiert mit Licht und Ton – sind Design, kein Zufall.</li>
+</ul>
+
+<h2>Wenn die Zahl schlimmer ist als erwartet</h2>
+<p>Diese Reaktion ist eine Information, kein Urteil. Zwei Schritte:</p>
+<ul>
+  <li><a href="/de/spielsucht-test/">Mach den Spielsucht-Test (PGSI)</a>: zwei Minuten, um zu sehen, wo
+    dein Muster steht.</li>
+  <li><a href="/de/mit-dem-gluecksspiel-aufhoeren/">Bau Sperren zwischen dich und die Anbieter</a>,
+    angefangen <a href="/de/gluecksspiel-sperren-iphone/">beim Handy</a>.</li>
+</ul>
+
+{{cta:de_calculator}}
+
+<script>window.LOSSCALC = { locale: "de-DE" };</script>
+<script src="/assets/losscalc.js"></script>

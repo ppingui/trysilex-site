@@ -244,3 +244,10 @@ tbody tr:last-child td { border-bottom: 0; }
   html { scroll-behavior: auto; }
   * { animation: none !important; transition: none !important; }
 }
+
+/* --- language switcher (only on pages that exist in more than one language) */
+.langs { border-bottom: 1px solid var(--line); }
+.langs .wrap { display: flex; flex-wrap: wrap; gap: 0.35rem 0.9rem; padding-top: 0.55rem; padding-bottom: 0.55rem; font-size: 0.85rem; }
+.langs a { color: var(--muted); text-decoration: none; }
+.langs a:hover { color: var(--text); }
+.langs a[aria-current] { color: var(--mint); }

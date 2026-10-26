@@ -1,0 +1,87 @@
+<!--meta
+{
+  "slug": "calculadora-perdidas-apuestas",
+  "en": "gambling-loss-calculator",
+  "type": "article",
+  "published": "2026-10-26",
+  "title": "Calculadora de pérdidas en apuestas: cuánto te cuesta el juego",
+  "description": "Pon lo que pierdes en una semana y mira el total en uno, cinco y diez años, y en qué se habría convertido ese dinero. No guarda nada.",
+  "h1": "Calculadora de pérdidas en apuestas",
+  "tldr": "Escribe lo que pierdes en una semana normal. La cifra anual es ese número × 52; las cifras a largo plazo añaden el interés compuesto para dar escala. A la mayoría no le impacta la cifra semanal, sino la de diez años. Nada de lo que escribes se guarda ni se envía.",
+  "faq": [
+    ["¿Pongo lo que pierdo o lo que apuesto?", "Lo que pierdes neto: dinero que se fue, no dinero apostado. El total apostado suele ser mucho mayor porque las ganancias se vuelven a apostar, y usarlo da una cifra llamativa pero sin sentido."],
+    ["No sé cuánto pierdo a la semana. ¿Cómo lo averiguo?", "Coge los extractos del banco de los últimos tres meses, suma cada pago a un operador de juego y resta cada retirada. Divide entre 13. El extracto recuerda lo que la memoria olvida: casi todo el mundo se queda corto."],
+    ["¿Por qué incluir una comparación con inversión?", "Porque el coste real no es solo el dinero perdido, sino en qué se habría convertido. Usamos un 8 % anual medio con capitalización mensual como ilustración de escala: no es una previsión, ni una recomendación, ni asesoramiento financiero."]
+  ]
+}
+-->
+<form class="tool" id="calc">
+  <fieldset>
+    <legend><label for="amount">¿Cuánto pierdes en una semana normal?</label></legend>
+    <p>
+      <select id="currency" aria-label="Moneda">
+        <option value="EUR">€ EUR</option>
+        <option value="USD">$ USD</option>
+        <option value="MXN">$ MXN</option>
+        <option value="ARS">$ ARS</option>
+        <option value="COP">$ COP</option>
+      </select>
+    </p>
+    <p><input type="number" id="amount" min="0" step="5" value="100" inputmode="numeric"></p>
+    <p class="small">Pérdidas netas, no el total apostado. Si no estás seguro, tres meses de extractos
+      divididos entre 13 son más fiables que la memoria.</p>
+  </fieldset>
+
+  <div class="result" aria-live="polite">
+    <p class="small">Perdido en un año</p>
+    <span class="num" id="year">5.200 €</span>
+    <div class="table-scroll">
+      <table>
+        <thead><tr><th>Periodo</th><th>Perdido</th><th>Si se hubiera invertido*</th></tr></thead>
+        <tbody>
+          <tr><td>1 año</td><td id="l1">—</td><td id="i1">—</td></tr>
+          <tr><td>5 años</td><td id="l5">—</td><td id="i5">—</td></tr>
+          <tr><td>10 años</td><td id="l10">—</td><td id="i10">—</td></tr>
+          <tr><td>20 años</td><td id="l20">—</td><td id="i20">—</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="small">*Solo para dar escala: la misma cantidad aportada cada mes con un rendimiento
+      medio del 8 % anual, capitalizado mensualmente. Una ilustración, no una previsión ni
+      asesoramiento financiero. Nada de lo que escribiste se ha guardado ni enviado.</p>
+  </div>
+</form>
+
+<h2>Por qué la cifra de diez años es la que impacta</h2>
+<p>Sesenta euros un fin de semana parecen el precio del ocio. Diez años de fines de semana de
+  sesenta euros son la entrada de un piso. Las cuentas no tienen nada de sorprendente; lo
+  sorprendente es que casi nadie las hace, porque las pérdidas llegan en trozos pequeños y nunca
+  aparecen juntas en una línea del extracto.</p>
+<p>Por eso esta cifra funciona como herramienta para dejarlo y no como reproche. Silex toma ese
+  mismo número semanal y cuenta <em>hacia arriba</em> desde el día que paras: lo que habrías perdido
+  se convierte en lo que has guardado.</p>
+
+<h2>Lo que esta cifra no incluye</h2>
+<ul>
+  <li><strong>Las deudas.</strong> Los intereses de pedir dinero para jugar a menudo cuestan más que
+    las propias pérdidas.</li>
+  <li><strong>El tiempo.</strong> Las horas en una app a la una de la madrugada no salen en euros, y
+    suelen ser lo que más se lamenta.</li>
+  <li><strong>Los casi-aciertos que te mantenían enganchado.</strong> Las «pérdidas disfrazadas de
+    ganancia» —un premio menor que tu apuesta, celebrado con luces y sonido— son una decisión de
+    diseño, no un accidente.</li>
+</ul>
+
+<h2>Si la cifra es peor de lo que esperabas</h2>
+<p>Esa reacción es información, no un veredicto. Dos pasos:</p>
+<ul>
+  <li><a href="/es/test-ludopatia/">Haz el test de ludopatía (PGSI)</a>: dos minutos para ver dónde
+    está tu patrón.</li>
+  <li><a href="/es/como-dejar-de-apostar/">Pon barreras entre tú y las casas de apuestas</a>,
+    empezando por <a href="/es/bloquear-apuestas-iphone/">el móvil</a>.</li>
+</ul>
+
+{{cta:es_calculator}}
+
+<script>window.LOSSCALC = { locale: "es-ES" };</script>
+<script src="/assets/losscalc.js"></script>

@@ -1,0 +1,98 @@
+<!--meta
+{
+  "slug": "bloquer-sites-paris-iphone",
+  "en": "block-gambling-sites-iphone",
+  "type": "article",
+  "published": "2026-10-26",
+  "title": "Bloquer les sites de paris et casinos sur iPhone (2026)",
+  "description": "Bloquer les jeux d'argent sur iPhone : Temps d'écran, un profil DNS pour tout l'appareil, bloqueurs Safari et interdiction de jeux — ce que couvre chacun.",
+  "h1": "Bloquer les sites de paris et casinos sur iPhone",
+  "tldr": "Temps d'écran seul ne suffit pas. La combinaison qui tient : un <strong>profil DNS pour tout l'appareil</strong> (couvre toutes les apps et tous les navigateurs), <strong>Temps d'écran avec un code détenu par quelqu'un d'autre</strong> (empêche de réinstaller), et les deux barrières qui ne se défont pas sur un coup de tête : l'<strong>interdiction volontaire de jeux</strong> de l'ANJ et le <strong>blocage bancaire</strong>. Le tout prend environ 30 minutes.",
+  "faq": [
+    ["Peut-on bloquer les applis de paris sans installer d'app ?", "Oui. Temps d'écran peut empêcher l'installation d'apps et bloquer des sites précis, et l'iPhone accepte une configuration DNS qui empêche les domaines de jeux de se charger dans n'importe quelle app. Ce que l'iPhone ne fait pas seul, c'est tenir à jour une liste de centaines de milliers de domaines de jeux : c'est le rôle d'un bloqueur ou d'un DNS filtrant."],
+    ["Temps d'écran bloque-t-il les applis de paris ?", "En partie. Il peut empêcher les nouvelles installations et bloquer des sites dans Safari, mais il n'a pas de catégorie jeux d'argent : « Limiter les sites web pour adultes » n'est pas un filtre anti-paris."],
+    ["Est-ce que ça marche aussi en 4G/5G ?", "Un profil DNS installé sur l'iPhone, oui, car il appartient à l'appareil. Un blocage sur la box internet, non : dès que le téléphone passe en données mobiles, il ne s'applique plus."],
+    ["Existe-t-il un bloqueur impossible à supprimer sur iPhone ?", "Non, et ceux qui le promettent exagèrent. Sous iOS, on peut toujours retirer un profil ou supprimer une app. Ce qui est durable doit venir de l'extérieur du téléphone : l'interdiction de jeux et le blocage bancaire."]
+  ]
+}
+-->
+<p>Il existe cinq façons différentes de bloquer les jeux d'argent sur un iPhone, et chacune couvre des choses
+  différentes. La plupart des guides n'en expliquent qu'une, celle-ci a une faille, et c'est par cette faille
+  que passe la rechute. Les voici toutes, avec leurs vraies limites.</p>
+
+<h2>D'abord : ce que couvre chaque méthode</h2>
+<div class="table-scroll">
+<table>
+  <thead><tr><th>Méthode</th><th>Ce qu'elle couvre</th><th>Délai pour l'annuler</th></tr></thead>
+  <tbody>
+    <tr><td>Temps d'écran</td><td>Installation d'apps, sites précis dans Safari</td><td>Quelques secondes, sauf si quelqu'un d'autre a le code</td></tr>
+    <tr><td>Profil DNS de l'appareil</td><td><strong>Toutes les apps et navigateurs</strong>, wifi et données mobiles</td><td>Une minute, dans les Réglages</td></tr>
+    <tr><td>Bloqueur Safari</td><td>Safari uniquement</td><td>Quelques secondes</td></tr>
+    <tr><td>Blocage bancaire</td><td>Paiements vers les opérateurs de jeux</td><td>Selon la banque</td></tr>
+    <tr><td>Interdiction volontaire (ANJ)</td><td>Casinos, clubs et opérateurs en ligne agréés</td><td><strong>Impossible</strong> sur un coup de tête : 3 ans minimum</td></tr>
+  </tbody>
+</table>
+</div>
+<p>Lisez-le comme des couches, pas comme un menu. Les trois premières rendent le jeu pénible ; les deux
+  dernières le rendent vraiment difficile.</p>
+
+<h2>1. Temps d'écran : empêcher de réinstaller</h2>
+<p>Temps d'écran est gratuit, déjà sur l'iPhone, et surtout utile pour ce qu'il <em>empêche</em>.</p>
+<p><strong>Plus de nouvelles applis :</strong> Réglages → Temps d'écran → Restrictions relatives au contenu
+  et à la confidentialité → activer → achats et installation d'apps → <strong>Refuser</strong>. Supprimez
+  d'abord toutes les applis de paris ; ensuite, toute réinstallation exige le code Temps d'écran.</p>
+<p><strong>Bloquer des sites dans Safari :</strong> dans Restrictions de contenu → Contenu web →
+  <strong>Limiter les sites web pour adultes</strong>, puis ajoutez chaque opérateur dans <strong>Ne jamais
+  autoriser</strong>. Cela désactive aussi la navigation privée dans Safari.</p>
+<p><strong>Le détail que personne ne mentionne :</strong> iOS n'a pas de catégorie jeux d'argent. « Limiter
+  les sites web pour adultes » est un filtre de contenu pour adultes : il attrape quelques sites de paris
+  par hasard et laisse passer la plupart.</p>
+<p><strong>Faites-le bien :</strong> choisissez un code Temps d'écran que vous ne connaissez pas. Faites-le
+  saisir et garder par votre conjoint, un ami ou un proche.</p>
+
+<h2>2. Un profil DNS : celui qui couvre tout</h2>
+<p>C'est la méthode que presque tous les guides oublient, et la plus solide de celles qui vivent sur le
+  téléphone. Chaque app et chaque navigateur doit résoudre un nom de domaine avant de se connecter ; si la
+  résolution échoue, le site ne se charge pas. Pas d'extension, pas de réglage navigateur par navigateur — et
+  en données mobiles aussi.</p>
+<p>L'iPhone permet à une app ou à un profil de configuration d'installer un DNS chiffré pour tout l'appareil.
+  S'il pointe vers un service qui filtre les jeux d'argent, plus aucun site de paris, de casino ou de
+  machines à sous ne se charge — y compris les sites illégaux non couverts par l'ANJ. Options : les
+  résolveurs publics de Mullvad (un résolveur « family » gratuit qui filtre les jeux), NextDNS (liste jeux
+  d'argent à activer) ou une app qui le configure pour vous, comme
+  <a href="/fr/arreter-de-jouer-aux-jeux-d-argent/">Silex</a>.</p>
+<p>Vérifiez : dans Réglages → Général → VPN, DNS et gestion de l'appareil, votre configuration DNS doit être
+  sélectionnée, et un site de paris ne doit pas se charger.</p>
+<p><strong>Sa limite :</strong> on peut le désactiver dans les Réglages en moins d'une minute. C'est un
+  ralentisseur, pas un mur — mais un très bon ralentisseur, car la plupart des rechutes sont impulsives et
+  une minute de friction suffit souvent.</p>
+
+<h2>3. Bloqueurs Safari</h2>
+<p>Une extension de blocage de contenu peut empêcher Safari de charger une liste de domaines. À activer dans
+  Réglages → Apps → Safari → Extensions. Utile mais limité : Safari uniquement. Chrome, le navigateur intégré
+  aux réseaux sociaux et l'app de l'opérateur restent hors de portée.</p>
+
+<h2>4 et 5. Ce qui n'est pas sur le téléphone</h2>
+<p>Les deux barrières les plus fortes ne vivent pas sur l'iPhone : <strong>votre banque qui refuse les
+  paiements de jeux</strong> et <strong>l'interdiction volontaire de jeux</strong> de l'ANJ. Aucune ne se
+  défait dans les quatre-vingt-dix secondes où cela compte.
+  <a href="/fr/arreter-de-jouer-aux-jeux-d-argent/">Comment mettre en place les deux →</a></p>
+
+<h2>Ce qui ne marche pas</h2>
+<ul>
+  <li><strong>Supprimer seulement les applis.</strong> Réinstaller prend quinze secondes, et le site mobile
+    fonctionne pareil.</li>
+  <li><strong>Bloquer seulement sur la box.</strong> Ça s'arrête à la porte de chez vous ; en 4G, plus de
+    blocage.</li>
+  <li><strong>Un VPN classique.</strong> Il change l'endroit d'où sort votre trafic, il ne filtre rien.</li>
+  <li><strong>Tout ce qui promet d'être impossible à supprimer sous iOS.</strong> Le système ne le permet
+    pas.</li>
+</ul>
+
+<h2>Bloquer, c'est le socle, pas le plan</h2>
+<p>Chaque couche vous fait gagner du temps pendant les quatre-vingt-dix secondes où l'envie est au plus
+  haut. Ce que vous faites de ce temps décide si ça marche.
+  <a href="/fr/combien-de-temps-dure-une-envie-de-jouer/">Les envies montent et redescendent de façon assez
+  prévisible</a>, et apprendre à en attendre une est une compétence qui s'améliore avec la pratique.</p>
+
+{{cta:fr_iphone}}
