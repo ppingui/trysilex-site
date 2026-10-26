@@ -1,6 +1,8 @@
 # Silex — Stop Gambling
 
-An iPhone app that blocks gambling across the phone, runs a 90-day evidence-based quit program, and tracks the money you keep. No accounts, no tracking, no ads. Built by Kyrylo Lozovyi. Weekly $4.99 or annual $49.99 with a 3-day free trial.
+An iPhone app that blocks gambling across the phone, runs a 90-day evidence-based quit program, and tracks the money you keep. No accounts, no ads, and nothing a user writes leaves the phone. Built by Kyrylo Lozovyi. Weekly $4.99 or annual $49.99 with a 3-day free trial.
+
+The full text of every page, in one file: https://trysilex.com/llms-full.txt
 
 ## Pages
 

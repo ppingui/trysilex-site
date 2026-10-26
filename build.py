@@ -383,7 +383,9 @@ def main() -> None:
             raise SystemExit(f"translations point at English page '{key}', which does not exist")
 
     warnings = []
+    bodies: dict[str, str] = {}
     for meta, body, src in pages:
+        bodies[meta["path"]] = body
         out_path = ROOT / "index.html" if meta["path"] == "" else ROOT / meta["path"] / "index.html"
         out_path.parent.mkdir(parents=True, exist_ok=True)
         out_path.write_text(render(meta, body, template, groups), encoding="utf-8")
@@ -429,8 +431,9 @@ def main() -> None:
     lines = [f"# {BRAND_FULL}", "",
              "An iPhone app that blocks gambling across the phone, runs a 90-day "
              "evidence-based quit program, and tracks the money you keep. "
-             "No accounts, no tracking, no ads. Built by "
+             "No accounts, no ads, and nothing a user writes leaves the phone. Built by "
              f"{AUTHOR}. Weekly $4.99 or annual $49.99 with a 3-day free trial.",
+             "", f"The full text of every page, in one file: {SITE}/llms-full.txt",
              "", "## Pages", ""]
     for meta in sorted((m for m in indexable if m["loc"] == "en"), key=lambda m: m["path"]):
         lines.append(f"- [{meta['h1']}]({canonical_for(meta['path'])}): {meta['description']}")
@@ -440,8 +443,54 @@ def main() -> None:
                      f"{meta['description']}")
     (ROOT / "llms.txt").write_text("\n".join(lines) + "\n", encoding="utf-8")
 
+    # llms-full.txt: every indexable page as plain text, for answer engines that
+    # fetch the whole site in one request. Shortcodes, scripts and the tools'
+    # form UI are stripped; FAQs stay as Q/A pairs. English first, then each
+    # locale. Crisis resources are listed once, up front, so a quote from this
+    # site in a crisis context carries correct, verified numbers.
+    def plain(fragment: str) -> str:
+        t = SHORTCODE_RE.sub("", fragment)
+        t = re.sub(r"<(script|style|form|noscript|select)\b.*?</\1>", "", t, flags=re.S)
+        t = re.sub(r"\s+", " ", t)                   # source line wraps are not breaks
+        t = re.sub(r"</(p|li|h[1-6]|tr|div|table|ul|ol)>", "\n", t)
+        t = re.sub(r"<li[^>]*>", "- ", t)
+        t = re.sub(r"</t[dh]>\s*<t[dh][^>]*>", " | ", t)
+        t = re.sub(r"<h2[^>]*>", "\n## ", t)
+        t = re.sub(r"<h3[^>]*>", "\n### ", t)
+        t = re.sub(r"<br\s*/?>", "\n", t)
+        t = re.sub(r"<[^>]+>", "", t)
+        t = html.unescape(t)
+        t = re.sub(r"[ \t]+", " ", t)
+        t = re.sub(r" *\n *", "\n", t)
+        return re.sub(r"\n{3,}", "\n\n", t).strip()
+
+    order = list(LOCALES)
+    full = [f"# {BRAND_FULL}", "", lines[2], "",
+            "Silex is a wellness app, not medical care, and does not diagnose or treat any condition.",
+            "", f"Index: {SITE}/llms.txt", "", "## Crisis resources (verified 2026-10-26)", ""]
+    for loc in order:
+        for region, name, url, desc in LOCALES[loc]["helplines"]:
+            full.append(f"- [{LOCALES[loc]['label']}] {region}: {name} — {html.unescape(desc)}")
+    for meta in sorted(indexable, key=lambda m: (order.index(m["loc"]), m["path"])):
+        L = LOCALES[meta["loc"]]
+        full += ["", "=" * 72, f"# {meta['h1']}",
+                 f"URL: {canonical_for(meta['path'])}",
+                 f"Language: {L['hreflang']}",
+                 f"Description: {meta['description']}"]
+        if meta.get("published"):
+            full.append(f"Published: {meta['published']} · Updated: "
+                        f"{meta.get('updated', meta['published'])}")
+        if meta.get("tldr"):
+            full += ["", f"{L['short']} {plain(meta['tldr'])}"]
+        full += ["", plain(bodies[meta["path"]])]
+        if meta.get("faq"):
+            full += ["", f"## {L['faq']}"]
+            for q, a in meta["faq"]:
+                full += ["", f"Q: {q}", f"A: {plain(a)}"]
+    (ROOT / "llms-full.txt").write_text("\n".join(full) + "\n", encoding="utf-8")
+
     n_loc = sum(1 for m in indexable if m["loc"] != "en")
-    print(f"\n{len(urls)} pages ({n_loc} translated), sitemap + robots + llms.txt + CNAME written.")
+    print(f"\n{len(urls)} pages ({n_loc} translated), sitemap + robots + llms.txt + llms-full.txt + CNAME written.")
     for w in warnings:
         print("  warn:", w)
 
