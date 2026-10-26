@@ -89,7 +89,7 @@ LOCALES = {
         nav=[("/es/como-dejar-de-apostar/", "Cómo dejarlo"),
              ("/es/test-ludopatia/", "Test"),
              ("/es/bloquear-apuestas-iphone/", "Bloquear en iPhone")],
-        footer=[("/es/como-dejar-de-apostar/", "Inicio"), ("/about/", "Sobre Silex (EN)"),
+        footer=[("/es/", "Inicio"), ("/about/", "Sobre Silex (EN)"),
                 ("/methodology/", "Metodología (EN)"), ("/privacy/", "Privacidad (EN)")],
         built_by="Hecho por", in_city="en Kiev, Ucrania",
         also_by="Otra app del desarrollador", vr_desc="entrenamiento del suelo pélvico masculino",

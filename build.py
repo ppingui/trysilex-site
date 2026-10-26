@@ -81,7 +81,12 @@ def helpline_block(L: dict) -> str:
 
 
 def cta_block(campaign: str, L: dict) -> str:
-    """The one CTA component. Honest about review status until the app is live."""
+    """The one CTA component. Honest about review status until the app is live.
+    A campaign ending in "_hero" renders as a bare button: at the top of a page the
+    headline is already right above it, and the button must clear the phone fold."""
+    if campaign.endswith("_hero"):
+        return (f'  <p class="cta-hero"><a class="btn" href="{app_store_url(campaign)}">'
+                f'{L["cta_btn"]}</a></p>')
     pending = "" if APP_STORE_LIVE else (
         '\n      <p class="cta-pending">Silex is in App Store review. '
         "This link goes live at launch.</p>"
@@ -112,7 +117,10 @@ def parse_fragment(path: Path, loc: str) -> tuple[dict, str]:
     if loc != "en" and "en" not in meta:
         raise SystemExit(f"{path}: translated page needs an \"en\" key naming its English source")
     meta["loc"] = loc
-    meta["path"] = meta["slug"] if loc == "en" else f"{loc}/{meta['slug']}"
+    if loc == "en":
+        meta["path"] = meta["slug"]
+    else:  # a translated homepage has slug "" and lives at /<locale>/
+        meta["path"] = loc if meta["slug"] == "" else f"{loc}/{meta['slug']}"
     meta["group"] = meta["slug"] if loc == "en" else meta["en"]
     return meta, raw[m.end():]
 
@@ -168,15 +176,30 @@ def alternates_html(meta: dict, groups: dict) -> str:
     return "\n".join(lines) + "\n"
 
 
+def href_for(path: str) -> str:
+    return "/" if path == "" else f"/{path}/"
+
+
+# Where each language starts: its translated homepage if there is one, otherwise
+# its hub (the first nav item). Filled in by main() once all pages are loaded.
+ENTRY: dict[str, str] = {}
+
+
 def langs_html(meta: dict, groups: dict) -> str:
-    versions = groups.get(meta["group"], {})
-    if len(versions) < 2:
-        return ""
     order = list(LOCALES)
+    if meta["group"] == "":
+        # Homepages link every language, not just the ones with a translated
+        # homepage — this row is how visitors (and crawlers) find the rest.
+        # hreflang stays strict and only lists true equivalents.
+        versions = dict(ENTRY)
+    else:
+        versions = groups.get(meta["group"], {})
+        if len(versions) < 2:
+            return ""
     links = []
     for loc in sorted(versions, key=order.index):
         cur = ' aria-current="true"' if loc == meta["loc"] else ""
-        links.append(f'<a href="/{versions[loc]}/" hreflang="{LOCALES[loc]["hreflang"]}" '
+        links.append(f'<a href="{href_for(versions[loc])}" hreflang="{LOCALES[loc]["hreflang"]}" '
                      f'lang="{LOCALES[loc]["html"]}"{cur}>{LOCALES[loc]["label"]}</a>')
     return f'<nav class="langs" aria-label="Language"><div class="wrap">{"".join(links)}</div></nav>\n'
 
@@ -300,7 +323,7 @@ def render(meta: dict, body: str, template: str, groups: dict) -> str:
         "head_extra": '<meta name="robots" content="noindex">\n' if noindex else "",
         "og_image": f"{SITE}/assets/og.png",
         "skip": L["skip"],
-        "home_href": "/" if meta["loc"] == "en" else L["nav"][0][0],
+        "home_href": href_for(ENTRY.get(meta["loc"], "")),
         "nav": nav_html(L, meta["path"]),
         "langs": langs_html(meta, groups),
         "h1": meta["h1"],
@@ -352,6 +375,8 @@ def main() -> None:
         if meta["loc"] in g:
             raise SystemExit(f"{path}: duplicate {meta['loc']} page for group '{meta['group']}'")
         g[meta["loc"]] = meta["path"]
+    for loc, L in LOCALES.items():
+        ENTRY[loc] = groups.get("", {}).get(loc, L["nav"][0][0].strip("/"))
     english = {m["slug"] for m, _, _ in pages if m["loc"] == "en"}
     for key, versions in groups.items():
         if key not in english:

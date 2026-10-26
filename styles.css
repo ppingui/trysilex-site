@@ -251,3 +251,6 @@ tbody tr:last-child td { border-bottom: 0; }
 .langs a { color: var(--muted); text-decoration: none; }
 .langs a:hover { color: var(--text); }
 .langs a[aria-current] { color: var(--mint); }
+
+/* top-of-page CTA: just the button, so it clears the fold on a phone */
+.cta-hero { margin: 0.25rem 0 1.75rem; }
