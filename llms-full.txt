@@ -1126,11 +1126,11 @@ If you spot something in the program that misrepresents a source, write to suppo
 # Privacy Policy
 URL: https://trysilex.com/privacy/
 Language: en
-Description: Silex runs no servers of its own, holds no accounts, and cannot read anything you write in the app. The full GDPR and UK GDPR notice, including the few places data does leave your phone.
+Description: Silex stores nothing about you on any server, holds no accounts, and cannot read anything you write in the app. The full GDPR and UK GDPR notice, including the few places data does leave your phone.
 
-Last updated: 28 October 2026. Canonical version of this notice; it replaces the Notion-hosted copy linked from older builds of the app.
+Last updated: 29 October 2026. Canonical version of this notice; it replaces the Notion-hosted copy linked from older builds of the app.
 Silex is built on one principle: your recovery is nobody's dataset.
-We run no servers, hold no accounts, and have no way to read anything you write in this app. One third party does run a server that receives something: an analytics service is sent the names of the screens you reach, and there is a switch in Settings that stops it. This page explains exactly what that means — including the few places where data does leave your phone, because a privacy policy that only lists the reassuring parts is not a privacy policy.
+We store nothing about you on any server, hold no accounts, and have no way to read anything you write in this app. (The one piece of code we run on a server is the optional Notion connector in §14, which keeps nothing.) One third party does run a server that receives something: an analytics service is sent the names of the screens you reach, and there is a switch in Settings that stops it. This page explains exactly what that means — including the few places where data does leave your phone, because a privacy policy that only lists the reassuring parts is not a privacy policy.
 This notice is written to meet the EU General Data Protection Regulation (GDPR) and the UK GDPR. If you are in the EEA or the UK, the sections on legal bases, transfers and your rights apply to you in full.
 
 ## 1. What you enter stays on your device
@@ -1248,6 +1248,16 @@ This notice also covers Silex — Free Gambling Blocker, the browser extension f
 
 The domain list is derived from The Blocklist Project (public domain) and the UT1 lists of Université Toulouse Capitole (CC BY-SA 4.0).
 
+## 14. The Notion recovery tracker
+Silex Recovery Tracker for Notion is an optional, free connector that sets up a recovery tracker page in your own Notion workspace. It has nothing to do with the app: using one does not touch the other.
+- What runs, and where. A small function we wrote, hosted by Cloudflare. It runs only for the few seconds after you click Connect and approve access in Notion.
+- What it receives. Notion sends it a one-time code, which it swaps for an access token to your workspace. Notion's reply also includes your workspace name and your Notion profile (name, and possibly email and avatar). The function reads only the token and ignores the rest.
+- What it does with the token. It creates one page, two tables and two example rows in your workspace, then sends you to that page. It does not read or search your existing pages, except — only if Notion refuses a top-level page — to find the one page you chose to share, so the tracker can go inside it.
+- What it keeps. Nothing. The token exists only in memory for that one request; there is no database, no file and no copy of anything you write in the tracker. We cannot open your tracker afterwards, and if Notion returns an error, only Notion's error code is logged, never workspace content.
+- Removing it. In Notion, go to Settings → Connections and remove Silex. The tracker stays: it's an ordinary page that belongs to you. Delete it like any other page.
+
+Legal basis: the request you make by clicking Connect (GDPR Art. 6(1)(b)). Cloudflare processes the connection itself (your IP address and request headers) as our processor; see Cloudflare's privacy policy. What you write in the tracker is between you and Notion, under Notion's privacy policy.
+
 ========================================================================
 # Self-exclusion: the strongest block there is
 URL: https://trysilex.com/self-exclusion-guide/
@@ -1355,6 +1365,39 @@ A: Blocking gambling in every app and browser, not just Safari, requires an encr
 
 Q: Does deleting the app delete my data?
 A: Yes, on the device. If iCloud backup was on, also remove the iCloud copy: Settings → your name → iCloud → Manage Account Storage → Silex.
+
+========================================================================
+# Terms of Use
+URL: https://trysilex.com/terms/
+Language: en
+Description: The terms for the Silex app, this website's free tools, the browser extension and the Notion recovery tracker. Short, plain, and honest about what Silex is not.
+
+Last updated: 29 October 2026.
+These terms cover everything called Silex: the iPhone app, the free tools on trysilex.com, the free browser extension, and the free Notion recovery tracker. They're short on purpose.
+
+## 1. Who we are
+Silex is made by one person, Kyrylo Lozovyi, in Kyiv, Ukraine. Contact: support@trysilex.com.
+
+## 2. Silex is not medical care
+Silex is a self-help tool. It doesn't diagnose or treat gambling disorder or any other condition, and it isn't a crisis service. Nothing in it is medical, legal or financial advice. If you're in danger or thinking about harming yourself, call your local emergency number or one of the free helplines listed on every page of this site.
+
+## 3. Blocking is a help, not a guarantee
+No blocker catches every gambling site or app, and any blocker can be removed by the person who installed it. The app, the extension and the website's lists are built in good faith and updated, but we can't promise that something won't get through. Self-exclusion with operators and your bank is the stronger layer, and our self-exclusion guide explains how.
+
+## 4. The app and subscriptions
+The app is distributed through Apple's App Store. Subscriptions are sold, billed, renewed and refunded by Apple, under Apple's terms, and are cancelled in your Apple Account settings. Deleting the app doesn't cancel a subscription. Prices and the free trial are shown in the app before you buy, and on the support page. Unless the App Store listing shows a different licence, the app is licensed to you under Apple's standard end user licence agreement.
+
+## 5. The free tools
+The website's self-check and calculators, the browser extension and the Notion recovery tracker are free. You can use them as much as you like, for yourself or to help someone else. When you connect the Notion tracker, you're asking us to create pages in your Notion workspace; those pages are yours, and what you write in them is between you and Notion. How each tool handles data is in the privacy policy.
+
+## 6. Fair use
+Please don't try to break, overload or reverse-engineer our services to harm others, or use them to promote gambling. The articles on this site may be quoted and linked with credit; please don't republish them in full as your own.
+
+## 7. As-is, and the limits of our responsibility
+Silex is provided as it is, without warranties, to the extent the law allows. To the extent the law allows, we aren't liable for indirect losses, or for losses caused by a site or app the blocker didn't catch. Nothing in these terms limits rights you have under consumer law that can't be limited by contract.
+
+## 8. Changes
+If these terms change, the date at the top changes, and the current version is always at this address.
 
 ========================================================================
 # Deja de apostar para siempre. Quédate con el dinero.
