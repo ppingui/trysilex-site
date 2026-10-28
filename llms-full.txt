@@ -1128,7 +1128,7 @@ URL: https://trysilex.com/privacy/
 Language: en
 Description: Silex runs no servers of its own, holds no accounts, and cannot read anything you write in the app. The full GDPR and UK GDPR notice, including the few places data does leave your phone.
 
-Last updated: 17 August 2026. Canonical version of this notice; it replaces the Notion-hosted copy linked from older builds of the app.
+Last updated: 28 October 2026. Canonical version of this notice; it replaces the Notion-hosted copy linked from older builds of the app.
 Silex is built on one principle: your recovery is nobody's dataset.
 We run no servers, hold no accounts, and have no way to read anything you write in this app. One third party does run a server that receives something: an analytics service is sent the names of the screens you reach, and there is a switch in Settings that stops it. This page explains exactly what that means — including the few places where data does leave your phone, because a privacy policy that only lists the reassuring parts is not a privacy policy.
 This notice is written to meet the EU General Data Protection Regulation (GDPR) and the UK GDPR. If you are in the EEA or the UK, the sections on legal bases, transfers and your rights apply to you in full.
@@ -1236,6 +1236,17 @@ So the promise now reads: material changes are named in this section and in the 
 
 ## 12. Contact
 support@trysilex.com
+
+## 13. The free browser extension
+This notice also covers Silex — Free Gambling Blocker, the browser extension for Chrome, Microsoft Edge and Firefox. It is simpler than the app, and so is this section:
+- It collects nothing. No account, no analytics, no identifiers, and it makes no network requests of its own. Nothing about you or your browsing is sent to us or to anyone else.
+- How it blocks. The extension carries a list of gambling domains inside it. Your browser compares the pages you open against that list locally, using its built-in declarativeNetRequest feature. The browser does not report back to the extension, or to us, which sites you visit or which were blocked.
+- Why it asks for access to all sites. Browsers only let an extension replace a blocked page with its own help page — instead of showing an error — if it holds access to the sites involved. That access is used for nothing else: the extension does not read, change or collect the content of any page.
+- The help page shows crisis lines and links to this website. Following a link is an ordinary visit to trysilex.com, covered by the rest of this notice.
+- Reporting a missed site opens your own email app. What you send is up to you; we use it only to update the list and reply.
+- Removing the extension removes it and everything in it.
+
+The domain list is derived from The Blocklist Project (public domain) and the UT1 lists of Université Toulouse Capitole (CC BY-SA 4.0).
 
 ========================================================================
 # Self-exclusion: the strongest block there is
