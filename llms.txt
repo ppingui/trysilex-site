@@ -6,6 +6,8 @@ Each link below is the Markdown version of a page; drop `index.md` for the web p
 
 The full text of every page, in one file: https://trysilex.com/llms-full.txt
 
+Product documentation (setup, blocking, subscriptions, privacy): https://trysilex.com/docs/llms.txt
+
 ## Pages
 
 - [Quit gambling for good. Keep the money.](https://trysilex.com/index.md): Silex blocks gambling across your iPhone, walks you through a 90-day evidence-based quit program, and counts the money you keep. No accounts, no ads, no profile of you.
@@ -14,6 +16,17 @@ The full text of every page, in one file: https://trysilex.com/llms-full.txt
 - [How to block gambling on Android](https://trysilex.com/block-gambling-apps-android/index.md): Android's built-in Private DNS blocks gambling in every app and browser for free, in about two minutes. Plus Digital Wellbeing, Family Link, and which third-party blockers are worth it.
 - [How to block gambling sites and apps on iPhone](https://trysilex.com/block-gambling-sites-iphone/index.md): Every working method for blocking gambling on an iPhone — Screen Time, a system-wide DNS profile, Safari content blockers, bank blocks and self-exclusion — with what each one actually covers and how easily you can undo it.
 - [How to make your bank decline gambling payments](https://trysilex.com/block-gambling-transactions-bank/index.md): Bank gambling blocks decline payments to betting operators and take days to lift. Which UK banks offer one, what US cardholders can do instead, and why the cooling-off period is the whole point.
+- [Silex documentation](https://trysilex.com/docs/index.md): How to set up and use Silex, the iPhone app that blocks gambling and runs a 90-day quit program: protection, the SOS button, the program, subscriptions and privacy.
+- [Getting started](https://trysilex.com/docs/getting-started/index.md): What Silex asks during onboarding, why it asks it, the risk score and plan it builds, and the three setup steps that run after you subscribe.
+- [Notifications and widgets](https://trysilex.com/docs/notifications/index.md): Every notification Silex sends and when, the discreet wording for shared phones, and the Home Screen, Lock Screen and Control Center widgets.
+- [Privacy and your data](https://trysilex.com/docs/privacy-and-data/index.md): What Silex stores, where (your phone and your private iCloud), the two services it uses, how to turn analytics off, and how to delete everything.
+- [The 90-day program](https://trysilex.com/docs/program/index.md): How the Silex 90-day program is structured: three phases, one short lesson a day, how days unlock, milestone days, and what happens after a lapse.
+- [Progress, money kept and orbs](https://trysilex.com/docs/progress/index.md): How Silex counts gamble-free days, your current run and the money you've kept, plus the daily pledge, the journal and all 20 orbs.
+- [Protection layers](https://trysilex.com/docs/protection/index.md): How Silex blocks gambling: the system-wide DNS shield, the Safari content blocker, and the self-exclusion, bank-block and promo layers you set up outside the app.
+- [Settings reference](https://trysilex.com/docs/settings/index.md): Every option in Silex Settings: money display, goal and currency, notifications, support links, restoring and managing your subscription, and analytics.
+- [The SOS button](https://trysilex.com/docs/sos/index.md): How the Silex SOS flow works step by step, and how to open it from Control Center, Siri and Shortcuts.
+- [Subscriptions](https://trysilex.com/docs/subscriptions/index.md): Silex plans and prices, how the free trial and its reminder work, how to cancel, restore a purchase or get a refund, and what keeps working if your subscription ends.
+- [Troubleshooting](https://trysilex.com/docs/troubleshooting/index.md): Fixes for the common Silex problems: the DNS shield stuck on Installed, the Safari blocker missing, the paywall after paying, and notifications not arriving.
 - [Gamban alternatives](https://trysilex.com/gamban-alternatives/index.md): Gamban costs £4.99 a month or £29.99 a year. Here are the free and paid alternatives that cover the same job, what each does better, and when Gamban is still the right answer.
 - [Gambling debt: where to start](https://trysilex.com/gambling-debt-help/index.md): How to deal with debt from gambling — stop the bleeding, work out what's actually owed, get free charity debt advice, and avoid the consolidation traps aimed at people in exactly this position.
 - [Gambling loss calculator](https://trysilex.com/gambling-loss-calculator/index.md): Put in what you lose in a typical week and see the yearly, 5-year and 10-year total, plus what the same money would have compounded to. Runs in your browser; nothing is stored.

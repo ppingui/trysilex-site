@@ -1,0 +1,50 @@
+<!--meta
+{
+  "slug": "docs/privacy-and-data",
+  "type": "page",
+  "order": 8,
+  "title": "Silex privacy: where your data lives",
+  "description": "What Silex stores, where (your phone and your private iCloud), the two services it uses, how to turn analytics off, and how to delete everything.",
+  "h1": "Privacy and your data"
+}
+-->
+<p class="lede">Silex has no accounts and no server of its own that stores anything about
+  you. This page is the practical summary; the <a href="/privacy/">privacy policy</a> is the
+  full, binding version.</p>
+
+<h2>Where your data lives</h2>
+<ul>
+  <li><strong>On your phone.</strong> Your answers, days, urges, lapses, pledges, journal and
+    program progress are stored in the app.</li>
+  <li><strong>In your private iCloud</strong>, if iCloud is on for your Apple Account. Silex
+    mirrors its data to your own private iCloud database so it survives a new phone. Only
+    your Apple Account can read it; we can't. Without iCloud, data stays on the phone
+    only.</li>
+</ul>
+
+<h2>What leaves your phone</h2>
+<ul>
+  <li><strong>Subscriptions (RevenueCat).</strong> Purchase receipts and an anonymous app
+    user ID, so your subscription works and can be restored. It also receives Apple's
+    anonymous ad-attribution token, if one exists.</li>
+  <li><strong>Anonymous usage (TelemetryDeck).</strong> Which screens and steps are used,
+    with no names, answers or amounts. Turn it off in Settings with <em>Share anonymous
+    usage</em>.</li>
+  <li><strong>DNS lookups</strong>, while the shield is on, go to Mullvad's DNS resolver under
+    its no-logging policy. Silex never sees them.</li>
+  <li><strong>Blocklist updates.</strong> Silex downloads the public gambling blocklist from a
+    content-delivery network. Nothing about you is sent with the request.</li>
+</ul>
+<p>Silex sends nothing you write, and nothing about the sites you visit.</p>
+
+<h2>Deleting your data</h2>
+<ol>
+  <li>Delete the app. That removes everything on the phone.</li>
+  <li>If you used iCloud, also remove the iCloud copy: <strong>Settings › your name ›
+    iCloud › Manage Account Storage › Silex</strong> (on some iOS versions, Manage
+    Storage).</li>
+  <li>To remove the DNS shield too: <strong>Settings › General › VPN, DNS &amp; Device
+    Management › DNS</strong>.</li>
+</ol>
+<p>Deleting the app doesn't cancel a subscription; see
+  <a href="/docs/subscriptions/">Subscriptions</a>. Silex has no data export.</p>

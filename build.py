@@ -185,6 +185,29 @@ def href_for(path: str) -> str:
 # its hub (the first nav item). Filled in by main() once all pages are loaded.
 ENTRY: dict[str, str] = {}
 
+# The product docs under /docs/, in reading order. Filled in by main().
+DOCS: list[dict] = []
+
+
+def is_doc(meta: dict) -> bool:
+    return meta["path"] == "docs" or meta["path"].startswith("docs/")
+
+
+def llms_href(meta: dict) -> str:
+    """The llms.txt an agent should start from: the docs keep their own index."""
+    return "/docs/llms.txt" if is_doc(meta) else "/llms.txt"
+
+
+def docs_toc_html(meta: dict) -> str:
+    """Contents list at the end of every docs page."""
+    rows = []
+    for d in DOCS:
+        cur = ' aria-current="page"' if d is meta else ""
+        rows.append(f'      <li><a href="/{d["path"]}/"{cur}>{d["h1"]}</a></li>')
+    items = "\n".join(rows)
+    return (f'  <section class="docs-toc">\n    <h2>Silex documentation</h2>\n'
+            f"    <ul>\n{items}\n    </ul>\n  </section>")
+
 
 def langs_html(meta: dict, groups: dict) -> str:
     order = list(LOCALES)
@@ -331,7 +354,8 @@ def render(meta: dict, body: str, template: str, groups: dict) -> str:
         "byline": byline_html(meta, L),
         "tldr": tldr_html,
         "body": body.strip(),
-        "faq": faq_html(meta.get("faq", []), L),
+        "faq": faq_html(meta.get("faq", []), L) + (docs_toc_html(meta) if is_doc(meta) else ""),
+        "llms_href": llms_href(meta),
         "helplines": helpline_block(L),
         "jsonld": jsonld_for(meta, L),
         "analytics": analytics,
@@ -356,7 +380,8 @@ def visual_len(s: str) -> int:
 
 
 def load_pages() -> list[tuple[dict, str, Path]]:
-    pages = [(*parse_fragment(p, "en"), p) for p in sorted(PAGES.glob("*.html"))]
+    pages = [(*parse_fragment(p, "en"), p)
+             for p in sorted(PAGES.glob("*.html")) + sorted((PAGES / "docs").glob("*.html"))]
     for loc in LOCALES:
         if loc == "en":
             continue
@@ -382,6 +407,8 @@ def main() -> None:
     for key, versions in groups.items():
         if key not in english:
             raise SystemExit(f"translations point at English page '{key}', which does not exist")
+
+    DOCS[:] = sorted((m for m, _, _ in pages if is_doc(m)), key=lambda m: m.get("order", 0))
 
     warnings = []
     bodies: dict[str, str] = {}
@@ -439,7 +466,7 @@ def main() -> None:
 
     for meta in indexable:
         page_dir = ROOT / meta["path"] if meta["path"] else ROOT
-        header = (f"> For the complete index of this site, see [llms.txt]({SITE}/llms.txt). "
+        header = (f"> For the complete index of this site, see [llms.txt]({SITE}{llms_href(meta)}). "
                   f"This page on the web: {canonical_for(meta['path'])}")
         md = page_markdown((page_dir / "index.html").read_text(encoding="utf-8"),
                            canonical_for(meta["path"]), header)
@@ -454,6 +481,7 @@ def main() -> None:
              "", "Each link below is the Markdown version of a page; drop `index.md` for the "
              "web page.",
              "", f"The full text of every page, in one file: {SITE}/llms-full.txt",
+             "", f"Product documentation (setup, blocking, subscriptions, privacy): {SITE}/docs/llms.txt",
              "", "## Pages", ""]
     for meta in sorted((m for m in indexable if m["loc"] == "en"), key=lambda m: m["path"]):
         lines.append(f"- [{meta['h1']}]({md_url(meta['path'])}): {meta['description']}")
@@ -462,6 +490,18 @@ def main() -> None:
         lines.append(f"- [{meta['h1']}]({md_url(meta['path'])}) ({LOCALES[meta['loc']]['label']}): "
                      f"{meta['description']}")
     (ROOT / "llms.txt").write_text("\n".join(lines) + "\n", encoding="utf-8")
+
+    # /docs/llms.txt: the product docs on their own, where docs tools look first.
+    docs = ["# Silex documentation", "",
+            "> How to set up and use Silex, the iPhone app that blocks gambling and runs a "
+            "90-day quit program: protection layers, the SOS button, the program, "
+            "subscriptions, privacy and troubleshooting.", "",
+            "Each link is the Markdown version of a page; drop `index.md` for the web page.",
+            "", f"Everything else on the site, including the free guides: {SITE}/llms.txt",
+            "", "## Docs", ""]
+    for meta in DOCS:
+        docs.append(f"- [{meta['h1']}]({md_url(meta['path'])}): {meta['description']}")
+    (ROOT / "docs" / "llms.txt").write_text("\n".join(docs) + "\n", encoding="utf-8")
 
     # llms-full.txt: every indexable page as plain text, for answer engines that
     # fetch the whole site in one request. Shortcodes, scripts and the tools'

@@ -1,0 +1,75 @@
+<!--meta
+{
+  "slug": "docs/protection",
+  "type": "page",
+  "order": 2,
+  "title": "Protection layers: DNS shield and Safari blocker",
+  "description": "How Silex blocks gambling: the system-wide DNS shield, the Safari content blocker, and the self-exclusion, bank-block and promo layers you set up outside the app.",
+  "h1": "Protection layers"
+}
+-->
+<p class="lede">The Protect tab shows five layers as a ring, <em>N/5 layers</em>. Two are
+  switched on in the app and checked live against the system. Three happen outside the app,
+  and you mark each one done yourself.</p>
+
+<h2>1. System-wide DNS shield</h2>
+<p>The shield is the single biggest layer. It installs an encrypted-DNS (DNS over HTTPS)
+  setting so that gambling domains fail to load in every app and browser on the phone, not
+  just Safari. Lookups are answered by Mullvad's family DNS resolver, under Mullvad's
+  no-logging policy; Silex is not in that path and never sees your browsing. Besides
+  gambling, the family resolver also filters ads, trackers, malware and adult sites.</p>
+<ol>
+  <li>In Silex, open <strong>Protect</strong> and tap the DNS shield (or <em>Turn on the
+    shield</em> during first-run setup).</li>
+  <li>Approve the iOS dialog that asks to add a DNS configuration.</li>
+  <li>Open <strong>Settings › General › VPN, DNS &amp; Device Management › DNS</strong> and
+    select <strong>Silex Shield</strong>.</li>
+</ol>
+<p>The row in Silex then reads <em>Active — blocking gambling across your apps and
+  browsers</em>. If it says <em>Installed</em>, step 3 isn't done yet.</p>
+
+<h2>2. Safari blocker</h2>
+<p>A Safari content blocker called <strong>Silex Site Blocker</strong> blocks gambling
+  domains inside Safari from a list stored on your phone. The bundled list holds about
+  294,000 domains, and Silex adds a public gambling blocklist (about 385,000 domains) that it
+  downloads and refreshes in the background every few days. Checking a site against the list
+  happens on the phone; nothing about your browsing is sent anywhere.</p>
+<ol>
+  <li>In Silex, open <strong>Protect</strong> and follow the Safari guide, or go straight
+    to iOS Settings.</li>
+  <li>Open <strong>Settings › Apps › Safari › Extensions</strong>.</li>
+  <li>Turn on <strong>Silex Site Blocker</strong>.</li>
+</ol>
+<p>When it's on, the row shows how many gambling domains are blocked. It covers Safari only;
+  other browsers are covered by the DNS shield.</p>
+
+<h2>3. Self-exclusion</h2>
+<p>Self-exclusion bars you from operators for a fixed period and can't be lifted on an
+  impulse. Silex shows the scheme for your region: GAMSTOP in the UK, state programs in the
+  US, and operator-by-operator exclusion elsewhere. Our
+  <a href="/self-exclusion-guide/">self-exclusion guide</a> covers each in detail. Tap
+  <em>I've done this</em> when it's in place.</p>
+
+<h2>4. Bank gambling block</h2>
+<p>Many banks can decline payments to gambling merchants, and lifting the block takes days.
+  Silex walks you through finding the setting in your banking app. See
+  <a href="/block-gambling-transactions-bank/">how bank gambling blocks work</a>.</p>
+
+<h2>5. Kill the promos</h2>
+<p>Unsubscribe from gambling emails and texts, and turn off push notifications from betting
+  apps, so offers stop arriving when you're vulnerable. Silex lists the steps for email, SMS
+  and push.</p>
+
+<h2>Limits, honestly</h2>
+<ul>
+  <li>No iPhone app can make itself impossible to remove. Anyone determined can switch off
+    the shield or delete Silex in seconds, which is why layers 3 and 4 matter: they can't be
+    undone on impulse.</li>
+  <li>Screen Time and Family Controls (blocking specific apps) are not part of Silex yet.
+    You can still set an iOS Screen Time passcode yourself and give it to someone you
+    trust.</li>
+  <li>A work or school device-management profile can override the shield, and a managed
+    phone may block it entirely.</li>
+  <li>The shield doesn't survive a factory reset or a move to a new phone. Run the setup
+    again.</li>
+</ul>

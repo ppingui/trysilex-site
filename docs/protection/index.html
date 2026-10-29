@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Protection layers: DNS shield and Safari blocker</title>
+<meta name="description" content="How Silex blocks gambling: the system-wide DNS shield, the Safari content blocker, and the self-exclusion, bank-block and promo layers you set up outside the app.">
+<link rel="canonical" href="https://trysilex.com/docs/protection/">
+<meta name="apple-itunes-app" content="app-id=6798826038">
+<meta name="theme-color" content="#0A0B10">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Silex">
+<meta property="og:locale" content="en_US">
+<meta property="og:title" content="Protection layers: DNS shield and Safari blocker">
+<meta property="og:description" content="How Silex blocks gambling: the system-wide DNS shield, the Safari content blocker, and the self-exclusion, bank-block and promo layers you set up outside the app.">
+<meta property="og:url" content="https://trysilex.com/docs/protection/">
+<meta property="og:image" content="https://trysilex.com/assets/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/assets/favicon.png" sizes="any">
+<link rel="apple-touch-icon" href="/assets/icon-180.png">
+<link rel="stylesheet" href="/styles.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Person","@id":"https://www.vitalityrize.me/#kyrylo","name":"Kyrylo Lozovyi","url":"https://trysilex.com/about/","jobTitle":"Independent iOS developer","worksFor":{"@id":"https://trysilex.com/#org"},"sameAs":["https://github.com/ppingui","https://www.vitalityrize.me/about/"]},{"@type":"Organization","@id":"https://trysilex.com/#org","name":"Silex — Stop Gambling","url":"https://trysilex.com","founder":{"@id":"https://www.vitalityrize.me/#kyrylo"},"email":"support@trysilex.com"}]}</script>
+
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<p class="agent-hint" aria-hidden="true">For AI agents: an index of every page on this site is at <a href="/docs/llms.txt" tabindex="-1">/docs/llms.txt</a>, and every page has a Markdown copy at its URL plus index.md.</p>
+
+<header class="site-head">
+  <div class="wrap head-inner">
+    <a class="logo" href="/"><span>Silex</span></a>
+    <nav aria-label="Main"><a href="/how-to-stop-gambling/">How to stop</a><a href="/best-gambling-blocker-apps/">Blockers</a><a href="/gambling-self-check/">Self-check</a><a href="/about/">About</a></nav>
+  </div>
+</header>
+
+<main id="main" class="wrap page">
+  <h1>Protection layers</h1>
+
+
+<p class="lede">The Protect tab shows five layers as a ring, <em>N/5 layers</em>. Two are
+  switched on in the app and checked live against the system. Three happen outside the app,
+  and you mark each one done yourself.</p>
+
+<h2>1. System-wide DNS shield</h2>
+<p>The shield is the single biggest layer. It installs an encrypted-DNS (DNS over HTTPS)
+  setting so that gambling domains fail to load in every app and browser on the phone, not
+  just Safari. Lookups are answered by Mullvad's family DNS resolver, under Mullvad's
+  no-logging policy; Silex is not in that path and never sees your browsing. Besides
+  gambling, the family resolver also filters ads, trackers, malware and adult sites.</p>
+<ol>
+  <li>In Silex, open <strong>Protect</strong> and tap the DNS shield (or <em>Turn on the
+    shield</em> during first-run setup).</li>
+  <li>Approve the iOS dialog that asks to add a DNS configuration.</li>
+  <li>Open <strong>Settings › General › VPN, DNS &amp; Device Management › DNS</strong> and
+    select <strong>Silex Shield</strong>.</li>
+</ol>
+<p>The row in Silex then reads <em>Active — blocking gambling across your apps and
+  browsers</em>. If it says <em>Installed</em>, step 3 isn't done yet.</p>
+
+<h2>2. Safari blocker</h2>
+<p>A Safari content blocker called <strong>Silex Site Blocker</strong> blocks gambling
+  domains inside Safari from a list stored on your phone. The bundled list holds about
+  294,000 domains, and Silex adds a public gambling blocklist (about 385,000 domains) that it
+  downloads and refreshes in the background every few days. Checking a site against the list
+  happens on the phone; nothing about your browsing is sent anywhere.</p>
+<ol>
+  <li>In Silex, open <strong>Protect</strong> and follow the Safari guide, or go straight
+    to iOS Settings.</li>
+  <li>Open <strong>Settings › Apps › Safari › Extensions</strong>.</li>
+  <li>Turn on <strong>Silex Site Blocker</strong>.</li>
+</ol>
+<p>When it's on, the row shows how many gambling domains are blocked. It covers Safari only;
+  other browsers are covered by the DNS shield.</p>
+
+<h2>3. Self-exclusion</h2>
+<p>Self-exclusion bars you from operators for a fixed period and can't be lifted on an
+  impulse. Silex shows the scheme for your region: GAMSTOP in the UK, state programs in the
+  US, and operator-by-operator exclusion elsewhere. Our
+  <a href="/self-exclusion-guide/">self-exclusion guide</a> covers each in detail. Tap
+  <em>I've done this</em> when it's in place.</p>
+
+<h2>4. Bank gambling block</h2>
+<p>Many banks can decline payments to gambling merchants, and lifting the block takes days.
+  Silex walks you through finding the setting in your banking app. See
+  <a href="/block-gambling-transactions-bank/">how bank gambling blocks work</a>.</p>
+
+<h2>5. Kill the promos</h2>
+<p>Unsubscribe from gambling emails and texts, and turn off push notifications from betting
+  apps, so offers stop arriving when you're vulnerable. Silex lists the steps for email, SMS
+  and push.</p>
+
+<h2>Limits, honestly</h2>
+<ul>
+  <li>No iPhone app can make itself impossible to remove. Anyone determined can switch off
+    the shield or delete Silex in seconds, which is why layers 3 and 4 matter: they can't be
+    undone on impulse.</li>
+  <li>Screen Time and Family Controls (blocking specific apps) are not part of Silex yet.
+    You can still set an iOS Screen Time passcode yourself and give it to someone you
+    trust.</li>
+  <li>A work or school device-management profile can override the shield, and a managed
+    phone may block it entirely.</li>
+  <li>The shield doesn't survive a factory reset or a move to a new phone. Run the setup
+    again.</li>
+</ul>
+  <section class="docs-toc">
+    <h2>Silex documentation</h2>
+    <ul>
+      <li><a href="/docs/">Silex documentation</a></li>
+      <li><a href="/docs/getting-started/">Getting started</a></li>
+      <li><a href="/docs/protection/" aria-current="page">Protection layers</a></li>
+      <li><a href="/docs/sos/">The SOS button</a></li>
+      <li><a href="/docs/program/">The 90-day program</a></li>
+      <li><a href="/docs/progress/">Progress, money kept and orbs</a></li>
+      <li><a href="/docs/notifications/">Notifications and widgets</a></li>
+      <li><a href="/docs/subscriptions/">Subscriptions</a></li>
+      <li><a href="/docs/privacy-and-data/">Privacy and your data</a></li>
+      <li><a href="/docs/settings/">Settings reference</a></li>
+      <li><a href="/docs/troubleshooting/">Troubleshooting</a></li>
+    </ul>
+  </section>
+</main>
+
+<div class="wrap">
+  <aside class="helplines" aria-label="If you need someone right now">
+    <h2>If you need someone right now</h2>
+    <ul>
+      <li><span class="hl-region">US</span><a href="tel:18004262537">1-800-GAMBLER</a><span class="hl-note">National Problem Gambling Helpline — free, confidential, 24/7</span></li>
+      <li><span class="hl-region">US</span><a href="tel:988">988</a><span class="hl-note">Suicide &amp; Crisis Lifeline — call or text if it feels like too much</span></li>
+      <li><span class="hl-region">UK</span><a href="tel:08088020133">0808 8020 133</a><span class="hl-note">National Gambling Helpline (GamCare) — free, confidential, 24/7</span></li>
+      <li><span class="hl-region">UK</span><a href="tel:116123">116 123</a><span class="hl-note">Samaritans</span></li>
+      <li><span class="hl-region">Elsewhere</span><a href="https://findahelpline.com">findahelpline.com</a><span class="hl-note">Crisis lines for your country</span></li>
+    </ul>
+  </aside>
+</div>
+
+<footer class="site-foot">
+  <div class="wrap">
+    <p class="disclaimer">Silex helps you build healthier habits around gambling. It is not medical care and doesn't diagnose or treat any condition. If you are in crisis, use the numbers above.</p>
+    <nav aria-label="Footer"><a href="/">Home</a>
+      <a href="/about/">About</a>
+      <a href="/methodology/">Methodology</a>
+      <a href="/docs/">Docs</a>
+      <a href="/support/">Support</a>
+      <a href="/privacy/">Privacy</a>
+      <a href="/terms/">Terms</a></nav>
+    <p class="copy">© 2026 Silex · Built by <a href="/about/">Kyrylo Lozovyi</a> in Kyiv, Ukraine · <a href="mailto:support@trysilex.com">support@trysilex.com</a>
+      · Also by the developer: <a href="https://www.vitalityrize.me/">VitalityRise</a>, men's pelvic floor training</p>
+  </div>
+</footer>
+</body>
+</html>

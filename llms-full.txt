@@ -465,6 +465,385 @@ Q: Is a bank block better than a blocker app?
 A: It is stronger, because you cannot lift it in the ninety seconds an urge lasts. It is also narrower, because it only touches money movement, not access. Use both.
 
 ========================================================================
+# Silex documentation
+URL: https://trysilex.com/docs/
+Language: en
+Description: How to set up and use Silex, the iPhone app that blocks gambling and runs a 90-day quit program: protection, the SOS button, the program, subscriptions and privacy.
+
+Silex is an iPhone app for people who want to stop gambling. It blocks gambling sites and apps across the phone, runs a 90-day quit program one day at a time, gives you an SOS button for the worst minute of an urge, and counts the money you keep. These pages explain how each part works and how to set it up.
+
+## Requirements
+- Device: iPhone with iOS 17.0 or later. Silex is iPhone only, in portrait, with a dark interface.
+- Languages: 22: English, Danish, Dutch, Finnish, French, German, Indonesian, Italian, Japanese, Korean, Norwegian, Polish, Portuguese (Brazil), Russian, Simplified Chinese, Spanish, Swedish, Thai, Traditional Chinese, Turkish, Ukrainian and Vietnamese.
+- Account: none. There is no sign-up and no login. Your data lives on your phone and, if you use iCloud, in your own private iCloud database.
+- Price: a subscription, $4.99 a week or $49.99 a year with a free trial. See Subscriptions.
+
+## Where to start
+- Getting started: what onboarding asks and the three setup steps after it.
+- Protection layers: the DNS shield, the Safari blocker and the three layers you set up outside the app.
+- The SOS button: the urge flow, and how to reach it from the Lock Screen, Control Center and Siri.
+- The 90-day program: phases, how days unlock, and what happens after a lapse.
+- Progress, money kept and orbs: how each number is calculated.
+- Notifications and widgets: what Silex sends, when, and the discreet wording.
+- Subscriptions: plans, the trial, cancelling, restoring, and what stays free.
+- Privacy and your data: what is stored where, analytics, and deleting everything.
+- Settings reference: every option in Settings.
+- Troubleshooting: fixes for the common problems and how to reach a person.
+
+## What Silex is not
+Silex is a self-help tool, not medical care. It doesn't diagnose or treat gambling disorder, and it isn't a crisis service. If you are in danger, call your local emergency number or one of the free helplines listed at the bottom of every page.
+
+========================================================================
+# Getting started
+URL: https://trysilex.com/docs/getting-started/
+Language: en
+Description: What Silex asks during onboarding, why it asks it, the risk score and plan it builds, and the three setup steps that run after you subscribe.
+
+Onboarding takes a few minutes. Everything you answer stays on your phone, and a Talk to someone button in the header opens free crisis lines at any point.
+
+## 1. Install
+Download Silex from the App Store on an iPhone running iOS 17.0 or later. There is no account to create.
+
+## 2. Onboarding
+Silex asks a short set of questions and builds your plan from the answers. You can go back with the arrow at the top of each question.
+- Your name (optional, Skip for now works).
+- What you gamble on and how often.
+- When you last gambled. Your gamble-free days count from that date.
+- How much you put in per week. This drives the money-kept counter.
+- The nine PGSI questions, the standard Problem Gambling Severity Index about the last 12 months.
+- Whether you hide your gambling from people close to you. If you say yes, Silex turns on discreet notification wording automatically, and if you say most of it, it also hides money amounts.
+- What gambling is mostly for (escape, the rush, or winning back losses), when urges hit hardest, and why you're quitting. Your reasons come back to you in the SOS flow.
+
+Silex then shows what your weekly stake adds up to over one and five years, and your risk score out of 27. The score is a screening result, not a diagnosis. Tap See my plan, commit to it, and sign with a press and hold. The signature earns your first orb, The Vow.
+If you leave onboarding half way, Silex picks up where you stopped next time you open it.
+
+## 3. Subscribe
+The program and the protection tools need a subscription. Before the paywall, Silex asks for permission to send notifications so it can remind you before a free trial ends. Plans and prices are on the paywall and in Subscriptions.
+
+## 4. First-run setup
+Right after you subscribe, three short steps run:
+- Turn on your shield. Installs the system-wide DNS shield. You approve one iOS dialog and switch it on in Settings; details in Protection layers.
+- Let Silex reach you. Allows notifications if you skipped them earlier.
+- Start Day 1. The first lesson takes about four minutes and lights your second orb, First Light.
+
+Each step has a Skip for now or Later option, and the Your first three days checklist on the Today tab keeps track of what's left.
+
+## The four tabs
+- Today: days free, your current run, money kept, today's pledge, a quick urge log, your pattern this week, and I gambled — reset with me. The gear opens Settings.
+- Program: the 90-day program, Storm to Clarity.
+- Protect: your five protection layers and their status.
+- Progress: money kept, your goal, your orbs, the 90-day timeline and your journal.
+
+The SOS button floats over every tab.
+
+========================================================================
+# Notifications and widgets
+URL: https://trysilex.com/docs/notifications/
+Language: en
+Description: Every notification Silex sends and when, the discreet wording for shared phones, and the Home Screen, Lock Screen and Control Center widgets.
+
+All Silex notifications are scheduled on your phone; none come from a server. Turn them off any time in iOS Settings › Notifications › Silex.
+
+## What Silex sends
+Notification | When
+Today's program day | 9:00 each morning
+Evening pledge | 20:30 every evening, the classic urge window: a nudge to make today's pledge, or a reminder that SOS is one tap away if you already have
+Risky-hour heads-up | 30 minutes before the time you said urges hit hardest
+Milestones | 10:00 on days 3, 7, 14, 21, 30 and 90
+Still in your corner | After three days without opening the app
+Trial reminder | The day before a free trial ends
+After graduation | A check-in on day 120, then a weekly Sunday check
+
+If you leave onboarding before subscribing, Silex sends up to three reminders, on days 1, 3 and 7. After a lapse, reminders are rescheduled.
+
+## Discreet mode
+If you told Silex during onboarding that you hide your gambling, notifications use neutral wording that doesn't mention gambling, for phones others might see. If you said you hide most of it, money amounts are hidden in the app too.
+
+## Widgets
+- Days free: small, medium and large Home Screen widgets, plus circular, rectangular and inline Lock Screen widgets.
+- SOS control: a Control Center button that opens the urge flow in one press (iOS 18 or later).
+- Urge timer: a Live Activity on the Lock Screen and in the Dynamic Island while you ride out an urge.
+
+========================================================================
+# Privacy and your data
+URL: https://trysilex.com/docs/privacy-and-data/
+Language: en
+Description: What Silex stores, where (your phone and your private iCloud), the two services it uses, how to turn analytics off, and how to delete everything.
+
+Silex has no accounts and no server of its own that stores anything about you. This page is the practical summary; the privacy policy is the full, binding version.
+
+## Where your data lives
+- On your phone. Your answers, days, urges, lapses, pledges, journal and program progress are stored in the app.
+- In your private iCloud, if iCloud is on for your Apple Account. Silex mirrors its data to your own private iCloud database so it survives a new phone. Only your Apple Account can read it; we can't. Without iCloud, data stays on the phone only.
+
+## What leaves your phone
+- Subscriptions (RevenueCat). Purchase receipts and an anonymous app user ID, so your subscription works and can be restored. It also receives Apple's anonymous ad-attribution token, if one exists.
+- Anonymous usage (TelemetryDeck). Which screens and steps are used, with no names, answers or amounts. Turn it off in Settings with Share anonymous usage.
+- DNS lookups, while the shield is on, go to Mullvad's DNS resolver under its no-logging policy. Silex never sees them.
+- Blocklist updates. Silex downloads the public gambling blocklist from a content-delivery network. Nothing about you is sent with the request.
+
+Silex sends nothing you write, and nothing about the sites you visit.
+
+## Deleting your data
+- Delete the app. That removes everything on the phone.
+- If you used iCloud, also remove the iCloud copy: Settings › your name › iCloud › Manage Account Storage › Silex (on some iOS versions, Manage Storage).
+- To remove the DNS shield too: Settings › General › VPN, DNS & Device Management › DNS.
+
+Deleting the app doesn't cancel a subscription; see Subscriptions. Silex has no data export.
+
+========================================================================
+# The 90-day program
+URL: https://trysilex.com/docs/program/
+Language: en
+Description: How the Silex 90-day program is structured: three phases, one short lesson a day, how days unlock, milestone days, and what happens after a lapse.
+
+The program is called Storm to Clarity: 90 authored days, one a day, each about four minutes. It is built from cognitive behavioural therapy for gambling and the research on how gambling products are designed; the sources are on the methodology page.
+
+## Three phases
+Days | Phase | In the app's words
+1–30 | See the Machine | It was engineered. Drop the shame.
+31–60 | Rewire | Your brain is resetting. Trust the timeline.
+61–90 | Fortify | Build the life that competes.
+
+Your answer to When you gamble, it's mostly to… during onboarding tunes the program to what gambling does for you, so the examples and exercises fit.
+
+## A day's lesson
+Each day is a short deck of cards: reading, quizzes, sliders, fill-ins, simulators, guided exercises and a small action to take. Days 30 and 90 end with a ceremony, and days 7, 30, 60 and 90 are milestones.
+
+## How days unlock
+- One new day unlocks per calendar day. When you finish, Silex shows Done for today. Day N unlocks tomorrow. You can Read again any finished day.
+- Days never expire. If you miss a day, the program waits for you; it only moves on when you complete the current day.
+- After three or more quiet days, you're welcomed back where you left off.
+
+## After a lapse
+A lapse is a moment, not the end of your recovery. Tap I gambled — reset with me on the Today tab and Silex walks you through it:
+- What set it off? Pick the trigger.
+- Roughly how much? The amount comes off your money-kept total.
+- Noted. Now it's data, not a secret. Then Back on track.
+
+What changes afterwards:
+- Your current run starts again from the lapse. Your total days free is never wiped: it keeps every gamble-free day you've had.
+- A Reset day is added before your next scheduled day. It doesn't use up a calendar day, and finishing it earns the Kintsugi orb.
+- Your reminders are rescheduled around the lapse.
+
+The program and lessons need an active subscription. The lapse flow itself, SOS and the crisis lines don't; see what stays free.
+
+========================================================================
+# Progress, money kept and orbs
+URL: https://trysilex.com/docs/progress/
+Language: en
+Description: How Silex counts gamble-free days, your current run and the money you've kept, plus the daily pledge, the journal and all 20 orbs.
+
+Silex shows three numbers on the Today tab. Each one is calculated on your phone from what you told it during onboarding and what you've logged since.
+
+## Days free
+The number of full days since the date you last gambled (you set it during onboarding), minus any days you logged a lapse. It is never reset to zero: a lapse costs that day, not the ones before it.
+
+## Current run
+Days since your most recent lapse, or since your last-gambled date if you haven't lapsed. This is the streak that does start again.
+
+## Money kept
+Days free × (your weekly stake ÷ 7) − whatever you logged losing in lapses, never below zero. With a $140 weekly stake and 30 days free, that's $600 kept.
+- Set a goal, change the currency, or hide amounts in Settings. Hide money on the Progress tab does the same.
+- Reaching your goal earns the Kept Gold orb.
+
+## Today's pledge
+A daily check-in on the Today tab: I won't gamble today. Thirty pledges earn Steady Hand.
+
+## Journal
+Opened from the Progress and Program tabs. A timeline of your urges, lapses and pledges, your written reflections from the program, and from Day 15 a chart of how your beliefs about gambling are shifting. Ten reflections earn Scribe.
+
+## Your orbs
+Twenty collectible orbs mark real progress, each opened with a short reveal. They can't be bought and there is no leaderboard.
+Orb | How you earn it
+The Vow | Sign your commitment in onboarding
+First Light | Complete program day 1
+Ember Held | Complete 3 program days
+One Week | Complete 7 program days
+Fortnight | Complete 14 program days
+Eyes Open | Complete 21 program days
+One Month | Complete 30 program days
+Rewired | Complete 45 program days
+Two Months | Complete 60 program days
+Ninety | Complete 90 program days
+Graduate | Complete all 90 program days
+Half Year | 180 days free
+One Year | 365 days free
+First Stand | Ride out your first urge in SOS
+Ten Stands | Ride out 10 urges
+Kintsugi | Complete the Reset day after a lapse
+Shieldbearer | Have all five protection layers on
+Kept Gold | Reach your money goal
+Scribe | Write 10 reflections
+Steady Hand | Make 30 pledges
+
+========================================================================
+# Protection layers
+URL: https://trysilex.com/docs/protection/
+Language: en
+Description: How Silex blocks gambling: the system-wide DNS shield, the Safari content blocker, and the self-exclusion, bank-block and promo layers you set up outside the app.
+
+The Protect tab shows five layers as a ring, N/5 layers. Two are switched on in the app and checked live against the system. Three happen outside the app, and you mark each one done yourself.
+
+## 1. System-wide DNS shield
+The shield is the single biggest layer. It installs an encrypted-DNS (DNS over HTTPS) setting so that gambling domains fail to load in every app and browser on the phone, not just Safari. Lookups are answered by Mullvad's family DNS resolver, under Mullvad's no-logging policy; Silex is not in that path and never sees your browsing. Besides gambling, the family resolver also filters ads, trackers, malware and adult sites.
+- In Silex, open Protect and tap the DNS shield (or Turn on the shield during first-run setup).
+- Approve the iOS dialog that asks to add a DNS configuration.
+- Open Settings › General › VPN, DNS & Device Management › DNS and select Silex Shield.
+
+The row in Silex then reads Active — blocking gambling across your apps and browsers. If it says Installed, step 3 isn't done yet.
+
+## 2. Safari blocker
+A Safari content blocker called Silex Site Blocker blocks gambling domains inside Safari from a list stored on your phone. The bundled list holds about 294,000 domains, and Silex adds a public gambling blocklist (about 385,000 domains) that it downloads and refreshes in the background every few days. Checking a site against the list happens on the phone; nothing about your browsing is sent anywhere.
+- In Silex, open Protect and follow the Safari guide, or go straight to iOS Settings.
+- Open Settings › Apps › Safari › Extensions.
+- Turn on Silex Site Blocker.
+
+When it's on, the row shows how many gambling domains are blocked. It covers Safari only; other browsers are covered by the DNS shield.
+
+## 3. Self-exclusion
+Self-exclusion bars you from operators for a fixed period and can't be lifted on an impulse. Silex shows the scheme for your region: GAMSTOP in the UK, state programs in the US, and operator-by-operator exclusion elsewhere. Our self-exclusion guide covers each in detail. Tap I've done this when it's in place.
+
+## 4. Bank gambling block
+Many banks can decline payments to gambling merchants, and lifting the block takes days. Silex walks you through finding the setting in your banking app. See how bank gambling blocks work.
+
+## 5. Kill the promos
+Unsubscribe from gambling emails and texts, and turn off push notifications from betting apps, so offers stop arriving when you're vulnerable. Silex lists the steps for email, SMS and push.
+
+## Limits, honestly
+- No iPhone app can make itself impossible to remove. Anyone determined can switch off the shield or delete Silex in seconds, which is why layers 3 and 4 matter: they can't be undone on impulse.
+- Screen Time and Family Controls (blocking specific apps) are not part of Silex yet. You can still set an iOS Screen Time passcode yourself and give it to someone you trust.
+- A work or school device-management profile can override the shield, and a managed phone may block it entirely.
+- The shield doesn't survive a factory reset or a move to a new phone. Run the setup again.
+
+========================================================================
+# Settings reference
+URL: https://trysilex.com/docs/settings/
+Language: en
+Description: Every option in Silex Settings: money display, goal and currency, notifications, support links, restoring and managing your subscription, and analytics.
+
+Open Settings with the gear on the Today tab.
+
+## Money
+- Show money kept: show or hide money amounts across the app.
+- Goal and Goal amount: something to save towards. The Progress tab shows how far along you are, and reaching it earns the Kept Gold orb.
+- Currency: the currency amounts are shown in.
+
+## Defense
+- Re-enable notifications: asks for permission if you haven't answered yet, and sets all of Silex's reminders up again. If you turned notifications off in iOS Settings, switch them back on there first.
+
+## Support
+- Crisis resources & helplines: free lines for your region.
+- Send us a message: email the developer.
+- Restore purchases and Manage subscription.
+- Privacy policy.
+
+## Your data
+- A short statement of what is stored and where (see Privacy and your data).
+- Share anonymous usage: on by default; turn it off to stop anonymous analytics.
+
+## Not in Settings
+- Discreet notifications are set from your onboarding answers, not a switch.
+- Protection is managed on the Protect tab and in iOS Settings.
+- Notification types and sounds are in iOS Settings › Notifications › Silex.
+
+========================================================================
+# The SOS button
+URL: https://trysilex.com/docs/sos/
+Language: en
+Description: How the Silex SOS flow works step by step, and how to open it from Control Center, Siri and Shortcuts.
+
+An urge to gamble usually peaks and passes within about 20 to 30 minutes. The SOS flow is built to get you through that window. It is never behind the paywall, and a Talk to someone link to free crisis lines is on every step.
+
+## The four steps
+- Rate it. How strong is the urge right now? on a 1 to 10 dial, then Help me through it.
+- Breathe. Three rounds of slow breathing: in for 4, hold for 4, out for 6. Skip to the wave jumps ahead.
+- Ride the wave. A 10-minute urge-surfing timer. It also runs as a Live Activity on the Lock Screen and in the Dynamic Island, so you can put the phone down. Tap The urge has passed whenever it has, or I made it when the timer ends.
+- Anchor. Your own reasons for quitting, the money you've kept (unless you hide money amounts), and up to three of your own answers from the program. Then How's the urge now? and I rode it out.
+
+Each urge you ride out is logged in your journal. Your first earns the First Stand orb, and your tenth earns Ten Stands.
+
+## Logging an urge without the full flow
+On the Today tab, Riding an urge? offers Log it, a quick sheet to record the urge and save it, or Ride the wave, which opens the full flow.
+
+## Opening SOS fast
+- In the app: the SOS button floats over every tab.
+- Control Center: add the Silex SOS control to open the flow in one press. Control Center controls need iOS 18 or later.
+- Siri and Shortcuts: Open SOS. Silex also offers Log an urge, Make today's pledge and Days free as shortcuts.
+
+## If you gambled
+That's a different flow. Tap I gambled — reset with me on the Today tab; see what happens after a lapse.
+
+========================================================================
+# Subscriptions
+URL: https://trysilex.com/docs/subscriptions/
+Language: en
+Description: Silex plans and prices, how the free trial and its reminder work, how to cancel, restore a purchase or get a refund, and what keeps working if your subscription ends.
+
+Subscriptions are sold and billed by Apple through the App Store. Silex never sees your payment details.
+
+## Plans
+Plan | Price (US) | Trial
+Annual | $49.99 a year | 3-day free trial
+Weekly | $4.99 a week | No trial, cancel any time
+
+Prices in other countries follow Apple's regional pricing; the paywall always shows your local price and the exact trial length before you confirm. If you close the annual payment sheet, Silex may offer the annual plan at a discount. If you bought the earlier lifetime plan, it keeps working.
+
+## The free trial
+- Nothing is charged when the trial starts.
+- Silex sends a notification the day before it ends (you allow notifications just before the paywall).
+- Cancel any time before it ends and you pay nothing.
+
+## Cancelling
+On your iPhone: Settings › your name › Subscriptions › Silex › Cancel Subscription. Silex's own Settings has a Manage subscription shortcut to the same place. Deleting the app does not cancel a subscription.
+
+## Restoring a purchase
+New phone, or the paywall is showing even though you paid? Tap Restore on the paywall or Restore purchases in Settings, signed in with the Apple Account you bought with.
+
+## Refunds
+Apple handles refunds, not us: reportaproblem.apple.com.
+
+## If your subscription ends
+You need a subscription to start Silex. If it later ends, these keep working, free:
+- The SOS urge flow and the crisis lines.
+- The lapse flow (I gambled — reset with me).
+- The Today and Progress tabs, and Settings.
+- Blocking you've already switched on. The DNS shield and Safari blocker stay on until you turn them off in iOS Settings.
+
+The Program and Protect tabs need an active subscription.
+
+========================================================================
+# Troubleshooting
+URL: https://trysilex.com/docs/troubleshooting/
+Language: en
+Description: Fixes for the common Silex problems: the DNS shield stuck on Installed, the Safari blocker missing, the paywall after paying, and notifications not arriving.
+
+Most problems are an iOS setting one step short. If none of these fixes it, email support@trysilex.com with your iPhone model and iOS version. One person reads it; replies usually take a day.
+
+## The DNS shield says "Installed", not "Active"
+iOS added the configuration but it isn't selected. Open Settings › General › VPN, DNS & Device Management › DNS and choose Silex Shield. If that screen is missing or locked, a work or school management profile is in control of the phone's DNS, and the shield can't override it.
+
+## Gambling sites still load
+- Check the Protect tab: the shield should read Active.
+- Another VPN or DNS app can take over DNS. Only one DNS setting is used at a time.
+- A brand-new gambling domain may not be on any list yet. The lists update every few days.
+
+## I can't find Silex Site Blocker in Safari
+Open Settings › Apps › Safari › Extensions (on iOS 17: Settings › Safari › Extensions) and turn on Silex Site Blocker. Open Silex once afterwards so it loads the list.
+
+## I paid, but Silex still shows the paywall
+Tap Restore and make sure you're signed into the Apple Account you bought with. If it still fails, email us with the purchase date.
+
+## Notifications don't arrive
+Check iOS Settings › Notifications › Silex is on, then tap Re-enable notifications in Silex Settings to set the reminders up again. Focus modes can hold notifications back.
+
+## New phone
+With iCloud on, your progress comes back on its own. Restore your purchase, then run the DNS shield and Safari blocker setup again: neither carries over to a new device.
+
+## I need to talk to someone now
+Don't wait for an email. The free helplines at the bottom of this page answer 24/7, and Silex's Talk to someone button lists the ones for your region.
+
+========================================================================
 # Gamban alternatives
 URL: https://trysilex.com/gamban-alternatives/
 Language: en

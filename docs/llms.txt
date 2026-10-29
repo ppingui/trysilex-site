@@ -1,0 +1,21 @@
+# Silex documentation
+
+> How to set up and use Silex, the iPhone app that blocks gambling and runs a 90-day quit program: protection layers, the SOS button, the program, subscriptions, privacy and troubleshooting.
+
+Each link is the Markdown version of a page; drop `index.md` for the web page.
+
+Everything else on the site, including the free guides: https://trysilex.com/llms.txt
+
+## Docs
+
+- [Silex documentation](https://trysilex.com/docs/index.md): How to set up and use Silex, the iPhone app that blocks gambling and runs a 90-day quit program: protection, the SOS button, the program, subscriptions and privacy.
+- [Getting started](https://trysilex.com/docs/getting-started/index.md): What Silex asks during onboarding, why it asks it, the risk score and plan it builds, and the three setup steps that run after you subscribe.
+- [Protection layers](https://trysilex.com/docs/protection/index.md): How Silex blocks gambling: the system-wide DNS shield, the Safari content blocker, and the self-exclusion, bank-block and promo layers you set up outside the app.
+- [The SOS button](https://trysilex.com/docs/sos/index.md): How the Silex SOS flow works step by step, and how to open it from Control Center, Siri and Shortcuts.
+- [The 90-day program](https://trysilex.com/docs/program/index.md): How the Silex 90-day program is structured: three phases, one short lesson a day, how days unlock, milestone days, and what happens after a lapse.
+- [Progress, money kept and orbs](https://trysilex.com/docs/progress/index.md): How Silex counts gamble-free days, your current run and the money you've kept, plus the daily pledge, the journal and all 20 orbs.
+- [Notifications and widgets](https://trysilex.com/docs/notifications/index.md): Every notification Silex sends and when, the discreet wording for shared phones, and the Home Screen, Lock Screen and Control Center widgets.
+- [Subscriptions](https://trysilex.com/docs/subscriptions/index.md): Silex plans and prices, how the free trial and its reminder work, how to cancel, restore a purchase or get a refund, and what keeps working if your subscription ends.
+- [Privacy and your data](https://trysilex.com/docs/privacy-and-data/index.md): What Silex stores, where (your phone and your private iCloud), the two services it uses, how to turn analytics off, and how to delete everything.
+- [Settings reference](https://trysilex.com/docs/settings/index.md): Every option in Silex Settings: money display, goal and currency, notifications, support links, restoring and managing your subscription, and analytics.
+- [Troubleshooting](https://trysilex.com/docs/troubleshooting/index.md): Fixes for the common Silex problems: the DNS shield stuck on Installed, the Safari blocker missing, the paywall after paying, and notifications not arriving.

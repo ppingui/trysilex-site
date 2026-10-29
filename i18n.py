@@ -59,7 +59,8 @@ LOCALES = {
              ("/gambling-self-check/", "Self-check"),
              ("/about/", "About")],
         footer=[("/", "Home"), ("/about/", "About"), ("/methodology/", "Methodology"),
-                ("/support/", "Support"), ("/privacy/", "Privacy"), ("/terms/", "Terms")],
+                ("/docs/", "Docs"), ("/support/", "Support"), ("/privacy/", "Privacy"),
+                ("/terms/", "Terms")],
         built_by="Built by", in_city="in Kyiv, Ukraine",
         also_by="Also by the developer", vr_desc="men's pelvic floor training",
         helplines=[
