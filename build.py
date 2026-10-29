@@ -22,6 +22,7 @@ import unicodedata
 from pathlib import Path
 
 from i18n import LOCALES, pretty_date
+from to_markdown import page_markdown
 
 ROOT = Path(__file__).parent
 SRC = ROOT / "src"
@@ -419,27 +420,46 @@ def main() -> None:
         encoding="utf-8",
     )
 
+    # The index.md copies are for agents; Google gets the HTML only, so its crawl
+    # budget isn't spent on duplicates.
     (ROOT / "robots.txt").write_text(
         "User-agent: *\nAllow: /\n\n"
+        "User-agent: Googlebot\nDisallow: /*.md$\n\n"
         f"Sitemap: {SITE}/sitemap.xml\n",
         encoding="utf-8",
     )
 
     (ROOT / "CNAME").write_text("trysilex.com\n", encoding="utf-8")
+    # No Jekyll: it would turn each index.md into HTML over the real index.html.
+    (ROOT / ".nojekyll").write_text("", encoding="utf-8")
+
+    # index.md beside every indexable page: the same content as Markdown, for agents.
+    def md_url(path: str) -> str:
+        return canonical_for(path) + "index.md"
+
+    for meta in indexable:
+        page_dir = ROOT / meta["path"] if meta["path"] else ROOT
+        header = (f"> For the complete index of this site, see [llms.txt]({SITE}/llms.txt). "
+                  f"This page on the web: {canonical_for(meta['path'])}")
+        md = page_markdown((page_dir / "index.html").read_text(encoding="utf-8"),
+                           canonical_for(meta["path"]), header)
+        (page_dir / "index.md").write_text(md, encoding="utf-8")
 
     # Plain-text site summary for answer engines that fetch it.
-    lines = [f"# {BRAND_FULL}", "",
-             "An iPhone app that blocks gambling across the phone, runs a 90-day "
-             "evidence-based quit program, and tracks the money you keep. "
-             "No accounts, no ads, and nothing a user writes leaves the phone. Built by "
-             f"{AUTHOR}. Weekly $4.99 or annual $49.99 with a 3-day free trial.",
+    summary = ("An iPhone app that blocks gambling across the phone, runs a 90-day "
+               "evidence-based quit program, and tracks the money you keep. "
+               "No accounts, no ads, and nothing a user writes leaves the phone. Built by "
+               f"{AUTHOR}. Weekly $4.99 or annual $49.99 with a 3-day free trial.")
+    lines = [f"# {BRAND_FULL}", "", f"> {summary}",
+             "", "Each link below is the Markdown version of a page; drop `index.md` for the "
+             "web page.",
              "", f"The full text of every page, in one file: {SITE}/llms-full.txt",
              "", "## Pages", ""]
     for meta in sorted((m for m in indexable if m["loc"] == "en"), key=lambda m: m["path"]):
-        lines.append(f"- [{meta['h1']}]({canonical_for(meta['path'])}): {meta['description']}")
+        lines.append(f"- [{meta['h1']}]({md_url(meta['path'])}): {meta['description']}")
     lines += ["", "## Other languages", ""]
     for meta in sorted((m for m in indexable if m["loc"] != "en"), key=lambda m: m["path"]):
-        lines.append(f"- [{meta['h1']}]({canonical_for(meta['path'])}) ({LOCALES[meta['loc']]['label']}): "
+        lines.append(f"- [{meta['h1']}]({md_url(meta['path'])}) ({LOCALES[meta['loc']]['label']}): "
                      f"{meta['description']}")
     (ROOT / "llms.txt").write_text("\n".join(lines) + "\n", encoding="utf-8")
 
@@ -465,7 +485,7 @@ def main() -> None:
         return re.sub(r"\n{3,}", "\n\n", t).strip()
 
     order = list(LOCALES)
-    full = [f"# {BRAND_FULL}", "", lines[2], "",
+    full = [f"# {BRAND_FULL}", "", summary, "",
             "Silex is a wellness app, not medical care, and does not diagnose or treat any condition.",
             "", f"Index: {SITE}/llms.txt", "", "## Crisis resources (verified 2026-10-26)", ""]
     for loc in order:

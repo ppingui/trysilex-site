@@ -1,4 +1,7 @@
 User-agent: *
 Allow: /
 
+User-agent: Googlebot
+Disallow: /*.md$
+
 Sitemap: https://trysilex.com/sitemap.xml
