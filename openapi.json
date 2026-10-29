@@ -1,0 +1,211 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "Silex docs and guides",
+    "version": "1.0.0",
+    "description": "Read-only, public endpoints for the Silex documentation and quit-gambling guides on trysilex.com, in the formats AI agents and tools read best: llms.txt indexes and a Markdown copy of every page. No API key, no account; every request is a plain GET. Silex itself is an iPhone app with no public API: this covers the site's content only.",
+    "contact": {
+      "name": "Silex support",
+      "email": "support@trysilex.com",
+      "url": "https://trysilex.com/support/"
+    }
+  },
+  "servers": [
+    {
+      "url": "https://trysilex.com"
+    }
+  ],
+  "externalDocs": {
+    "description": "Silex documentation",
+    "url": "https://trysilex.com/docs/"
+  },
+  "paths": {
+    "/docs/llms.txt": {
+      "get": {
+        "operationId": "getDocsIndex",
+        "summary": "Docs index (llms.txt)",
+        "description": "Every documentation page with a one-line summary and a link to its Markdown copy.",
+        "responses": {
+          "200": {
+            "description": "Docs index (llms.txt)",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/docs/index.md": {
+      "get": {
+        "operationId": "getDocsOverview",
+        "summary": "Docs overview",
+        "description": "Requirements, what Silex is, and where to start, as Markdown.",
+        "responses": {
+          "200": {
+            "description": "Docs overview",
+            "content": {
+              "text/markdown": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/docs/{page}/index.md": {
+      "get": {
+        "operationId": "getDocsPage",
+        "summary": "A docs page",
+        "description": "One documentation page as Markdown.",
+        "responses": {
+          "200": {
+            "description": "A docs page",
+            "content": {
+              "text/markdown": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "page",
+            "in": "path",
+            "required": true,
+            "description": "Docs page slug.",
+            "schema": {
+              "type": "string",
+              "enum": [
+                "getting-started",
+                "protection",
+                "sos",
+                "program",
+                "progress",
+                "notifications",
+                "subscriptions",
+                "privacy-and-data",
+                "settings",
+                "troubleshooting"
+              ],
+              "default": "getting-started"
+            }
+          }
+        ]
+      }
+    },
+    "/llms.txt": {
+      "get": {
+        "operationId": "getSiteIndex",
+        "summary": "Site index (llms.txt)",
+        "description": "Every page on trysilex.com, including translations, with links to Markdown copies.",
+        "responses": {
+          "200": {
+            "description": "Site index (llms.txt)",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/{guide}/index.md": {
+      "get": {
+        "operationId": "getGuide",
+        "summary": "A guide",
+        "description": "One English quit-gambling guide as Markdown.",
+        "responses": {
+          "200": {
+            "description": "A guide",
+            "content": {
+              "text/markdown": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "guide",
+            "in": "path",
+            "required": true,
+            "description": "Guide slug.",
+            "schema": {
+              "type": "string",
+              "enum": [
+                "best-gambling-blocker-apps",
+                "block-gambling-apps-android",
+                "block-gambling-sites-iphone",
+                "block-gambling-transactions-bank",
+                "gamban-alternatives",
+                "gambling-debt-help",
+                "gambling-loss-calculator",
+                "gambling-recovery-timeline",
+                "gambling-relapse",
+                "gambling-self-check",
+                "help-someone-with-gambling-addiction",
+                "how-long-do-gambling-urges-last",
+                "how-to-stop-gambling",
+                "how-to-stop-sports-betting",
+                "notion-recovery-tracker",
+                "self-exclusion-guide"
+              ],
+              "default": "best-gambling-blocker-apps"
+            }
+          }
+        ]
+      }
+    },
+    "/llms-full.txt": {
+      "get": {
+        "operationId": "getFullText",
+        "summary": "Full text of the site",
+        "description": "Every page's text in one file, starting with verified crisis lines.",
+        "responses": {
+          "200": {
+            "description": "Full text of the site",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/sitemap.xml": {
+      "get": {
+        "operationId": "getSitemap",
+        "summary": "Sitemap",
+        "description": "Every indexable URL with its last-modified date.",
+        "responses": {
+          "200": {
+            "description": "Sitemap",
+            "content": {
+              "application/xml": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

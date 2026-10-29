@@ -503,6 +503,63 @@ def main() -> None:
         docs.append(f"- [{meta['h1']}]({md_url(meta['path'])}): {meta['description']}")
     (ROOT / "docs" / "llms.txt").write_text("\n".join(docs) + "\n", encoding="utf-8")
 
+    # openapi.json: the site's machine-readable endpoints, all static GETs with no key.
+    # Imported into the public Postman workspace; regenerated so it can't drift.
+    doc_pages = [m["path"].removeprefix("docs/") for m in DOCS if m["path"] != "docs"]
+    guides = sorted(m["path"] for m in indexable if m["loc"] == "en" and m["path"]
+                    and not is_doc(m) and m.get("type") == "article")
+    text = lambda desc, mime: {"200": {"description": desc,
+                                       "content": {mime: {"schema": {"type": "string"}}}}}
+    def get(op_id, summary, desc, mime="text/markdown", params=None):
+        op = {"operationId": op_id, "summary": summary, "description": desc,
+              "responses": text(summary, mime)}
+        if params:
+            op["parameters"] = params
+        return {"get": op}
+    def enum_param(name, values, desc):
+        return [{"name": name, "in": "path", "required": True, "description": desc,
+                 "schema": {"type": "string", "enum": values, "default": values[0]}}]
+    spec = {
+        "openapi": "3.1.0",
+        "info": {
+            "title": "Silex docs and guides",
+            "version": "1.0.0",
+            "description": (
+                "Read-only, public endpoints for the Silex documentation and quit-gambling "
+                "guides on trysilex.com, in the formats AI agents and tools read best: "
+                "llms.txt indexes and a Markdown copy of every page. No API key, no "
+                "account; every request is a plain GET. Silex itself is an iPhone app "
+                "with no public API: this covers the site's content only."),
+            "contact": {"name": "Silex support", "email": "support@trysilex.com",
+                        "url": f"{SITE}/support/"},
+        },
+        "servers": [{"url": SITE}],
+        "externalDocs": {"description": "Silex documentation", "url": f"{SITE}/docs/"},
+        "paths": {
+            "/docs/llms.txt": get("getDocsIndex", "Docs index (llms.txt)",
+                "Every documentation page with a one-line summary and a link to its "
+                "Markdown copy.", "text/plain"),
+            "/docs/index.md": get("getDocsOverview", "Docs overview",
+                "Requirements, what Silex is, and where to start, as Markdown."),
+            "/docs/{page}/index.md": get("getDocsPage", "A docs page",
+                "One documentation page as Markdown.",
+                params=enum_param("page", doc_pages, "Docs page slug.")),
+            "/llms.txt": get("getSiteIndex", "Site index (llms.txt)",
+                "Every page on trysilex.com, including translations, with links to "
+                "Markdown copies.", "text/plain"),
+            "/{guide}/index.md": get("getGuide", "A guide",
+                "One English quit-gambling guide as Markdown.",
+                params=enum_param("guide", guides, "Guide slug.")),
+            "/llms-full.txt": get("getFullText", "Full text of the site",
+                "Every page's text in one file, starting with verified crisis lines.",
+                "text/plain"),
+            "/sitemap.xml": get("getSitemap", "Sitemap",
+                "Every indexable URL with its last-modified date.", "application/xml"),
+        },
+    }
+    (ROOT / "openapi.json").write_text(json.dumps(spec, indent=2, ensure_ascii=False) + "\n",
+                                       encoding="utf-8")
+
     # llms-full.txt: every indexable page as plain text, for answer engines that
     # fetch the whole site in one request. Shortcodes, scripts and the tools'
     # form UI are stripped; FAQs stay as Q/A pairs. English first, then each
