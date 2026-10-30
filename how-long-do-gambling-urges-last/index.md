@@ -91,7 +91,7 @@ No. Urges are extremely common in early recovery and most of them lead nowhere. 
 
 ## If you need someone right now
 
-- US: [1-800-GAMBLER](tel:18004262537) — National Problem Gambling Helpline — free, confidential, 24/7
+- US: [1-800-MY-RESET](tel:18006973738) — National Problem Gambling Helpline — free, confidential, 24/7
 - US: [988](tel:988) — Suicide & Crisis Lifeline — call or text if it feels like too much
 - UK: [0808 8020 133](tel:08088020133) — National Gambling Helpline (GamCare) — free, confidential, 24/7
 - UK: [116 123](tel:116123) — Samaritans

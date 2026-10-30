@@ -31,7 +31,7 @@ This is the highest-value phone call available to you, and the thing people dela
 
 - **UK:** [StepChange](https://www.stepchange.org) and [National Debtline](https://nationaldebtline.org). Free, charity-run, no judgement, and they'll talk to creditors for you.
 - **US:** [NFCC](https://www.nfcc.org) member agencies — non-profit credit counselling, free initial counselling.
-- **Either:** the national gambling helplines will point you at local debt help as part of the same call. US [1-800-GAMBLER](tel:18004262537), UK [0808 8020 133](tel:08088020133).
+- **Either:** the national gambling helplines will point you at local debt help as part of the same call. US [1-800-MY-RESET](tel:18006973738), UK [0808 8020 133](tel:08088020133).
 
 What they can arrange that you generally can't alone: frozen interest, paused collection, affordable repayment plans, and — in England and Wales — the **Breathing Space** scheme, which stops most interest, fees and enforcement action for 60 days while you get advice. Ask whether you qualify.
 
@@ -87,7 +87,7 @@ In many places gambling debts are treated like other unsecured debts in insolven
 
 ## If you need someone right now
 
-- US: [1-800-GAMBLER](tel:18004262537) — National Problem Gambling Helpline — free, confidential, 24/7
+- US: [1-800-MY-RESET](tel:18006973738) — National Problem Gambling Helpline — free, confidential, 24/7
 - US: [988](tel:988) — Suicide & Crisis Lifeline — call or text if it feels like too much
 - UK: [0808 8020 133](tel:08088020133) — National Gambling Helpline (GamCare) — free, confidential, 24/7
 - UK: [116 123](tel:116123) — Samaritans

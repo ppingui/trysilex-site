@@ -64,7 +64,7 @@ LOCALES = {
         built_by="Built by", in_city="in Kyiv, Ukraine",
         also_by="Also by the developer", vr_desc="men's pelvic floor training",
         helplines=[
-            ("US", "1-800-GAMBLER", "tel:18004262537",
+            ("US", "1-800-MY-RESET", "tel:18006973738",
              "National Problem Gambling Helpline — free, confidential, 24/7"),
             ("US", "988", "tel:988",
              "Suicide &amp; Crisis Lifeline — call or text if it feels like too much"),
