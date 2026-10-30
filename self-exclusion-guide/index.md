@@ -27,7 +27,7 @@ Two things close that gap: a [DNS-level blocker](https://trysilex.com/block-gamb
 
 There is no national equivalent of GAMSTOP. Coverage is built in two layers:
 
-1. **Your state programme.** Most states with legal gambling run a voluntary self-exclusion list, administered by the gaming commission or lottery, often covering both casinos and licensed online operators in that state. Terms are typically one year, five years or lifetime. The National Council on Problem Gambling keeps a [directory of state self-exclusion programmes](https://www.ncpgambling.org/help-treatment/self-exclusion/).
+1. **Your state programme.** Most states with legal gambling run a voluntary self-exclusion list, administered by the gaming commission or lottery, often covering both casinos and licensed online operators in that state. Terms are typically one year, five years or lifetime. Search your state's name plus "self-exclusion", or start from the National Council on Problem Gambling's [help by state](https://www.ncpgambling.org/help-treatment/help-by-state/) page, which lists each state's problem-gambling services.
 2. **Each operator, individually.** Every licensed sportsbook and casino app has a responsible-gaming section with self-exclusion or self-restriction. Do it for all of them, including the ones you have "stopped using" — a dormant funded account is the easiest relapse there is. ([Quitting sports betting specifically](https://trysilex.com/how-to-stop-sports-betting/) has its own problem: the cue is the sport, and you can't self-exclude from that.)
 
 Where you can, choose the longest term offered, and do it in one sitting rather than one operator a week. Momentum matters more than thoroughness here; you can add the ones you forgot tomorrow.
@@ -69,7 +69,7 @@ Technically yes, and that is the scheme's real weakness — it has no authority 
 
 ### How do I self-exclude from a US sportsbook?
 
-Each operator has a responsible-gaming section with a self-exclusion or self-restriction option, usually offering set terms. Do it per operator, and separately register with your state programme where one exists — the National Council on Problem Gambling maintains a directory of state schemes.
+Each operator has a responsible-gaming section with a self-exclusion or self-restriction option, usually offering set terms. Do it per operator, and separately register with your state programme where one exists — it is usually run by the state gaming commission or lottery.
 
 ### Will self-exclusion hurt my credit score?
 
