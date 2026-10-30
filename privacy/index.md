@@ -2,7 +2,7 @@
 
 # Privacy Policy
 
-Last updated: 29 October 2026. Canonical version of this notice; it replaces the Notion-hosted copy linked from older builds of the app.
+Last updated: 30 October 2026. Canonical version of this notice; it replaces the Notion-hosted copy linked from older builds of the app.
 
 Silex is built on one principle: **your recovery is nobody's dataset.**
 
@@ -178,6 +178,17 @@ The domain list is derived from The Blocklist Project (public domain) and the UT
 - **Removing it.** In Notion, go to Settings → Connections and remove Silex. The tracker stays: it's an ordinary page that belongs to you. Delete it like any other page.
 
 Legal basis: the request you make by clicking Connect (GDPR Art. 6(1)(b)). Cloudflare processes the connection itself (your IP address and request headers) as our processor; see [Cloudflare's privacy policy](https://www.cloudflare.com/privacypolicy/). What you write in the tracker is between you and Notion, under [Notion's privacy policy](https://www.notion.com/trust/privacy-policy).
+
+## 15. Silex Help in ChatGPT and other AI assistants
+
+**Silex Help** is a free, read-only service that AI assistants such as ChatGPT can call to answer questions about stopping gambling: helplines for a country, self-exclusion schemes, whether a website is on our gambling-domain list, the PGSI self-check, and blocking guides. It has nothing to do with the app, and it has no accounts.
+
+- **What it receives.** Only what the assistant sends when it uses a tool: a country, the web addresses to check, or your nine self-check answers. Your conversation, your name and your assistant account are not sent to us.
+- **What it does.** It looks the answer up in data bundled with the service and sends it back. It makes no requests to anyone else.
+- **What it keeps.** Nothing. Each request is handled in memory and forgotten; there is no database and no log of what was asked.
+- **The assistant itself.** What you type to ChatGPT or another assistant is covered by that provider's own privacy policy, not this one.
+
+Legal basis: the request your assistant makes on your behalf (GDPR Art. 6(1)(b)). Cloudflare runs the service and processes each connection (IP address and request headers) as our processor; see [Cloudflare's privacy policy](https://www.cloudflare.com/privacypolicy/).
 
 ## If you need someone right now
 
