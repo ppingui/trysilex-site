@@ -39,6 +39,12 @@ Not gambled away. Silex takes what you told it you were putting in each week and
 
 [Work out what gambling has cost you so far](https://trysilex.com/gambling-loss-calculator/)
 
+## Free for your computer: a browser blocker
+
+**Silex — Free Gambling Blocker** is a free extension for Chrome and Edge. It blocks more than 290,000 gambling, betting and casino sites, and instead of an error page it shows a calm one: a one-minute breathing exercise and free helplines for where you are. No account, nothing collected, and it works without the app.
+
+[Add to Chrome](https://chromewebstore.google.com/detail/silex-%E2%80%94-free-gambling-blo/mnpnejkadjdiadkbdfdjddbmgpgocbjd) [Add to Edge](https://microsoftedge.microsoft.com/addons/detail/silex-%E2%80%94-free-gambling-blo/pjhckgkchnigbiblokhfkdbnidpnppeg)
+
 ## It never punishes you for slipping
 
 Gambling recovery is not a clean line, and an app that zeroes your progress the moment you lapse teaches you to hide the lapse. Silex does the opposite. A slip triggers a **Reset day** — a specific lesson about what happened and what to change — and your history is never wiped. Milestones you've earned are never taken back.

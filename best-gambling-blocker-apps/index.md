@@ -24,7 +24,7 @@ By [Kyrylo Lozovyi](https://trysilex.com/about/) · August 10, 2026
 | **BetBlocker** | Free, forever, no ads | iOS, Android, Windows, Mac, Linux, Fire OS | The first thing anyone should install |
 | **Gamban** | £4.99/month or £29.99/year, 7-day free trial | iOS, Android, Windows, Mac | Gambling across phone *and* computer |
 | **GamBlock** | Paid; not published on the homepage | Windows, Mac/iOS, Android | Maximum removal resistance on Windows/Android |
-| **Silex** (ours) | $4.99/week or $49.99/year, 3-day trial | iPhone only | Blocking plus a structured 90-day program |
+| **Silex** (ours) | $4.99/week or $49.99/year, 3-day trial | iPhone; free blocker extension for Chrome and Edge | Blocking plus a structured 90-day program |
 | **iOS Screen Time** | Free, built in | iPhone, iPad | Stopping reinstalls; needs someone else to hold the passcode |
 
 ## BetBlocker — free, and not a lesser option
@@ -65,7 +65,11 @@ Silex is iPhone-only, $4.99/week or $49.99/year with a 3-day trial. It installs 
 
 The actual reason it exists is the other half: a **90-day program** written from clinical CBT material, an always-available urge button that is never paywalled, and a counter for the money you kept. Blocking buys ninety seconds; the program is about what you do with them.
 
-**Where it loses to the apps above:** iPhone only — no Android, no desktop. It costs more than BetBlocker, which is free. And it is new, with none of Gamban's operating history. If you want a blocker and nothing more, we are not the best-value answer, and saying otherwise would be the kind of claim this page exists to avoid.
+On a computer there is a free **Silex browser extension** for Chrome and Edge. It blocks the same gambling domain list inside that one browser and nothing else, so another browser or an app gets round it.
+
+[Add to Chrome](https://chromewebstore.google.com/detail/silex-%E2%80%94-free-gambling-blo/mnpnejkadjdiadkbdfdjddbmgpgocbjd) [Add to Edge](https://microsoftedge.microsoft.com/addons/detail/silex-%E2%80%94-free-gambling-blo/pjhckgkchnigbiblokhfkdbnidpnppeg)
+
+**Where it loses to the apps above:** the app is iPhone only — no Android, and on a computer only the browser extension. It costs more than BetBlocker, which is free. And it is new, with none of Gamban's operating history. If you want a blocker and nothing more, we are not the best-value answer, and saying otherwise would be the kind of claim this page exists to avoid.
 
 ## Not included, and why
 

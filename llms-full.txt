@@ -66,6 +66,9 @@ Why urges pass, and how long it takes
 Not gambled away. Silex takes what you told it you were putting in each week and counts up what you kept instead. It's the number that keeps people going when motivation runs out.
 Work out what gambling has cost you so far
 
+## Free for your computer: a browser blocker
+Silex — Free Gambling Blocker is a free extension for Chrome and Edge. It blocks more than 290,000 gambling, betting and casino sites, and instead of an error page it shows a calm one: a one-minute breathing exercise and free helplines for where you are. No account, nothing collected, and it works without the app.
+
 ## It never punishes you for slipping
 Gambling recovery is not a clean line, and an app that zeroes your progress the moment you lapse teaches you to hide the lapse. Silex does the opposite. A slip triggers a Reset day — a specific lesson about what happened and what to change — and your history is never wiped. Milestones you've earned are never taken back.
 What to do in the hour after you gamble again
@@ -174,7 +177,7 @@ App | Price | Platforms | Best for
 BetBlocker | Free, forever, no ads | iOS, Android, Windows, Mac, Linux, Fire OS | The first thing anyone should install
 Gamban | £4.99/month or £29.99/year, 7-day free trial | iOS, Android, Windows, Mac | Gambling across phone and computer
 GamBlock | Paid; not published on the homepage | Windows, Mac/iOS, Android | Maximum removal resistance on Windows/Android
-Silex (ours) | $4.99/week or $49.99/year, 3-day trial | iPhone only | Blocking plus a structured 90-day program
+Silex (ours) | $4.99/week or $49.99/year, 3-day trial | iPhone; free blocker extension for Chrome and Edge | Blocking plus a structured 90-day program
 iOS Screen Time | Free, built in | iPhone, iPad | Stopping reinstalls; needs someone else to hold the passcode
 
 ## BetBlocker — free, and not a lesser option
@@ -199,7 +202,8 @@ Source: gamblock.com, checked 10 August 2026. Claims are the vendor's, not ours.
 ## Silex — ours, so read this sceptically
 Silex is iPhone-only, $4.99/week or $49.99/year with a 3-day trial. It installs an encrypted-DNS shield that covers every app and browser, ships a Safari content blocker built on a large bundled domain list, and walks you through setting up the layers it can't provide itself — self-exclusion, a bank block, killing promo emails.
 The actual reason it exists is the other half: a 90-day program written from clinical CBT material, an always-available urge button that is never paywalled, and a counter for the money you kept. Blocking buys ninety seconds; the program is about what you do with them.
-Where it loses to the apps above: iPhone only — no Android, no desktop. It costs more than BetBlocker, which is free. And it is new, with none of Gamban's operating history. If you want a blocker and nothing more, we are not the best-value answer, and saying otherwise would be the kind of claim this page exists to avoid.
+On a computer there is a free Silex browser extension for Chrome and Edge. It blocks the same gambling domain list inside that one browser and nothing else, so another browser or an app gets round it.
+Where it loses to the apps above: the app is iPhone only — no Android, and on a computer only the browser extension. It costs more than BetBlocker, which is free. And it is new, with none of Gamban's operating history. If you want a blocker and nothing more, we are not the best-value answer, and saying otherwise would be the kind of claim this page exists to avoid.
 
 ## Not included, and why
 Betfilter, Bet Breaker, Screen Stoic and Freedom all appear in other roundups. We have not verified their current pricing or tested them, so they are listed here rather than ranked — assigning them a place we hadn't checked is exactly the practice that makes these pages useless. If you have used one, tell us what it actually did.

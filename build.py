@@ -100,6 +100,20 @@ def cta_block(campaign: str, L: dict) -> str:
     )
 
 
+# The free browser extension's store listings, in the order the buttons show.
+# Add Firefox once AMO approves it.
+EXTENSION_STORES = [
+    ("Add to Chrome", "https://chromewebstore.google.com/detail/silex-%E2%80%94-free-gambling-blo/mnpnejkadjdiadkbdfdjddbmgpgocbjd"),
+    ("Add to Edge", "https://microsoftedge.microsoft.com/addons/detail/silex-%E2%80%94-free-gambling-blo/pjhckgkchnigbiblokhfkdbnidpnppeg"),
+]
+EXTENSION_TAG = "{{extension}}"
+
+
+def extension_block() -> str:
+    links = " ".join(f'<a class="btn btn-alt" href="{u}">{t}</a>' for t, u in EXTENSION_STORES)
+    return f'  <p class="store-btns">{links}</p>'
+
+
 # --- template plumbing --------------------------------------------------------
 
 META_RE = re.compile(r"^<!--meta\s*(\{.*?\})\s*-->\s*", re.DOTALL)
@@ -324,6 +338,7 @@ def footer_html(L: dict) -> tuple[str, str]:
 def render(meta: dict, body: str, template: str, groups: dict) -> str:
     L = LOCALES[meta["loc"]]
     body = SHORTCODE_RE.sub(lambda m: cta_block(m.group(1), L), body)
+    body = body.replace(EXTENSION_TAG, extension_block())
     tldr = meta.get("tldr")
     tldr_html = (
         f'  <div class="tldr"><p><strong>{L["short"]}</strong> {tldr}</p></div>\n'
@@ -566,7 +581,7 @@ def main() -> None:
     # locale. Crisis resources are listed once, up front, so a quote from this
     # site in a crisis context carries correct, verified numbers.
     def plain(fragment: str) -> str:
-        t = SHORTCODE_RE.sub("", fragment)
+        t = SHORTCODE_RE.sub("", fragment).replace(EXTENSION_TAG, "")
         t = re.sub(r"<(script|style|form|noscript|select)\b.*?</\1>", "", t, flags=re.S)
         t = re.sub(r"\s+", " ", t)                   # source line wraps are not breaks
         t = re.sub(r"</(p|li|h[1-6]|tr|div|table|ul|ol)>", "\n", t)

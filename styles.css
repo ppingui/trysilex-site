@@ -177,6 +177,9 @@ tbody tr:last-child td { border-bottom: 0; }
   text-decoration: none;
 }
 .btn:hover { color: #04120e; filter: brightness(1.06); }
+.btn-alt { background: transparent; color: var(--mint); border: 1px solid var(--mint); padding: 0.75rem 1.4rem; }
+.btn-alt:hover { color: var(--mint); background: rgba(110, 231, 192, 0.08); filter: none; }
+.store-btns { display: flex; flex-wrap: wrap; gap: 0.75rem; margin: 1rem 0 2rem; }
 .cta-pending { font-size: 0.9rem; color: var(--muted); margin-bottom: 0; }
 
 /* --- hero ----------------------------------------------------------------- */
