@@ -67,6 +67,17 @@ def app_store_url(campaign: str) -> str:
     return f"{base}?mt=8"
 
 
+def play_url(campaign: str) -> str:
+    """Google Play link; the referrer shows up in Play Console's acquisition reports."""
+    return ("https://play.google.com/store/apps/details?id=com.klozovyi.stopgamble"
+            f"&referrer=utm_source%3Dtrysilex%26utm_campaign%3D{campaign}")
+
+
+def store_buttons(campaign: str, L: dict) -> str:
+    return (f'<a class="btn" href="{html.escape(app_store_url(campaign))}">{L["cta_btn"]}</a> '
+            f'<a class="btn" href="{html.escape(play_url(campaign))}">{L["cta_btn_android"]}</a>')
+
+
 def helpline_block(L: dict) -> str:
     rows = "\n".join(
         f'      <li><span class="hl-region">{r}</span>'
@@ -83,11 +94,10 @@ def helpline_block(L: dict) -> str:
 
 def cta_block(campaign: str, L: dict) -> str:
     """The one CTA component. Honest about review status until the app is live.
-    A campaign ending in "_hero" renders as a bare button: at the top of a page the
-    headline is already right above it, and the button must clear the phone fold."""
+    A campaign ending in "_hero" renders as bare buttons: at the top of a page the
+    headline is already right above it, and the buttons must clear the phone fold."""
     if campaign.endswith("_hero"):
-        return (f'  <p class="cta-hero"><a class="btn" href="{app_store_url(campaign)}">'
-                f'{L["cta_btn"]}</a></p>')
+        return f'  <p class="cta-hero btns">{store_buttons(campaign, L)}</p>'
     pending = "" if APP_STORE_LIVE else (
         '\n      <p class="cta-pending">Silex is in App Store review. '
         "This link goes live at launch.</p>"
@@ -95,7 +105,7 @@ def cta_block(campaign: str, L: dict) -> str:
     return (
         f'  <section class="cta">\n    <h2>{L["cta_h"]}</h2>\n'
         f'    <p>{L["cta_p"]}</p>\n'
-        f'    <p><a class="btn" href="{app_store_url(campaign)}">{L["cta_btn"]}</a></p>'
+        f'    <p class="btns">{store_buttons(campaign, L)}</p>'
         f"{pending}\n  </section>"
     )
 
@@ -111,7 +121,7 @@ EXTENSION_TAG = "{{extension}}"
 
 def extension_block() -> str:
     links = " ".join(f'<a class="btn btn-alt" href="{u}">{t}</a>' for t, u in EXTENSION_STORES)
-    return f'  <p class="store-btns">{links}</p>'
+    return f'  <p class="btns store-btns">{links}</p>'
 
 
 # --- template plumbing --------------------------------------------------------
@@ -276,15 +286,15 @@ def jsonld_for(meta: dict, L: dict) -> str:
                 "@type": "SoftwareApplication",
                 "@id": f"{SITE}/#app",
                 "name": "Silex: Stop Gambling",
-                "operatingSystem": "iOS 17.0 or later",
+                "operatingSystem": "iOS 17.0 or later, Android 8.0 or later",
                 "applicationCategory": "HealthApplication",
                 "url": app_store_url("schema"),
                 "author": {"@id": f"{SITE}/#org"},
                 "offers": [
-                    {"@type": "Offer", "price": "4.99", "priceCurrency": "USD",
+                    {"@type": "Offer", "price": "2.99", "priceCurrency": "USD",
                      "name": "Weekly"},
-                    {"@type": "Offer", "price": "49.99", "priceCurrency": "USD",
-                     "name": "Annual, 3-day free trial"},
+                    {"@type": "Offer", "price": "29.99", "priceCurrency": "USD",
+                     "name": "Annual, 7-day free trial"},
                 ],
             },
         ]
@@ -488,10 +498,10 @@ def main() -> None:
         (page_dir / "index.md").write_text(md, encoding="utf-8")
 
     # Plain-text site summary for answer engines that fetch it.
-    summary = ("An iPhone app that blocks gambling across the phone, runs a 90-day "
+    summary = ("An iPhone and Android app that blocks gambling across the phone, runs a 90-day "
                "evidence-based quit program, and tracks the money you keep. "
                "No accounts, no ads, and nothing a user writes leaves the phone. Built by "
-               f"{AUTHOR}. Weekly $4.99 or annual $49.99 with a 3-day free trial.")
+               f"{AUTHOR}. Weekly $2.99 or annual $29.99 with a 7-day free trial.")
     lines = [f"# {BRAND_FULL}", "", f"> {summary}",
              "", "Each link below is the Markdown version of a page; drop `index.md` for the "
              "web page.",
@@ -543,7 +553,7 @@ def main() -> None:
                 "Read-only, public endpoints for the Silex documentation and quit-gambling "
                 "guides on trysilex.com, in the formats AI agents and tools read best: "
                 "llms.txt indexes and a Markdown copy of every page. No API key, no "
-                "account; every request is a plain GET. Silex itself is an iPhone app "
+                "account; every request is a plain GET. Silex itself is an iPhone and Android app "
                 "with no public API: this covers the site's content only."),
             "contact": {"name": "Silex support", "email": "support@trysilex.com",
                         "url": f"{SITE}/support/"},

@@ -53,9 +53,9 @@ Silex 把这些放进一个永远不会被付费墙挡住的按钮里：你给�
 
 ## 彻底戒掉，把钱留住。
 
-Silex 在整部 iPhone 上屏蔽赌博，并陪你走过 90 天，一天一天来。
+Silex 在整部手机上屏蔽赌博，并陪你走过 90 天，一天一天来。
 
-[下载 iPhone 版 Silex](https://apps.apple.com/app/id6798826038?mt=8)
+[下载 iPhone 版 Silex](https://apps.apple.com/app/id6798826038?mt=8) [下载 Android 版 Silex](https://play.google.com/store/apps/details?id=com.klozovyi.stopgamble&referrer=utm_source%3Dtrysilex%26utm_campaign%3Dzh_urges)
 
 ## 常见问题
 

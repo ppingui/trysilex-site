@@ -2,7 +2,7 @@
 
 # The best gambling blocker apps, compared honestly
 
-By [Kyrylo Lozovyi](https://trysilex.com/about/) · August 10, 2026
+By [Kyrylo Lozovyi](https://trysilex.com/about/) · August 10, 2026 · Updated November 3, 2026
 
 **Short answer:** **BetBlocker** is free, run by a registered charity, and the right first install for almost everyone. **Gamban** (£4.99/month or £29.99/year) is the strongest cross-platform blocker if you gamble on more than a phone. **Silex** — which we make, so weigh that — is for people who want the 90-day quit program alongside the blocking. Whichever you choose, a blocker on its own is the weakest of the three layers that matter; the other two are self-exclusion and a bank block, and both are free.
 
@@ -24,7 +24,7 @@ By [Kyrylo Lozovyi](https://trysilex.com/about/) · August 10, 2026
 | **BetBlocker** | Free, forever, no ads | iOS, Android, Windows, Mac, Linux, Fire OS | The first thing anyone should install |
 | **Gamban** | £4.99/month or £29.99/year, 7-day free trial | iOS, Android, Windows, Mac | Gambling across phone *and* computer |
 | **GamBlock** | Paid; not published on the homepage | Windows, Mac/iOS, Android | Maximum removal resistance on Windows/Android |
-| **Silex** (ours) | $4.99/week or $49.99/year, 3-day trial | iPhone; free blocker extension for Chrome and Edge | Blocking plus a structured 90-day program |
+| **Silex** (ours) | $2.99/week or $29.99/year, 7-day trial | iPhone, Android; free blocker extension for Chrome and Edge | Blocking plus a structured 90-day program |
 | **iOS Screen Time** | Free, built in | iPhone, iPad | Stopping reinstalls; needs someone else to hold the passcode |
 
 ## BetBlocker — free, and not a lesser option
@@ -61,7 +61,7 @@ Source: [gamblock.com](https://www.gamblock.com/), checked 10 August 2026. Claim
 
 ## Silex — ours, so read this sceptically
 
-Silex is iPhone-only, $4.99/week or $49.99/year with a 3-day trial. It installs an encrypted-DNS shield that covers every app and browser, ships a Safari content blocker built on a large bundled domain list, and walks you through setting up the layers it can't provide itself — self-exclusion, a bank block, killing promo emails.
+Silex is on iPhone and Android, $2.99/week or $29.99/year with a 7-day trial. It sets up a system-wide DNS shield that covers every app and browser, ships a Safari content blocker on iPhone built on a large bundled domain list, and walks you through setting up the layers it can't provide itself — self-exclusion, a bank block, killing promo emails.
 
 The actual reason it exists is the other half: a **90-day program** written from clinical CBT material, an always-available urge button that is never paywalled, and a counter for the money you kept. Blocking buys ninety seconds; the program is about what you do with them.
 
@@ -69,7 +69,7 @@ On a computer there is a free **Silex browser extension** for Chrome and Edge. I
 
 [Add to Chrome](https://chromewebstore.google.com/detail/silex-%E2%80%94-free-gambling-blo/mnpnejkadjdiadkbdfdjddbmgpgocbjd) [Add to Edge](https://microsoftedge.microsoft.com/addons/detail/silex-%E2%80%94-free-gambling-blo/pjhckgkchnigbiblokhfkdbnidpnppeg)
 
-**Where it loses to the apps above:** the app is iPhone only — no Android, and on a computer only the browser extension. It costs more than BetBlocker, which is free. And it is new, with none of Gamban's operating history. If you want a blocker and nothing more, we are not the best-value answer, and saying otherwise would be the kind of claim this page exists to avoid.
+**Where it loses to the apps above:** there is no desktop app — on a computer, only the browser extension. It costs more than BetBlocker, which is free. And it is new, with none of Gamban's operating history. If you want a blocker and nothing more, we are not the best-value answer, and saying otherwise would be the kind of claim this page exists to avoid.
 
 ## Not included, and why
 
@@ -91,9 +91,9 @@ Do all three. The order above is by strength, not by ease.
 
 ## Quit for good. Keep the money.
 
-Silex blocks gambling across your iPhone and walks you through 90 days, one at a time.
+Silex blocks gambling across your phone and walks you through 90 days, one at a time.
 
-[Get Silex on iPhone](https://apps.apple.com/app/id6798826038?mt=8)
+[Get Silex on iPhone](https://apps.apple.com/app/id6798826038?mt=8) [Get Silex on Android](https://play.google.com/store/apps/details?id=com.klozovyi.stopgamble&referrer=utm_source%3Dtrysilex%26utm_campaign%3Dblocker_roundup)
 
 ## Common questions
 

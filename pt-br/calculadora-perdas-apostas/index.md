@@ -44,9 +44,9 @@ Essa reação é informação, não sentença. Dois passos:
 
 ## Pare de vez. Fique com o dinheiro.
 
-O Silex bloqueia apostas no iPhone inteiro e acompanha você por 90 dias, um de cada vez.
+O Silex bloqueia apostas no celular inteiro e acompanha você por 90 dias, um de cada vez.
 
-[Baixar o Silex para iPhone](https://apps.apple.com/app/id6798826038?mt=8)
+[Baixar o Silex para iPhone](https://apps.apple.com/app/id6798826038?mt=8) [Baixar o Silex para Android](https://play.google.com/store/apps/details?id=com.klozovyi.stopgamble&referrer=utm_source%3Dtrysilex%26utm_campaign%3Dptbr_calculator)
 
 ## Perguntas frequentes
 

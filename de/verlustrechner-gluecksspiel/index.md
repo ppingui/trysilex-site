@@ -44,9 +44,9 @@ Diese Reaktion ist eine Information, kein Urteil. Zwei Schritte:
 
 ## Endgültig aufhören. Das Geld behalten.
 
-Silex sperrt Glücksspiel auf deinem ganzen iPhone und begleitet dich 90 Tage lang, Tag für Tag.
+Silex sperrt Glücksspiel auf deinem ganzen Handy und begleitet dich 90 Tage lang, Tag für Tag.
 
-[Silex fürs iPhone laden](https://apps.apple.com/app/id6798826038?mt=8)
+[Silex fürs iPhone laden](https://apps.apple.com/app/id6798826038?mt=8) [Silex für Android laden](https://play.google.com/store/apps/details?id=com.klozovyi.stopgamble&referrer=utm_source%3Dtrysilex%26utm_campaign%3Dde_calculator)
 
 ## Häufige Fragen
 

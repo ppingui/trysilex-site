@@ -2,9 +2,9 @@
 
 # Gamban alternatives
 
-By [Kyrylo Lozovyi](https://trysilex.com/about/) · August 10, 2026
+By [Kyrylo Lozovyi](https://trysilex.com/about/) · August 10, 2026 · Updated November 3, 2026
 
-**Short answer:** Gamban is **£4.99/month or £29.99/year** with a 7-day free trial, covering iOS, Android, Windows and Mac. If you want free, **BetBlocker** (charity-run) does the core job on more platforms than Gamban. If you want the strongest removal resistance on Windows or Android, look at **GamBlock**. If you want a quit program rather than just a wall, **Silex** — which we make — is iPhone-only and costs more. And if you only gamble on an iPhone, iOS's own DNS and Screen Time settings plus a free filtering resolver cost nothing at all.
+**Short answer:** Gamban is **£4.99/month or £29.99/year** with a 7-day free trial, covering iOS, Android, Windows and Mac. If you want free, **BetBlocker** (charity-run) does the core job on more platforms than Gamban. If you want the strongest removal resistance on Windows or Android, look at **GamBlock**. If you want a quit program rather than just a wall, **Silex** — which we make — runs on iPhone and Android, with no desktop app. And if you only gamble on an iPhone, iOS's own DNS and Screen Time settings plus a free filtering resolver cost nothing at all.
 
 **Disclosure:** we make Silex, one of the options below. So this page verifies every price against the vendor's own site rather than repeating other comparisons, and it says where Gamban beats us. Prices checked 10 August 2026.
 
@@ -20,7 +20,7 @@ People usually look for an alternative for one of four reasons: they want it fre
 |---|---|---|---|
 | **BetBlocker** | Free, no ads | iOS, Android, Windows, Mac, Linux, Fire OS | Cost, platform breadth, lockable periods up to 5 years |
 | **GamBlock** | Paid, not published on homepage | Windows, Apple, Android | Removal resistance on Windows and Android |
-| **Silex** (ours) | $4.99/wk or $49.99/yr, 3-day trial | iPhone only | A 90-day program, urge tools, money-kept tracking |
+| **Silex** (ours) | $2.99/wk or $29.99/yr, 7-day trial | iPhone, Android | A 90-day program, urge tools, money-kept tracking |
 | **NextDNS or Control D** | Free tiers; paid from a few $/month | Anything that can set DNS | Whole-network coverage, granular control |
 | **iOS Screen Time + a filtering resolver** | Free | iPhone, iPad | Costing nothing, if iPhone is your only risk |
 
@@ -44,11 +44,11 @@ Not blocker apps but filtering DNS services with gambling categories you switch 
 
 ### Silex — different product, not a cheaper Gamban
 
-iPhone only, $4.99/week or $49.99/year with a 3-day trial. It installs an encrypted-DNS shield covering every app and browser, ships a Safari content blocker, and guides setup of the layers software can't provide — self-exclusion, bank blocks, killing promo emails.
+iPhone and Android, $2.99/week or $29.99/year with a 7-day trial. It sets up a system-wide DNS shield covering every app and browser, ships a Safari content blocker on iPhone, and guides setup of the layers software can't provide — self-exclusion, bank blocks, killing promo emails.
 
 The reason to choose it is the other half: a 90-day program written from clinical CBT material, an urge button that is never paywalled, and a running total of the money you kept.
 
-**Where Gamban wins, clearly:** platforms. Gamban covers your laptop; Silex does not exist on anything but an iPhone. Gamban is also cheaper annually, and has years of operating history where we have weeks. If what you need is a blocker, Gamban or BetBlocker is the better buy and we'd rather say so than sell you the wrong thing.
+**Where Gamban wins, clearly:** platforms. Gamban covers your laptop; Silex is a phone app, and on a computer there is only its free browser extension. Gamban also has years of operating history where we have months. If what you need is a blocker, Gamban or BetBlocker is the better buy and we'd rather say so than sell you the wrong thing.
 
 ## When you should just keep Gamban
 
@@ -67,9 +67,9 @@ Then pick whichever blocker you'll actually keep installed. [Full comparison of 
 
 ## Quit for good. Keep the money.
 
-Silex blocks gambling across your iPhone and walks you through 90 days, one at a time.
+Silex blocks gambling across your phone and walks you through 90 days, one at a time.
 
-[Get Silex on iPhone](https://apps.apple.com/app/id6798826038?mt=8)
+[Get Silex on iPhone](https://apps.apple.com/app/id6798826038?mt=8) [Get Silex on Android](https://play.google.com/store/apps/details?id=com.klozovyi.stopgamble&referrer=utm_source%3Dtrysilex%26utm_campaign%3Dgamban_alts)
 
 ## Common questions
 

@@ -48,9 +48,9 @@ Este es el paso que se salta casi todo el mundo, y la razón por la que muchos r
 
 ## Déjalo para siempre. Quédate con el dinero.
 
-Silex bloquea el juego en todo tu iPhone y te acompaña durante 90 días, uno a uno.
+Silex bloquea el juego en todo tu teléfono y te acompaña durante 90 días, uno a uno.
 
-[Descargar Silex para iPhone](https://apps.apple.com/app/id6798826038?mt=8)
+[Descargar Silex para iPhone](https://apps.apple.com/app/id6798826038?mt=8) [Descargar Silex para Android](https://play.google.com/store/apps/details?id=com.klozovyi.stopgamble&referrer=utm_source%3Dtrysilex%26utm_campaign%3Des_hub)
 
 ## Preguntas frecuentes
 

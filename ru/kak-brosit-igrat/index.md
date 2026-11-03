@@ -48,9 +48,9 @@
 
 ## Бросить навсегда. Сохранить деньги.
 
-Silex блокирует азартные игры на всём iPhone и ведёт вас 90 дней, шаг за шагом.
+Silex блокирует азартные игры на всём телефоне и ведёт вас 90 дней, шаг за шагом.
 
-[Скачать Silex для iPhone](https://apps.apple.com/app/id6798826038?mt=8)
+[Скачать Silex для iPhone](https://apps.apple.com/app/id6798826038?mt=8) [Скачать Silex для Android](https://play.google.com/store/apps/details?id=com.klozovyi.stopgamble&referrer=utm_source%3Dtrysilex%26utm_campaign%3Dru_hub)
 
 ## Частые вопросы
 

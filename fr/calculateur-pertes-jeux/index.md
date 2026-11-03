@@ -44,9 +44,9 @@ Cette réaction est une information, pas un verdict. Deux étapes :
 
 ## Arrêter pour de bon. Garder l'argent.
 
-Silex bloque les jeux d'argent sur tout votre iPhone et vous accompagne pendant 90 jours, un à la fois.
+Silex bloque les jeux d'argent sur tout votre téléphone et vous accompagne pendant 90 jours, un à la fois.
 
-[Télécharger Silex pour iPhone](https://apps.apple.com/app/id6798826038?mt=8)
+[Télécharger Silex pour iPhone](https://apps.apple.com/app/id6798826038?mt=8) [Télécharger Silex pour Android](https://play.google.com/store/apps/details?id=com.klozovyi.stopgamble&referrer=utm_source%3Dtrysilex%26utm_campaign%3Dfr_calculator)
 
 ## Questions fréquentes
 

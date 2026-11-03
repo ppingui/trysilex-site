@@ -53,9 +53,9 @@ Wenn Spieldruck kurz ist und von selbst vergeht, geht es nur darum, *dreißig Mi
 
 ## Endgültig aufhören. Das Geld behalten.
 
-Silex sperrt Glücksspiel auf deinem ganzen iPhone und begleitet dich 90 Tage lang, Tag für Tag.
+Silex sperrt Glücksspiel auf deinem ganzen Handy und begleitet dich 90 Tage lang, Tag für Tag.
 
-[Silex fürs iPhone laden](https://apps.apple.com/app/id6798826038?mt=8)
+[Silex fürs iPhone laden](https://apps.apple.com/app/id6798826038?mt=8) [Silex für Android laden](https://play.google.com/store/apps/details?id=com.klozovyi.stopgamble&referrer=utm_source%3Dtrysilex%26utm_campaign%3Dde_urges)
 
 ## Häufige Fragen
 

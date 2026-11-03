@@ -8,8 +8,8 @@ Subscriptions are sold and billed by Apple through the App Store. Silex never se
 
 | Plan | Price (US) | Trial |
 |---|---|---|
-| Annual | $49.99 a year | 3-day free trial |
-| Weekly | $4.99 a week | No trial, cancel any time |
+| Annual | $29.99 a year | 7-day free trial |
+| Weekly | $2.99 a week | No trial, cancel any time |
 
 Prices in other countries follow Apple's regional pricing; the paywall always shows your local price and the exact trial length before you confirm. If you close the annual payment sheet, Silex may offer the annual plan at a discount. If you bought the earlier lifetime plan, it keeps working.
 

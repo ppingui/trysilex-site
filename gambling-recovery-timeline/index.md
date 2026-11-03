@@ -58,9 +58,9 @@ Not arbitrary, and not a claim about your brain finishing on a particular date. 
 
 ## Quit for good. Keep the money.
 
-Silex blocks gambling across your iPhone and walks you through 90 days, one at a time.
+Silex blocks gambling across your phone and walks you through 90 days, one at a time.
 
-[Get Silex on iPhone](https://apps.apple.com/app/id6798826038?mt=8)
+[Get Silex on iPhone](https://apps.apple.com/app/id6798826038?mt=8) [Get Silex on Android](https://play.google.com/store/apps/details?id=com.klozovyi.stopgamble&referrer=utm_source%3Dtrysilex%26utm_campaign%3Dtimeline)
 
 ## Common questions
 

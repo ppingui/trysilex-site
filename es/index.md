@@ -2,14 +2,14 @@
 
 # Deja de apostar para siempre. Quédate con el dinero.
 
-Silex es una app para iPhone que bloquea el juego en todo tu teléfono, te acompaña durante 90 días, uno a uno, y cuenta el dinero que no perdiste. Sin cuentas. Sin anuncios. Sin perfil tuyo. Nunca.
+Silex es una app para iPhone y Android que bloquea el juego en todo tu teléfono, te acompaña durante 90 días, uno a uno, y cuenta el dinero que no perdiste. Sin cuentas. Sin anuncios. Sin perfil tuyo. Nunca.
 
 - Privada por diseño
 - Basada en evidencia
 - Sin anuncios
-- iPhone, iOS 17+
+- iPhone y Android
 
-[Descargar Silex para iPhone](https://apps.apple.com/app/id6798826038?mt=8)
+[Descargar Silex para iPhone](https://apps.apple.com/app/id6798826038?mt=8) [Descargar Silex para Android](https://play.google.com/store/apps/details?id=com.klozovyi.stopgamble&referrer=utm_source%3Dtrysilex%26utm_campaign%3Des_home_hero)
 
 ![Pantalla de inicio de Silex: 34 días libres, la lección de hoy y el dinero guardado.](https://trysilex.com/assets/shots/es/dashboard.jpg) ![El programa de 90 días con sus tres fases.](https://trysilex.com/assets/shots/es/program.jpg) ![Pantalla de protección con las cinco capas de bloqueo y su estado.](https://trysilex.com/assets/shots/es/protect.jpg) ![El botón SOS con respiración en caja y un temporizador para surfear el impulso.](https://trysilex.com/assets/shots/es/panic.jpg) ![Las piezas que ganas con los días limpios, la mayoría aún selladas.](https://trysilex.com/assets/shots/es/collection.jpg)
 
@@ -17,7 +17,7 @@ Silex es una app para iPhone que bloquea el juego en todo tu teléfono, te acomp
 
 ### Cinco capas de bloqueo
 
-Un escudo DNS para todo el sistema que cubre cada app y cada navegador, un bloqueador de Safari con una lista de cientos de miles de dominios de juego, y una configuración guiada de las tres defensas que de verdad aguantan: la autoprohibición, el bloqueo de pagos en el banco y cortar cada correo y notificación de promociones.
+Un escudo DNS para todo el sistema que cubre cada app y cada navegador, en iPhone un bloqueador de Safari con una lista de cientos de miles de dominios de juego, y una configuración guiada de las tres defensas que de verdad aguantan: la autoprohibición, el bloqueo de pagos en el banco y cortar cada correo y notificación de promociones.
 
 [Guía completa para bloquear el juego en iPhone](https://trysilex.com/es/bloquear-apuestas-iphone/)
 
@@ -45,9 +45,9 @@ Dejar el juego no es una línea recta, y una app que pone tu progreso a cero en 
 
 ## Lo que cuesta, sin rodeos
 
-Silex es una app de pago y te lo dice antes de que inviertas tiempo: después de las preguntas iniciales llegas a la pantalla de suscripción. Hay un plan **semanal** y uno **anual con 3 días de prueba gratis**; el precio exacto en tu moneda aparece en la App Store antes de pagar. Puedes cancelar cuando quieras desde los ajustes de tu cuenta de Apple.
+Silex es una app de pago y te lo dice antes de que inviertas tiempo: después de las preguntas iniciales llegas a la pantalla de suscripción. Hay un plan **semanal** y uno **anual con 7 días de prueba gratis**; el precio exacto en tu moneda aparece en la tienda antes de pagar. Puedes cancelar cuando quieras desde tu cuenta de Apple o de Google Play.
 
-Tres cosas son gratis para siempre, tengas suscripción o no: el botón de ayuda para los impulsos, las líneas de crisis y el apoyo tras una recaída. Son funciones de seguridad, y la seguridad nunca debería estar detrás de un pago.
+Las líneas de crisis están a un toque en la pantalla de suscripción, gratis, pagues o no. Si la suscripción termina, el botón de ayuda para los impulsos, las líneas de crisis y el apoyo tras una recaída siguen funcionando. Son funciones de seguridad, y la seguridad nunca debería estar detrás de un pago.
 
 ## Privada porque no hay nada que te identifique
 
@@ -67,19 +67,19 @@ Todo esto es gratis de leer, sin pedirte el correo.
 
 ## Déjalo para siempre. Quédate con el dinero.
 
-Silex bloquea el juego en todo tu iPhone y te acompaña durante 90 días, uno a uno.
+Silex bloquea el juego en todo tu teléfono y te acompaña durante 90 días, uno a uno.
 
-[Descargar Silex para iPhone](https://apps.apple.com/app/id6798826038?mt=8)
+[Descargar Silex para iPhone](https://apps.apple.com/app/id6798826038?mt=8) [Descargar Silex para Android](https://play.google.com/store/apps/details?id=com.klozovyi.stopgamble&referrer=utm_source%3Dtrysilex%26utm_campaign%3Des_home_footer)
 
 ## Preguntas frecuentes
 
 ### ¿Silex es gratis?
 
-Las herramientas de seguridad son gratis para siempre: el botón de ayuda para los impulsos, las líneas de crisis y el apoyo tras una recaída funcionan sin pagar. El programa de 90 días y los bloqueos necesitan suscripción: semanal, o anual con 3 días de prueba gratis. El precio exacto en tu moneda aparece en la App Store antes de pagar.
+No. Silex es una suscripción: semanal, o anual con 7 días de prueba gratis. El precio exacto en tu moneda aparece en la tienda antes de pagar. Las líneas de crisis son gratis en la pantalla de suscripción, pagues o no, y si la suscripción termina, el botón de ayuda para los impulsos, las líneas de crisis y el apoyo tras una recaída siguen funcionando.
 
 ### ¿Silex funciona en Android?
 
-Todavía no. Silex es solo para iPhone, con iOS 17 o posterior. Usa funciones propias de iOS —perfiles DNS, bloqueadores de contenido de Safari, Tiempo de uso— que no tienen un equivalente directo en Android.
+Sí. Silex está en Google Play para Android 8.0 o posterior, con el mismo programa de 90 días, el botón SOS y el contador de dinero. En Android el escudo para todo el sistema funciona con DNS privado (Android 9 o posterior). La app de iPhone necesita iOS 17 o posterior y añade un bloqueador de contenido de Safari.
 
 ### ¿Puedo quitar el bloqueo en un momento de ansiedad?
 

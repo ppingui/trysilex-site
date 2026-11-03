@@ -2,11 +2,11 @@
 
 # How to block gambling on Android
 
-By [Kyrylo Lozovyi](https://trysilex.com/about/) · August 10, 2026
+By [Kyrylo Lozovyi](https://trysilex.com/about/) · August 10, 2026 · Updated November 3, 2026
 
 **Short answer:** Android has the best free gambling block of any phone platform and almost nobody uses it: **Settings → Network & internet → Private DNS → Private DNS provider hostname**, set to a filtering resolver such as `family.dns.mullvad.net`. That covers every app and every browser, on Wi-Fi and mobile data, in about two minutes, at no cost. Then layer **Family Link** (so someone else controls the settings), a **bank gambling block**, and **self-exclusion**.
 
-**Straight answer first:** Silex is iPhone-only, so this page isn't selling you anything. It's the setup we'd give a friend on Android, and the free built-in option is better than most of the paid apps.
+**Straight answer first:** Silex is on Android now, but you don't need it for anything on this page. It's the setup we'd give a friend on Android, and the free built-in option is better than most of the paid apps.
 
 ## 1. Private DNS — the two-minute one that covers everything
 
@@ -82,7 +82,7 @@ Not by itself — it's a Settings toggle, so it's a speed bump rather than a wal
 
 ### Does Silex work on Android?
 
-No. Silex is iPhone-only, and there's no Android version planned in the near term. If you're on Android, the setup on this page plus BetBlocker or Gamban is what we'd genuinely recommend — we'd rather tell you that than waste your time.
+Yes, on Android 8.0 and later, from Google Play. It sets up the Private DNS block from this page for you and adds a 90-day quit program, an urge button and a count of the money you keep; it is a paid subscription. If all you want is the block, the free setup on this page plus BetBlocker or Gamban does that job.
 
 ### Will a VPN block gambling sites on Android?
 

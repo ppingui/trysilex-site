@@ -1,6 +1,6 @@
 # Silex — Stop Gambling
 
-An iPhone app that blocks gambling across the phone, runs a 90-day evidence-based quit program, and tracks the money you keep. No accounts, no ads, and nothing a user writes leaves the phone. Built by Kyrylo Lozovyi. Weekly $4.99 or annual $49.99 with a 3-day free trial.
+An iPhone and Android app that blocks gambling across the phone, runs a 90-day evidence-based quit program, and tracks the money you keep. No accounts, no ads, and nothing a user writes leaves the phone. Built by Kyrylo Lozovyi. Weekly $2.99 or annual $29.99 with a 7-day free trial.
 
 Silex is a wellness app, not medical care, and does not diagnose or treat any condition.
 
@@ -40,19 +40,19 @@ Index: https://trysilex.com/llms.txt
 # Quit gambling for good. Keep the money.
 URL: https://trysilex.com/
 Language: en
-Description: Silex blocks gambling across your iPhone, walks you through a 90-day evidence-based quit program, and counts the money you keep. No accounts, no ads, no profile of you.
+Description: Silex blocks gambling across your iPhone or Android phone, walks you through a 90-day evidence-based quit program, and counts the money you keep. No accounts, no ads, no profile of you.
 
-Silex is an iPhone app that blocks gambling across your whole phone, walks you through 90 days one at a time, and counts the money you didn't lose. No accounts. No ads. No profile of you. Ever.
+Silex is an app for iPhone and Android that blocks gambling across your whole phone, walks you through 90 days one at a time, and counts the money you didn't lose. No accounts. No ads. No profile of you. Ever.
 - Private by design
 - Evidence-based
 - No ads. Ever.
-- iPhone, iOS 17+
+- iPhone and Android
 
 ## Four things, done properly
 
 ### Five layers of blocking
-A system-wide DNS shield that covers every app and browser, a Safari content blocker built on a bundled list of hundreds of thousands of gambling domains, plus guided setup for the three defences that actually hold: operator self-exclusion, a bank gambling block, and killing every promo email and push.
-How this compares to other blockers · The full iPhone blocking guide
+A system-wide DNS shield that covers every app and browser, on iPhone a Safari content blocker built on a bundled list of hundreds of thousands of gambling domains, plus guided setup for the three defences that actually hold: operator self-exclusion, a bank gambling block, and killing every promo email and push.
+How this compares to other blockers · The full iPhone blocking guide · Android
 
 ### A real 90-day program
 90 authored days in three phases — See the Machine, Rewire, Fortify — built from clinical CBT workbooks and the research on how gambling products are designed to hook you. One lesson a day, not a library to binge.
@@ -74,8 +74,8 @@ Gambling recovery is not a clean line, and an app that zeroes your progress the 
 What to do in the hour after you gamble again
 
 ## What it costs, plainly
-Silex is a paid app and it tells you so before you invest any time: after the intake questions you reach a paywall. $4.99 per week, or $49.99 per year with a 3-day free trial — about $0.96 a week. Cancel any time in your Apple account settings.
-Three things stay free forever, with or without a subscription: the urge button, the crisis helplines, and lapse support. Those are safety features, and safety features should never sit behind a payment screen.
+Silex is a paid app and it tells you so before you invest any time: after the intake questions you reach a paywall. $2.99 per week, or $29.99 per year with a 7-day free trial (US prices; the store shows yours before you pay). Cancel any time in your Apple or Google Play account.
+The crisis helplines are one tap away on the subscribe screen, free, whether or not you ever pay. If a subscription ends, the urge button, the helplines and lapse support keep working. Those are safety features, and safety features should never sit behind a payment screen.
 
 ## Private because there is nothing to identify you by
 No account, no email, no password, no ad network, nothing that follows you between apps. Your answers, your spending figures, your journal and your lapses live on your phone, with an optional iCloud backup encrypted to your Apple account — we cannot read any of it. The one thing Silex sends is an anonymous count of which setup steps get finished, so what trips people up can be fixed. One switch in Settings turns it off.
@@ -108,10 +108,10 @@ Everything below is free to read, with no email required.
 ## Common questions
 
 Q: Is Silex free?
-A: The safety tools are free forever — the urge button, the crisis helplines and the lapse support work without paying. The 90-day program and the protection stack need a subscription: $4.99 a week, or $49.99 a year with a 3-day free trial.
+A: No. Silex is a subscription: $2.99 a week, or $29.99 a year with a 7-day free trial (US prices). The crisis helplines are free on the subscribe screen whether or not you ever pay, and if a subscription ends, the urge button, the helplines and lapse support keep working.
 
 Q: Does Silex work on Android?
-A: Not yet. Silex is iPhone-only, iOS 17 or later. It uses iOS-specific system APIs — DNS profiles, Safari content blockers, Screen Time — that have no direct Android equivalent.
+A: Yes. Silex is on Google Play for Android 8.0 and later, with the same 90-day program, SOS button and money counter. On Android the system-wide shield runs through Private DNS (Android 9 and later). The iPhone app needs iOS 17 or later and adds a Safari content blocker.
 
 Q: Can I remove the blocking in a moment of craving?
 A: You can, and Silex is honest about that: no app can make itself truly unremovable on iOS. That is exactly why it layers five defences instead of relying on one, and why the strongest layer it points you at is operator self-exclusion, which you cannot undo on impulse.
@@ -158,7 +158,7 @@ Support and press: support@trysilex.com. Privacy questions are answered in the p
 URL: https://trysilex.com/best-gambling-blocker-apps/
 Language: en
 Description: Gamban, BetBlocker, GamBlock and the rest — what each one covers, what it costs, and which to pick. Prices verified from each vendor's own site, with a disclosure: we make one of these.
-Published: 2026-08-10 · Updated: 2026-08-10
+Published: 2026-08-10 · Updated: 2026-11-03
 
 Short answer: BetBlocker is free, run by a registered charity, and the right first install for almost everyone. Gamban (£4.99/month or £29.99/year) is the strongest cross-platform blocker if you gamble on more than a phone. Silex — which we make, so weigh that — is for people who want the 90-day quit program alongside the blocking. Whichever you choose, a blocker on its own is the weakest of the three layers that matter; the other two are self-exclusion and a bank block, and both are free.
 
@@ -177,7 +177,7 @@ App | Price | Platforms | Best for
 BetBlocker | Free, forever, no ads | iOS, Android, Windows, Mac, Linux, Fire OS | The first thing anyone should install
 Gamban | £4.99/month or £29.99/year, 7-day free trial | iOS, Android, Windows, Mac | Gambling across phone and computer
 GamBlock | Paid; not published on the homepage | Windows, Mac/iOS, Android | Maximum removal resistance on Windows/Android
-Silex (ours) | $4.99/week or $49.99/year, 3-day trial | iPhone; free blocker extension for Chrome and Edge | Blocking plus a structured 90-day program
+Silex (ours) | $2.99/week or $29.99/year, 7-day trial | iPhone, Android; free blocker extension for Chrome and Edge | Blocking plus a structured 90-day program
 iOS Screen Time | Free, built in | iPhone, iPad | Stopping reinstalls; needs someone else to hold the passcode
 
 ## BetBlocker — free, and not a lesser option
@@ -200,10 +200,10 @@ Two caveats. Its pricing isn't shown on the homepage, which makes comparison sho
 Source: gamblock.com, checked 10 August 2026. Claims are the vendor's, not ours.
 
 ## Silex — ours, so read this sceptically
-Silex is iPhone-only, $4.99/week or $49.99/year with a 3-day trial. It installs an encrypted-DNS shield that covers every app and browser, ships a Safari content blocker built on a large bundled domain list, and walks you through setting up the layers it can't provide itself — self-exclusion, a bank block, killing promo emails.
+Silex is on iPhone and Android, $2.99/week or $29.99/year with a 7-day trial. It sets up a system-wide DNS shield that covers every app and browser, ships a Safari content blocker on iPhone built on a large bundled domain list, and walks you through setting up the layers it can't provide itself — self-exclusion, a bank block, killing promo emails.
 The actual reason it exists is the other half: a 90-day program written from clinical CBT material, an always-available urge button that is never paywalled, and a counter for the money you kept. Blocking buys ninety seconds; the program is about what you do with them.
 On a computer there is a free Silex browser extension for Chrome and Edge. It blocks the same gambling domain list inside that one browser and nothing else, so another browser or an app gets round it.
-Where it loses to the apps above: the app is iPhone only — no Android, and on a computer only the browser extension. It costs more than BetBlocker, which is free. And it is new, with none of Gamban's operating history. If you want a blocker and nothing more, we are not the best-value answer, and saying otherwise would be the kind of claim this page exists to avoid.
+Where it loses to the apps above: there is no desktop app — on a computer, only the browser extension. It costs more than BetBlocker, which is free. And it is new, with none of Gamban's operating history. If you want a blocker and nothing more, we are not the best-value answer, and saying otherwise would be the kind of claim this page exists to avoid.
 
 ## Not included, and why
 Betfilter, Bet Breaker, Screen Stoic and Freedom all appear in other roundups. We have not verified their current pricing or tested them, so they are listed here rather than ranked — assigning them a place we hadn't checked is exactly the practice that makes these pages useless. If you have used one, tell us what it actually did.
@@ -241,11 +241,11 @@ A: Layering different kinds helps — a DNS-level blocker plus a bank block plus
 URL: https://trysilex.com/block-gambling-apps-android/
 Language: en
 Description: Android's built-in Private DNS blocks gambling in every app and browser for free, in about two minutes. Plus Digital Wellbeing, Family Link, and which third-party blockers are worth it.
-Published: 2026-08-10 · Updated: 2026-08-10
+Published: 2026-08-10 · Updated: 2026-11-03
 
 Short answer: Android has the best free gambling block of any phone platform and almost nobody uses it: Settings → Network & internet → Private DNS → Private DNS provider hostname, set to a filtering resolver such as family.dns.mullvad.net. That covers every app and every browser, on Wi-Fi and mobile data, in about two minutes, at no cost. Then layer Family Link (so someone else controls the settings), a bank gambling block, and self-exclusion.
 
-Straight answer first: Silex is iPhone-only, so this page isn't selling you anything. It's the setup we'd give a friend on Android, and the free built-in option is better than most of the paid apps.
+Straight answer first: Silex is on Android now, but you don't need it for anything on this page. It's the setup we'd give a friend on Android, and the free built-in option is better than most of the paid apps.
 
 ## 1. Private DNS — the two-minute one that covers everything
 Android has supported encrypted DNS system-wide since Android 9. Point it at a resolver that filters gambling and those domains stop resolving in every app and every browser — sportsbook apps included — on Wi-Fi and on mobile data.
@@ -304,7 +304,7 @@ Q: Can I stop myself turning Private DNS off?
 A: Not by itself — it's a Settings toggle, so it's a speed bump rather than a wall. To make it stick, put the device under Family Link with someone else holding the account, or use a blocker that resists removal. And rely on the layers you can't undo at all: self-exclusion and a bank block.
 
 Q: Does Silex work on Android?
-A: No. Silex is iPhone-only, and there's no Android version planned in the near term. If you're on Android, the setup on this page plus BetBlocker or Gamban is what we'd genuinely recommend — we'd rather tell you that than waste your time.
+A: Yes, on Android 8.0 and later, from Google Play. It sets up the Private DNS block from this page for you and adds a 90-day quit program, an urge button and a count of the money you keep; it is a paid subscription. If all you want is the block, the free setup on this page plus BetBlocker or Gamban does that job.
 
 Q: Will a VPN block gambling sites on Android?
 A: A standard VPN, no — it moves where your traffic exits, it doesn't filter it. Some privacy VPNs include a content-filtering DNS mode that does block gambling categories. Note that an active VPN can override your Private DNS setting, which is a common reason blocking silently stops working.
@@ -477,10 +477,10 @@ Description: How to set up and use Silex, the iPhone app that blocks gambling an
 Silex is an iPhone app for people who want to stop gambling. It blocks gambling sites and apps across the phone, runs a 90-day quit program one day at a time, gives you an SOS button for the worst minute of an urge, and counts the money you keep. These pages explain how each part works and how to set it up.
 
 ## Requirements
-- Device: iPhone with iOS 17.0 or later. Silex is iPhone only, in portrait, with a dark interface.
+- Device: iPhone with iOS 17.0 or later, in portrait, with a dark interface. Silex is also on Android (Google Play, Android 8.0 or later); these pages describe the iPhone app.
 - Languages: 22: English, Danish, Dutch, Finnish, French, German, Indonesian, Italian, Japanese, Korean, Norwegian, Polish, Portuguese (Brazil), Russian, Simplified Chinese, Spanish, Swedish, Thai, Traditional Chinese, Turkish, Ukrainian and Vietnamese.
 - Account: none. There is no sign-up and no login. Your data lives on your phone and, if you use iCloud, in your own private iCloud database.
-- Price: a subscription, $4.99 a week or $49.99 a year with a free trial. See Subscriptions.
+- Price: a subscription, $2.99 a week or $29.99 a year with a 7-day free trial. See Subscriptions.
 
 ## Where to start
 - Getting started: what onboarding asks and the three setup steps after it.
@@ -788,8 +788,8 @@ Subscriptions are sold and billed by Apple through the App Store. Silex never se
 
 ## Plans
 Plan | Price (US) | Trial
-Annual | $49.99 a year | 3-day free trial
-Weekly | $4.99 a week | No trial, cancel any time
+Annual | $29.99 a year | 7-day free trial
+Weekly | $2.99 a week | No trial, cancel any time
 
 Prices in other countries follow Apple's regional pricing; the paywall always shows your local price and the exact trial length before you confirm. If you close the annual payment sheet, Silex may offer the annual plan at a discount. If you bought the earlier lifetime plan, it keeps working.
 
@@ -852,9 +852,9 @@ Don't wait for an email. The free helplines at the bottom of this page answer 24
 URL: https://trysilex.com/gamban-alternatives/
 Language: en
 Description: Gamban costs £4.99 a month or £29.99 a year. Here are the free and paid alternatives that cover the same job, what each does better, and when Gamban is still the right answer.
-Published: 2026-08-10 · Updated: 2026-08-10
+Published: 2026-08-10 · Updated: 2026-11-03
 
-Short answer: Gamban is £4.99/month or £29.99/year with a 7-day free trial, covering iOS, Android, Windows and Mac. If you want free, BetBlocker (charity-run) does the core job on more platforms than Gamban. If you want the strongest removal resistance on Windows or Android, look at GamBlock. If you want a quit program rather than just a wall, Silex — which we make — is iPhone-only and costs more. And if you only gamble on an iPhone, iOS's own DNS and Screen Time settings plus a free filtering resolver cost nothing at all.
+Short answer: Gamban is £4.99/month or £29.99/year with a 7-day free trial, covering iOS, Android, Windows and Mac. If you want free, BetBlocker (charity-run) does the core job on more platforms than Gamban. If you want the strongest removal resistance on Windows or Android, look at GamBlock. If you want a quit program rather than just a wall, Silex — which we make — runs on iPhone and Android, with no desktop app. And if you only gamble on an iPhone, iOS's own DNS and Screen Time settings plus a free filtering resolver cost nothing at all.
 
 Disclosure: we make Silex, one of the options below. So this page verifies every price against the vendor's own site rather than repeating other comparisons, and it says where Gamban beats us. Prices checked 10 August 2026.
 
@@ -866,7 +866,7 @@ People usually look for an alternative for one of four reasons: they want it fre
 Option | Price | Platforms | Better than Gamban at
 BetBlocker | Free, no ads | iOS, Android, Windows, Mac, Linux, Fire OS | Cost, platform breadth, lockable periods up to 5 years
 GamBlock | Paid, not published on homepage | Windows, Apple, Android | Removal resistance on Windows and Android
-Silex (ours) | $4.99/wk or $49.99/yr, 3-day trial | iPhone only | A 90-day program, urge tools, money-kept tracking
+Silex (ours) | $2.99/wk or $29.99/yr, 7-day trial | iPhone, Android | A 90-day program, urge tools, money-kept tracking
 NextDNS or Control D | Free tiers; paid from a few $/month | Anything that can set DNS | Whole-network coverage, granular control
 iOS Screen Time + a filtering resolver | Free | iPhone, iPad | Costing nothing, if iPhone is your only risk
 
@@ -883,9 +883,9 @@ Not blocker apps but filtering DNS services with gambling categories you switch 
 Where Gamban wins: you have to be comfortable with profiles and DNS settings, and nothing stops you switching the profile off — there's no commitment mechanism at all.
 
 ### Silex — different product, not a cheaper Gamban
-iPhone only, $4.99/week or $49.99/year with a 3-day trial. It installs an encrypted-DNS shield covering every app and browser, ships a Safari content blocker, and guides setup of the layers software can't provide — self-exclusion, bank blocks, killing promo emails.
+iPhone and Android, $2.99/week or $29.99/year with a 7-day trial. It sets up a system-wide DNS shield covering every app and browser, ships a Safari content blocker on iPhone, and guides setup of the layers software can't provide — self-exclusion, bank blocks, killing promo emails.
 The reason to choose it is the other half: a 90-day program written from clinical CBT material, an urge button that is never paywalled, and a running total of the money you kept.
-Where Gamban wins, clearly: platforms. Gamban covers your laptop; Silex does not exist on anything but an iPhone. Gamban is also cheaper annually, and has years of operating history where we have weeks. If what you need is a blocker, Gamban or BetBlocker is the better buy and we'd rather say so than sell you the wrong thing.
+Where Gamban wins, clearly: platforms. Gamban covers your laptop; Silex is a phone app, and on a computer there is only its free browser extension. Gamban also has years of operating history where we have months. If what you need is a blocker, Gamban or BetBlocker is the better buy and we'd rather say so than sell you the wrong thing.
 
 ## When you should just keep Gamban
 - You gamble on more than one kind of device.
@@ -1763,10 +1763,10 @@ Email support@trysilex.com. One person reads it, so replies usually take a day a
 If you are in crisis, don't wait for an email reply. The helplines at the bottom of this page are free, confidential and answer 24/7.
 
 ## Subscriptions
-- Prices. $4.99 per week, or $49.99 per year with a 3-day free trial. Local prices follow Apple's regional pricing.
-- Cancelling. Settings → your name → Subscriptions → Silex → Cancel Subscription. Deleting the app does not cancel the subscription.
-- Trial. The annual plan's 3-day trial charges nothing up front, and the app notifies you on day 2, before it ends. Cancel any time before it ends and you pay nothing.
-- Refunds are handled by Apple, not by us: reportaproblem.apple.com. We can't issue them, but tell us what went wrong anyway — it usually points at something worth fixing.
+- Prices. $2.99 per week, or $29.99 per year with a 7-day free trial. Local prices follow Apple's and Google Play's regional pricing.
+- Cancelling. Settings → your name → Subscriptions → Silex → Cancel Subscription. On Android: Google Play → your profile → Payments & subscriptions → Subscriptions → Silex → Cancel. Deleting the app does not cancel the subscription.
+- Trial. The annual plan's 7-day trial charges nothing up front, and the app notifies you the day before it ends. Cancel any time before it ends and you pay nothing.
+- Refunds are handled by Apple or Google, not by us: reportaproblem.apple.com on iPhone, Google Play's order history on Android. We can't issue them, but tell us what went wrong anyway — it usually points at something worth fixing.
 - If your subscription lapses, the safety tools keep working. The urge button, the helplines and lapse support are free forever.
 
 ## Protection layers that won't turn on
@@ -1840,18 +1840,18 @@ If these terms change, the date at the top changes, and the current version is a
 # Deja de apostar para siempre. Quédate con el dinero.
 URL: https://trysilex.com/es/
 Language: es
-Description: Silex bloquea el juego en todo tu iPhone, te acompaña en un programa de 90 días basado en evidencia y cuenta el dinero que guardas. Sin cuentas, sin anuncios.
+Description: Silex bloquea el juego en tu iPhone o Android, te acompaña en un programa de 90 días basado en evidencia y cuenta el dinero que guardas. Sin cuentas.
 
-Silex es una app para iPhone que bloquea el juego en todo tu teléfono, te acompaña durante 90 días, uno a uno, y cuenta el dinero que no perdiste. Sin cuentas. Sin anuncios. Sin perfil tuyo. Nunca.
+Silex es una app para iPhone y Android que bloquea el juego en todo tu teléfono, te acompaña durante 90 días, uno a uno, y cuenta el dinero que no perdiste. Sin cuentas. Sin anuncios. Sin perfil tuyo. Nunca.
 - Privada por diseño
 - Basada en evidencia
 - Sin anuncios
-- iPhone, iOS 17+
+- iPhone y Android
 
 ## Cuatro cosas, bien hechas
 
 ### Cinco capas de bloqueo
-Un escudo DNS para todo el sistema que cubre cada app y cada navegador, un bloqueador de Safari con una lista de cientos de miles de dominios de juego, y una configuración guiada de las tres defensas que de verdad aguantan: la autoprohibición, el bloqueo de pagos en el banco y cortar cada correo y notificación de promociones.
+Un escudo DNS para todo el sistema que cubre cada app y cada navegador, en iPhone un bloqueador de Safari con una lista de cientos de miles de dominios de juego, y una configuración guiada de las tres defensas que de verdad aguantan: la autoprohibición, el bloqueo de pagos en el banco y cortar cada correo y notificación de promociones.
 Guía completa para bloquear el juego en iPhone
 
 ### Un programa de 90 días de verdad
@@ -1870,8 +1870,8 @@ Calcula cuánto te ha costado el juego hasta ahora
 Dejar el juego no es una línea recta, y una app que pone tu progreso a cero en cuanto recaes te enseña a esconder la recaída. Silex hace lo contrario. Una recaída activa un día de reinicio —una lección concreta sobre qué pasó y qué cambiar— y tu historial nunca se borra. Lo que has ganado no se te quita nunca.
 
 ## Lo que cuesta, sin rodeos
-Silex es una app de pago y te lo dice antes de que inviertas tiempo: después de las preguntas iniciales llegas a la pantalla de suscripción. Hay un plan semanal y uno anual con 3 días de prueba gratis; el precio exacto en tu moneda aparece en la App Store antes de pagar. Puedes cancelar cuando quieras desde los ajustes de tu cuenta de Apple.
-Tres cosas son gratis para siempre, tengas suscripción o no: el botón de ayuda para los impulsos, las líneas de crisis y el apoyo tras una recaída. Son funciones de seguridad, y la seguridad nunca debería estar detrás de un pago.
+Silex es una app de pago y te lo dice antes de que inviertas tiempo: después de las preguntas iniciales llegas a la pantalla de suscripción. Hay un plan semanal y uno anual con 7 días de prueba gratis; el precio exacto en tu moneda aparece en la tienda antes de pagar. Puedes cancelar cuando quieras desde tu cuenta de Apple o de Google Play.
+Las líneas de crisis están a un toque en la pantalla de suscripción, gratis, pagues o no. Si la suscripción termina, el botón de ayuda para los impulsos, las líneas de crisis y el apoyo tras una recaída siguen funcionando. Son funciones de seguridad, y la seguridad nunca debería estar detrás de un pago.
 
 ## Privada porque no hay nada que te identifique
 Sin cuenta, sin correo, sin contraseña, sin red publicitaria, nada que te siga de una app a otra. Tus respuestas, lo que gastabas, tu diario y tus recaídas viven en tu teléfono, con una copia opcional en iCloud cifrada con tu cuenta de Apple: nosotros no podemos leer nada de eso. Lo único que Silex envía es un recuento anónimo de qué pasos de la configuración se completan, para arreglar dónde se atasca la gente. Un interruptor en Ajustes lo desactiva.
@@ -1888,10 +1888,10 @@ Todo esto es gratis de leer, sin pedirte el correo.
 ## Preguntas frecuentes
 
 Q: ¿Silex es gratis?
-A: Las herramientas de seguridad son gratis para siempre: el botón de ayuda para los impulsos, las líneas de crisis y el apoyo tras una recaída funcionan sin pagar. El programa de 90 días y los bloqueos necesitan suscripción: semanal, o anual con 3 días de prueba gratis. El precio exacto en tu moneda aparece en la App Store antes de pagar.
+A: No. Silex es una suscripción: semanal, o anual con 7 días de prueba gratis. El precio exacto en tu moneda aparece en la tienda antes de pagar. Las líneas de crisis son gratis en la pantalla de suscripción, pagues o no, y si la suscripción termina, el botón de ayuda para los impulsos, las líneas de crisis y el apoyo tras una recaída siguen funcionando.
 
 Q: ¿Silex funciona en Android?
-A: Todavía no. Silex es solo para iPhone, con iOS 17 o posterior. Usa funciones propias de iOS —perfiles DNS, bloqueadores de contenido de Safari, Tiempo de uso— que no tienen un equivalente directo en Android.
+A: Sí. Silex está en Google Play para Android 8.0 o posterior, con el mismo programa de 90 días, el botón SOS y el contador de dinero. En Android el escudo para todo el sistema funciona con DNS privado (Android 9 o posterior). La app de iPhone necesita iOS 17 o posterior y añade un bloqueador de contenido de Safari.
 
 Q: ¿Puedo quitar el bloqueo en un momento de ansiedad?
 A: Puedes, y Silex no te lo esconde: ninguna app puede hacerse imposible de quitar en iOS. Por eso combina cinco defensas en vez de confiar en una, y por eso la más fuerte que te propone es la autoprohibición con los operadores, que no se deshace en un impulso.

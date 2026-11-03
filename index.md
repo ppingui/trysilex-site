@@ -2,14 +2,14 @@
 
 # Quit gambling for good. Keep the money.
 
-Silex is an iPhone app that blocks gambling across your whole phone, walks you through 90 days one at a time, and counts the money you didn't lose. No accounts. No ads. No profile of you. Ever.
+Silex is an app for iPhone and Android that blocks gambling across your whole phone, walks you through 90 days one at a time, and counts the money you didn't lose. No accounts. No ads. No profile of you. Ever.
 
 - Private by design
 - Evidence-based
 - No ads. Ever.
-- iPhone, iOS 17+
+- iPhone and Android
 
-[Get Silex on iPhone](https://apps.apple.com/app/id6798826038?mt=8)
+[Get Silex on iPhone](https://apps.apple.com/app/id6798826038?mt=8) [Get Silex on Android](https://play.google.com/store/apps/details?id=com.klozovyi.stopgamble&referrer=utm_source%3Dtrysilex%26utm_campaign%3Dhome_hero)
 
 ![Silex home screen: 34 days free, today's lesson, and the money kept so far.](https://trysilex.com/assets/shots/dashboard.jpg) ![The 90-day Storm to Clarity program with its three phases.](https://trysilex.com/assets/shots/program.jpg) ![Protection screen listing the five blocking layers and their status.](https://trysilex.com/assets/shots/protect.jpg) ![The SOS urge flow with box breathing and an urge-surfing timer.](https://trysilex.com/assets/shots/panic.jpg) ![Milestone pieces earned for clean days, most still sealed.](https://trysilex.com/assets/shots/collection.jpg)
 
@@ -17,9 +17,9 @@ Silex is an iPhone app that blocks gambling across your whole phone, walks you t
 
 ### Five layers of blocking
 
-A system-wide DNS shield that covers every app and browser, a Safari content blocker built on a bundled list of hundreds of thousands of gambling domains, plus guided setup for the three defences that actually hold: operator self-exclusion, a bank gambling block, and killing every promo email and push.
+A system-wide DNS shield that covers every app and browser, on iPhone a Safari content blocker built on a bundled list of hundreds of thousands of gambling domains, plus guided setup for the three defences that actually hold: operator self-exclusion, a bank gambling block, and killing every promo email and push.
 
-[How this compares to other blockers](https://trysilex.com/best-gambling-blocker-apps/) · [The full iPhone blocking guide](https://trysilex.com/block-gambling-sites-iphone/)
+[How this compares to other blockers](https://trysilex.com/best-gambling-blocker-apps/) · [The full iPhone blocking guide](https://trysilex.com/block-gambling-sites-iphone/) · [Android](https://trysilex.com/block-gambling-apps-android/)
 
 ### A real 90-day program
 
@@ -53,9 +53,9 @@ Gambling recovery is not a clean line, and an app that zeroes your progress the 
 
 ## What it costs, plainly
 
-Silex is a paid app and it tells you so before you invest any time: after the intake questions you reach a paywall. **$4.99 per week**, or **$49.99 per year with a 3-day free trial** — about $0.96 a week. Cancel any time in your Apple account settings.
+Silex is a paid app and it tells you so before you invest any time: after the intake questions you reach a paywall. **$2.99 per week**, or **$29.99 per year with a 7-day free trial** (US prices; the store shows yours before you pay). Cancel any time in your Apple or Google Play account.
 
-Three things stay free forever, with or without a subscription: the urge button, the crisis helplines, and lapse support. Those are safety features, and safety features should never sit behind a payment screen.
+The crisis helplines are one tap away on the subscribe screen, free, whether or not you ever pay. If a subscription ends, the urge button, the helplines and lapse support keep working. Those are safety features, and safety features should never sit behind a payment screen.
 
 ## Private because there is nothing to identify you by
 
@@ -93,19 +93,19 @@ Everything below is free to read, with no email required.
 
 ## Quit for good. Keep the money.
 
-Silex blocks gambling across your iPhone and walks you through 90 days, one at a time.
+Silex blocks gambling across your phone and walks you through 90 days, one at a time.
 
-[Get Silex on iPhone](https://apps.apple.com/app/id6798826038?mt=8)
+[Get Silex on iPhone](https://apps.apple.com/app/id6798826038?mt=8) [Get Silex on Android](https://play.google.com/store/apps/details?id=com.klozovyi.stopgamble&referrer=utm_source%3Dtrysilex%26utm_campaign%3Dhome_footer)
 
 ## Common questions
 
 ### Is Silex free?
 
-The safety tools are free forever — the urge button, the crisis helplines and the lapse support work without paying. The 90-day program and the protection stack need a subscription: $4.99 a week, or $49.99 a year with a 3-day free trial.
+No. Silex is a subscription: $2.99 a week, or $29.99 a year with a 7-day free trial (US prices). The crisis helplines are free on the subscribe screen whether or not you ever pay, and if a subscription ends, the urge button, the helplines and lapse support keep working.
 
 ### Does Silex work on Android?
 
-Not yet. Silex is iPhone-only, iOS 17 or later. It uses iOS-specific system APIs — DNS profiles, Safari content blockers, Screen Time — that have no direct Android equivalent.
+Yes. Silex is on Google Play for Android 8.0 and later, with the same 90-day program, SOS button and money counter. On Android the system-wide shield runs through Private DNS (Android 9 and later). The iPhone app needs iOS 17 or later and adds a Safari content blocker.
 
 ### Can I remove the blocking in a moment of craving?
 

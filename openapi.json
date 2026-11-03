@@ -3,7 +3,7 @@
   "info": {
     "title": "Silex docs and guides",
     "version": "1.0.0",
-    "description": "Read-only, public endpoints for the Silex documentation and quit-gambling guides on trysilex.com, in the formats AI agents and tools read best: llms.txt indexes and a Markdown copy of every page. No API key, no account; every request is a plain GET. Silex itself is an iPhone app with no public API: this covers the site's content only.",
+    "description": "Read-only, public endpoints for the Silex documentation and quit-gambling guides on trysilex.com, in the formats AI agents and tools read best: llms.txt indexes and a Markdown copy of every page. No API key, no account; every request is a plain GET. Silex itself is an iPhone and Android app with no public API: this covers the site's content only.",
     "contact": {
       "name": "Silex support",
       "email": "support@trysilex.com",

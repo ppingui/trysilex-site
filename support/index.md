@@ -8,10 +8,10 @@ Email [support@trysilex.com](mailto:support@trysilex.com). One person reads it, 
 
 ## Subscriptions
 
-- **Prices.** $4.99 per week, or $49.99 per year with a 3-day free trial. Local prices follow Apple's regional pricing.
-- **Cancelling.** Settings → your name → Subscriptions → Silex → Cancel Subscription. Deleting the app does not cancel the subscription.
-- **Trial.** The annual plan's 3-day trial charges nothing up front, and the app notifies you on day 2, before it ends. Cancel any time before it ends and you pay nothing.
-- **Refunds** are handled by Apple, not by us: [reportaproblem.apple.com](https://reportaproblem.apple.com). We can't issue them, but tell us what went wrong anyway — it usually points at something worth fixing.
+- **Prices.** $2.99 per week, or $29.99 per year with a 7-day free trial. Local prices follow Apple's and Google Play's regional pricing.
+- **Cancelling.** Settings → your name → Subscriptions → Silex → Cancel Subscription. On Android: Google Play → your profile → Payments & subscriptions → Subscriptions → Silex → Cancel. Deleting the app does not cancel the subscription.
+- **Trial.** The annual plan's 7-day trial charges nothing up front, and the app notifies you the day before it ends. Cancel any time before it ends and you pay nothing.
+- **Refunds** are handled by Apple or Google, not by us: [reportaproblem.apple.com](https://reportaproblem.apple.com) on iPhone, Google Play's order history on Android. We can't issue them, but tell us what went wrong anyway — it usually points at something worth fixing.
 - **If your subscription lapses**, the safety tools keep working. The urge button, the helplines and lapse support are free forever.
 
 ## Protection layers that won't turn on
