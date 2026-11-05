@@ -42,7 +42,7 @@
 - [做一下赌博成瘾测试（PGSI）](https://trysilex.com/zh/du-bo-cheng-yin-ce-shi/)：两分钟，看看你处在什么位置。
 - [在你和博彩平台之间设好屏障](https://trysilex.com/zh/ru-he-jie-du/)，先从[手机](https://trysilex.com/zh/iphone-ping-bi-du-bo/)开始。
 
-## 彻底戒掉，把钱留住。
+## 戒掉赌博，把钱留住。
 
 Silex 在整部手机上屏蔽赌博，并陪你走过 90 天，一天一天来。
 

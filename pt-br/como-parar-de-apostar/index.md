@@ -47,7 +47,7 @@ Então a habilidade é concreta: estar em outro lugar por meia hora. Dê uma not
 
 [Faça o teste de vício em apostas de 9 perguntas](https://trysilex.com/pt-br/teste-vicio-em-apostas/) — dois minutos, nada fica salvo — e depois coloque a barreira do passo 1 que dá mais preguiça. Essa resistência costuma apontar justamente a que funcionaria. E se quiser ver o número: [calcule quanto as bets já custaram](https://trysilex.com/pt-br/calculadora-perdas-apostas/).
 
-## Pare de vez. Fique com o dinheiro.
+## Pare de apostar. Fique com o dinheiro.
 
 O Silex bloqueia apostas no celular inteiro e acompanha você por 90 dias, um de cada vez.
 

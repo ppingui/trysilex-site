@@ -117,6 +117,7 @@ EXTENSION_STORES = [
     ("Add to Edge", "https://microsoftedge.microsoft.com/addons/detail/silex-%E2%80%94-free-gambling-blo/pjhckgkchnigbiblokhfkdbnidpnppeg"),
 ]
 EXTENSION_TAG = "{{extension}}"
+H1_TAG = "{{hero_h1}}"
 
 
 def extension_block() -> str:
@@ -249,7 +250,11 @@ def langs_html(meta: dict, groups: dict) -> str:
         cur = ' aria-current="true"' if loc == meta["loc"] else ""
         links.append(f'<a href="{href_for(versions[loc])}" hreflang="{LOCALES[loc]["hreflang"]}" '
                      f'lang="{LOCALES[loc]["html"]}"{cur}>{LOCALES[loc]["label"]}</a>')
-    return f'<nav class="langs" aria-label="Language"><div class="wrap">{"".join(links)}</div></nav>\n'
+    # A closed <details> keeps the links in the page for visitors and crawlers
+    # without spending a whole row of a phone screen on them.
+    current = LOCALES[meta["loc"]]["label"]
+    return (f'    <details class="langs"><summary>{current}</summary>'
+            f'<nav aria-label="Language">{"".join(links)}</nav></details>')
 
 
 def jsonld_for(meta: dict, L: dict) -> str:
@@ -349,6 +354,10 @@ def render(meta: dict, body: str, template: str, groups: dict) -> str:
     L = LOCALES[meta["loc"]]
     body = SHORTCODE_RE.sub(lambda m: cta_block(m.group(1), L), body)
     body = body.replace(EXTENSION_TAG, extension_block())
+    # The homepage places its own <h1> inside the hero; every other page gets it
+    # from the template.
+    is_home = meta.get("layout") == "home"
+    body = body.replace(H1_TAG, meta["h1"])
     tldr = meta.get("tldr")
     tldr_html = (
         f'  <div class="tldr"><p><strong>{L["short"]}</strong> {tldr}</p></div>\n'
@@ -375,7 +384,9 @@ def render(meta: dict, body: str, template: str, groups: dict) -> str:
         "home_href": href_for(ENTRY.get(meta["loc"], "")),
         "nav": nav_html(L, meta["path"]),
         "langs": langs_html(meta, groups),
-        "h1": meta["h1"],
+        "h1_block": "" if is_home else f'  <h1>{meta["h1"]}</h1>',
+        "body_class": "home-page" if is_home else "",
+        "theme_light": "#08090D" if is_home else "#F5F3EE",
         "byline": byline_html(meta, L),
         "tldr": tldr_html,
         "body": body.strip(),
@@ -388,7 +399,8 @@ def render(meta: dict, body: str, template: str, groups: dict) -> str:
         "disclaimer": L["disclaimer"],
         "footer_nav": footer_nav,
         "copy": copy,
-        "main_class": "article" if meta.get("type") == "article" else "page",
+        "main_class": "home" if is_home else
+                      ("wrap article" if meta.get("type") == "article" else "wrap page"),
     }
     out = template
     for key, value in subs.items():
@@ -499,7 +511,8 @@ def main() -> None:
 
     # Plain-text site summary for answer engines that fetch it.
     summary = ("An iPhone and Android app that blocks gambling across the phone, runs a 90-day "
-               "evidence-based quit program, and tracks the money you keep. "
+               "quit program built from CBT workbooks and gambling research, and tracks the money "
+               "you keep. "
                "No accounts, no ads, and nothing a user writes leaves the phone. Built by "
                f"{AUTHOR}. Weekly $2.99 or annual $29.99 with a 7-day free trial.")
     lines = [f"# {BRAND_FULL}", "", f"> {summary}",
@@ -591,7 +604,7 @@ def main() -> None:
     # locale. Crisis resources are listed once, up front, so a quote from this
     # site in a crisis context carries correct, verified numbers.
     def plain(fragment: str) -> str:
-        t = SHORTCODE_RE.sub("", fragment).replace(EXTENSION_TAG, "")
+        t = SHORTCODE_RE.sub("", fragment).replace(EXTENSION_TAG, "").replace(H1_TAG, "")
         t = re.sub(r"<(script|style|form|noscript|select)\b.*?</\1>", "", t, flags=re.S)
         t = re.sub(r"\s+", " ", t)                   # source line wraps are not breaks
         t = re.sub(r"</(p|li|h[1-6]|tr|div|table|ul|ol)>", "\n", t)

@@ -42,7 +42,7 @@ Diese Reaktion ist eine Information, kein Urteil. Zwei Schritte:
 - [Mach den Spielsucht-Test (PGSI)](https://trysilex.com/de/spielsucht-test/): zwei Minuten, um zu sehen, wo dein Muster steht.
 - [Bau Sperren zwischen dich und die Anbieter](https://trysilex.com/de/mit-dem-gluecksspiel-aufhoeren/), angefangen [beim Handy](https://trysilex.com/de/gluecksspiel-sperren-iphone/).
 
-## Endgültig aufhören. Das Geld behalten.
+## Mit dem Glücksspiel aufhören. Das Geld behalten.
 
 Silex sperrt Glücksspiel auf deinem ganzen Handy und begleitet dich 90 Tage lang, Tag für Tag.
 

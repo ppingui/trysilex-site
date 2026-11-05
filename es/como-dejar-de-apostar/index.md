@@ -46,7 +46,7 @@ Este es el paso que se salta casi todo el mundo, y la razón por la que muchos r
 
 [Haz el test de ludopatía de 9 preguntas](https://trysilex.com/es/test-ludopatia/) —dos minutos, no se guarda nada— y después pon la barrera del paso 1 que más pereza te dé. Esa resistencia suele señalar justo la que funcionaría. Y si quieres ver la cifra: [calcula cuánto te ha costado el juego](https://trysilex.com/es/calculadora-perdidas-apuestas/).
 
-## Déjalo para siempre. Quédate con el dinero.
+## Deja de apostar. Quédate con el dinero.
 
 Silex bloquea el juego en todo tu teléfono y te acompaña durante 90 días, uno a uno.
 

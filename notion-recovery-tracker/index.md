@@ -33,7 +33,7 @@ An urge feels like it will last until you give in, but it rarely does. Most [urg
 
 Silex is built on the idea that your recovery is nobody's dataset, and the tracker follows the same rule. The connector runs for a few seconds, holds Notion's access only in memory, and stores nothing: no database, no copy of your page, no way back in. The details are in [section 14 of the privacy policy](https://trysilex.com/privacy/).
 
-## Quit for good. Keep the money.
+## Quit gambling. Keep the money.
 
 Silex blocks gambling across your phone and walks you through 90 days, one at a time.
 

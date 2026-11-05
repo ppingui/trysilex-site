@@ -8,9 +8,9 @@ By [Kyrylo Lozovyi](https://trysilex.com/about/) · August 10, 2026 · Updated N
 
 **Straight answer first:** Silex is on Android now, but you don't need it for anything on this page. It's the setup we'd give a friend on Android, and the free built-in option is better than most of the paid apps.
 
-## 1. Private DNS — the two-minute one that covers everything
+## 1. Private DNS: the two-minute one that covers everything
 
-Android has supported encrypted DNS system-wide since Android 9. Point it at a resolver that filters gambling and those domains stop resolving in every app and every browser — sportsbook apps included — on Wi-Fi and on mobile data.
+Android has supported encrypted DNS system-wide since Android 9. Point it at a resolver that filters gambling and those domains stop resolving in every app and every browser (sportsbook apps included), on Wi-Fi and on mobile data.
 
 1. Open **Settings** → **Network & internet** (on Samsung: **Connections** → **More connection settings**).
 2. Tap **Private DNS**.
@@ -22,11 +22,11 @@ Resolvers that filter gambling:
 | Hostname | What it filters | Cost |
 |---|---|---|
 | `family.dns.mullvad.net` | Gambling, adult content, ads and trackers | Free, no account, published no-logging policy |
-| `<your-id>.dns.nextdns.io` | Whatever you switch on — gambling is a one-tap category | Free tier, account needed, gives you logs and control |
+| `<your-id>.dns.nextdns.io` | Whatever you switch on (gambling is a one-tap category) | Free tier, account needed, gives you logs and control |
 
-**Test it.** Open a browser you don't normally use and try a gambling site you actually used. It should fail to load, not just look odd. If it loads, check that a VPN isn't active — a VPN takes over DNS and silently overrides this setting.
+**Test it.** Open a browser you don't normally use and try a gambling site you actually used. It should fail to load, not just look odd. If it loads, check that a VPN isn't active. A VPN takes over DNS and silently overrides this setting.
 
-**The catch:** it's a Settings toggle, so you can undo it in about a minute. That's still meaningful — most relapses are impulsive and a minute of friction stops a lot of them — but it is not a wall. Which is what the next steps are for.
+**The catch:** it's a Settings toggle, so you can undo it in about a minute. That's still meaningful (most relapses are impulsive and a minute of friction stops a lot of them), but it is not a wall. Which is what the next steps are for.
 
 ## 2. Make the settings not yours to change
 
@@ -40,9 +40,9 @@ This is the step that turns a speed bump into something sturdier.
 
 | App | Price | Worth it for |
 |---|---|---|
-| **BetBlocker** | Free, no ads, charity-run | A restriction period you set from 1 day to 5 years and cannot shorten once it starts — a real commitment device, given away |
-| **Gamban** | £4.99/month or £29.99/year, 7-day trial | One subscription across Android, iOS, Windows and Mac — [or its alternatives](https://trysilex.com/gamban-alternatives/) |
-| **GamBlock** | Paid, pricing not published on its homepage | Claims removal "cannot happen" on Android, including blocking factory resets — the heaviest lock, if the claims hold on your device |
+| **BetBlocker** | Free, no ads, charity-run | A restriction period you set from 1 day to 5 years and cannot shorten once it starts: a real commitment device, given away |
+| **Gamban** | £4.99/month or £29.99/year, 7-day trial | One subscription across Android, iOS, Windows and Mac, [or its alternatives](https://trysilex.com/gamban-alternatives/) |
+| **GamBlock** | Paid, pricing not published on its homepage | Claims removal "cannot happen" on Android, including blocking factory resets. The heaviest lock, if the claims hold on your device |
 
 Prices verified against each vendor's own site on 10 August 2026. [Full comparison →](https://trysilex.com/best-gambling-blocker-apps/)
 
@@ -50,8 +50,8 @@ Prices verified against each vendor's own site on 10 August 2026. [Full comparis
 
 Same on every platform, and stronger than anything above:
 
-1. [**Self-exclusion**](https://trysilex.com/self-exclusion-guide/) — free, and you can't reverse it during a craving. GAMSTOP in the UK; state programme plus each operator in the US.
-2. [**Bank gambling block**](https://trysilex.com/block-gambling-transactions-bank/) — free, typically 48–72 hours to lift.
+1. [**Self-exclusion**](https://trysilex.com/self-exclusion-guide/): free, and you can't reverse it during a craving. GAMSTOP in the UK; state programme plus each operator in the US.
+2. [**Bank gambling block**](https://trysilex.com/block-gambling-transactions-bank/): free, typically 48–72 hours to lift.
 
 If you only have ten minutes today, do these two and come back to the phone settings afterwards.
 
@@ -59,7 +59,7 @@ If you only have ten minutes today, do these two and come back to the phone sett
 
 - **Uninstalling the apps alone.** The mobile site works, and reinstalling takes seconds.
 - **Router or Wi-Fi filtering by itself.** Ends at your front door; mobile data walks straight past it.
-- **A plain VPN.** Not a filter — and it can disable your Private DNS setting.
+- **A plain VPN.** Not a filter, and it can disable your Private DNS setting.
 - **Blocking one browser.** Android will happily install another in twenty seconds.
 
 ## Then the part no blocker does
@@ -70,7 +70,7 @@ Every layer above buys you time during an urge, and urges pass in roughly 20 to 
 
 ### What is the best free gambling blocker for Android?
 
-Android's own Private DNS setting, pointed at a filtering resolver, blocks more than most paid apps do — every app and browser, on mobile data as well as Wi-Fi. For an app with a lockable commitment period, BetBlocker is free, charity-run, and supports Android.
+Android's own Private DNS setting, pointed at a filtering resolver, blocks more than most paid apps do: every app and browser, on mobile data as well as Wi-Fi. For an app with a lockable commitment period, BetBlocker is free, charity-run, and supports Android.
 
 ### Does Private DNS work on mobile data?
 
@@ -78,7 +78,7 @@ Yes. That's what makes it better than router-level or Wi-Fi-only blocking, which
 
 ### Can I stop myself turning Private DNS off?
 
-Not by itself — it's a Settings toggle, so it's a speed bump rather than a wall. To make it stick, put the device under Family Link with someone else holding the account, or use a blocker that resists removal. And rely on the layers you can't undo at all: self-exclusion and a bank block.
+Not by itself. It's a Settings toggle, so it's a speed bump rather than a wall. To make it stick, put the device under Family Link with someone else holding the account, or use a blocker that resists removal. And rely on the layers you can't undo at all: self-exclusion and a bank block.
 
 ### Does Silex work on Android?
 
@@ -86,7 +86,7 @@ Yes, on Android 8.0 and later, from Google Play. It sets up the Private DNS bloc
 
 ### Will a VPN block gambling sites on Android?
 
-A standard VPN, no — it moves where your traffic exits, it doesn't filter it. Some privacy VPNs include a content-filtering DNS mode that does block gambling categories. Note that an active VPN can override your Private DNS setting, which is a common reason blocking silently stops working.
+A standard VPN, no. It moves where your traffic exits, it doesn't filter it. Some privacy VPNs include a content-filtering DNS mode that does block gambling categories. Note that an active VPN can override your Private DNS setting, which is a common reason blocking silently stops working.
 
 ## If you need someone right now
 

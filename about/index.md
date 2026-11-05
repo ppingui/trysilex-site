@@ -38,7 +38,7 @@ It is not treatment, not therapy, and not a substitute for either. If gambling h
 
 Support and press: [support@trysilex.com](mailto:support@trysilex.com). Privacy questions are answered in the [privacy policy](https://trysilex.com/privacy/), which is unusually detailed on purpose.
 
-## Quit for good. Keep the money.
+## Quit gambling. Keep the money.
 
 Silex blocks gambling across your phone and walks you through 90 days, one at a time.
 

@@ -21,6 +21,7 @@ Page sources live in `src/pages/*.html`. Each one starts with a metadata block:
   "h1": "…",
   "tldr": "…",                    // optional; renders the Short answer block
   "noindex": true,                // optional
+  "layout": "home",               // optional; full-width sections, body places <h1>{{hero_h1}}</h1>
   "faq": [["Question?", "Answer."]]   // renders the FAQ section + FAQPage schema
 }
 -->

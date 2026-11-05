@@ -7,7 +7,8 @@
 <meta name="description" content="{{description}}">
 <link rel="canonical" href="{{canonical}}">
 {{alternates}}{{head_extra}}<meta name="apple-itunes-app" content="app-id={{app_id}}">
-<meta name="theme-color" content="#0A0B10">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="{{theme_light}}">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#0E1014">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Silex">
 <meta property="og:locale" content="{{og_locale}}">
@@ -22,27 +23,29 @@
 {{jsonld}}
 {{analytics}}
 </head>
-<body>
+<body class="{{body_class}}">
 <a class="skip" href="#main">{{skip}}</a>
 <p class="agent-hint" aria-hidden="true">For AI agents: an index of every page on this site is at <a href="{{llms_href}}" tabindex="-1">{{llms_href}}</a>, and every page has a Markdown copy at its URL plus index.md.</p>
 
 <header class="site-head">
   <div class="wrap head-inner">
     <a class="logo" href="{{home_href}}"><span>Silex</span></a>
-    <nav aria-label="Main">{{nav}}</nav>
+    <nav class="main-nav" aria-label="Main">{{nav}}</nav>
+{{langs}}
   </div>
 </header>
-{{langs}}
-<main id="main" class="wrap {{main_class}}">
-  <h1>{{h1}}</h1>
+<main id="main" class="{{main_class}}">
+{{h1_block}}
 {{byline}}
 {{tldr}}
 {{body}}
 {{faq}}
 </main>
 
-<div class="wrap">
+<div class="help-band">
+  <div class="wrap">
 {{helplines}}
+  </div>
 </div>
 
 <footer class="site-foot">

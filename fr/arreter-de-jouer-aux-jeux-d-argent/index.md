@@ -46,7 +46,7 @@ C'est l'étape que presque tout le monde saute, et la raison de tant de rechutes
 
 [Faites le test ICJE en 9 questions](https://trysilex.com/fr/test-addiction-jeux-argent/) — deux minutes, rien n'est enregistré — puis posez la barrière de l'étape 1 qui vous rebute le plus. Cette réticence désigne souvent celle qui fonctionnerait. Et pour voir le chiffre : [calculez ce que le jeu vous a coûté](https://trysilex.com/fr/calculateur-pertes-jeux/).
 
-## Arrêter pour de bon. Garder l'argent.
+## Arrêter de jouer. Garder l'argent.
 
 Silex bloque les jeux d'argent sur tout votre téléphone et vous accompagne pendant 90 jours, un à la fois.
 

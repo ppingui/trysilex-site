@@ -61,7 +61,7 @@ As duas barreiras mais fortes não estão no iPhone: **o banco recusar pagamento
 
 Cada camada te dá tempo nos noventa segundos em que a fissura está no pico. O que você faz com esse tempo decide se funciona. [A vontade de apostar sobe e desce de um jeito bem previsível](https://trysilex.com/pt-br/quanto-dura-a-vontade-de-apostar/), e aprender a esperar uma é uma habilidade que melhora com a prática.
 
-## Pare de vez. Fique com o dinheiro.
+## Pare de apostar. Fique com o dinheiro.
 
 O Silex bloqueia apostas no celular inteiro e acompanha você por 90 dias, um de cada vez.
 

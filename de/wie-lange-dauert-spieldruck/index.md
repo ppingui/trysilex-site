@@ -51,7 +51,7 @@ Silex bündelt das in einem Knopf, der nie hinter der Bezahlschranke liegt: Du b
 
 Wenn Spieldruck kurz ist und von selbst vergeht, geht es nur darum, *dreißig Minuten ohne Zugang zu überstehen*. Eine Sperre muss nicht ewig halten – nur länger als eine halbe Stunde. Die Sperre auf dem Handy kauft Minuten, die bei der Bank Tage, OASIS Monate bis Jahre. [So kombinierst du alle drei →](https://trysilex.com/de/mit-dem-gluecksspiel-aufhoeren/)
 
-## Endgültig aufhören. Das Geld behalten.
+## Mit dem Glücksspiel aufhören. Das Geld behalten.
 
 Silex sperrt Glücksspiel auf deinem ganzen Handy und begleitet dich 90 Tage lang, Tag für Tag.
 

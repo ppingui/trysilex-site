@@ -32,7 +32,7 @@ Instrumento: Ferris, J. y Wynne, H. (2001), *The Canadian Problem Gambling Index
 - **Pon distancia entre tú y la apuesta.** No fuerza de voluntad: fricción. [Bloquea el juego en el móvil](https://trysilex.com/es/bloquear-apuestas-iphone/) y añade las dos barreras que no se deshacen en un mal momento: la autoprohibición y el bloqueo en el banco ([aquí explicamos ambas](https://trysilex.com/es/como-dejar-de-apostar/)).
 - **Aprende qué es un impulso.** Las ganas suben y bajan, normalmente en 20–30 minutos, apuestes o no. [Ese patrón es tu mejor aliado.](https://trysilex.com/es/cuanto-duran-las-ganas-de-apostar/)
 
-## Déjalo para siempre. Quédate con el dinero.
+## Deja de apostar. Quédate con el dinero.
 
 Silex bloquea el juego en todo tu teléfono y te acompaña durante 90 días, uno a uno.
 

@@ -51,7 +51,7 @@ Silex reúne todo esto en un botón que nunca está detrás del pago: puntúas e
 
 Si los impulsos son cortos y se agotan solos, todo se reduce a *pasar treinta minutos sin acceso*. Un bloqueo no tiene que ser eterno ni irrompible: tiene que durar más que media hora. Un bloqueo en el móvil compra minutos; uno en el banco, días; la autoprohibición, meses o años. [Así se combinan las tres →](https://trysilex.com/es/como-dejar-de-apostar/)
 
-## Déjalo para siempre. Quédate con el dinero.
+## Deja de apostar. Quédate con el dinero.
 
 Silex bloquea el juego en todo tu teléfono y te acompaña durante 90 días, uno a uno.
 

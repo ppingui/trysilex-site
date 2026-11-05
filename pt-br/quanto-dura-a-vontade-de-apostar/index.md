@@ -51,7 +51,7 @@ O Silex junta tudo isso num botão que nunca fica atrás do pagamento: você dá
 
 Se a fissura é curta e passa sozinha, o jogo todo é *atravessar trinta minutos sem acesso*. Um bloqueio não precisa ser eterno nem inquebrável: precisa durar mais que meia hora. Bloqueio no celular compra minutos; no banco, dias; a autoexclusão, meses ou anos. [Como juntar os três →](https://trysilex.com/pt-br/como-parar-de-apostar/)
 
-## Pare de vez. Fique com o dinheiro.
+## Pare de apostar. Fique com o dinheiro.
 
 O Silex bloqueia apostas no celular inteiro e acompanha você por 90 dias, um de cada vez.
 

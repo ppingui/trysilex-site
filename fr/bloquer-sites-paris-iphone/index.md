@@ -61,7 +61,7 @@ Les deux barrières les plus fortes ne vivent pas sur l'iPhone : **votre banque 
 
 Chaque couche vous fait gagner du temps pendant les quatre-vingt-dix secondes où l'envie est au plus haut. Ce que vous faites de ce temps décide si ça marche. [Les envies montent et redescendent de façon assez prévisible](https://trysilex.com/fr/combien-de-temps-dure-une-envie-de-jouer/), et apprendre à en attendre une est une compétence qui s'améliore avec la pratique.
 
-## Arrêter pour de bon. Garder l'argent.
+## Arrêter de jouer. Garder l'argent.
 
 Silex bloque les jeux d'argent sur tout votre téléphone et vous accompagne pendant 90 jours, un à la fois.
 

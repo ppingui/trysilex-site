@@ -42,7 +42,7 @@ Esa reacción es información, no un veredicto. Dos pasos:
 - [Haz el test de ludopatía (PGSI)](https://trysilex.com/es/test-ludopatia/): dos minutos para ver dónde está tu patrón.
 - [Pon barreras entre tú y las casas de apuestas](https://trysilex.com/es/como-dejar-de-apostar/), empezando por [el móvil](https://trysilex.com/es/bloquear-apuestas-iphone/).
 
-## Déjalo para siempre. Quédate con el dinero.
+## Deja de apostar. Quédate con el dinero.
 
 Silex bloquea el juego en todo tu teléfono y te acompaña durante 90 días, uno a uno.
 

@@ -1,6 +1,6 @@
 # Silex — Stop Gambling
 
-An iPhone and Android app that blocks gambling across the phone, runs a 90-day evidence-based quit program, and tracks the money you keep. No accounts, no ads, and nothing a user writes leaves the phone. Built by Kyrylo Lozovyi. Weekly $2.99 or annual $29.99 with a 7-day free trial.
+An iPhone and Android app that blocks gambling across the phone, runs a 90-day quit program built from CBT workbooks and gambling research, and tracks the money you keep. No accounts, no ads, and nothing a user writes leaves the phone. Built by Kyrylo Lozovyi. Weekly $2.99 or annual $29.99 with a 7-day free trial.
 
 Silex is a wellness app, not medical care, and does not diagnose or treat any condition.
 
@@ -37,40 +37,42 @@ Index: https://trysilex.com/llms.txt
 - [中文] 其他地区: findahelpline.com — 你所在地区的危机热线
 
 ========================================================================
-# Quit gambling for good. Keep the money.
+# Quit gambling. Keep the money.
 URL: https://trysilex.com/
 Language: en
-Description: Silex blocks gambling across your iPhone or Android phone, walks you through a 90-day evidence-based quit program, and counts the money you keep. No accounts, no ads, no profile of you.
+Description: Silex blocks gambling across your iPhone or Android phone, walks you through a 90-day quit program built from CBT workbooks, and counts the money you keep. No accounts, no ads, no profile of you.
 
 Silex is an app for iPhone and Android that blocks gambling across your whole phone, walks you through 90 days one at a time, and counts the money you didn't lose. No accounts. No ads. No profile of you. Ever.
-- Private by design
-- Evidence-based
-- No ads. Ever.
-- iPhone and Android
+$2.99 a week, or $29.99 a year with a 7-day free trial (US prices).
 
-## Four things, done properly
+## One blocker is one tap from off. So Silex sets up five.
+- A system-wide DNS shield Covers every app and every browser.
+- A Safari content blocker, on iPhone Built on a bundled list of hundreds of thousands of gambling domains.
+- Operator self-exclusion Guided setup for the block you cannot undo on impulse.
+- A bank gambling block Guided setup, so your card declines the payment.
+- Killing the promos Every marketing email and push that pulls you back.
 
-### Five layers of blocking
-A system-wide DNS shield that covers every app and browser, on iPhone a Safari content blocker built on a bundled list of hundreds of thousands of gambling domains, plus guided setup for the three defences that actually hold: operator self-exclusion, a bank gambling block, and killing every promo email and push.
-How this compares to other blockers · The full iPhone blocking guide · Android
+How this compares to other blockers · The full iPhone guide · Android
 
-### A real 90-day program
-90 authored days in three phases — See the Machine, Rewire, Fortify — built from clinical CBT workbooks and the research on how gambling products are designed to hook you. One lesson a day, not a library to binge.
+## A real 90-day program
+90 authored days, built from clinical CBT workbooks and the research on how gambling products are designed to hook you. One lesson a day, not a library to binge. Three phases:
+- See the Machine
+- Rewire
+- Fortify
+
 Every source we built it from
 
-### An SOS for the worst minute
+## An SOS for the worst minute
 One button, always on screen, never behind the paywall. Rate the urge, breathe it down, then ride it out on a timer while the app shows you your own reasons for quitting and the money you've kept so far.
 Why urges pass, and how long it takes
 
-### The money, made visible
-Not gambled away. Silex takes what you told it you were putting in each week and counts up what you kept instead. It's the number that keeps people going when motivation runs out.
+## The money, made visible
+Not gambled away. Silex takes what you told it you were putting in each week and counts up what you kept instead, so there is a number to look at when motivation runs out.
 Work out what gambling has cost you so far
 
-## Free for your computer: a browser blocker
-Silex — Free Gambling Blocker is a free extension for Chrome and Edge. It blocks more than 290,000 gambling, betting and casino sites, and instead of an error page it shows a calm one: a one-minute breathing exercise and free helplines for where you are. No account, nothing collected, and it works without the app.
-
 ## It never punishes you for slipping
-Gambling recovery is not a clean line, and an app that zeroes your progress the moment you lapse teaches you to hide the lapse. Silex does the opposite. A slip triggers a Reset day — a specific lesson about what happened and what to change — and your history is never wiped. Milestones you've earned are never taken back.
+Gambling recovery is not a clean line, and an app that zeroes your progress the moment you lapse teaches you to hide the lapse. Silex does the opposite. A slip triggers a Reset day: a specific lesson about what happened and what to change. Your history is never wiped, and milestones you've earned are never taken back.
+Above: Kintsugi, the piece you earn by finishing a Reset day.
 What to do in the hour after you gamble again
 
 ## What it costs, plainly
@@ -78,8 +80,14 @@ Silex is a paid app and it tells you so before you invest any time: after the in
 The crisis helplines are one tap away on the subscribe screen, free, whether or not you ever pay. If a subscription ends, the urge button, the helplines and lapse support keep working. Those are safety features, and safety features should never sit behind a payment screen.
 
 ## Private because there is nothing to identify you by
-No account, no email, no password, no ad network, nothing that follows you between apps. Your answers, your spending figures, your journal and your lapses live on your phone, with an optional iCloud backup encrypted to your Apple account — we cannot read any of it. The one thing Silex sends is an anonymous count of which setup steps get finished, so what trips people up can be fixed. One switch in Settings turns it off.
+No account, no email, no password, no ad network, nothing that follows you between apps. Your answers, your spending figures, your journal and your lapses live on your phone, with an optional iCloud backup encrypted to your Apple account. We cannot read any of it. The one thing Silex sends is an anonymous count of which setup steps get finished, so what trips people up can be fixed. One switch in Settings turns it off.
 The full privacy policy
+
+“I built this because I watched someone close to me go through it, and at the time there wasn't much I could actually do.” Kyrylo Lozovyi, the developer, in Kyiv. Not a doctor, and there's no company here: just one person, and the sources are all public.
+The whole story · The sources
+
+## Free for your computer: a browser blocker
+Silex — Free Gambling Blocker is a free extension for Chrome and Edge. It blocks more than 290,000 gambling, betting and casino sites, and instead of an error page it shows a calm one: a one-minute breathing exercise and free helplines for where you are. No account, nothing collected, and it works without the app.
 
 ## Start with the guides
 Everything below is free to read, with no email required.
@@ -89,7 +97,7 @@ Everything below is free to read, with no email required.
 - How to stop sports betting
 - What happens when you stop, week by week
 - How long gambling urges last
-- I gambled again — what to do now
+- I gambled again: what to do now
 
 ### Blocking it
 - Block gambling sites and apps on iPhone
@@ -160,15 +168,15 @@ Language: en
 Description: Gamban, BetBlocker, GamBlock and the rest — what each one covers, what it costs, and which to pick. Prices verified from each vendor's own site, with a disclosure: we make one of these.
 Published: 2026-08-10 · Updated: 2026-11-03
 
-Short answer: BetBlocker is free, run by a registered charity, and the right first install for almost everyone. Gamban (£4.99/month or £29.99/year) is the strongest cross-platform blocker if you gamble on more than a phone. Silex — which we make, so weigh that — is for people who want the 90-day quit program alongside the blocking. Whichever you choose, a blocker on its own is the weakest of the three layers that matter; the other two are self-exclusion and a bank block, and both are free.
+Short answer: BetBlocker is free, run by a registered charity, and the right first install for almost everyone. Gamban (£4.99/month or £29.99/year) is the strongest cross-platform blocker if you gamble on more than a phone. Silex (which we make, so weigh that) is for people who want the 90-day quit program alongside the blocking. Whichever you choose, a blocker on its own is the weakest of the three layers that matter; the other two are self-exclusion and a bank block, and both are free.
 
-Disclosure first, because it changes how you should read this: we make Silex, one of the apps below. So this page does two things to stay useful — it names what each competitor does better, and it verifies every price against the vendor's own website rather than repeating other roundups. Prices below were checked on 10 August 2026.
+Disclosure first, because it changes how you should read this: we make Silex, one of the apps below. So this page does two things to stay useful: it names what each competitor does better, and it verifies every price against the vendor's own website rather than repeating other roundups. Prices below were checked on 10 August 2026.
 
 ## How these were assessed
 - Coverage: does it block every app and browser, or only Safari?
 - Platforms: phone only, or computer too?
 - Removal resistance: how long does undoing it take at 1am?
-- List maintenance: who keeps the domain list current — you or them?
+- List maintenance: who keeps the domain list current, you or them?
 - Honesty of claims: does the marketing promise things iOS cannot do?
 - What happens after the block: does anything help you actually stop, or does the product end at the wall?
 
@@ -180,42 +188,42 @@ GamBlock | Paid; not published on the homepage | Windows, Mac/iOS, Android | Max
 Silex (ours) | $2.99/week or $29.99/year, 7-day trial | iPhone, Android; free blocker extension for Chrome and Edge | Blocking plus a structured 90-day program
 iOS Screen Time | Free, built in | iPhone, iPad | Stopping reinstalls; needs someone else to hold the passcode
 
-## BetBlocker — free, and not a lesser option
+## BetBlocker: free, and not a lesser option
 BetBlocker is a charity project: founded by the dispute-resolution service ThePOGG in 2017 and established as an independent charity registered in Scotland (SC049565) in 2019. It costs "absolutely nothing. Ever.", carries no ads, and states it blocks 356,000+ gambling websites and 1,900+ apps for more than 105,000 active users.
 Its best feature is the one paid apps often lack: you can set a restriction period from one day up to five years and you cannot shorten it once it starts. That's a real commitment device, given away.
-Where it's weaker: it is a blocker and nothing else — no program, no urge tools, no money tracking. Setup is more manual than a polished commercial app. But if you install exactly one thing today, install this, and only pay for something else if you find a gap it leaves.
+Where it's weaker: it is a blocker and nothing else. No program, no urge tools, no money tracking. Setup is more manual than a polished commercial app. But if you install exactly one thing today, install this, and only pay for something else if you find a gap it leaves.
 Source: betblocker.org, checked 10 August 2026.
 
-## Gamban — the cross-platform choice
+## Gamban: the cross-platform choice
 Gamban charges £4.99 billed monthly or £29.99 billed annually, with a 7-day free trial and no payment up front. One subscription covers iOS, Android, Windows and Mac. It advertises blocking, progress monitoring, layered self-exclusion and on-demand technical support.
 Why it's worth the money for some people: gambling rarely stays on one device. If your pattern includes a laptop at night, Gamban covers both under one licence, and it detects new gambling sites rather than relying purely on a static list.
-Where it's weaker: like every blocker, it can't defeat iOS's own rules — removal on an iPhone is a Settings trip. And there's no recovery content: it walls the door, then hands the rest back to you.
+Where it's weaker: like every blocker, it can't defeat iOS's own rules. Removal on an iPhone is a Settings trip. And there's no recovery content: it walls the door, then hands the rest back to you.
 A note on other roundups: several currently list Gamban at £24.99/year. That figure is out of date; the pricing page says £29.99. It's a small thing that tells you how much of this niche's content is copied rather than checked.
 Source: gamban.com/pricing, checked 10 August 2026. Full Gamban alternatives comparison →
 
-## GamBlock — the heaviest lock, on the right platforms
+## GamBlock: the heaviest lock, on the right platforms
 GamBlock takes a different technical approach, using heuristics to identify gambling sites rather than "the simple lists imitators use that are never up to date", in its own words. On Windows and Android it claims removal "cannot happen" and that it blocks factory resets; for Apple devices it claims the protection survives a factory reset.
 Consider it if your risk is a Windows PC and you want the least removable option available.
 Two caveats. Its pricing isn't shown on the homepage, which makes comparison shopping annoying, and strong removal-resistance claims deserve testing on your own hardware during any refund window. We have not independently verified them.
 Source: gamblock.com, checked 10 August 2026. Claims are the vendor's, not ours.
 
-## Silex — ours, so read this sceptically
-Silex is on iPhone and Android, $2.99/week or $29.99/year with a 7-day trial. It sets up a system-wide DNS shield that covers every app and browser, ships a Safari content blocker on iPhone built on a large bundled domain list, and walks you through setting up the layers it can't provide itself — self-exclusion, a bank block, killing promo emails.
+## Silex: ours, so read this sceptically
+Silex is on iPhone and Android, $2.99/week or $29.99/year with a 7-day trial. It sets up a system-wide DNS shield that covers every app and browser, ships a Safari content blocker on iPhone built on a large bundled domain list, and walks you through setting up the layers it can't provide itself: self-exclusion, a bank block, killing promo emails.
 The actual reason it exists is the other half: a 90-day program written from clinical CBT material, an always-available urge button that is never paywalled, and a counter for the money you kept. Blocking buys ninety seconds; the program is about what you do with them.
 On a computer there is a free Silex browser extension for Chrome and Edge. It blocks the same gambling domain list inside that one browser and nothing else, so another browser or an app gets round it.
-Where it loses to the apps above: there is no desktop app — on a computer, only the browser extension. It costs more than BetBlocker, which is free. And it is new, with none of Gamban's operating history. If you want a blocker and nothing more, we are not the best-value answer, and saying otherwise would be the kind of claim this page exists to avoid.
+Where it loses to the apps above: there is no desktop app. On a computer, only the browser extension. It costs more than BetBlocker, which is free. And it is new, with none of Gamban's operating history. If you want a blocker and nothing more, we are not the best-value answer, and saying otherwise would be the kind of claim this page exists to avoid.
 
 ## Not included, and why
-Betfilter, Bet Breaker, Screen Stoic and Freedom all appear in other roundups. We have not verified their current pricing or tested them, so they are listed here rather than ranked — assigning them a place we hadn't checked is exactly the practice that makes these pages useless. If you have used one, tell us what it actually did.
+Betfilter, Bet Breaker, Screen Stoic and Freedom all appear in other roundups. We have not verified their current pricing or tested them, so they are listed here rather than ranked. Assigning them a place we hadn't checked is exactly the practice that makes these pages useless. If you have used one, tell us what it actually did.
 
 ## Platform-specific setup
 Before paying for anything, check what your phone already does for free: iPhone · Android. On Android in particular, the built-in Private DNS setting blocks more than several of the paid apps here.
 
 ## The part no blocker can do
 Every app on this page is one layer, and the weakest of the three that matter:
-- Self-exclusion — free, and the only genuinely irreversible option. How to do it →
-- A bank gambling block — free, usually with a 48-hour cooling-off before it lifts. How to turn it on →
-- A blocker app — the convenience layer, and the one you can undo in a minute.
+- Self-exclusion: free, and the only genuinely irreversible option. How to do it →
+- A bank gambling block: free, usually with a 48-hour cooling-off before it lifts. How to turn it on →
+- A blocker app: the convenience layer, and the one you can undo in a minute.
 
 Do all three. The order above is by strength, not by ease.
 
@@ -225,7 +233,7 @@ Q: What is the best free gambling blocker?
 A: BetBlocker. It is genuinely free with no ads and no upsell, run by a charity registered in Scotland (SC049565), covers Windows, Mac, Linux, Android, iOS and Fire OS, and lets you lock a self-exclusion period from one day up to five years.
 
 Q: Is Gamban worth paying for?
-A: If you gamble across a phone and a computer, yes — cross-platform coverage under one licence is what you are paying for, along with heuristic detection of new sites rather than a fixed list. If your gambling happens entirely on an iPhone, free options cover you nearly as well.
+A: If you gamble across a phone and a computer, yes. Cross-platform coverage under one licence is what you are paying for, along with heuristic detection of new sites rather than a fixed list. If your gambling happens entirely on an iPhone, free options cover you nearly as well.
 
 Q: Can any blocker be truly unremovable?
 A: Not on iOS. Apple's sandbox does not allow an app to prevent its own deletion, so treat 'unremovable' claims about iPhones with suspicion. On Windows and Android, some blockers do resist removal much harder. The only genuinely irreversible layer on any platform is self-exclusion with the operator.
@@ -234,7 +242,7 @@ Q: Do I need a blocker if I have used GAMSTOP?
 A: Yes, for a different job. GAMSTOP stops UK-licensed operators from letting you play; a blocker stops you reaching unlicensed offshore sites that GAMSTOP has no authority over. They cover each other's gaps.
 
 Q: Should I install more than one blocker?
-A: Layering different kinds helps — a DNS-level blocker plus a bank block plus self-exclusion. Installing two apps that both filter DNS mostly just creates conflicts, and on iOS only one DNS configuration can be active at a time.
+A: Layering different kinds helps: a DNS-level blocker plus a bank block plus self-exclusion. Installing two apps that both filter DNS mostly just creates conflicts, and on iOS only one DNS configuration can be active at a time.
 
 ========================================================================
 # How to block gambling on Android
@@ -247,8 +255,8 @@ Short answer: Android has the best free gambling block of any phone platform and
 
 Straight answer first: Silex is on Android now, but you don't need it for anything on this page. It's the setup we'd give a friend on Android, and the free built-in option is better than most of the paid apps.
 
-## 1. Private DNS — the two-minute one that covers everything
-Android has supported encrypted DNS system-wide since Android 9. Point it at a resolver that filters gambling and those domains stop resolving in every app and every browser — sportsbook apps included — on Wi-Fi and on mobile data.
+## 1. Private DNS: the two-minute one that covers everything
+Android has supported encrypted DNS system-wide since Android 9. Point it at a resolver that filters gambling and those domains stop resolving in every app and every browser (sportsbook apps included), on Wi-Fi and on mobile data.
 - Open Settings → Network & internet (on Samsung: Connections → More connection settings).
 - Tap Private DNS.
 - Choose Private DNS provider hostname.
@@ -257,10 +265,10 @@ Android has supported encrypted DNS system-wide since Android 9. Point it at a r
 Resolvers that filter gambling:
 Hostname | What it filters | Cost
 family.dns.mullvad.net | Gambling, adult content, ads and trackers | Free, no account, published no-logging policy
-<your-id>.dns.nextdns.io | Whatever you switch on — gambling is a one-tap category | Free tier, account needed, gives you logs and control
+<your-id>.dns.nextdns.io | Whatever you switch on (gambling is a one-tap category) | Free tier, account needed, gives you logs and control
 
-Test it. Open a browser you don't normally use and try a gambling site you actually used. It should fail to load, not just look odd. If it loads, check that a VPN isn't active — a VPN takes over DNS and silently overrides this setting.
-The catch: it's a Settings toggle, so you can undo it in about a minute. That's still meaningful — most relapses are impulsive and a minute of friction stops a lot of them — but it is not a wall. Which is what the next steps are for.
+Test it. Open a browser you don't normally use and try a gambling site you actually used. It should fail to load, not just look odd. If it loads, check that a VPN isn't active. A VPN takes over DNS and silently overrides this setting.
+The catch: it's a Settings toggle, so you can undo it in about a minute. That's still meaningful (most relapses are impulsive and a minute of friction stops a lot of them), but it is not a wall. Which is what the next steps are for.
 
 ## 2. Make the settings not yours to change
 This is the step that turns a speed bump into something sturdier.
@@ -270,23 +278,23 @@ This is the step that turns a speed bump into something sturdier.
 
 ## 3. Third-party blockers worth the money
 App | Price | Worth it for
-BetBlocker | Free, no ads, charity-run | A restriction period you set from 1 day to 5 years and cannot shorten once it starts — a real commitment device, given away
-Gamban | £4.99/month or £29.99/year, 7-day trial | One subscription across Android, iOS, Windows and Mac — or its alternatives
-GamBlock | Paid, pricing not published on its homepage | Claims removal "cannot happen" on Android, including blocking factory resets — the heaviest lock, if the claims hold on your device
+BetBlocker | Free, no ads, charity-run | A restriction period you set from 1 day to 5 years and cannot shorten once it starts: a real commitment device, given away
+Gamban | £4.99/month or £29.99/year, 7-day trial | One subscription across Android, iOS, Windows and Mac, or its alternatives
+GamBlock | Paid, pricing not published on its homepage | Claims removal "cannot happen" on Android, including blocking factory resets. The heaviest lock, if the claims hold on your device
 
 Prices verified against each vendor's own site on 10 August 2026. Full comparison →
 
 ## 4. The two layers that aren't on your phone at all
 Same on every platform, and stronger than anything above:
-- Self-exclusion — free, and you can't reverse it during a craving. GAMSTOP in the UK; state programme plus each operator in the US.
-- Bank gambling block — free, typically 48–72 hours to lift.
+- Self-exclusion: free, and you can't reverse it during a craving. GAMSTOP in the UK; state programme plus each operator in the US.
+- Bank gambling block: free, typically 48–72 hours to lift.
 
 If you only have ten minutes today, do these two and come back to the phone settings afterwards.
 
 ## What doesn't work on Android
 - Uninstalling the apps alone. The mobile site works, and reinstalling takes seconds.
 - Router or Wi-Fi filtering by itself. Ends at your front door; mobile data walks straight past it.
-- A plain VPN. Not a filter — and it can disable your Private DNS setting.
+- A plain VPN. Not a filter, and it can disable your Private DNS setting.
 - Blocking one browser. Android will happily install another in twenty seconds.
 
 ## Then the part no blocker does
@@ -295,19 +303,19 @@ Every layer above buys you time during an urge, and urges pass in roughly 20 to 
 ## Common questions
 
 Q: What is the best free gambling blocker for Android?
-A: Android's own Private DNS setting, pointed at a filtering resolver, blocks more than most paid apps do — every app and browser, on mobile data as well as Wi-Fi. For an app with a lockable commitment period, BetBlocker is free, charity-run, and supports Android.
+A: Android's own Private DNS setting, pointed at a filtering resolver, blocks more than most paid apps do: every app and browser, on mobile data as well as Wi-Fi. For an app with a lockable commitment period, BetBlocker is free, charity-run, and supports Android.
 
 Q: Does Private DNS work on mobile data?
 A: Yes. That's what makes it better than router-level or Wi-Fi-only blocking, which stops working the moment the phone leaves the house. Private DNS is a device setting and applies everywhere.
 
 Q: Can I stop myself turning Private DNS off?
-A: Not by itself — it's a Settings toggle, so it's a speed bump rather than a wall. To make it stick, put the device under Family Link with someone else holding the account, or use a blocker that resists removal. And rely on the layers you can't undo at all: self-exclusion and a bank block.
+A: Not by itself. It's a Settings toggle, so it's a speed bump rather than a wall. To make it stick, put the device under Family Link with someone else holding the account, or use a blocker that resists removal. And rely on the layers you can't undo at all: self-exclusion and a bank block.
 
 Q: Does Silex work on Android?
 A: Yes, on Android 8.0 and later, from Google Play. It sets up the Private DNS block from this page for you and adds a 90-day quit program, an urge button and a count of the money you keep; it is a paid subscription. If all you want is the block, the free setup on this page plus BetBlocker or Gamban does that job.
 
 Q: Will a VPN block gambling sites on Android?
-A: A standard VPN, no — it moves where your traffic exits, it doesn't filter it. Some privacy VPNs include a content-filtering DNS mode that does block gambling categories. Note that an active VPN can override your Private DNS setting, which is a common reason blocking silently stops working.
+A: A standard VPN, no. It moves where your traffic exits, it doesn't filter it. Some privacy VPNs include a content-filtering DNS mode that does block gambling categories. Note that an active VPN can override your Private DNS setting, which is a common reason blocking silently stops working.
 
 ========================================================================
 # How to block gambling sites and apps on iPhone
@@ -316,56 +324,56 @@ Language: en
 Description: Every working method for blocking gambling on an iPhone — Screen Time, a system-wide DNS profile, Safari content blockers, bank blocks and self-exclusion — with what each one actually covers and how easily you can undo it.
 Published: 2026-08-10 · Updated: 2026-08-10
 
-Short answer: Screen Time alone won't do it. The combination that holds is: a system-wide DNS profile (covers every app and browser), Screen Time restrictions with the passcode held by someone else (stops reinstalling), and the two layers you cannot undo in a craving — operator self-exclusion and a bank gambling block. Setting up all four takes about 30 minutes.
+Short answer: Screen Time alone won't do it. The combination that holds is: a system-wide DNS profile (covers every app and browser), Screen Time restrictions with the passcode held by someone else (stops reinstalling), and the two layers you cannot undo in a craving: operator self-exclusion and a bank gambling block. Setting up all four takes about 30 minutes.
 
-On Android instead? Here's the Android setup — the free built-in option there is genuinely better.
+On Android instead? Here's the Android setup. The free built-in option there is genuinely better.
 There are five distinct ways to block gambling on an iPhone, and they cover different things. Most guides list one, that one has a hole in it, and the hole is where the relapse goes. Here is all of it, with the honest limitations of each.
 
 ## Start here: what each method actually covers
 Method | Covers | How fast can you undo it? | Cost
-Screen Time restrictions | App installs, named websites in Safari, app hiding | Seconds — unless someone else holds the passcode | Free
+Screen Time restrictions | App installs, named websites in Safari, app hiding | Seconds, unless someone else holds the passcode | Free
 System-wide DNS profile | Every app and every browser, on Wi-Fi and cellular | About a minute, in Settings | Free options exist
 Safari content blocker | Safari only | Seconds | Free or bundled with an app
 Bank gambling block | Card payments to gambling merchants | Often a 48-hour cooling-off before it lifts | Free
-Operator self-exclusion | Your accounts, at the source | You can't — months to years | Free
+Operator self-exclusion | Your accounts, at the source | You can't (months to years) | Free
 
 Read that table as a stack, not a menu. The first three make gambling inconvenient; the last two make it genuinely hard. People who only do the first three tend to relapse through a browser or a payment method they forgot about.
 
 ## 1. Screen Time: block installs and named sites
 Screen Time is free, built in, and more useful for what it prevents than for what it filters.
-Stop new gambling apps appearing: Settings → Screen Time → Content & Privacy Restrictions → turn on → iTunes & App Store Purchases → Installing Apps → Don't Allow. This is the highest-value switch on the whole phone. Delete the sportsbook apps first, then flip it — now reinstalling requires the Screen Time passcode.
+Stop new gambling apps appearing: Settings → Screen Time → Content & Privacy Restrictions → turn on → iTunes & App Store Purchases → Installing Apps → Don't Allow. This is the highest-value switch on the whole phone. Delete the sportsbook apps first, then flip it. Now reinstalling requires the Screen Time passcode.
 Block gambling websites in Safari: Content & Privacy Restrictions → Content Restrictions → Web Content → Limit Adult Websites, then add each operator under Never Allow. Turning on Limit Adult Websites also disables Private Browsing in Safari, which is a genuine bonus.
 The catch nobody mentions: iOS has no gambling category. "Limit Adult Websites" is an adult-content filter; it catches some gambling sites incidentally and misses most sportsbooks. If you rely on it alone you will be blocked from nothing you actually use. The Never Allow list works, but you are maintaining it by hand against an industry with thousands of mirror domains.
-Do this bit properly: set a Screen Time passcode you don't know. Have your partner, a friend, or a family member type it in and keep it. Everything above is a five-second undo for whoever holds that code — so make sure that isn't you at 1am.
+Do this bit properly: set a Screen Time passcode you don't know. Have your partner, a friend, or a family member type it in and keep it. Everything above is a five-second undo for whoever holds that code, so make sure that isn't you at 1am.
 
 ## 2. A system-wide DNS profile: the one that covers everything
-This is the method most guides skip, and it is the strongest thing that lives on the phone itself. Every app and browser has to look up a domain name before it can connect. If the lookup fails, the app fails — no extension needed, no per-browser setup, and it works on cellular data as well as Wi-Fi.
+This is the method most guides skip, and it is the strongest thing that lives on the phone itself. Every app and browser has to look up a domain name before it can connect. If the lookup fails, the app fails. No extension needed, no per-browser setup, and it works on cellular data as well as Wi-Fi.
 iOS lets an app or a configuration profile install an encrypted-DNS (DoH) setting that applies device-wide. Point it at a resolver that filters gambling and every sportsbook, casino and slots site stops resolving.
 Free and paid options that filter gambling:
-- Mullvad's public DoH resolvers — a free "family" resolver that blocks gambling among other categories, run under a published no-logging policy.
-- NextDNS — free tier for moderate query volumes, with a gambling blocklist you switch on plus a large catalogue of community lists.
-- Control D — similar idea, category filtering, free tier available.
-- A blocker app that installs the profile for you — including Silex, which sets up an encrypted-DNS shield and merges public gambling-domain lists so you never maintain one by hand.
+- Mullvad's public DoH resolvers: a free "family" resolver that blocks gambling among other categories, run under a published no-logging policy.
+- NextDNS: free tier for moderate query volumes, with a gambling blocklist you switch on plus a large catalogue of community lists.
+- Control D: similar idea, category filtering, free tier available.
+- A blocker app that installs the profile for you, including Silex, which sets up an encrypted-DNS shield and merges public gambling-domain lists so you never maintain one by hand.
 
 Verify it after setup: Settings → General → VPN, DNS & Device Management → DNS should show your chosen configuration as selected, and a known gambling site should fail to load in a browser you don't normally use.
-Its limitation, stated plainly: you can turn it off in Settings in under a minute. DNS filtering is a speed bump against a determined craving, not a wall. It is an excellent speed bump — most relapses are impulsive, and one minute of friction is often enough — but do not treat it as the last line.
+Its limitation, stated plainly: you can turn it off in Settings in under a minute. DNS filtering is a speed bump against a determined craving, not a wall. It is an excellent speed bump (most relapses are impulsive, and one minute of friction is often enough), but do not treat it as the last line.
 
 ## 3. Safari content blockers
 A content blocker extension can refuse to load a list of domains inside Safari. Enable one at Settings → Apps → Safari → Extensions, then switch the blocker on. Silex ships one; so do most dedicated blocker apps.
 Useful, and narrow: it covers Safari and nothing else. Chrome, Firefox, Edge, the in-app browser inside a social app and the sportsbook's own native app are all untouched. Treat a Safari blocker as a supplement to DNS filtering, never a replacement.
 
 ## 4. Make your bank decline the payment
-Blocking access is only half of it — the other half is making the money hard to move. Most UK banks and a growing number of US and Canadian ones offer a gambling-merchant block that declines transactions to gambling operators outright, and many enforce a cooling-off period (often 48 hours) before they will lift it.
+Blocking access is only half of it. The other half is making the money hard to move. Most UK banks and a growing number of US and Canadian ones offer a gambling-merchant block that declines transactions to gambling operators outright, and many enforce a cooling-off period (often 48 hours) before they will lift it.
 That cooling-off is the point: it makes the block outlast the urge. Here's how to turn it on, bank by bank.
 
 ## 5. Self-exclude at the source
 The strongest layer isn't on your phone at all. Self-exclusion means telling the operator, or a national scheme, to close your accounts and refuse you service for a fixed period. In the UK, GAMSTOP covers every UK-licensed online operator with one free registration. In the US, most states run self-exclusion programmes, and every licensed sportsbook has its own.
-You cannot undo this in a craving — that is precisely why it works. The full self-exclusion guide is here.
+You cannot undo this in a craving. That is precisely why it works. The full self-exclusion guide is here.
 
 ## What doesn't work
 - Just deleting the apps. Reinstalling takes fifteen seconds, and the mobile website works fine without any app at all.
 - Router-level blocking on its own. Home Wi-Fi filtering, including a Pi-hole or a router-level DNS change, evaporates the moment the phone switches to cellular. Do it as well, never instead.
-- A general VPN. It relocates your traffic; it doesn't filter it. Some privacy VPNs offer a content-filtering DNS mode, which does work — the plain VPN does nothing for you here.
+- A general VPN. It relocates your traffic; it doesn't filter it. Some privacy VPNs offer a content-filtering DNS mode, which does work. The plain VPN does nothing for you here.
 - An app whose only feature is a streak counter. Tracking is a motivator, not a barrier. You need both, and the barrier goes in first.
 - Anything that promises to be unremovable on iOS. The sandbox does not permit it. Claims like that are marketing, and believing them is how people end up with one layer instead of four.
 
@@ -375,7 +383,7 @@ You cannot undo this in a craving — that is precisely why it works. The full s
 - Screen Time → Installing Apps → Don't Allow, plus Never Allow entries for the sites you actually used. Hand the passcode to someone else.
 - Enable a Safari content blocker.
 - Call or message your bank and ask for the gambling block.
-- Self-exclude with every operator you have an account with — and with GAMSTOP if you are in the UK.
+- Self-exclude with every operator you have an account with, and with GAMSTOP if you are in the UK.
 
 Steps 5 and 6 are the ones people postpone, and they are the ones that hold. Do them first if you only have ten minutes.
 
@@ -385,19 +393,19 @@ Every layer above buys you time in the ninety seconds when an urge peaks. What y
 ## Common questions
 
 Q: Can I block gambling apps on iPhone without an app?
-A: Yes. Screen Time can block the App Store and specific websites, and iOS can install a DNS configuration that makes gambling domains fail to resolve in every app. Both are free and built in. What iOS cannot do on its own is maintain the list of hundreds of thousands of gambling domains — that is what a blocker app or a filtering DNS service adds.
+A: Yes. Screen Time can block the App Store and specific websites, and iOS can install a DNS configuration that makes gambling domains fail to resolve in every app. Both are free and built in. What iOS cannot do on its own is maintain the list of hundreds of thousands of gambling domains. That is what a blocker app or a filtering DNS service adds.
 
 Q: Does Screen Time block gambling apps?
-A: Partly. Screen Time can stop new apps being installed, hide apps you have, and block specific websites in Safari. It has no gambling category, so 'Limit Adult Websites' is not a gambling filter — you have to add domains to Never Allow yourself, or use a filtering DNS resolver that keeps the list for you.
+A: Partly. Screen Time can stop new apps being installed, hide apps you have, and block specific websites in Safari. It has no gambling category, so 'Limit Adult Websites' is not a gambling filter. You have to add domains to Never Allow yourself, or use a filtering DNS resolver that keeps the list for you.
 
 Q: Can gambling apps be blocked permanently on iPhone?
 A: No, and any app claiming otherwise is overselling. On iOS you can always remove a profile or delete an app. Permanence has to come from outside the phone: self-exclusion with the operator, and a block at your bank. Those two you genuinely cannot reverse in the ninety seconds a craving lasts.
 
 Q: Will a VPN block gambling sites?
-A: A general-purpose VPN will not — it changes where your traffic exits, not what it can reach. A filtering DNS service or DNS-based blocker is what you want. Some privacy VPNs bundle a content-filtering DNS option, which does work.
+A: A general-purpose VPN will not. It changes where your traffic exits, not what it can reach. A filtering DNS service or DNS-based blocker is what you want. Some privacy VPNs bundle a content-filtering DNS option, which does work.
 
 Q: Does blocking work on cellular data as well as Wi-Fi?
-A: A DNS configuration installed on the iPhone does, because it belongs to the device. Router-level blocking does not — it stops at your front door, and the phone falls straight back to gambling as soon as it switches to 5G. This is the single most common reason home blocking fails.
+A: A DNS configuration installed on the iPhone does, because it belongs to the device. Router-level blocking does not. It stops at your front door, and the phone falls straight back to gambling as soon as it switches to 5G. This is the single most common reason home blocking fails.
 
 ========================================================================
 # How to make your bank decline gambling payments
@@ -406,13 +414,13 @@ Language: en
 Description: Bank gambling blocks decline payments to betting operators and take days to lift. Which UK banks offer one, what US cardholders can do instead, and why the cooling-off period is the whole point.
 Published: 2026-08-10 · Updated: 2026-08-10
 
-Short answer: Most major UK banks let you switch on a gambling block in the app, and it takes a 48 to 72-hour cooling-off period to switch back off — which is exactly why it works. In the US there is no consumer toggle at most banks, but gambling deposits on credit cards are already widely declined under merchant category code 7995, and you can ask your issuer to block that code.
+Short answer: Most major UK banks let you switch on a gambling block in the app, and it takes a 48 to 72-hour cooling-off period to switch back off, which is exactly why it works. In the US there is no consumer toggle at most banks, but gambling deposits on credit cards are already widely declined under merchant category code 7995, and you can ask your issuer to block that code.
 
-Blocking websites stops you reaching the bet. Blocking payments stops you funding it, and it is the harder of the two to undo — which makes it the more valuable one. A gambling block at your bank refuses transactions to gambling merchants outright, and reversing it takes days rather than seconds.
+Blocking websites stops you reaching the bet. Blocking payments stops you funding it, and it is the harder of the two to undo, which makes it the more valuable one. A gambling block at your bank refuses transactions to gambling merchants outright, and reversing it takes days rather than seconds.
 
 ## Why the delay is the feature
 Every layer worth having is really a bet on time. Gambling urges are impulsive and short-lived; a barrier that takes one minute to remove often fails, and a barrier that takes two days almost never does. When a bank makes you wait 48 hours to re-enable gambling payments, it has converted a decision made in the worst possible state of mind into one made two days later, calm.
-The research on card blockers makes the same point about design details — the University of Bristol's Personal Finance Research Centre published a blueprint for bank card gambling blockers arguing that friction to unblock matters as much as the block itself.
+The research on card blockers makes the same point about design details: the University of Bristol's Personal Finance Research Centre published a blueprint for bank card gambling blockers arguing that friction to unblock matters as much as the block itself.
 
 ## UK: turn it on in the app
 Most UK current accounts now include a gambling block, usually under card controls or spending limits in the mobile app. Reported behaviour, which you should confirm with your own bank because these terms change:
@@ -425,13 +433,13 @@ Barclays | 72 hours
 HSBC | Cooling-off period applies
 Santander | Block available
 
-If your bank isn't listed, phone them and ask directly for a gambling transaction block — coverage across UK banks and building societies is now wide, and the frontline staff at most of them handle this request routinely and without any awkwardness. GamCare maintains a plain-language explainer of how bank gambling blocks work.
+If your bank isn't listed, phone them and ask directly for a gambling transaction block. Coverage across UK banks and building societies is now wide, and the frontline staff at most of them handle this request routinely and without any awkwardness. GamCare maintains a plain-language explainer of how bank gambling blocks work.
 Pick the longest period you can stand. Monzo's up-to-12-months option is the strongest single money-side commitment available from a UK bank, and it is free.
 
 ## US: what actually exists
 There is no widely available "block gambling" switch in US banking apps. What exists instead:
-- Credit cards mostly already decline it. Online gambling merchants are assigned merchant category code 7995, and major US issuers treat gambling deposits as cash advances or cash equivalents — several blanket-decline the code. If you have been funding gambling by credit card, this may already be closing.
-- Ask your issuer to block MCC 7995 permanently. Say exactly that: "please place a permanent block on merchant category code 7995 on my account." Some banks will do it, some will tell you it is already in place, and a few will say they can't — in which case ask for the request to be noted.
+- Credit cards mostly already decline it. Online gambling merchants are assigned merchant category code 7995, and major US issuers treat gambling deposits as cash advances or cash equivalents. Several blanket-decline the code. If you have been funding gambling by credit card, this may already be closing.
+- Ask your issuer to block MCC 7995 permanently. Say exactly that: "please place a permanent block on merchant category code 7995 on my account." Some banks will do it, some will tell you it is already in place, and a few will say they can't, in which case ask for the request to be noted.
 - Remove the cards from the operator's side. Delete saved cards and bank links from every sportsbook and casino account you have. Do it in the same sitting as self-exclusion, because self-exclusion closes the account that holds them.
 - Watch the e-wallet gap. PayPal, Venmo, Cash App, prepaid cards and crypto on-ramps are the usual detour when a card stops working. Closing or unlinking those matters as much as the card block.
 
@@ -442,11 +450,11 @@ There is no widely available "block gambling" switch in US banking apps. What ex
 - Another account. Blocking one bank while holding an unblocked account somewhere else does very little. Block them all, including the one you barely use.
 
 ## Do these three in one sitting
-- The bank block — on every account and card you hold, not just the main one.
-- Self-exclusion — which closes the accounts your cards are saved in.
-- Phone-level blocking — so the sites stop loading in the first place.
+- The bank block: on every account and card you hold, not just the main one.
+- Self-exclusion, which closes the accounts your cards are saved in.
+- Phone-level blocking, so the sites stop loading in the first place.
 
-Twenty minutes, no cost, and between them they remove almost every route that a craving takes when it is looking for one. Then comes the part that actually decides the outcome — what you do with the urge once the door is shut. That's here.
+Twenty minutes, no cost, and between them they remove almost every route that a craving takes when it is looking for one. Then comes the part that actually decides the outcome: what you do with the urge once the door is shut. That's here.
 
 ## If gambling has left debt behind
 Blocking payments doesn't address money already owed, and debt pressure is one of the most reliable triggers for chasing losses. Free, non-judgemental advice: StepChange and National Debtline in the UK, NFCC member agencies in the US. None of them charge, and talking to one is not a commitment to anything.
@@ -454,16 +462,16 @@ Blocking payments doesn't address money already owed, and debt pressure is one o
 ## Common questions
 
 Q: Which UK banks have a gambling block?
-A: Barclays, HSBC, Lloyds, NatWest, Santander, Monzo and Starling all offer one, along with several others. Reported cooling-off periods before the block can be lifted range from 48 hours (Starling, Lloyds, NatWest) to 72 hours (Barclays), and Monzo lets you set anything from 2 days to 12 months. Confirm the current terms with your own bank — they change.
+A: Barclays, HSBC, Lloyds, NatWest, Santander, Monzo and Starling all offer one, along with several others. Reported cooling-off periods before the block can be lifted range from 48 hours (Starling, Lloyds, NatWest) to 72 hours (Barclays), and Monzo lets you set anything from 2 days to 12 months. Confirm the current terms with your own bank. They change.
 
 Q: Does a gambling block stop every gambling payment?
 A: No. It works on the merchant category the operator is registered under, so a payment routed through an e-wallet, a crypto exchange or a merchant miscategorised as something else can slip past. It also does not stop cash. Treat it as a strong layer, not a seal.
 
 Q: Can I block gambling on a US bank card?
-A: Rarely as a self-service switch. But gambling deposits on US credit cards are commonly declined already — issuers treat them as cash advances or cash equivalents and many blanket-decline merchant code 7995. Call your issuer and ask for a permanent block on that code; some will set it, and some will simply confirm it is already in place.
+A: Rarely as a self-service switch. But gambling deposits on US credit cards are commonly declined already. Issuers treat them as cash advances or cash equivalents and many blanket-decline merchant code 7995. Call your issuer and ask for a permanent block on that code; some will set it, and some will simply confirm it is already in place.
 
 Q: Will the block affect anything else?
-A: Occasionally. Merchant categorisation is imperfect, so a small number of legitimate payments — a lottery-adjacent retailer, an arcade, some prize-draw sites — can be caught. That is a minor inconvenience against the thing it prevents.
+A: Occasionally. Merchant categorisation is imperfect, so a small number of legitimate payments (a lottery-adjacent retailer, an arcade, some prize-draw sites) can be caught. That is a minor inconvenience against the thing it prevents.
 
 Q: Is a bank block better than a blocker app?
 A: It is stronger, because you cannot lift it in the ninety seconds an urge lasts. It is also narrower, because it only touches money movement, not access. Use both.
@@ -854,7 +862,7 @@ Language: en
 Description: Gamban costs £4.99 a month or £29.99 a year. Here are the free and paid alternatives that cover the same job, what each does better, and when Gamban is still the right answer.
 Published: 2026-08-10 · Updated: 2026-11-03
 
-Short answer: Gamban is £4.99/month or £29.99/year with a 7-day free trial, covering iOS, Android, Windows and Mac. If you want free, BetBlocker (charity-run) does the core job on more platforms than Gamban. If you want the strongest removal resistance on Windows or Android, look at GamBlock. If you want a quit program rather than just a wall, Silex — which we make — runs on iPhone and Android, with no desktop app. And if you only gamble on an iPhone, iOS's own DNS and Screen Time settings plus a free filtering resolver cost nothing at all.
+Short answer: Gamban is £4.99/month or £29.99/year with a 7-day free trial, covering iOS, Android, Windows and Mac. If you want free, BetBlocker (charity-run) does the core job on more platforms than Gamban. If you want the strongest removal resistance on Windows or Android, look at GamBlock. If you want a quit program rather than just a wall, Silex (which we make) runs on iPhone and Android, with no desktop app. And if you only gamble on an iPhone, iOS's own DNS and Screen Time settings plus a free filtering resolver cost nothing at all.
 
 Disclosure: we make Silex, one of the options below. So this page verifies every price against the vendor's own site rather than repeating other comparisons, and it says where Gamban beats us. Prices checked 10 August 2026.
 
@@ -870,32 +878,32 @@ Silex (ours) | $2.99/wk or $29.99/yr, 7-day trial | iPhone, Android | A 90-day p
 NextDNS or Control D | Free tiers; paid from a few $/month | Anything that can set DNS | Whole-network coverage, granular control
 iOS Screen Time + a filtering resolver | Free | iPhone, iPad | Costing nothing, if iPhone is your only risk
 
-### BetBlocker — the free one that isn't a downgrade
+### BetBlocker: the free one that isn't a downgrade
 A charity project (founded by ThePOGG in 2017, independent charity from 2019, registered in Scotland SC049565). Free "absolutely nothing. Ever.", ad-free, and it states coverage of 356,000+ websites and 1,900+ apps with 105,000+ active users. Its standout feature is a restriction period you set from one day to five years and cannot shorten once running.
 Where Gamban wins: polish, support, and heuristic detection of sites that aren't on a list yet. BetBlocker's setup is more manual. betblocker.org
 
-### GamBlock — for a Windows problem
-Uses heuristics rather than lists — "GamBlock uses heuristics to ban gambling sites rather than the simple lists imitators use that are never up to date" — and on Windows and Android claims removal "cannot happen", including blocking attempts to reset the machine.
+### GamBlock: for a Windows problem
+Uses heuristics rather than lists ("GamBlock uses heuristics to ban gambling sites rather than the simple lists imitators use that are never up to date"), and on Windows and Android claims removal "cannot happen", including blocking attempts to reset the machine.
 Where Gamban wins: published pricing and a much easier purchase decision. We haven't independently tested GamBlock's removal-resistance claims, so treat them as the vendor's until you've tried them in a refund window. gamblock.com
 
-### NextDNS or Control D — the technical route
+### NextDNS or Control D: the technical route
 Not blocker apps but filtering DNS services with gambling categories you switch on. Set one as the DNS on your iPhone and it covers every app and browser on cellular and Wi-Fi; set it on your router and it covers the house. Free tiers are enough for one person, and this is what most blocker apps are doing under the hood anyway.
-Where Gamban wins: you have to be comfortable with profiles and DNS settings, and nothing stops you switching the profile off — there's no commitment mechanism at all.
+Where Gamban wins: you have to be comfortable with profiles and DNS settings, and nothing stops you switching the profile off. There's no commitment mechanism at all.
 
-### Silex — different product, not a cheaper Gamban
-iPhone and Android, $2.99/week or $29.99/year with a 7-day trial. It sets up a system-wide DNS shield covering every app and browser, ships a Safari content blocker on iPhone, and guides setup of the layers software can't provide — self-exclusion, bank blocks, killing promo emails.
+### Silex: different product, not a cheaper Gamban
+iPhone and Android, $2.99/week or $29.99/year with a 7-day trial. It sets up a system-wide DNS shield covering every app and browser, ships a Safari content blocker on iPhone, and guides setup of the layers software can't provide: self-exclusion, bank blocks, killing promo emails.
 The reason to choose it is the other half: a 90-day program written from clinical CBT material, an urge button that is never paywalled, and a running total of the money you kept.
 Where Gamban wins, clearly: platforms. Gamban covers your laptop; Silex is a phone app, and on a computer there is only its free browser extension. Gamban also has years of operating history where we have months. If what you need is a blocker, Gamban or BetBlocker is the better buy and we'd rather say so than sell you the wrong thing.
 
 ## When you should just keep Gamban
 - You gamble on more than one kind of device.
 - You want one subscription, one support contact, and no assembly.
-- It's already installed and working — swapping tools is a common form of procrastination that feels like progress.
+- It's already installed and working. Swapping tools is a common form of procrastination that feels like progress.
 
 ## The change that matters more than which app you pick
 Every option on this page is the same layer, and it's the weakest of the three. Before spending another hour comparing blockers, spend twenty minutes on the two free things no app can do for you:
-- Self-exclude — GAMSTOP in the UK, your state programme and each operator in the US. Free, and you can't reverse it in a craving.
-- Bank gambling block — free, and typically 48 to 72 hours to lift.
+- Self-exclude: GAMSTOP in the UK, your state programme and each operator in the US. Free, and you can't reverse it in a craving.
+- Bank gambling block: free, and typically 48 to 72 hours to lift.
 
 Then pick whichever blocker you'll actually keep installed. Full comparison of all of them →
 
@@ -905,16 +913,16 @@ Q: How much does Gamban cost?
 A: £4.99 billed monthly, or £29.99 billed annually, with a 7-day free trial and no payment up front. Checked against gamban.com/pricing on 10 August 2026. Older roundups still quoting £24.99 a year are out of date.
 
 Q: Is there a free alternative to Gamban?
-A: Yes — BetBlocker, run by a charity registered in Scotland (SC049565). It is free with no ads, states it blocks 356,000+ gambling sites and 1,900+ apps, and supports Windows, Mac, Linux, Android, iOS and Fire OS. It also lets you lock a restriction period of up to five years.
+A: Yes: BetBlocker, run by a charity registered in Scotland (SC049565). It is free with no ads, states it blocks 356,000+ gambling sites and 1,900+ apps, and supports Windows, Mac, Linux, Android, iOS and Fire OS. It also lets you lock a restriction period of up to five years.
 
 Q: Can I cancel Gamban if it stops working for me?
-A: It's an ordinary subscription, cancelled through wherever you bought it. Worth knowing: cancelling a blocker is by design easy, which is why it should never be your only layer — self-exclusion and a bank block are the ones that hold.
+A: It's an ordinary subscription, cancelled through wherever you bought it. Worth knowing: cancelling a blocker is by design easy, which is why it should never be your only layer. Self-exclusion and a bank block are the ones that hold.
 
 Q: Is Gamban better than GAMSTOP?
 A: They do different jobs and you want both. GAMSTOP stops UK-licensed operators from serving you; Gamban blocks access to gambling sites generally, including the unlicensed offshore ones GAMSTOP has no authority over.
 
 Q: Does Gamban work on iPhone?
-A: Yes, and like every iOS blocker it can be removed from Settings — Apple's sandbox does not permit an app to make itself undeletable. That is a platform limit, not a Gamban flaw.
+A: Yes, and like every iOS blocker it can be removed from Settings. Apple's sandbox does not permit an app to make itself undeletable. That is a platform limit, not a Gamban flaw.
 
 ========================================================================
 # Gambling debt: where to start
@@ -923,46 +931,46 @@ Language: en
 Description: How to deal with debt from gambling — stop the bleeding, work out what's actually owed, get free charity debt advice, and avoid the consolidation traps aimed at people in exactly this position.
 Published: 2026-08-10 · Updated: 2026-08-10
 
-Short answer: In order: stop new losses (self-exclusion and a bank block, both free and both today), write down every debt in one place including the money owed to people, then call a free debt charity — StepChange or National Debtline in the UK, an NFCC member agency in the US. They are free, they don't judge, and they get better outcomes than anything you can arrange alone at 2am. Do not take a consolidation loan while you are still gambling.
+Short answer: In order: stop new losses (self-exclusion and a bank block, both free and both today), write down every debt in one place including the money owed to people, then call a free debt charity: StepChange or National Debtline in the UK, an NFCC member agency in the US. They are free, they don't judge, and they get better outcomes than anything you can arrange alone at 2am. Do not take a consolidation loan while you are still gambling.
 
 Gambling debt has one feature that makes it different from ordinary debt: the thing that caused it looks, from the inside, like the fastest way to fix it. That belief is what turns a manageable number into an unmanageable one, and it is the first thing to disarm.
 
 ## 1. Stop the bleeding before you do the arithmetic
 There's no point building a repayment plan around a balance that's still moving. Both of these are free and take under twenty minutes:
-- Self-exclude from every operator — GAMSTOP covers all UK-licensed sites in one registration; in the US, your state programme plus each sportsbook.
-- Bank gambling block — declines payments to gambling merchants and takes 48–72 hours to lift.
+- Self-exclude from every operator: GAMSTOP covers all UK-licensed sites in one registration; in the US, your state programme plus each sportsbook.
+- Bank gambling block: declines payments to gambling merchants and takes 48–72 hours to lift.
 
 Then block it on your phone. In that order: strongest first.
 
 ## 2. Get all of it onto one page
-Most people carrying gambling debt have never seen the full number, because it's spread across cards, overdrafts, an app loan, a payday lender and three people they can't face. The fragmentation is doing you harm — it makes the total feel survivable in a way that keeps you from acting.
+Most people carrying gambling debt have never seen the full number, because it's spread across cards, overdrafts, an app loan, a payday lender and three people they can't face. The fragmentation is doing you harm. It makes the total feel survivable in a way that keeps you from acting.
 Write down, for each one: who it's owed to, how much, the interest rate, the minimum payment. Include money owed to family and friends, even though it has no paperwork. Include anything borrowed against your salary.
-Then separate them. Debts where the consequence is losing your home, your utilities, your transport to work or your liberty come first — in UK debt advice these are called priority debts, and they get dealt with ahead of credit cards regardless of who is shouting loudest. A debt adviser will do this triage with you in one call, and it is the part people most often get wrong alone.
+Then separate them. Debts where the consequence is losing your home, your utilities, your transport to work or your liberty come first. In UK debt advice these are called priority debts, and they get dealt with ahead of credit cards regardless of who is shouting loudest. A debt adviser will do this triage with you in one call, and it is the part people most often get wrong alone.
 
 ## 3. Call a free debt charity
 This is the highest-value phone call available to you, and the thing people delay for months out of shame.
 - UK: StepChange and National Debtline. Free, charity-run, no judgement, and they'll talk to creditors for you.
-- US: NFCC member agencies — non-profit credit counselling, free initial counselling.
+- US: NFCC member agencies: non-profit credit counselling, free initial counselling.
 - Either: the national gambling helplines will point you at local debt help as part of the same call. US 1-800-MY-RESET, UK 0808 8020 133.
 
-What they can arrange that you generally can't alone: frozen interest, paused collection, affordable repayment plans, and — in England and Wales — the Breathing Space scheme, which stops most interest, fees and enforcement action for 60 days while you get advice. Ask whether you qualify.
+What they can arrange that you generally can't alone: frozen interest, paused collection, affordable repayment plans, and (in England and Wales) the Breathing Space scheme, which stops most interest, fees and enforcement action for 60 days while you get advice. Ask whether you qualify.
 
 ## 4. What to avoid
 - Consolidation while you're still gambling. It converts several maxed balances into one loan plus several empty credit lines. This is how a £10,000 problem becomes a £25,000 one, and it happens to people who were genuinely trying to fix it.
 - Anyone charging a fee to "sort" gambling debt. Free charities do the same work better. Paid debt-relief outfits target this exact search.
-- Borrowing from family to clear it in one go. If you're still gambling, it reloads rather than resolves — and it converts a financial problem into a relationship one. (It's also why families are advised not to clear gambling debts. If someone has said no to you, that's why — it isn't abandonment.)
+- Borrowing from family to clear it in one go. If you're still gambling, it reloads rather than resolves, and it converts a financial problem into a relationship one. (It's also why families are advised not to clear gambling debts. If someone has said no to you, that's why. It isn't abandonment.)
 - Any plan that requires a win. Including "one last session to get back to level". This is the belief that built the debt, wearing a suit.
 - Crypto, high-risk trading, or a "system". Same loop, different interface.
 
 ## 5. Expect the debt itself to be a trigger
-This is the part standard debt advice misses. Statements, calls and the size of the number produce exactly the stress state that used to be answered with a bet — which is why the blocks in step 1 need to be up before you start opening envelopes.
+This is the part standard debt advice misses. Statements, calls and the size of the number produce exactly the stress state that used to be answered with a bet, which is why the blocks in step 1 need to be up before you start opening envelopes.
 Two things help: a repayment plan you didn't design alone, so the number stops being an emergency and becomes a schedule; and knowing that the urge to fix it in one night peaks and passes like any other. Usually in 20 to 30 minutes.
 
 ## 6. Watch the number move the other way
-Once the losses stop, the money you're not gambling starts doing something. Seeing that as a rising figure rather than an absence is a surprisingly durable motivator — it's why Silex counts the money you kept instead of the days you white-knuckled. Work out what a year of not gambling is worth to you →
+Once the losses stop, the money you're not gambling starts doing something. Seeing that as a rising figure rather than an absence is a surprisingly durable motivator. It's why Silex counts the money you kept instead of the days you white-knuckled. Work out what a year of not gambling is worth to you →
 
 ## If the debt has you thinking about not being here
-Gambling debt and suicidal thoughts are strongly linked, and financial shame is a particularly isolating kind. Please use the numbers below — in the US, 988; in the UK, Samaritans on 116 123. Debt is solvable, including debt that currently looks unsolvable, and free advisers deal with worse numbers than yours every day of the week.
+Gambling debt and suicidal thoughts are strongly linked, and financial shame is a particularly isolating kind. Please use the numbers below: in the US, 988; in the UK, Samaritans on 116 123. Debt is solvable, including debt that currently looks unsolvable, and free advisers deal with worse numbers than yours every day of the week.
 
 ## Common questions
 
@@ -970,13 +978,13 @@ Q: Can I get help with gambling debt for free?
 A: Yes, and free help is better than paid help here. StepChange and National Debtline in the UK, and NFCC member agencies in the US, are non-profit, charge nothing, and will negotiate with creditors on your behalf. Anyone charging you a fee upfront to fix gambling debt is selling you something you can get for nothing.
 
 Q: Should I take a loan to pay off gambling debt?
-A: Not while you are still gambling — a consolidation loan clears balances that then become fresh credit lines, which is the single most common way gambling debt doubles. Once you have genuinely stopped and the blocks are in place, a debt adviser can tell you whether consolidation makes sense for your particular situation. That is their job, and they have no product to sell you.
+A: Not while you are still gambling. A consolidation loan clears balances that then become fresh credit lines, which is the single most common way gambling debt doubles. Once you have genuinely stopped and the blocks are in place, a debt adviser can tell you whether consolidation makes sense for your particular situation. That is their job, and they have no product to sell you.
 
 Q: Will creditors know it was gambling?
-A: You don't have to itemise the cause, but telling a debt adviser is worth it — they'll factor it in, and many lenders have vulnerability policies that can mean frozen interest or paused collection. In England and Wales, a debt adviser can also tell you whether you qualify for the Breathing Space scheme, which pauses most interest and enforcement for 60 days.
+A: You don't have to itemise the cause, but telling a debt adviser is worth it. They'll factor it in, and many lenders have vulnerability policies that can mean frozen interest or paused collection. In England and Wales, a debt adviser can also tell you whether you qualify for the Breathing Space scheme, which pauses most interest and enforcement for 60 days.
 
 Q: Should I tell my family about the debt?
-A: Almost always, and sooner is easier than later — the number only grows while it's secret, and secrecy is the thing that makes gambling debt escalate. It's worth speaking to a helpline first to plan how, especially if housing or children are involved.
+A: Almost always, and sooner is easier than later: the number only grows while it's secret, and secrecy is the thing that makes gambling debt escalate. It's worth speaking to a helpline first to plan how, especially if housing or children are involved.
 
 Q: Does bankruptcy clear gambling debt?
 A: In many places gambling debts are treated like other unsecured debts in insolvency, but the rules, the consequences and the alternatives differ a lot by country and by situation, and there are usually less drastic options. This is exactly the decision to take to a free debt adviser rather than to a forum.
@@ -991,34 +999,34 @@ Published: 2026-08-10 · Updated: 2026-08-10
 Short answer: Enter what you lose in a typical week. The yearly figure is that number × 52; the long-run figures add compounding for scale. Most people are shocked less by the weekly number than by the ten-year one. Nothing you type is stored or sent.
 
 ## Why the ten-year number is the one that lands
-A £60 weekend feels like the price of entertainment. Ten years of £60 weekends is a deposit on a flat. Nothing about the arithmetic is surprising — what's surprising is that almost nobody does it, because gambling losses arrive in small pieces and never appear on a single statement line.
+A £60 weekend feels like the price of entertainment. Ten years of £60 weekends is a deposit on a flat. Nothing about the arithmetic is surprising. What's surprising is that almost nobody does it, because gambling losses arrive in small pieces and never appear on a single statement line.
 This is also why the money figure works as a recovery tool rather than a guilt trip. Silex takes the same weekly number and counts upward from the day you stop, so the sum you'd have lost becomes the sum you kept. Same arithmetic, opposite direction.
 
 ## What the number does not include
-- Borrowing. Interest on money borrowed to gamble often costs more than the losses themselves. The PGSI asks about borrowing for a reason — it's one of the strongest markers of a heavy pattern.
+- Borrowing. Interest on money borrowed to gamble often costs more than the losses themselves. The PGSI asks about borrowing for a reason: it's one of the strongest markers of a heavy pattern.
 - Time. Hours in an app at 1am don't show up in a currency figure and are frequently the loss people most regret.
-- The near-misses that kept you in. Losses disguised as wins — a return smaller than your stake, presented with celebration sound and colour — are a designed feature of modern slots and betting apps, not an accident. The research on that is worth reading.
+- The near-misses that kept you in. Losses disguised as wins (a return smaller than your stake, presented with celebration sound and colour) are a designed feature of modern slots and betting apps, not an accident. The research on that is worth reading.
 
 ## If the figure is worse than you expected
 That reaction is information, not a verdict. Two next steps, in this order:
-- Take the 9-question PGSI self-check — it takes two minutes and tells you where the pattern sits.
+- Take the 9-question PGSI self-check. It takes two minutes and tells you where the pattern sits.
 - Put blocks between you and the operators, starting with your phone, then the two that don't rely on willpower: self-exclusion and a bank gambling block.
 
-If gambling has left debt behind, deal with that alongside — free, non-judgemental debt advice is available from StepChange and National Debtline in the UK, and from NFCC member agencies in the US. None of them charge, and none of them will lecture you.
+If gambling has left debt behind, deal with that alongside. Free, non-judgemental debt advice is available from StepChange and National Debtline in the UK, and from NFCC member agencies in the US. None of them charge, and none of them will lecture you.
 
 ## Common questions
 
 Q: Should I use my losses or my total stakes?
-A: Use net losses — money gone, not money wagered. Total stakes are usually far higher than losses because winnings get re-bet, and counting them makes the figure look dramatic but meaningless.
+A: Use net losses: money gone, not money wagered. Total stakes are usually far higher than losses because winnings get re-bet, and counting them makes the figure look dramatic but meaningless.
 
 Q: I don't know what I lose in a week. How do I find out?
-A: Take the last three months of bank or card statements and add every transfer to a gambling operator, then subtract every withdrawal from one. Divide by 13. Card statements catch what memory doesn't — most people underestimate by a wide margin.
+A: Take the last three months of bank or card statements and add every transfer to a gambling operator, then subtract every withdrawal from one. Divide by 13. Card statements catch what memory doesn't. Most people underestimate by a wide margin.
 
 Q: Why include an investment comparison at all?
-A: Because the honest cost of gambling isn't only the money lost, it's what that money would have become. The figure uses an 8% average annual return compounded monthly, which is an illustration for scale — not a forecast, not a recommendation, and not financial advice.
+A: Because the honest cost of gambling isn't only the money lost, it's what that money would have become. The figure uses an 8% average annual return compounded monthly, which is an illustration for scale, not a forecast, not a recommendation, and not financial advice.
 
 Q: Does the number include what I owe?
-A: No. This calculates ongoing losses only. If gambling has left you with debt, a free debt-advice charity is a better next call than a calculator — StepChange or National Debtline in the UK, an NFCC member agency in the US.
+A: No. This calculates ongoing losses only. If gambling has left you with debt, a free debt-advice charity is a better next call than a calculator: StepChange or National Debtline in the UK, an NFCC member agency in the US.
 
 ========================================================================
 # What happens when you stop gambling
@@ -1027,60 +1035,60 @@ Language: en
 Description: Withdrawal, sleep, mood, money and the danger points — what the first 90 days after quitting gambling commonly look like, and which weeks people actually relapse in.
 Published: 2026-08-10 · Updated: 2026-08-10
 
-Short answer: The first 72 hours are usually the loudest: irritability, poor sleep, and urges arriving in clusters. Weeks 1–2 are peak frequency. Around weeks 3–6 comes the quiet danger zone — the urges have eased, the crisis feeling has passed, and "maybe I could handle a small one" shows up. By 90 days most people report urges that are occasional and manageable rather than absent. Cue-triggered flickers years later are normal and don't mean it failed.
+Short answer: The first 72 hours are usually the loudest: irritability, poor sleep, and urges arriving in clusters. Weeks 1–2 are peak frequency. Around weeks 3–6 comes the quiet danger zone: the urges have eased, the crisis feeling has passed, and "maybe I could handle a small one" shows up. By 90 days most people report urges that are occasional and manageable rather than absent. Cue-triggered flickers years later are normal and don't mean it failed.
 
-Nobody tells you what the first month feels like, so it's easy to read a bad week as evidence that quitting isn't working — when a bad week is exactly what the process looks like. Here's the shape most people describe.
+Nobody tells you what the first month feels like, so it's easy to read a bad week as evidence that quitting isn't working, when a bad week is exactly what the process looks like. Here's the shape most people describe.
 This is a composite of commonly reported patterns and of relapse-prevention research, not a clinical prediction. Yours will be lumpier than any timeline, and that's normal.
 
 ## Days 1–3: the loud part
-Urges arrive often, and in clusters that feel like one long craving. Irritability, restlessness and broken sleep are common, as are headaches and appetite changes. Gambling isn't a substance, so there's no detox — but the discomfort is genuinely physical for a lot of people, and being told "it's just psychological" helps nobody.
-Two things belong in these 72 hours. Get the barriers up while motivation is at its highest — self-exclusion, bank block, phone blocking. And tell one person. Both get harder to do on day nine than on day one.
+Urges arrive often, and in clusters that feel like one long craving. Irritability, restlessness and broken sleep are common, as are headaches and appetite changes. Gambling isn't a substance, so there's no detox. But the discomfort is genuinely physical for a lot of people, and being told "it's just psychological" helps nobody.
+Two things belong in these 72 hours. Get the barriers up while motivation is at its highest: self-exclusion, bank block, phone blocking. And tell one person. Both get harder to do on day nine than on day one.
 
 ## Week 1–2: peak frequency
 Urges are at their most frequent here, and each one still peaks and passes in roughly 20 to 30 minutes. That pattern is the thing to lean on.
 What else shows up:
-- Sleep starts improving, often the first visible win — the late-night sessions were costing more than money.
+- Sleep starts improving, often the first visible win. The late-night sessions were costing more than money.
 - The time is suddenly obvious. Evenings feel long and empty. This is the vacancy gambling used to fill, and it needs an occupant.
 - The money arrives as a shock. Both directions: what's still owed, and what's no longer leaving.
 - Predictable spikes: payday, a big fixture, your old time slot.
 
 ## Weeks 3–6: the quiet danger zone
 This is the part worth marking in advance, because it's the window that catches people who got through week one fine.
-By now the urges have eased, sleep is better, the emergency feeling has passed — and precisely because things are better, a new thought becomes persuasive: maybe it wasn't that bad. Maybe I could have one small bet now that I'm in control.
-That thought is the single most reliable predictor of a relapse at this stage, and it arrives wearing the clothes of recovery rather than of craving. It is also why blocks you set up in week one need to be ones you can't casually undo in week four — which is the entire argument for self-exclusion over an app you can delete.
+By now the urges have eased, sleep is better, the emergency feeling has passed. And precisely because things are better, a new thought becomes persuasive: maybe it wasn't that bad. Maybe I could have one small bet now that I'm in control.
+That thought is the single most reliable predictor of a relapse at this stage, and it arrives wearing the clothes of recovery rather than of craving. It is also why blocks you set up in week one need to be ones you can't casually undo in week four, which is the entire argument for self-exclusion over an app you can delete.
 
 ## Weeks 6–12: it starts becoming ordinary
 - Urges become occasional and cue-linked rather than ambient.
-- Mood generally lifts — later than sleep did. If it hasn't by now, see a doctor; depression and anxiety travel alongside gambling problems often enough that waiting it out is the wrong call.
+- Mood generally lifts, later than sleep did. If it hasn't by now, see a doctor; depression and anxiety travel alongside gambling problems often enough that waiting it out is the wrong call.
 - Money becomes a plan instead of a panic, especially if you've spoken to a free debt adviser.
-- The replacement matters more than the resistance now. Whatever gambling was doing — escape, action, company — has to have somewhere else to go. That's step three of the plan.
+- The replacement matters more than the resistance now. Whatever gambling was doing (escape, action, company) has to have somewhere else to go. That's step three of the plan.
 
 ## Past 90 days
-Most people describe this as maintenance rather than survival. What persists is cue-triggered flickers — walking past a shop, a big final, a bonus landing — and they're usually brief and easy to dismiss. That's not failure or a sign it's coming back. It just means a cue is still a cue.
+Most people describe this as maintenance rather than survival. What persists is cue-triggered flickers (walking past a shop, a big final, a bonus landing), and they're usually brief and easy to dismiss. That's not failure or a sign it's coming back. It just means a cue is still a cue.
 What tends to hold up long-term: the irreversible blocks staying in place, at least one person who knows, and a life with enough in it that gambling would have to displace something you'd miss.
 
 ## If you slip somewhere in here
-Common, and not a reset. What decides the outcome is what happens in the following hour, not the bet itself — the first-hour plan is here. Silex is built on the same principle: a lapse routes you to a Reset day, and your history is never wiped.
+Common, and not a reset. What decides the outcome is what happens in the following hour, not the bet itself. The first-hour plan is here. Silex is built on the same principle: a lapse routes you to a Reset day, and your history is never wiped.
 
 ## Why Silex is 90 days
-Not arbitrary, and not a claim about your brain finishing on a particular date. Roughly three months is how long it commonly takes for urges to thin out and for something else to occupy the space — and a day-by-day structure exists mostly to get you through weeks 3 to 6, when nothing feels urgent and quitting quietly stops being a project. What the program is built from →
+Not arbitrary, and not a claim about your brain finishing on a particular date. Roughly three months is how long it commonly takes for urges to thin out and for something else to occupy the space, and a day-by-day structure exists mostly to get you through weeks 3 to 6, when nothing feels urgent and quitting quietly stops being a project. What the program is built from →
 
 ## Common questions
 
 Q: Is there physical withdrawal from gambling?
-A: Gambling disorder is a behavioural addiction, so there's no medical detox — but plenty of people report genuinely physical symptoms in the first days: disturbed sleep, restlessness, irritability, headaches, low mood and appetite changes. It's real, and it's short.
+A: Gambling disorder is a behavioural addiction, so there's no medical detox, but plenty of people report genuinely physical symptoms in the first days: disturbed sleep, restlessness, irritability, headaches, low mood and appetite changes. It's real, and it's short.
 
 Q: When is relapse most likely?
-A: Two windows. The first week, when urges are most frequent and the blocks may not be set up yet. And weeks 3 to 6, when things have improved enough that the problem feels solved — which is when the idea of a controlled, small bet becomes persuasive. The second window catches more people, because the first one is the one everyone prepares for.
+A: Two windows. The first week, when urges are most frequent and the blocks may not be set up yet. And weeks 3 to 6, when things have improved enough that the problem feels solved, which is when the idea of a controlled, small bet becomes persuasive. The second window catches more people, because the first one is the one everyone prepares for.
 
 Q: How long until I stop thinking about gambling?
 A: Frequency usually drops sharply after the first fortnight and keeps easing over about three months. "Not thinking about it at all" tends to arrive later than "not acting on it", and most people find the thoughts get quieter and less urgent rather than vanishing on a particular day.
 
 Q: Will my sleep and mood go back to normal?
-A: For most people, yes, and sleep is often the first visible improvement — commonly within the first two weeks once late-night sessions stop. Mood typically lags behind sleep. If low mood persists well beyond the first month, that's worth taking to a doctor rather than waiting out, as depression and anxiety commonly travel alongside gambling problems.
+A: For most people, yes, and sleep is often the first visible improvement, commonly within the first two weeks once late-night sessions stop. Mood typically lags behind sleep. If low mood persists well beyond the first month, that's worth taking to a doctor rather than waiting out, as depression and anxiety commonly travel alongside gambling problems.
 
 Q: Does the 90-day figure mean anything?
-A: It's a useful frame rather than a biological deadline. Roughly three months is how long it commonly takes for urges to thin out and for something else to have taken gambling's place in your week. Nothing switches off at day 90 — but by then most people are doing maintenance rather than survival.
+A: It's a useful frame rather than a biological deadline. Roughly three months is how long it commonly takes for urges to thin out and for something else to have taken gambling's place in your week. Nothing switches off at day 90, but by then most people are doing maintenance rather than survival.
 
 ========================================================================
 # I gambled again — what to do now
@@ -1089,26 +1097,26 @@ Language: en
 Description: A slip is not the end of quitting — how you interpret it decides what happens next. The abstinence violation effect, the practical first hour after a lapse, and how to turn it into information.
 Published: 2026-08-10 · Updated: 2026-08-10
 
-Short answer: Stop the session now, not after one more bet. Then, in this order: put the money out of reach, tell one person, and write down what happened before the first bet. What turns a slip into a full relapse is almost never the slip — it is the conclusion "I've blown it, so I may as well finish the job." That reaction has a name in the research: the abstinence violation effect.
+Short answer: Stop the session now, not after one more bet. Then, in this order: put the money out of reach, tell one person, and write down what happened before the first bet. What turns a slip into a full relapse is almost never the slip. It is the conclusion "I've blown it, so I may as well finish the job." That reaction has a name in the research: the abstinence violation effect.
 
 If you have just gambled and you are still in the session, close it. Not after one more, not after you have got back to even. Now. Everything else on this page can wait ten minutes; that can't.
 
 ## The next hour, in order
-- Put the money out of reach. Log out. Delete the app. Turn on your bank's gambling block — most take 48 hours to lift, which is exactly the delay you need. If you have someone you trust, hand them your card for the night. Do this before you feel calmer, not after.
+- Put the money out of reach. Log out. Delete the app. Turn on your bank's gambling block. Most take 48 hours to lift, which is exactly the delay you need. If you have someone you trust, hand them your card for the night. Do this before you feel calmer, not after.
 - Eat something and drink water. This sounds absurd on a page about addiction. It isn't: a lot of the desperation in the hour after a loss is a physical state, and it lifts measurably with food, water and sleep.
-- Tell one person. Someone who knows you are trying to stop, or a free helpline — the numbers below are answered 24/7 by people who take exactly this call all day and will not be shocked. Saying it out loud is what stops it becoming a secret, and secrecy is what lets a slip grow into a month. (If you're dreading their reaction, it may help to know what the people around you are advised to do — it is less punitive than you're imagining.)
+- Tell one person. Someone who knows you are trying to stop, or a free helpline. The numbers below are answered 24/7 by people who take exactly this call all day and will not be shocked. Saying it out loud is what stops it becoming a secret, and secrecy is what lets a slip grow into a month. (If you're dreading their reaction, it may help to know what the people around you are advised to do: it is less punitive than you're imagining.)
 - Don't make any financial decisions tonight. No loan applications, no asking for an advance, no moving money between accounts, no decisions about telling your employer. All of it is better in daylight, and none of it is better at 2am.
-- Write down what happened before the first bet. Where you were, what time it was, what you felt, what you had just seen. Not to punish yourself — this is the single most valuable piece of information you will get this month, and it is only available for a few hours before memory smooths it out.
+- Write down what happened before the first bet. Where you were, what time it was, what you felt, what you had just seen. Not to punish yourself. This is the single most valuable piece of information you will get this month, and it is only available for a few hours before memory smooths it out.
 
 ## Why the slip usually isn't the problem
 Relapse-prevention research made a distinction that changed how this is treated: a lapse is a single instance, a relapse is a full return to the old pattern, and the bridge between them is mostly interpretation.
-Marlatt and Gordon named the mechanism the abstinence violation effect: after breaking a self-imposed rule, people often feel guilt and a collapse of self-belief — "I've proven I can't do this" — and that reaction is what drives the second, third and tenth bet. The same person, same slip, reaching for "well, that told me something useful about Fridays" instead of "I'm hopeless", is in a completely different position.
+Marlatt and Gordon named the mechanism the abstinence violation effect: after breaking a self-imposed rule, people often feel guilt and a collapse of self-belief ("I've proven I can't do this"), and that reaction is what drives the second, third and tenth bet. The same person, same slip, reaching for "well, that told me something useful about Fridays" instead of "I'm hopeless", is in a completely different position.
 This is not positive thinking. It is that shame is a poor motivator and an excellent concealer, and concealment is how gambling problems escalate.
 
 ## Turn it into information
 Once the immediate risk is handled, get specific. Most lapses have a traceable chain, and the useful link is usually two or three steps before the bet:
 Ask | Why it matters
-What was the first moment I could have stopped this? | Almost always earlier than the bet — opening the app "just to look", checking odds, reading a promo email.
+What was the first moment I could have stopped this? | Almost always earlier than the bet: opening the app "just to look", checking odds, reading a promo email.
 Which layer failed, and why? | Was the block off? Did you find an unblocked route? Did the money come from somewhere you hadn't covered?
 What was I feeling twenty minutes before? | Bored, angry, lonely, hopeful, celebrating. The emotional trigger repeats far more reliably than the situation does.
 What did I tell myself to make it OK? | "Just a small one." "I'm owed a win." "One last time before I stop properly." Learning your own scripts is how you catch the next one mid-sentence.
@@ -1122,10 +1130,10 @@ Then close the specific gap. A slip through a browser you forgot means adding de
 - Don't borrow to cover it. If money is now short, talk to a free debt charity before a lender: StepChange or National Debtline in the UK, NFCC members in the US.
 
 ## How Silex handles it
-Because it's the design question that matters most in an app like this: a lapse in Silex doesn't wipe anything. It routes you to a Reset day — a lesson built around the questions above — and your history and earned milestones stay exactly where they were. There is one milestone piece you can only earn by completing a Reset day after a lapse, because repairing something is a skill worth rewarding rather than a failure worth marking.
+Because it's the design question that matters most in an app like this: a lapse in Silex doesn't wipe anything. It routes you to a Reset day (a lesson built around the questions above), and your history and earned milestones stay exactly where they were. There is one milestone piece you can only earn by completing a Reset day after a lapse, because repairing something is a skill worth rewarding rather than a failure worth marking.
 
 ## If tonight is worse than a bad night
-Gambling losses and thoughts of suicide travel together more often than most people realise. If your thoughts have gone there, please use one of the numbers below now — they are free, confidential, and you do not have to be in crisis to call one.
+Gambling losses and thoughts of suicide travel together more often than most people realise. If your thoughts have gone there, please use one of the numbers below now. They are free, confidential, and you do not have to be in crisis to call one.
 
 ## Common questions
 
@@ -1133,7 +1141,7 @@ Q: Does a slip mean I have to start over?
 A: Only if you decide to score it that way. You have not lost the weeks of learning, the blocks you set up, or the reasons you stopped. Any system that zeroes your progress after one lapse is teaching you to hide the next one, which is the opposite of what you need.
 
 Q: What is the abstinence violation effect?
-A: A finding from relapse-prevention research (Marlatt and Gordon): after breaking a rule they set themselves, people commonly experience guilt and a sense of lost control, and that reaction — rather than the lapse itself — drives the return to full use. How you interpret the slip predicts the outcome better than the slip does.
+A: A finding from relapse-prevention research (Marlatt and Gordon): after breaking a rule they set themselves, people commonly experience guilt and a sense of lost control, and that reaction, rather than the lapse itself, drives the return to full use. How you interpret the slip predicts the outcome better than the slip does.
 
 Q: Should I tell my partner I gambled again?
 A: Almost always yes, and sooner is easier than later. Secrecy is the mechanism that lets a relapse grow, and the conversation you are dreading is smaller today than it will be after three more weeks of hiding it. If safety or housing is at stake, call a helpline first and get advice on how to have it.
@@ -1151,7 +1159,7 @@ Language: en
 Description: Take the Problem Gambling Severity Index (PGSI) — the same 9-question screener clinicians and helplines use. Runs entirely in your browser, stores nothing, sends nothing.
 Published: 2026-08-10 · Updated: 2026-08-10
 
-Short answer: These nine questions are the Problem Gambling Severity Index, the standard screener from the Canadian Problem Gambling Index (Ferris & Wynne, 2001). Score 0–27. A score of 8 or more puts you in the highest-risk band. It runs in your browser — nothing is stored, nothing is sent anywhere, and there is no email box at the end.
+Short answer: These nine questions are the Problem Gambling Severity Index, the standard screener from the Canadian Problem Gambling Index (Ferris & Wynne, 2001). Score 0–27. A score of 8 or more puts you in the highest-risk band. It runs in your browser. Nothing is stored, nothing is sent anywhere, and there is no email box at the end.
 
 The PGSI asks about the last 12 months. Answer for that window, not for your worst month ever and not for last week. Being honest with a page that can't remember your answers is the easiest honesty available.
 
@@ -1159,7 +1167,7 @@ The PGSI asks about the last 12 months. Answer for that window, not for your wor
 Each of the nine items scores 0 for never, 1 for sometimes, 2 for most of the time and 3 for almost always, giving a total from 0 to 27. The bands come from the Canadian Problem Gambling Index:
 Score | Standard band | What it usually means
 0 | Non-problem gambling | No indicators reported in the last 12 months.
-1–2 | Low risk | Early signs most casual bettors don't report — worth watching.
+1–2 | Low risk | Early signs most casual bettors don't report. Worth watching.
 3–7 | Moderate risk | A heavier pattern, often with some financial or social consequence already.
 8–27 | Problem gambling | The highest band on the screener. Most people here benefit from structured help, not willpower alone.
 
@@ -1167,13 +1175,13 @@ Instrument: Ferris, J. & Wynne, H. (2001), The Canadian Problem Gambling Index: 
 
 ## Whatever your score, the next step is the same
 A number doesn't change anything by itself. Two things do, and both work at any score:
-- Put distance between you and the bet. Not willpower — friction. Block gambling on your phone, then add the two layers you can't undo in a craving: self-exclusion and a bank gambling block.
+- Put distance between you and the bet. Not willpower. Friction. Block gambling on your phone, then add the two layers you can't undo in a craving: self-exclusion and a bank gambling block.
 - Learn what the urge actually is. Urges rise, crest and fall, typically within about 20–30 minutes, whether or not you bet. That pattern is the thing to lean on.
 
 ## Common questions
 
 Q: What score means I have a gambling problem?
-A: On the PGSI, 0 is non-problem gambling, 1–2 is low risk, 3–7 is moderate risk, and 8 or above is the band usually described as problem gambling. But the PGSI is a screener, not a diagnosis — only a qualified clinician can diagnose gambling disorder, using the DSM-5 criteria.
+A: On the PGSI, 0 is non-problem gambling, 1–2 is low risk, 3–7 is moderate risk, and 8 or above is the band usually described as problem gambling. But the PGSI is a screener, not a diagnosis. Only a qualified clinician can diagnose gambling disorder, using the DSM-5 criteria.
 
 Q: Is this test stored or shared?
 A: No. The scoring happens in JavaScript inside your own browser. There is no form submission, no cookie, no analytics event, and no email capture. Closing the tab erases it.
@@ -1182,7 +1190,7 @@ Q: Can I take it about someone else?
 A: The PGSI is written in the first person and validated as a self-report, so answering it for a partner or family member gives you a rough impression at best. If you're worried about someone else, the helplines below take calls from family members too.
 
 Q: What if I score low but still feel out of control?
-A: Trust that feeling over the number. The PGSI weights financial and social consequences heavily, so someone early in a heavy pattern — or someone gambling money they can technically afford — can score low and still be in trouble.
+A: Trust that feeling over the number. The PGSI weights financial and social consequences heavily, so someone early in a heavy pattern, or someone gambling money they can technically afford, can score low and still be in trouble.
 
 ========================================================================
 # Someone you love is gambling
@@ -1191,23 +1199,23 @@ Language: en
 Description: Practical steps for partners and families: protect the household money first, why paying the debt backfires, how to have the conversation, and where to get support for yourself.
 Published: 2026-08-10 · Updated: 2026-08-10
 
-Short answer: Three things, in this order. Protect the essential money first — rent, utilities, food — before anything else, because that is the damage that compounds fastest. Don't clear their debt. Repeatedly covering losses removes the consequence and reliably makes it worse. And get support for yourself, today, without waiting for them to be ready — you don't need their permission, and helplines take calls from family members.
+Short answer: Three things, in this order. Protect the essential money first (rent, utilities, food) before anything else, because that is the damage that compounds fastest. Don't clear their debt. Repeatedly covering losses removes the consequence and reliably makes it worse. And get support for yourself, today, without waiting for them to be ready. You don't need their permission, and helplines take calls from family members.
 
-Most guidance written for you is about them — how to spot it, how to persuade them, how to get them into treatment. This page starts somewhere else, because in the first week the thing that actually determines how bad this gets is not whether they're ready to stop. It's whether the household still has rent money in a month.
+Most guidance written for you is about them: how to spot it, how to persuade them, how to get them into treatment. This page starts somewhere else, because in the first week the thing that actually determines how bad this gets is not whether they're ready to stop. It's whether the household still has rent money in a month.
 
 ## First: protect the essential money
-Do this before the conversation, before the research, before anything. Not as punishment — as damage control while the rest gets worked out.
+Do this before the conversation, before the research, before anything. Not as punishment, as damage control while the rest gets worked out.
 - List what must be paid over the next 30 days: housing, utilities, food, transport, childcare, medication, minimum debt payments.
-- Move that money somewhere they can't reach — an account in your name only. This is the single highest-value action available to you.
+- Move that money somewhere they can't reach: an account in your name only. This is the single highest-value action available to you.
 - Check what's joint. Joint accounts, joint credit, overdrafts, savings, and anything with your name on it that they can borrow against. If they can reach it, assume at some point it will be reached.
 - Watch for credit taken in your name. Check your own credit file. This is an unpleasant thing to do to someone you love and it is unfortunately common enough to be worth doing.
 - Don't lend, don't cover, don't top up. Including small amounts. Including "just this once, so the kids don't notice."
 
-If money is already short, free debt advice is available to you, not only to them — the options are here.
+If money is already short, free debt advice is available to you, not only to them: the options are here.
 
 ## Why clearing the debt backfires
 It is the most natural thing in the world to want to make it go away, and it is the move that most reliably makes the next round bigger. Two reasons:
-The consequence is doing work. A debt that gets absorbed by someone else teaches that losses are survivable and someone will catch them, which is precisely the belief that funds the next session. And a cleared balance is, in practice, a fresh line of credit — the most common thing that happens after a bailout is a return to gambling with more room to lose.
+The consequence is doing work. A debt that gets absorbed by someone else teaches that losses are survivable and someone will catch them, which is precisely the belief that funds the next session. And a cleared balance is, in practice, a fresh line of credit. The most common thing that happens after a bailout is a return to gambling with more room to lose.
 This is not a rule about being harsh. Protect the household, protect the children, protect yourself. Just don't route money to the operators through your own account.
 
 ## The conversation
@@ -1222,20 +1230,20 @@ Don't issue a threat you're not going to carry out. One boundary you keep is wor
 
 ## If they are ready to act
 The things that work are the same regardless of who's asking, and they work better when the person sets them up themselves:
-- Self-exclusion — free, and the only layer they can't reverse in a craving.
-- A bank gambling block — free, and takes days to lift rather than seconds.
-- Blocking on the phone — and if you're holding a Screen Time passcode for them, that's a real, useful role. Just be aware of what it makes you: the person who has to say no at 1am. It works better with a friend than a partner.
+- Self-exclusion: free, and the only layer they can't reverse in a craving.
+- A bank gambling block: free, and takes days to lift rather than seconds.
+- Blocking on the phone, and if you're holding a Screen Time passcode for them, that's a real, useful role. Just be aware of what it makes you: the person who has to say no at 1am. It works better with a friend than a partner.
 
 ## Get support for yourself. Now, not later
 You do not have to wait for them to be ready, and you do not need their permission.
-- Gam-Anon — peer support specifically for families and partners of gamblers.
+- Gam-Anon: peer support specifically for families and partners of gamblers.
 - National helplines take your call too. US: 1-800-522-4700, 24/7. UK: GamCare's National Gambling Helpline, 0808 8020 133. You are allowed to ring them about someone else, and they will not tell you to leave.
-- Free debt advice — StepChange and National Debtline in the UK, NFCC members in the US.
+- Free debt advice: StepChange and National Debtline in the UK, NFCC members in the US.
 - Your own therapy, if you can get it. Living with this is its own injury, separate from theirs.
 
 ## Two things worth knowing
-Gambling harm and suicide risk travel together. If they've said anything that worries you, take it seriously and say so out loud — asking directly does not plant the idea. In the US, 988 answers 24/7; in the UK, Samaritans on 116 123.
-None of this is your fault, and you can't do it for them. You can make the environment safer, hold a boundary, and be there when they're ready. What you can't do is want it more than they do — and burning yourself out trying is a real risk, not a hypothetical one.
+Gambling harm and suicide risk travel together. If they've said anything that worries you, take it seriously and say so out loud. Asking directly does not plant the idea. In the US, 988 answers 24/7; in the UK, Samaritans on 116 123.
+None of this is your fault, and you can't do it for them. You can make the environment safer, hold a boundary, and be there when they're ready. What you can't do is want it more than they do, and burning yourself out trying is a real risk, not a hypothetical one.
 
 ## Common questions
 
@@ -1243,7 +1251,7 @@ Q: Should I pay off my partner's gambling debt?
 A: Almost always no, however much you want the problem gone. Covering losses softens the consequence the person is meant to be feeling, and the pattern usually repeats at a larger scale. It also puts you in the position of being the thing standing between them and reality, which damages the relationship in a way that is hard to undo. Free debt advisers will help you separate protecting the household from bailing out the gambling.
 
 Q: How do I know if it's really a gambling problem?
-A: Secrecy and lying about money are the most common early signals — money missing without explanation, unexplained transfers, defensiveness about phone use, borrowing that doesn't add up. The formal screener is the PGSI, but it's self-report, so it only helps if they take it themselves and answer honestly.
+A: Secrecy and lying about money are the most common early signals: money missing without explanation, unexplained transfers, defensiveness about phone use, borrowing that doesn't add up. The formal screener is the PGSI, but it's self-report, so it only helps if they take it themselves and answer honestly.
 
 Q: Can I make them stop?
 A: No, and the attempt tends to make it more hidden. What you can control is the environment: household money, your own accounts, what you fund. Blocks and self-exclusion are far more effective when the person sets them up themselves, but you can put your own finances out of reach either way.
@@ -1252,7 +1260,7 @@ Q: Should I give them an ultimatum?
 A: Threats you won't follow through on cost you credibility and teach them the boundary isn't real. Clear, specific and kept beats dramatic. "I'm moving the bill money into an account in my name" is a boundary. "I'll leave if it happens again" is only a boundary if you'll do it.
 
 Q: Where can family members get help?
-A: Gam-Anon runs peer support specifically for families and partners of gamblers. National helplines take calls from affected others as well as gamblers — in the US, 1-800-522-4700; in the UK, GamCare's National Gambling Helpline on 0808 8020 133. None of it requires the gambler's involvement or consent.
+A: Gam-Anon runs peer support specifically for families and partners of gamblers. National helplines take calls from affected others as well as gamblers: in the US, 1-800-522-4700; in the UK, GamCare's National Gambling Helpline on 0808 8020 133. None of it requires the gambler's involvement or consent.
 
 ========================================================================
 # How long do gambling urges last?
@@ -1261,48 +1269,48 @@ Language: en
 Description: A gambling urge behaves like a wave: it rises, crests and falls, usually inside 20 to 30 minutes, whether or not you bet. What the first weeks feel like, and the urge-surfing technique that uses the pattern.
 Published: 2026-08-10 · Updated: 2026-08-10
 
-Short answer: A single urge usually peaks and passes within about 20 to 30 minutes — and it passes whether or not you gamble. The first one to two weeks after quitting are typically the worst for frequency, with intensity easing over roughly the first 90 days. Betting doesn't end an urge; it teaches your brain that urges get answered, which makes the next one stronger.
+Short answer: A single urge usually peaks and passes within about 20 to 30 minutes, and it passes whether or not you gamble. The first one to two weeks after quitting are typically the worst for frequency, with intensity easing over roughly the first 90 days. Betting doesn't end an urge; it teaches your brain that urges get answered, which makes the next one stronger.
 
 The most useful thing anyone told me about cravings is that they are shaped like waves, not like switches. A switch stays on until something turns it off. A wave rises, crests and falls on its own schedule, and there is nothing you have to do to make the fall happen.
 
 ## The single urge: roughly 20 to 30 minutes
-An individual gambling urge typically peaks and subsides within about twenty to thirty minutes. It is the figure used throughout clinical self-help material on cravings, and the point of it is not precision — it is that the number is small and finite. You are not being asked to resist forever. You are being asked to be somewhere else for half an hour.
+An individual gambling urge typically peaks and subsides within about twenty to thirty minutes. It is the figure used throughout clinical self-help material on cravings, and the point of it is not precision. It is that the number is small and finite. You are not being asked to resist forever. You are being asked to be somewhere else for half an hour.
 Two things distort the estimate while you're in it:
 - Clusters. One urge that ends and restarts twice feels like a ninety-minute urge. It isn't; it's three waves and two gaps you didn't notice.
-- Cue exposure. If the trigger stays in front of you — the app icon, the match on TV, the promo email — the wave keeps getting re-launched. This is why removing cues matters more than resisting them: block the access and get off the marketing lists.
+- Cue exposure. If the trigger stays in front of you (the app icon, the match on TV, the promo email), the wave keeps getting re-launched. This is why removing cues matters more than resisting them: block the access and get off the marketing lists.
 
 ## The first weeks: worse before better
-Frequency is usually highest in the first one to two weeks, then declines unevenly. Intensity tends to ease across roughly the first three months — which is why 90 days is a common frame for structured programs, including the one in Silex.
+Frequency is usually highest in the first one to two weeks, then declines unevenly. Intensity tends to ease across roughly the first three months, which is why 90 days is a common frame for structured programs, including the one in Silex.
 Expect the curve to be lumpy rather than smooth. Predictable spikes cluster around:
-- Money arriving — payday, a bonus, a tax refund.
-- Fixtures and events — the start of a season, a final, a big race. (If sport is your trigger, that's a specific problem with a specific fix.)
-- The old time slot — if you gambled at 11pm, 11pm will ask about it.
-- Emotional states you used to gamble at — boredom, loneliness, stress, and, for a lot of people, feeling good and wanting to celebrate.
+- Money arriving: payday, a bonus, a tax refund.
+- Fixtures and events: the start of a season, a final, a big race. (If sport is your trigger, that's a specific problem with a specific fix.)
+- The old time slot: if you gambled at 11pm, 11pm will ask about it.
+- Emotional states you used to gamble at: boredom, loneliness, stress, and, for a lot of people, feeling good and wanting to celebrate.
 
 Anna Lembke's framing in Dopamine Nation is the clearest short explanation of why the early part feels bad: the pleasure and pain systems share a balance, and after heavy stimulation the balance sits tilted towards discomfort for a while before it resets. Knowing that the low mood in week one is a recovery signal rather than evidence you have ruined yourself makes it much easier to sit through.
 
 ## Why betting doesn't end the urge
-It feels like it does, and that is the trap. The relief that arrives when you place a bet is mostly the removal of the discomfort the craving created — not a gain, just a return to baseline. Then the reward system draws its conclusion: urges get answered. Next time it asks louder and sooner.
-The reverse is also true and much less discussed: every urge you ride out is evidence in the other direction. It is not willpower being spent; it's a pattern being unlearned. That is why the tenth wave is genuinely easier than the first — not because you got tougher, but because the prediction changed.
+It feels like it does, and that is the trap. The relief that arrives when you place a bet is mostly the removal of the discomfort the craving created, not a gain, just a return to baseline. Then the reward system draws its conclusion: urges get answered. Next time it asks louder and sooner.
+The reverse is also true and much less discussed: every urge you ride out is evidence in the other direction. It is not willpower being spent; it's a pattern being unlearned. That is why the tenth wave is genuinely easier than the first. Not because you got tougher, but because the prediction changed.
 
 ## Urge surfing: what to actually do for 30 minutes
 Urge surfing comes from relapse-prevention work (G. Alan Marlatt and colleagues) and it deliberately avoids both fighting the craving and obeying it:
 - Name it. "This is an urge. It's about a 7." Rating it converts a flood into an observation, which is a smaller thing.
 - Slow your breathing. Four in, four hold, four out, four hold, for a few minutes. It won't remove the craving; it takes the alarm response down enough to think.
 - Find it in your body. Chest, stomach, hands, jaw. Notice whether it is rising or falling right now. Cravings feel infinite in the abstract and specific when inspected.
-- Set a timer and stay busy. Twenty minutes, doing something that occupies hands and eyes — a walk, a shower, washing up, anything physical. Not sitting still with your phone in your hand.
+- Set a timer and stay busy. Twenty minutes, doing something that occupies hands and eyes: a walk, a shower, washing up, anything physical. Not sitting still with your phone in your hand.
 - Re-read why you stopped. Your own words from a calm day beat any argument you can construct at peak craving.
 - Tell someone, if there is someone. "I'm having a bad one" is a complete sentence, and saying it out loud reliably takes the top off it.
 
-Silex builds this into one button that is never behind the paywall — rate the urge, breathe, then a timer with your own reasons and your money-kept total on screen while the wave passes. The sequence matters more than the app: it works from a kitchen timer and a note in your wallet.
+Silex builds this into one button that is never behind the paywall: rate the urge, breathe, then a timer with your own reasons and your money-kept total on screen while the wave passes. The sequence matters more than the app: it works from a kitchen timer and a note in your wallet.
 
 ## What the pattern means for how you plan
-If urges are short and self-limiting, then the whole game is surviving thirty minutes without access. That reframes what a blocker is for. It doesn't have to be permanent or unbreakable — it has to outlast half an hour:
+If urges are short and self-limiting, then the whole game is surviving thirty minutes without access. That reframes what a blocker is for. It doesn't have to be permanent or unbreakable. It has to outlast half an hour:
 - A DNS-level block buys minutes.
 - A bank block with a 48-hour cooling-off buys two days.
 - Self-exclusion buys months or years.
 
-Stack them and the wave has nowhere to land. And if one does land — what you do in the hour afterwards matters far more than the slip itself.
+Stack them and the wave has nowhere to land. And if one does land, what you do in the hour afterwards matters far more than the slip itself.
 For how the frequency changes over the first three months, and which weeks people actually relapse in, see the week-by-week timeline.
 
 ## Common questions
@@ -1311,16 +1319,16 @@ Q: How long does a gambling craving last?
 A: Most pass within 20 to 30 minutes. Some are shorter, a few come in clusters that feel continuous for an hour or two, especially in the first week or around a trigger like payday or a big match. What matters more than the exact number is that they end on their own.
 
 Q: Do gambling urges ever go away completely?
-A: They become far less frequent and much easier to ignore, but many people get an occasional flicker years later — usually attached to a specific cue like walking past a shop or a sporting event. That is normal and is not a sign the recovery failed. It just means the cue is still a cue.
+A: They become far less frequent and much easier to ignore, but many people get an occasional flicker years later, usually attached to a specific cue like walking past a shop or a sporting event. That is normal and is not a sign the recovery failed. It just means the cue is still a cue.
 
 Q: Why do urges get worse right after I quit?
-A: Because you have removed the thing that used to answer them, and the reward system briefly escalates its demand. It is the same shape as any withdrawal curve — the worst part is at the front, which is unfortunately when your evidence that it works is thinnest.
+A: Because you have removed the thing that used to answer them, and the reward system briefly escalates its demand. It is the same shape as any withdrawal curve: the worst part is at the front, which is unfortunately when your evidence that it works is thinnest.
 
 Q: What is urge surfing?
-A: A technique from relapse-prevention work: instead of fighting the craving or obeying it, you observe it — where it sits in your body, whether it is rising or falling — and let it crest and drop. You are riding it out rather than white-knuckling it, which is why it doesn't exhaust you the way suppression does.
+A: A technique from relapse-prevention work: instead of fighting the craving or obeying it, you observe it (where it sits in your body, whether it is rising or falling) and let it crest and drop. You are riding it out rather than white-knuckling it, which is why it doesn't exhaust you the way suppression does.
 
 Q: Does an urge mean I'm about to relapse?
-A: No. Urges are extremely common in early recovery and most of them lead nowhere. Treating a craving as a prediction of failure tends to make the failure likelier — a slip is far more often preceded by the thought 'I've already blown it' than by a strong urge.
+A: No. Urges are extremely common in early recovery and most of them lead nowhere. Treating a craving as a prediction of failure tends to make the failure likelier. A slip is far more often preceded by the thought 'I've already blown it' than by a strong urge.
 
 ========================================================================
 # How to stop gambling
@@ -1329,68 +1337,68 @@ Language: en
 Description: A practical, evidence-based plan for quitting gambling: the three barriers to put up first, how to ride out an urge, what the first 90 days look like, and where to get free human help.
 Published: 2026-08-10 · Updated: 2026-08-10
 
-Short answer: Quitting gambling is three separate jobs, done in this order. One: put up barriers that don't depend on how you feel — self-exclusion, a bank block, a device block. Two: learn to sit through a 20–30 minute urge without acting on it. Three: replace what gambling was doing for you, which takes months, not days. Willpower is what you use in the gaps between those three, not instead of them.
+Short answer: Quitting gambling is three separate jobs, done in this order. One: put up barriers that don't depend on how you feel: self-exclusion, a bank block, a device block. Two: learn to sit through a 20–30 minute urge without acting on it. Three: replace what gambling was doing for you, which takes months, not days. Willpower is what you use in the gaps between those three, not instead of them.
 
 Almost every guide to quitting gambling is a list of tips that assume the reader will be rational at the moment of decision. The whole problem is that you won't be. So this plan is built the other way round: make the decisions now, while you're calm, that remove the need to decide later.
 
-## Step 1 — Barriers that don't depend on how you feel
+## Step 1: Barriers that don't depend on how you feel
 Do these three today. Together they take about half an hour and cost nothing, and they are ranked by how hard they are to undo, strongest first.
 - Self-exclude. In the UK, one free GAMSTOP registration covers every UK-licensed online operator for 6 months, 1 year or 5 years. In the US, register with your state programme and with each sportsbook individually. This is the only layer you genuinely cannot reverse in a craving.
 - Get your bank to decline gambling payments. Most UK banks offer this in-app with a 48–72 hour cooling-off before it lifts; Monzo lets you set up to 12 months. In the US, ask your issuer to block merchant category code 7995.
-- Block it on your phone. A device-wide DNS profile covers every app and browser on Wi-Fi and cellular, and stops reinstalls if someone else holds the passcode — on iPhone or on Android. Which blocker to use →
+- Block it on your phone. A device-wide DNS profile covers every app and browser on Wi-Fi and cellular, and stops reinstalls if someone else holds the passcode: on iPhone or on Android. Which blocker to use →
 
 Then close the two routes people forget: unsubscribe from every gambling email and turn off every push notification, and unlink e-wallets and prepaid cards from operator accounts. Sportsbook marketing is timed and targeted; it is not neutral information arriving at a random moment.
 
-## Step 2 — Learn what an urge actually does
-A gambling urge typically peaks and passes within 20 to 30 minutes, and it passes whether or not you bet. Betting doesn't end an urge — it teaches your brain that urges get answered, which makes the next one arrive sooner and louder.
+## Step 2: Learn what an urge actually does
+A gambling urge typically peaks and passes within 20 to 30 minutes, and it passes whether or not you bet. Betting doesn't end an urge. It teaches your brain that urges get answered, which makes the next one arrive sooner and louder.
 So the skill is narrow and learnable: be somewhere else for half an hour. Rate the urge out of ten, slow your breathing, notice where it sits in your body, set a timer, do something physical, re-read your own reasons for stopping, and tell someone if there is someone to tell.
 The full urge-surfing method, and what the first weeks feel like →
 
-## Step 3 — Replace what gambling was doing for you
+## Step 3: Replace what gambling was doing for you
 This is the step that gets skipped, and the reason people relapse at week six with all their blocks still switched on. Gambling was doing a job. Until something else does that job, the vacancy stays open.
 Work out which one it was, because the replacement differs:
 What gambling gave you | What tends to actually fill it
-Escape — switching your head off | Anything genuinely absorbing and low-stakes: exercise, games, a craft, long walks. The requirement is absorption, not virtue.
-The rush — action, stakes, adrenaline | Real stakes with real recovery: sport, competition, climbing, performing, anything with a scoreboard that isn't money.
-Chasing — winning back what you lost | A concrete debt plan, so the hole has a route out that isn't a bet. Free advice from StepChange, National Debtline or an NFCC member.
-Company — the app was always there | People, on a schedule you don't have to feel motivated to keep: a group, a regular game, a standing call.
+Escape: switching your head off | Anything genuinely absorbing and low-stakes: exercise, games, a craft, long walks. The requirement is absorption, not virtue.
+The rush: action, stakes, adrenaline | Real stakes with real recovery: sport, competition, climbing, performing, anything with a scoreboard that isn't money.
+Chasing: winning back what you lost | A concrete debt plan, so the hole has a route out that isn't a bet. Free advice from StepChange, National Debtline or an NFCC member.
+Company: the app was always there | People, on a schedule you don't have to feel motivated to keep: a group, a regular game, a standing call.
 
 This is why 90 days is the usual frame for structured programs: it's roughly how long it takes for the urges to thin out and for something else to be in place.
 
 ## Get a human involved
-Not a substitute for the above — a multiplier on it. All of these are free:
+Not a substitute for the above, a multiplier on it. All of these are free:
 - A national helpline. They take calls from people who are nowhere near ready to quit, and from family members. Numbers are at the bottom of this page.
-- Gamblers Anonymous or SMART Recovery. Two very different traditions — one fellowship-based, one cognitive-behavioural and secular. Try both before deciding groups aren't for you.
+- Gamblers Anonymous or SMART Recovery. Two very different traditions: one fellowship-based, one cognitive-behavioural and secular. Try both before deciding groups aren't for you.
 - Treatment. CBT for gambling disorder has the strongest evidence base of any psychological treatment here. In the UK it is available on the NHS through the National Gambling Support Network; in the US, coverage varies by state and by insurer, and your state council on problem gambling can point you at what's local.
 - Free debt advice, if money is the immediate pressure. Debt and chasing feed each other, and dealing with one makes the other much easier.
 
 ## What doesn't work
-- Deciding to be more disciplined. Not because you're weak — because gambling products are engineered to defeat exactly that. Variable rewards, near-misses and losses dressed as wins are design decisions, documented in detail in Natasha Dow Schüll's Addiction by Design.
+- Deciding to be more disciplined. Not because you're weak. Because gambling products are engineered to defeat exactly that. Variable rewards, near-misses and losses dressed as wins are design decisions, documented in detail in Natasha Dow Schüll's Addiction by Design.
 - Keeping one account "just for the big games". This is the single most common way a serious attempt ends.
 - A blocker as your only move. One minute to remove, and no plan behind it.
 - Secrecy. Hiding it is the mechanism that lets it grow. Telling one person is the highest-leverage unpleasant thing on this page.
 - Waiting for rock bottom. There isn't a floor that arrives and fixes this. People stop from wherever they happen to be standing.
 
 ## Related, depending on where you are
-- Betting on sport specifically? The cue problem is different — how to stop sports betting.
+- Betting on sport specifically? The cue problem is different: how to stop sports betting.
 - Want to know what the next three months feel like? The week-by-week timeline, including the weeks people actually relapse in.
 - Debt behind you? Where to start with gambling debt.
-- Reading this about someone else? What actually helps — and what makes it worse.
+- Reading this about someone else? What actually helps, and what makes it worse.
 
 ## Where to start, if you only do one thing
-Take the 9-question PGSI self-check — two minutes, nothing stored — and then do whichever barrier in Step 1 you're most reluctant about. The reluctance is usually pointing at the one that would work.
+Take the 9-question PGSI self-check (two minutes, nothing stored), and then do whichever barrier in Step 1 you're most reluctant about. The reluctance is usually pointing at the one that would work.
 And if you've already slipped: the next hour matters more than the slip does.
 
 ## Common questions
 
 Q: Can I stop gambling on my own?
-A: Some people do, and the ones who succeed almost always change their environment rather than relying on resolve — blocks, self-exclusion, no access to money, someone who knows. If you have tried alone more than twice, that is information about the method, not about you: adding a helpline, a group, or a therapist raises the odds substantially and costs nothing in most countries.
+A: Some people do, and the ones who succeed almost always change their environment rather than relying on resolve: blocks, self-exclusion, no access to money, someone who knows. If you have tried alone more than twice, that is information about the method, not about you: adding a helpline, a group, or a therapist raises the odds substantially and costs nothing in most countries.
 
 Q: Is it better to cut down or stop completely?
 A: For anyone in the moderate or high-risk bands on the PGSI, complete abstinence is usually the more achievable target, because controlled gambling requires you to make a good decision every single time in the exact state where decisions are worst. Cutting down can work for lower-risk patterns. Be honest about which one you are.
 
 Q: How long does it take to stop gambling?
-A: The urges thin out fastest in the first two weeks and keep easing across roughly three months. Rebuilding the parts of life gambling took over — money, sleep, relationships, how you spend a Saturday — takes longer, and is the part that decides whether it lasts.
+A: The urges thin out fastest in the first two weeks and keep easing across roughly three months. Rebuilding the parts of life gambling took over (money, sleep, relationships, how you spend a Saturday) takes longer, and is the part that decides whether it lasts.
 
 Q: What is the first thing I should do today?
 A: Self-exclude from every operator you have an account with, and ask your bank for a gambling block. Both are free, both take under twenty minutes, and unlike anything you install, neither can be undone in the ninety seconds when it matters.
@@ -1405,51 +1413,51 @@ Language: en
 Description: Sports betting is harder to quit than casino gambling because the trigger is the sport itself. What to block, what to do about watching games, and how to handle the group chat.
 Published: 2026-08-10 · Updated: 2026-08-10
 
-Short answer: Sports betting has a problem other gambling doesn't: the trigger is a thing you love and don't want to give up. So blocking the apps isn't enough — you also have to break the link between watching and betting. Close every account properly (self-exclusion, not deletion), block at the DNS and bank level, kill the odds notifications, and expect the first month of fixtures to be the hardest part.
+Short answer: Sports betting has a problem other gambling doesn't: the trigger is a thing you love and don't want to give up. So blocking the apps isn't enough. You also have to break the link between watching and betting. Close every account properly (self-exclusion, not deletion), block at the DNS and bank level, kill the odds notifications, and expect the first month of fixtures to be the hardest part.
 
-Quitting a casino app means avoiding a place. Quitting sports betting means staying in a place you like — the sport, the group chat, the Saturday — while removing one thing from it. That's a harder problem, and most generic quit-gambling advice ignores it entirely.
+Quitting a casino app means avoiding a place. Quitting sports betting means staying in a place you like (the sport, the group chat, the Saturday) while removing one thing from it. That's a harder problem, and most generic quit-gambling advice ignores it entirely.
 
 ## Why this one's different
 - The cue is everywhere and you don't want it gone. Odds are read out during coverage, printed on the screen, embedded in the highlights app and pushed to your phone. Nobody expects you to stop caring about football.
-- It feels like skill. That's the trap unique to sports. When a slots player loses, they know it was chance. When a bettor loses, they conclude they misread the injury news — so the answer feels like more research, which means more bets.
+- It feels like skill. That's the trap unique to sports. When a slots player loses, they know it was chance. When a bettor loses, they conclude they misread the injury news, so the answer feels like more research, which means more bets.
 - It's social. The group chat with everyone's slips in it is a genuine friendship, and quitting can feel like leaving it.
 - Live betting removed the gaps. In-play markets turned a single pre-match bet into a decision every few minutes for ninety minutes.
 
 ## Step 1: close the accounts properly
-Deleting apps does almost nothing — the mobile site works, reinstalling takes seconds, and your balance and card are still sitting there. Self-exclude instead. It closes the account, stops them serving you, and can't be undone in a bad moment.
-- UK: one free GAMSTOP registration covers every UK-licensed online operator, for 6 months, 1 year or 5 years. Betting shops are a separate scheme — do that too if you use them.
+Deleting apps does almost nothing. The mobile site works, reinstalling takes seconds, and your balance and card are still sitting there. Self-exclude instead. It closes the account, stops them serving you, and can't be undone in a bad moment.
+- UK: one free GAMSTOP registration covers every UK-licensed online operator, for 6 months, 1 year or 5 years. Betting shops are a separate scheme. Do that too if you use them.
 - US: each sportsbook has self-exclusion in its responsible-gaming settings, and most states run their own programme. Do every operator you hold an account with, dormant ones included.
 
 Full self-exclusion guide, including what it misses →
 
 ## Step 2: block the routes back
-- Device-wide DNS blocking. Covers every app and browser, on Wi-Fi and cellular — not just Safari. Setup on iPhone → on Android →
+- Device-wide DNS blocking. Covers every app and browser, on Wi-Fi and cellular, not just Safari. Setup on iPhone → on Android →
 - A bank gambling block. Most UK banks offer one in-app with a 48–72 hour cooling-off; in the US, ask your issuer about merchant code 7995. How →
 - Kill the notifications. This is the sports-specific one everyone skips. Turn off push from every sportsbook and from score apps that carry odds. Unsubscribe from betting emails. Mute the odds segments where you can.
 
 ## Step 3: break the watching–betting link
 This is the part that decides whether it holds past the first month.
 Betting and watching became one activity. Until they're separate again, every kickoff is a craving cue. Practical version:
-- Take a few weeks off live games. Not forever — long enough that "match on" stops meaning "slip on". Highlights are much weaker cues than live.
+- Take a few weeks off live games. Not forever, just long enough that "match on" stops meaning "slip on". Highlights are much weaker cues than live.
 - Change what you do with your hands. Watch with someone, at a friend's, at a pub, anywhere your phone isn't the second screen. The living-room-alone-with-phone setup is the highest-risk configuration there is.
 - Give the stake a job. Some people move their usual stake into a savings pot at kickoff. It sounds gimmicky and it works, because the ritual survives while the outcome stops being financial.
 - Plan the group chat. You don't owe anyone an explanation, but decide what you'll say before it comes up. "I've stopped betting, still here for the football" ends the conversation faster than dodging it for a month.
 
 ## Step 4: the first month of fixtures
-Expect predictable spikes rather than a smooth decline — the start of a season, a derby, a final, a big race meeting, and the moment your accumulator would have come in. Urges peak and pass in roughly 20 to 30 minutes whether or not you bet. The urge-surfing method is here →
-One specific trap for bettors: the near-miss you'd have won. You will, early on, watch a result land that would have paid. That's not evidence you should have bet — it's the same variable reward that kept you in, arriving without costing you anything this time. Notice it, name it, let it pass.
+Expect predictable spikes rather than a smooth decline: the start of a season, a derby, a final, a big race meeting, and the moment your accumulator would have come in. Urges peak and pass in roughly 20 to 30 minutes whether or not you bet. The urge-surfing method is here →
+One specific trap for bettors: the near-miss you'd have won. You will, early on, watch a result land that would have paid. That's not evidence you should have bet. It's the same variable reward that kept you in, arriving without costing you anything this time. Notice it, name it, let it pass.
 
 ## What to do about the money already lost
-Sports bettors tend to be chasing more than casino players, because "I know this sport" makes recovery feel achievable. It isn't, and chasing is where most of the real damage happens. If there's debt behind you, deal with it as its own problem rather than as something to win back — free options are here, and none of them involve a bet.
+Sports bettors tend to be chasing more than casino players, because "I know this sport" makes recovery feel achievable. It isn't, and chasing is where most of the real damage happens. If there's debt behind you, deal with it as its own problem rather than as something to win back: free options are here, and none of them involve a bet.
 Work out what it's actually cost so far →
 
 ## If you slip
-Very common in the first season, and not the end of it. The hour afterwards matters far more than the bet does — here's what to do in it.
+Very common in the first season, and not the end of it. The hour afterwards matters far more than the bet does: here's what to do in it.
 
 ## Common questions
 
 Q: Why is sports betting so hard to quit?
-A: Because the cue never goes away. Someone quitting slots can avoid casinos; you can't avoid sport without giving up something you actually enjoy, and every match, highlight reel and group chat carries a betting prompt with it. On top of that, sports betting feels like skill rather than chance, so losses read as bad research instead of an expected outcome — which makes chasing feel rational.
+A: Because the cue never goes away. Someone quitting slots can avoid casinos; you can't avoid sport without giving up something you actually enjoy, and every match, highlight reel and group chat carries a betting prompt with it. On top of that, sports betting feels like skill rather than chance, so losses read as bad research instead of an expected outcome, which makes chasing feel rational.
 
 Q: Can I keep watching sport if I quit betting?
 A: Most people can, eventually, but not usually in month one. The honest sequence is: stop betting first, take a break from live-watching for a few weeks while the association weakens, then come back to the sport deliberately. If you go straight back to watching with the app still on your phone, you're testing willpower during the exact ninety seconds it's weakest.
@@ -1458,10 +1466,10 @@ Q: Should I delete the app or self-exclude?
 A: Self-exclude. Deleting the app takes fifteen seconds to undo and leaves your account funded and waiting. Self-exclusion closes the account and stops them serving you, and you cannot reverse it in a craving. Do it with every sportsbook you hold an account with, including the dormant ones.
 
 Q: What about free bets and promos they send when I stop?
-A: Expect them, and expect them to be well timed — operators run reactivation campaigns at people who have gone quiet. Self-exclusion should remove you from marketing; if the messages keep coming, that is a compliance failure worth reporting to the regulator. Unsubscribe, block the sender, and turn off every push notification from sports apps too.
+A: Expect them, and expect them to be well timed: operators run reactivation campaigns at people who have gone quiet. Self-exclusion should remove you from marketing; if the messages keep coming, that is a compliance failure worth reporting to the regulator. Unsubscribe, block the sender, and turn off every push notification from sports apps too.
 
 Q: Is fantasy sports or prediction-market trading a safe substitute?
-A: For most people in recovery, no. Daily fantasy with entry fees, and prediction markets with sports contracts, deliver the same loop — stake, uncertainty, outcome tied to a match — with a different label on the button. If the appeal is having something riding on the game, that's the pattern to break, not to re-house.
+A: For most people in recovery, no. Daily fantasy with entry fees, and prediction markets with sports contracts, deliver the same loop (stake, uncertainty, outcome tied to a match) with a different label on the button. If the appeal is having something riding on the game, that's the pattern to break, not to re-house.
 
 ========================================================================
 # How the program was built, and from what
@@ -1469,41 +1477,41 @@ URL: https://trysilex.com/methodology/
 Language: en
 Description: The clinical and academic sources behind Silex's 90-day quit-gambling program: CBT for gambling disorder, the PGSI self-check, relapse-prevention research, and the literature on how gambling products are engineered.
 
-Silex's 90 days were written from published clinical material and research, not from a marketing brief. This page lists what they were built from so you can check the work — and so you can go to the primary sources directly if you'd rather not pay for an app.
+Silex's 90 days were written from published clinical material and research, not from a marketing brief. This page lists what they were built from so you can check the work, and so you can go to the primary sources directly if you'd rather not pay for an app.
 
 ## The shape of the program
 90 authored days, one lesson at a time, in three phases:
 Phase | Idea | What it draws on
-See the Machine | It was engineered. Drop the shame. | Research on how gambling products are designed — variable-ratio reinforcement, losses disguised as wins, near-miss effects, machine-zone immersion
+See the Machine | It was engineered. Drop the shame. | Research on how gambling products are designed: variable-ratio reinforcement, losses disguised as wins, near-miss effects, machine-zone immersion
 Rewire | Your brain is resetting. Trust the timeline. | CBT for gambling disorder: trigger mapping, cognitive restructuring of gambling beliefs, urge exposure and urge surfing, behavioural substitution
 Fortify | Build the life that competes. | Relapse-prevention planning, values work, financial repair, rebuilding the activities gambling crowded out
 
-A lapse doesn't reset anything. It routes you to a Reset day built around relapse-prevention material on the abstinence violation effect — the finding that how a person interprets a slip predicts whether it becomes a full return to gambling more reliably than the slip itself does.
+A lapse doesn't reset anything. It routes you to a Reset day built around relapse-prevention material on the abstinence violation effect, the finding that how a person interprets a slip predicts whether it becomes a full return to gambling more reliably than the slip itself does.
 
 ## The sources
 
 ### Clinical treatment material
-- Nancy M. Petry's cognitive-behavioural work on pathological gambling — the standard CBT framework for gambling disorder: functional analysis of gambling episodes, trigger identification, coping-skills training and planned alternative activities. Petry's treatment manual and trials are the backbone of Phase 2.
-- The UCLA Gambling Studies Program patient workbook — a free, publicly available self-help workbook. Several of the day-level exercise formats (trigger inventories, urge logs, decision worksheets) follow its structure.
-- Motivational Interviewing (William R. Miller & Stephen Rollnick) — why the program asks rather than lectures, and why your own stated reasons for quitting are resurfaced back to you instead of the app supplying motivation.
-- Relapse Prevention (G. Alan Marlatt & Judith R. Gordon, 1985) — high-risk-situation planning, the abstinence violation effect, and the design rule that a slip must never zero your history.
-- SMART Recovery and Gamblers Anonymous — two different traditions, both pointed to inside the app, because the evidence does not support telling someone there is only one route.
+- Nancy M. Petry's cognitive-behavioural work on pathological gambling, the standard CBT framework for gambling disorder: functional analysis of gambling episodes, trigger identification, coping-skills training and planned alternative activities. Petry's treatment manual and trials are the backbone of Phase 2.
+- The UCLA Gambling Studies Program patient workbook: a free, publicly available self-help workbook. Several of the day-level exercise formats (trigger inventories, urge logs, decision worksheets) follow its structure.
+- Motivational Interviewing (William R. Miller & Stephen Rollnick): why the program asks rather than lectures, and why your own stated reasons for quitting are resurfaced back to you instead of the app supplying motivation.
+- Relapse Prevention (G. Alan Marlatt & Judith R. Gordon, 1985): high-risk-situation planning, the abstinence violation effect, and the design rule that a slip must never zero your history.
+- SMART Recovery and Gamblers Anonymous: two different traditions, both pointed to inside the app, because the evidence does not support telling someone there is only one route.
 
 ### How gambling products are engineered
-- Natasha Dow Schüll, Addiction by Design: Machine Gambling in Las Vegas (Princeton University Press, 2012) — the ethnography behind Phase 1. The "machine zone", the design of continuous play, and the industry's own language about time-on-device.
-- Anna Lembke, Dopamine Nation (2021) — the pleasure–pain balance framing used to explain why the first weeks feel worse before they feel better.
-- Allen Carr's method — the argument that the "relief" a bet provides is the withdrawal it created, adapted to gambling rather than smoking.
+- Natasha Dow Schüll, Addiction by Design: Machine Gambling in Las Vegas (Princeton University Press, 2012): the ethnography behind Phase 1. The "machine zone", the design of continuous play, and the industry's own language about time-on-device.
+- Anna Lembke, Dopamine Nation (2021): the pleasure–pain balance framing used to explain why the first weeks feel worse before they feel better.
+- Allen Carr's method: the argument that the "relief" a bet provides is the withdrawal it created, adapted to gambling rather than smoking.
 
 ### Measurement
-- The Problem Gambling Severity Index (PGSI), from the Canadian Problem Gambling Index (Ferris & Wynne, 2001) — nine items over a 12-month window, the instrument behind both the app's intake and the self-check on this site. It is a screening tool: it estimates risk, it does not diagnose anyone.
+- The Problem Gambling Severity Index (PGSI), from the Canadian Problem Gambling Index (Ferris & Wynne, 2001): nine items over a 12-month window, the instrument behind both the app's intake and the self-check on this site. It is a screening tool: it estimates risk, it does not diagnose anyone.
 
 ## What we're careful about
 - The program is not a clinical trial. Silex applies material from evidence-based treatment; that is not the same as Silex itself having been trialled. Nobody has run a randomised study on this app, and until somebody has, we won't imply otherwise or quote an effectiveness figure.
 - Screening is not diagnosis. Every risk score in the app and on this site carries the same line: this isn't a diagnosis, it's a snapshot of risk based on a standard self-check.
-- Helplines are re-verified every release, because the numbers do change — the US national line changed in January 2026.
+- Helplines are re-verified every release, because the numbers do change. The US national line changed in January 2026.
 - The program is in English only for now, and its self-exclusion and debt guidance is deepest for the United States and the United Kingdom.
 
-If you spot something in the program that misrepresents a source, write to support@trysilex.com — that is a bug and it gets fixed like one.
+If you spot something in the program that misrepresents a source, write to support@trysilex.com. That is a bug and it gets fixed like one.
 
 ========================================================================
 # A gambling recovery tracker for Notion
@@ -1709,9 +1717,9 @@ Every other layer is something you install and can uninstall. Self-exclusion is 
 ## UK: one registration, every licensed site
 GAMSTOP is the national online self-exclusion scheme. It is free, takes a few minutes, and every operator licensed by the Gambling Commission to offer online gambling in Britain is required to participate. Once you're registered, they must close your accounts and refuse new ones.
 - Choose your term: 6 months, 1 year or 5 years. Take 5 years. The reason to choose a short term is almost always the part of you that intends to come back.
-- It doesn't expire quietly. Reaching the end date does not restore access by itself — you have to contact GAMSTOP and pass a cooling-off period first. Verify the current process on their site; it has been revised before.
+- It doesn't expire quietly. Reaching the end date does not restore access by itself. You have to contact GAMSTOP and pass a cooling-off period first. Verify the current process on their site; it has been revised before.
 - Register accurately. Matching is done on your details, so an old address or a variant spelling can leave an account uncovered. Include every email address you have gambled with.
-- Betting shops are separate. GAMSTOP is online only, and says so — the in-person scheme is a different sign-up.
+- Betting shops are separate. GAMSTOP is online only, and says so. The in-person scheme is a different sign-up.
 
 ### The gap, stated honestly
 GAMSTOP binds UK-licensed operators. It has no power over sites licensed elsewhere, and an entire SEO industry exists to put "casinos not on GAMSTOP" in front of people at the exact moment they are looking for a way around their own decision. Those operators sit outside UK consumer protection, dispute resolution and deposit safeguards.
@@ -1720,35 +1728,35 @@ Two things close that gap: a DNS-level blocker, which doesn't care whose licence
 ## US: state scheme plus every operator
 There is no national equivalent of GAMSTOP. Coverage is built in two layers:
 - Your state programme. Most states with legal gambling run a voluntary self-exclusion list, administered by the gaming commission or lottery, often covering both casinos and licensed online operators in that state. Terms are typically one year, five years or lifetime. Search your state's name plus "self-exclusion", or start from the National Council on Problem Gambling's help by state page, which lists each state's problem-gambling services.
-- Each operator, individually. Every licensed sportsbook and casino app has a responsible-gaming section with self-exclusion or self-restriction. Do it for all of them, including the ones you have "stopped using" — a dormant funded account is the easiest relapse there is. (Quitting sports betting specifically has its own problem: the cue is the sport, and you can't self-exclude from that.)
+- Each operator, individually. Every licensed sportsbook and casino app has a responsible-gaming section with self-exclusion or self-restriction. Do it for all of them, including the ones you have "stopped using". A dormant funded account is the easiest relapse there is. (Quitting sports betting specifically has its own problem: the cue is the sport, and you can't self-exclude from that.)
 
 Where you can, choose the longest term offered, and do it in one sitting rather than one operator a week. Momentum matters more than thoroughness here; you can add the ones you forgot tomorrow.
 
 ## Elsewhere
-Several countries run national schemes — among them Sweden (Spelpaus), the Netherlands (Cruks), Denmark (ROFUS), Belgium (EPIS) and Australia (BetStop). If you're outside those, ask every operator you use directly for permanent self-exclusion; licensed operators almost everywhere are obliged to offer it. Gambling Therapy provides free online support internationally and can point you at what exists locally.
+Several countries run national schemes, among them Sweden (Spelpaus), the Netherlands (Cruks), Denmark (ROFUS), Belgium (EPIS) and Australia (BetStop). If you're outside those, ask every operator you use directly for permanent self-exclusion; licensed operators almost everywhere are obliged to offer it. Gambling Therapy provides free online support internationally and can point you at what exists locally.
 
 ## What to expect after you do it
-- Marketing should stop. Excluded customers must be removed from promotional contact. If an operator keeps emailing or texting you, that's a compliance failure worth reporting to the regulator — and worth doing, because those messages are engineered to arrive when you're vulnerable.
+- Marketing should stop. Excluded customers must be removed from promotional contact. If an operator keeps emailing or texting you, that's a compliance failure worth reporting to the regulator, and worth doing, because those messages are engineered to arrive when you're vulnerable.
 - Withdraw your balances first, or at least check what happens to them under each operator's terms.
-- Expect a bad week. Removing the option tends to make the wanting louder before it makes it quieter. That's the withdrawal pattern, not a sign you chose wrong — here's the shape it usually takes.
+- Expect a bad week. Removing the option tends to make the wanting louder before it makes it quieter. That's the withdrawal pattern, not a sign you chose wrong: here's the shape it usually takes.
 - Tell one person. Self-exclusion is easier to keep when it isn't a secret, and secrecy is one of the heaviest parts of a gambling problem to carry alone. (If you're the person being told: what actually helps.)
 
 ## The uncomfortable question
-If reading this you found yourself thinking "I'll do the six months, not the five years" — notice that. It is the most reliable signal in the whole process, and it is worth being honest with yourself about which part of you is doing the negotiating.
+If reading this you found yourself thinking "I'll do the six months, not the five years", notice that. It is the most reliable signal in the whole process, and it is worth being honest with yourself about which part of you is doing the negotiating.
 
 ## Common questions
 
 Q: How long does GAMSTOP last?
-A: You choose 6 months, 1 year or 5 years. At the end of the term it does not switch off by itself — you have to contact GAMSTOP and pass a cooling-off period before access is restored. Check GAMSTOP's own current terms, because the reactivation process has changed before.
+A: You choose 6 months, 1 year or 5 years. At the end of the term it does not switch off by itself. You have to contact GAMSTOP and pass a cooling-off period before access is restored. Check GAMSTOP's own current terms, because the reactivation process has changed before.
 
 Q: Does GAMSTOP cover betting shops?
 A: No. GAMSTOP is the online scheme, covering websites and apps of UK-licensed operators. Betting shops are a separate self-exclusion process, and GAMSTOP itself points people towards it.
 
 Q: Can I gamble on sites not covered by GAMSTOP?
-A: Technically yes, and that is the scheme's real weakness — it has no authority over operators outside the UK licence. There is an entire industry of 'non-GAMSTOP casino' sites built to catch people mid-relapse, and unlicensed operators offer no UK consumer protection at all. This is exactly the gap a DNS-level blocker covers.
+A: Technically yes, and that is the scheme's real weakness: it has no authority over operators outside the UK licence. There is an entire industry of 'non-GAMSTOP casino' sites built to catch people mid-relapse, and unlicensed operators offer no UK consumer protection at all. This is exactly the gap a DNS-level blocker covers.
 
 Q: How do I self-exclude from a US sportsbook?
-A: Each operator has a responsible-gaming section with a self-exclusion or self-restriction option, usually offering set terms. Do it per operator, and separately register with your state programme where one exists — it is usually run by the state gaming commission or lottery.
+A: Each operator has a responsible-gaming section with a self-exclusion or self-restriction option, usually offering set terms. Do it per operator, and separately register with your state programme where one exists. It is usually run by the state gaming commission or lottery.
 
 Q: Will self-exclusion hurt my credit score?
 A: No. Self-exclusion is an agreement with gambling operators or a scheme they subscribe to. It is not a credit event and does not appear on a credit file.
@@ -1837,37 +1845,42 @@ Silex is provided as it is, without warranties, to the extent the law allows. To
 If these terms change, the date at the top changes, and the current version is always at this address.
 
 ========================================================================
-# Deja de apostar para siempre. Quédate con el dinero.
+# Deja de apostar. Quédate con el dinero.
 URL: https://trysilex.com/es/
 Language: es
-Description: Silex bloquea el juego en tu iPhone o Android, te acompaña en un programa de 90 días basado en evidencia y cuenta el dinero que guardas. Sin cuentas.
+Description: Silex bloquea el juego en tu iPhone o Android, te acompaña en un programa de 90 días con base en la TCC y cuenta el dinero que guardas. Sin cuentas.
 
 Silex es una app para iPhone y Android que bloquea el juego en todo tu teléfono, te acompaña durante 90 días, uno a uno, y cuenta el dinero que no perdiste. Sin cuentas. Sin anuncios. Sin perfil tuyo. Nunca.
-- Privada por diseño
-- Basada en evidencia
-- Sin anuncios
-- iPhone y Android
+Plan semanal, o anual con 7 días de prueba gratis. El precio en tu moneda aparece en la tienda antes de pagar.
 
-## Cuatro cosas, bien hechas
+## Un bloqueador está a un toque de apagarse. Por eso Silex configura cinco.
+- Un escudo DNS para todo el sistema Cubre cada app y cada navegador.
+- Un bloqueador de Safari, en iPhone Con una lista de cientos de miles de dominios de juego.
+- La autoprohibición Configuración guiada del bloqueo que no puedes deshacer por impulso.
+- El bloqueo de pagos en el banco Configuración guiada para que tu tarjeta rechace el pago.
+- Cortar las promociones Cada correo y notificación que te hace volver.
 
-### Cinco capas de bloqueo
-Un escudo DNS para todo el sistema que cubre cada app y cada navegador, en iPhone un bloqueador de Safari con una lista de cientos de miles de dominios de juego, y una configuración guiada de las tres defensas que de verdad aguantan: la autoprohibición, el bloqueo de pagos en el banco y cortar cada correo y notificación de promociones.
 Guía completa para bloquear el juego en iPhone
 
-### Un programa de 90 días de verdad
-90 días escritos en tres fases —Ver la Máquina, Recablear y Fortalecer— a partir de manuales clínicos de terapia cognitivo-conductual y de la investigación sobre cómo se diseñan los productos de juego para engancharte. Una lección al día, no una biblioteca para darse un atracón.
+## Un programa de 90 días de verdad
+90 días escritos a partir de manuales clínicos de terapia cognitivo-conductual y de la investigación sobre cómo se diseñan los productos de juego para engancharte. Una lección al día, no una biblioteca para darse un atracón. Tres fases:
+- Ver la Máquina
+- Recablear
+- Fortalecer
+
 Todas las fuentes en las que se basa (en inglés)
 
-### Un SOS para el peor minuto
+## Un SOS para el peor minuto
 Un botón, siempre en pantalla, nunca detrás del pago. Puntúas el impulso, respiras para bajarlo y lo dejas pasar con un temporizador mientras la app te muestra tus propias razones para dejarlo y el dinero que llevas guardado.
 Por qué pasan las ganas, y cuánto tardan
 
-### El dinero, a la vista
-No apostado. Silex toma lo que le dijiste que metías cada semana y cuenta lo que has guardado en su lugar. Es el número que mantiene a la gente cuando se acaba la motivación.
+## El dinero, a la vista
+No apostado. Silex toma lo que le dijiste que metías cada semana y cuenta lo que has guardado en su lugar, para que tengas un número que mirar cuando se acabe la motivación.
 Calcula cuánto te ha costado el juego hasta ahora
 
 ## Nunca te castiga por una recaída
-Dejar el juego no es una línea recta, y una app que pone tu progreso a cero en cuanto recaes te enseña a esconder la recaída. Silex hace lo contrario. Una recaída activa un día de reinicio —una lección concreta sobre qué pasó y qué cambiar— y tu historial nunca se borra. Lo que has ganado no se te quita nunca.
+Dejar el juego no es una línea recta, y una app que pone tu progreso a cero en cuanto recaes te enseña a esconder la recaída. Silex hace lo contrario. Una recaída activa un día de reinicio: una lección concreta sobre qué pasó y qué cambiar. Tu historial nunca se borra, y lo que has ganado no se te quita nunca.
+Arriba: Kintsugi, la pieza que ganas al completar un día de reinicio.
 
 ## Lo que cuesta, sin rodeos
 Silex es una app de pago y te lo dice antes de que inviertas tiempo: después de las preguntas iniciales llegas a la pantalla de suscripción. Hay un plan semanal y uno anual con 7 días de prueba gratis; el precio exacto en tu moneda aparece en la tienda antes de pagar. Puedes cancelar cuando quieras desde tu cuenta de Apple o de Google Play.
@@ -1877,12 +1890,17 @@ Las líneas de crisis están a un toque en la pantalla de suscripción, gratis, 
 Sin cuenta, sin correo, sin contraseña, sin red publicitaria, nada que te siga de una app a otra. Tus respuestas, lo que gastabas, tu diario y tus recaídas viven en tu teléfono, con una copia opcional en iCloud cifrada con tu cuenta de Apple: nosotros no podemos leer nada de eso. Lo único que Silex envía es un recuento anónimo de qué pasos de la configuración se completan, para arreglar dónde se atasca la gente. Un interruptor en Ajustes lo desactiva.
 La política de privacidad completa (en inglés)
 
+“Hice esto porque vi a alguien cercano pasar por ello, y en ese momento no había mucho que yo pudiera hacer.” Kyrylo Lozovyi, el desarrollador, en Kyiv. No es médico y aquí no hay ninguna empresa: solo una persona, y todas las fuentes son públicas.
+La historia completa (en inglés) · Las fuentes (en inglés)
+
 ## Empieza por las guías
 Todo esto es gratis de leer, sin pedirte el correo.
 - Cómo dejar de apostar: lo que de verdad funciona
 - Test de ludopatía (PGSI): 9 preguntas, no se guarda nada
+
 - Cuánto duran las ganas de apostar
 - Cómo bloquear apuestas y casinos en el iPhone
+
 - Calculadora: cuánto te ha costado el juego
 
 ## Preguntas frecuentes

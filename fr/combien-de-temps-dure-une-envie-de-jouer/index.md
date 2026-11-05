@@ -51,7 +51,7 @@ Silex réunit tout cela dans un bouton qui n'est jamais derrière le paiement : 
 
 Si les envies sont courtes et retombent d'elles-mêmes, tout se résume à *passer trente minutes sans accès*. Un blocage n'a pas besoin d'être éternel : il doit durer plus d'une demi-heure. Le blocage sur le téléphone achète des minutes, celui de la banque des jours, l'interdiction volontaire de jeux des années. [Comment combiner les trois →](https://trysilex.com/fr/arreter-de-jouer-aux-jeux-d-argent/)
 
-## Arrêter pour de bon. Garder l'argent.
+## Arrêter de jouer. Garder l'argent.
 
 Silex bloque les jeux d'argent sur tout votre téléphone et vous accompagne pendant 90 jours, un à la fois.
 

@@ -46,7 +46,7 @@ Diesen Schritt überspringen fast alle — und deshalb kommt der Rückfall oft i
 
 [Mach den Spielsucht-Test mit 9 Fragen](https://trysilex.com/de/spielsucht-test/) — zwei Minuten, nichts wird gespeichert — und richte dann die Sperre aus Schritt 1 ein, auf die du am wenigsten Lust hast. Dieser Widerstand zeigt meist genau auf die, die wirken würde. Und wenn du die Zahl sehen willst: [rechne aus, was dich das Spielen gekostet hat](https://trysilex.com/de/verlustrechner-gluecksspiel/).
 
-## Endgültig aufhören. Das Geld behalten.
+## Mit dem Glücksspiel aufhören. Das Geld behalten.
 
 Silex sperrt Glücksspiel auf deinem ganzen Handy und begleitet dich 90 Tage lang, Tag für Tag.
 

@@ -4,7 +4,7 @@
 
 By [Kyrylo Lozovyi](https://trysilex.com/about/) · August 10, 2026 · Updated November 3, 2026
 
-**Short answer:** Gamban is **£4.99/month or £29.99/year** with a 7-day free trial, covering iOS, Android, Windows and Mac. If you want free, **BetBlocker** (charity-run) does the core job on more platforms than Gamban. If you want the strongest removal resistance on Windows or Android, look at **GamBlock**. If you want a quit program rather than just a wall, **Silex** — which we make — runs on iPhone and Android, with no desktop app. And if you only gamble on an iPhone, iOS's own DNS and Screen Time settings plus a free filtering resolver cost nothing at all.
+**Short answer:** Gamban is **£4.99/month or £29.99/year** with a 7-day free trial, covering iOS, Android, Windows and Mac. If you want free, **BetBlocker** (charity-run) does the core job on more platforms than Gamban. If you want the strongest removal resistance on Windows or Android, look at **GamBlock**. If you want a quit program rather than just a wall, **Silex** (which we make) runs on iPhone and Android, with no desktop app. And if you only gamble on an iPhone, iOS's own DNS and Screen Time settings plus a free filtering resolver cost nothing at all.
 
 **Disclosure:** we make Silex, one of the options below. So this page verifies every price against the vendor's own site rather than repeating other comparisons, and it says where Gamban beats us. Prices checked 10 August 2026.
 
@@ -24,27 +24,27 @@ People usually look for an alternative for one of four reasons: they want it fre
 | **NextDNS or Control D** | Free tiers; paid from a few $/month | Anything that can set DNS | Whole-network coverage, granular control |
 | **iOS Screen Time + a filtering resolver** | Free | iPhone, iPad | Costing nothing, if iPhone is your only risk |
 
-### BetBlocker — the free one that isn't a downgrade
+### BetBlocker: the free one that isn't a downgrade
 
 A charity project (founded by ThePOGG in 2017, independent charity from 2019, registered in Scotland SC049565). Free "absolutely nothing. Ever.", ad-free, and it states coverage of **356,000+ websites and 1,900+ apps** with 105,000+ active users. Its standout feature is a restriction period you set from **one day to five years** and cannot shorten once running.
 
 **Where Gamban wins:** polish, support, and heuristic detection of sites that aren't on a list yet. BetBlocker's setup is more manual. [betblocker.org](https://betblocker.org/)
 
-### GamBlock — for a Windows problem
+### GamBlock: for a Windows problem
 
-Uses heuristics rather than lists — "GamBlock uses heuristics to ban gambling sites rather than the simple lists imitators use that are never up to date" — and on Windows and Android claims removal "cannot happen", including blocking attempts to reset the machine.
+Uses heuristics rather than lists ("GamBlock uses heuristics to ban gambling sites rather than the simple lists imitators use that are never up to date"), and on Windows and Android claims removal "cannot happen", including blocking attempts to reset the machine.
 
 **Where Gamban wins:** published pricing and a much easier purchase decision. We haven't independently tested GamBlock's removal-resistance claims, so treat them as the vendor's until you've tried them in a refund window. [gamblock.com](https://www.gamblock.com/)
 
-### NextDNS or Control D — the technical route
+### NextDNS or Control D: the technical route
 
 Not blocker apps but filtering DNS services with gambling categories you switch on. Set one as the DNS on your iPhone and it covers every app and browser on cellular and Wi-Fi; set it on your router and it covers the house. Free tiers are enough for one person, and this is what most blocker apps are doing under the hood anyway.
 
-**Where Gamban wins:** you have to be comfortable with profiles and DNS settings, and nothing stops you switching the profile off — there's no commitment mechanism at all.
+**Where Gamban wins:** you have to be comfortable with profiles and DNS settings, and nothing stops you switching the profile off. There's no commitment mechanism at all.
 
-### Silex — different product, not a cheaper Gamban
+### Silex: different product, not a cheaper Gamban
 
-iPhone and Android, $2.99/week or $29.99/year with a 7-day trial. It sets up a system-wide DNS shield covering every app and browser, ships a Safari content blocker on iPhone, and guides setup of the layers software can't provide — self-exclusion, bank blocks, killing promo emails.
+iPhone and Android, $2.99/week or $29.99/year with a 7-day trial. It sets up a system-wide DNS shield covering every app and browser, ships a Safari content blocker on iPhone, and guides setup of the layers software can't provide: self-exclusion, bank blocks, killing promo emails.
 
 The reason to choose it is the other half: a 90-day program written from clinical CBT material, an urge button that is never paywalled, and a running total of the money you kept.
 
@@ -54,18 +54,18 @@ The reason to choose it is the other half: a 90-day program written from clinica
 
 - You gamble on more than one kind of device.
 - You want one subscription, one support contact, and no assembly.
-- It's already installed and working — swapping tools is a common form of procrastination that feels like progress.
+- It's already installed and working. Swapping tools is a common form of procrastination that feels like progress.
 
 ## The change that matters more than which app you pick
 
 Every option on this page is the same layer, and it's the weakest of the three. Before spending another hour comparing blockers, spend twenty minutes on the two free things no app can do for you:
 
-1. [**Self-exclude**](https://trysilex.com/self-exclusion-guide/) — GAMSTOP in the UK, your state programme and each operator in the US. Free, and you can't reverse it in a craving.
-2. [**Bank gambling block**](https://trysilex.com/block-gambling-transactions-bank/) — free, and typically 48 to 72 hours to lift.
+1. [**Self-exclude**](https://trysilex.com/self-exclusion-guide/): GAMSTOP in the UK, your state programme and each operator in the US. Free, and you can't reverse it in a craving.
+2. [**Bank gambling block**](https://trysilex.com/block-gambling-transactions-bank/): free, and typically 48 to 72 hours to lift.
 
 Then pick whichever blocker you'll actually keep installed. [Full comparison of all of them →](https://trysilex.com/best-gambling-blocker-apps/)
 
-## Quit for good. Keep the money.
+## Quit gambling. Keep the money.
 
 Silex blocks gambling across your phone and walks you through 90 days, one at a time.
 
@@ -79,11 +79,11 @@ Silex blocks gambling across your phone and walks you through 90 days, one at a 
 
 ### Is there a free alternative to Gamban?
 
-Yes — BetBlocker, run by a charity registered in Scotland (SC049565). It is free with no ads, states it blocks 356,000+ gambling sites and 1,900+ apps, and supports Windows, Mac, Linux, Android, iOS and Fire OS. It also lets you lock a restriction period of up to five years.
+Yes: BetBlocker, run by a charity registered in Scotland (SC049565). It is free with no ads, states it blocks 356,000+ gambling sites and 1,900+ apps, and supports Windows, Mac, Linux, Android, iOS and Fire OS. It also lets you lock a restriction period of up to five years.
 
 ### Can I cancel Gamban if it stops working for me?
 
-It's an ordinary subscription, cancelled through wherever you bought it. Worth knowing: cancelling a blocker is by design easy, which is why it should never be your only layer — self-exclusion and a bank block are the ones that hold.
+It's an ordinary subscription, cancelled through wherever you bought it. Worth knowing: cancelling a blocker is by design easy, which is why it should never be your only layer. Self-exclusion and a bank block are the ones that hold.
 
 ### Is Gamban better than GAMSTOP?
 
@@ -91,7 +91,7 @@ They do different jobs and you want both. GAMSTOP stops UK-licensed operators fr
 
 ### Does Gamban work on iPhone?
 
-Yes, and like every iOS blocker it can be removed from Settings — Apple's sandbox does not permit an app to make itself undeletable. That is a platform limit, not a Gamban flaw.
+Yes, and like every iOS blocker it can be removed from Settings. Apple's sandbox does not permit an app to make itself undeletable. That is a platform limit, not a Gamban flaw.
 
 ## If you need someone right now
 

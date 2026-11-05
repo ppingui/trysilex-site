@@ -42,7 +42,7 @@ Cette réaction est une information, pas un verdict. Deux étapes :
 - [Faites le test ICJE](https://trysilex.com/fr/test-addiction-jeux-argent/) : deux minutes pour situer votre pratique.
 - [Posez des barrières entre vous et les opérateurs](https://trysilex.com/fr/arreter-de-jouer-aux-jeux-d-argent/), en commençant par [le téléphone](https://trysilex.com/fr/bloquer-sites-paris-iphone/).
 
-## Arrêter pour de bon. Garder l'argent.
+## Arrêter de jouer. Garder l'argent.
 
 Silex bloque les jeux d'argent sur tout votre téléphone et vous accompagne pendant 90 jours, un à la fois.
 

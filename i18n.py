@@ -51,7 +51,7 @@ LOCALES = {
         disclaimer="Silex helps you build healthier habits around gambling. It is not "
                    "medical care and doesn't diagnose or treat any condition. If you are "
                    "in crisis, use the numbers above.",
-        cta_h="Quit for good. Keep the money.",
+        cta_h="Quit gambling. Keep the money.",
         cta_p="Silex blocks gambling across your phone and walks you through 90 days, one at a time.",
         cta_btn="Get Silex on iPhone",
         cta_btn_android="Get Silex on Android",
@@ -85,7 +85,7 @@ LOCALES = {
         disclaimer="Silex te ayuda a construir hábitos más sanos frente al juego. No es "
                    "atención médica y no diagnostica ni trata ninguna enfermedad. Si estás "
                    "en crisis, usa los números de arriba.",
-        cta_h="Déjalo para siempre. Quédate con el dinero.",
+        cta_h="Deja de apostar. Quédate con el dinero.",
         cta_p="Silex bloquea el juego en todo tu teléfono y te acompaña durante 90 días, uno a uno.",
         cta_btn="Descargar Silex para iPhone",
         cta_btn_android="Descargar Silex para Android",
@@ -118,7 +118,7 @@ LOCALES = {
         disclaimer="O Silex ajuda você a criar hábitos mais saudáveis em relação às apostas. "
                    "Não é atendimento médico e não diagnostica nem trata nenhuma doença. Se "
                    "você está em crise, use os números acima.",
-        cta_h="Pare de vez. Fique com o dinheiro.",
+        cta_h="Pare de apostar. Fique com o dinheiro.",
         cta_p="O Silex bloqueia apostas no celular inteiro e acompanha você por 90 dias, um de cada vez.",
         cta_btn="Baixar o Silex para iPhone",
         cta_btn_android="Baixar o Silex para Android",
@@ -148,7 +148,7 @@ LOCALES = {
         disclaimer="Silex hilft dir, gesündere Gewohnheiten rund ums Glücksspiel aufzubauen. "
                    "Es ist keine medizinische Behandlung und stellt keine Diagnosen. Wenn du "
                    "in einer Krise bist, nutze die Nummern oben.",
-        cta_h="Endgültig aufhören. Das Geld behalten.",
+        cta_h="Mit dem Glücksspiel aufhören. Das Geld behalten.",
         cta_p="Silex sperrt Glücksspiel auf deinem ganzen Handy und begleitet dich 90 Tage lang, Tag für Tag.",
         cta_btn="Silex fürs iPhone laden",
         cta_btn_android="Silex für Android laden",
@@ -181,7 +181,7 @@ LOCALES = {
         disclaimer="Silex vous aide à construire des habitudes plus saines face aux jeux "
                    "d'argent. Ce n'est pas un soin médical et il ne pose aucun diagnostic. Si "
                    "vous êtes en crise, utilisez les numéros ci-dessus.",
-        cta_h="Arrêter pour de bon. Garder l'argent.",
+        cta_h="Arrêter de jouer. Garder l'argent.",
         cta_p="Silex bloque les jeux d'argent sur tout votre téléphone et vous accompagne pendant 90 jours, un à la fois.",
         cta_btn="Télécharger Silex pour iPhone",
         cta_btn_android="Télécharger Silex pour Android",
@@ -214,7 +214,7 @@ LOCALES = {
         disclaimer="Silex помогает выстроить более здоровые привычки в отношении азартных игр. "
                    "Это не медицинская помощь: приложение не ставит диагнозов и не лечит. "
                    "Если вы в кризисе, воспользуйтесь контактами выше.",
-        cta_h="Бросить навсегда. Сохранить деньги.",
+        cta_h="Бросить играть. Сохранить деньги.",
         cta_p="Silex блокирует азартные игры на всём телефоне и ведёт вас 90 дней, шаг за шагом.",
         cta_btn="Скачать Silex для iPhone",
         cta_btn_android="Скачать Silex для Android",
@@ -243,7 +243,7 @@ LOCALES = {
         help_title="如果你现在需要找人倾诉",
         disclaimer="Silex 帮助你建立更健康的赌博相关习惯。它不是医疗服务，不做诊断，也不提供治疗。"
                    "如果你正处于危机中，请拨打上方的电话。",
-        cta_h="彻底戒掉，把钱留住。",
+        cta_h="戒掉赌博，把钱留住。",
         cta_p="Silex 在整部手机上屏蔽赌博，并陪你走过 90 天，一天一天来。",
         cta_btn="下载 iPhone 版 Silex",
         cta_btn_android="下载 Android 版 Silex",

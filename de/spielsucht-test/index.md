@@ -32,7 +32,7 @@ Instrument: Ferris, J. & Wynne, H. (2001), *The Canadian Problem Gambling Index:
 - **Bring Abstand zwischen dich und die Wette.** Nicht Willenskraft, sondern Reibung. [Sperr Glücksspiel auf dem Handy](https://trysilex.com/de/gluecksspiel-sperren-iphone/) und ergänze die zwei Sperren, die sich in einem schwachen Moment nicht aufheben lassen: OASIS und die Banksperre ([beides erklären wir hier](https://trysilex.com/de/mit-dem-gluecksspiel-aufhoeren/)).
 - **Versteh den Spieldruck.** Er steigt und fällt, meist innerhalb von 20–30 Minuten, ob du spielst oder nicht. [Genau darauf kannst du bauen.](https://trysilex.com/de/wie-lange-dauert-spieldruck/)
 
-## Endgültig aufhören. Das Geld behalten.
+## Mit dem Glücksspiel aufhören. Das Geld behalten.
 
 Silex sperrt Glücksspiel auf deinem ganzen Handy und begleitet dich 90 Tage lang, Tag für Tag.
 

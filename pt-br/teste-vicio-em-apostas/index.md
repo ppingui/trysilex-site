@@ -32,7 +32,7 @@ Instrumento: Ferris, J. e Wynne, H. (2001), *The Canadian Problem Gambling Index
 - **Coloque distância entre você e a aposta.** Não força de vontade: atrito. [Bloqueie as bets no celular](https://trysilex.com/pt-br/bloquear-apostas-iphone/) e some as duas barreiras que não se desfazem num momento ruim: a autoexclusão e o bloqueio no banco ([explicamos as duas aqui](https://trysilex.com/pt-br/como-parar-de-apostar/)).
 - **Entenda a fissura.** A vontade sobe e desce, normalmente em 20–30 minutos, apostando ou não. [Esse padrão é o seu melhor aliado.](https://trysilex.com/pt-br/quanto-dura-a-vontade-de-apostar/)
 
-## Pare de vez. Fique com o dinheiro.
+## Pare de apostar. Fique com o dinheiro.
 
 O Silex bloqueia apostas no celular inteiro e acompanha você por 90 dias, um de cada vez.
 

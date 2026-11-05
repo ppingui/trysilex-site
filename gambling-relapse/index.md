@@ -4,23 +4,23 @@
 
 By [Kyrylo Lozovyi](https://trysilex.com/about/) · August 10, 2026
 
-**Short answer:** Stop the session now, not after one more bet. Then, in this order: **put the money out of reach**, **tell one person**, and **write down what happened before the first bet**. What turns a slip into a full relapse is almost never the slip — it is the conclusion "I've blown it, so I may as well finish the job." That reaction has a name in the research: the abstinence violation effect.
+**Short answer:** Stop the session now, not after one more bet. Then, in this order: **put the money out of reach**, **tell one person**, and **write down what happened before the first bet**. What turns a slip into a full relapse is almost never the slip. It is the conclusion "I've blown it, so I may as well finish the job." That reaction has a name in the research: the abstinence violation effect.
 
 If you have just gambled and you are still in the session, close it. Not after one more, not after you have got back to even. Now. Everything else on this page can wait ten minutes; that can't.
 
 ## The next hour, in order
 
-1. **Put the money out of reach.** Log out. Delete the app. Turn on your [bank's gambling block](https://trysilex.com/block-gambling-transactions-bank/) — most take 48 hours to lift, which is exactly the delay you need. If you have someone you trust, hand them your card for the night. Do this before you feel calmer, not after.
+1. **Put the money out of reach.** Log out. Delete the app. Turn on your [bank's gambling block](https://trysilex.com/block-gambling-transactions-bank/). Most take 48 hours to lift, which is exactly the delay you need. If you have someone you trust, hand them your card for the night. Do this before you feel calmer, not after.
 2. **Eat something and drink water.** This sounds absurd on a page about addiction. It isn't: a lot of the desperation in the hour after a loss is a physical state, and it lifts measurably with food, water and sleep.
-3. **Tell one person.** Someone who knows you are trying to stop, or a free helpline — the numbers below are answered 24/7 by people who take exactly this call all day and will not be shocked. Saying it out loud is what stops it becoming a secret, and secrecy is what lets a slip grow into a month. (If you're dreading their reaction, it may help to know [what the people around you are advised to do](https://trysilex.com/help-someone-with-gambling-addiction/) — it is less punitive than you're imagining.)
+3. **Tell one person.** Someone who knows you are trying to stop, or a free helpline. The numbers below are answered 24/7 by people who take exactly this call all day and will not be shocked. Saying it out loud is what stops it becoming a secret, and secrecy is what lets a slip grow into a month. (If you're dreading their reaction, it may help to know [what the people around you are advised to do](https://trysilex.com/help-someone-with-gambling-addiction/): it is less punitive than you're imagining.)
 4. **Don't make any financial decisions tonight.** No loan applications, no asking for an advance, no moving money between accounts, no decisions about telling your employer. All of it is better in daylight, and none of it is better at 2am.
-5. **Write down what happened before the first bet.** Where you were, what time it was, what you felt, what you had just seen. Not to punish yourself — this is the single most valuable piece of information you will get this month, and it is only available for a few hours before memory smooths it out.
+5. **Write down what happened before the first bet.** Where you were, what time it was, what you felt, what you had just seen. Not to punish yourself. This is the single most valuable piece of information you will get this month, and it is only available for a few hours before memory smooths it out.
 
 ## Why the slip usually isn't the problem
 
 Relapse-prevention research made a distinction that changed how this is treated: a **lapse** is a single instance, a **relapse** is a full return to the old pattern, and the bridge between them is mostly interpretation.
 
-Marlatt and Gordon named the mechanism the **abstinence violation effect**: after breaking a self-imposed rule, people often feel guilt and a collapse of self-belief — "I've proven I can't do this" — and that reaction is what drives the second, third and tenth bet. The same person, same slip, reaching for "well, that told me something useful about Fridays" instead of "I'm hopeless", is in a completely different position.
+Marlatt and Gordon named the mechanism the **abstinence violation effect**: after breaking a self-imposed rule, people often feel guilt and a collapse of self-belief ("I've proven I can't do this"), and that reaction is what drives the second, third and tenth bet. The same person, same slip, reaching for "well, that told me something useful about Fridays" instead of "I'm hopeless", is in a completely different position.
 
 This is not positive thinking. It is that shame is a poor motivator and an excellent concealer, and concealment is how gambling problems escalate.
 
@@ -30,7 +30,7 @@ Once the immediate risk is handled, get specific. Most lapses have a traceable c
 
 | Ask | Why it matters |
 |---|---|
-| What was the first moment I *could* have stopped this? | Almost always earlier than the bet — opening the app "just to look", checking odds, reading a promo email. |
+| What was the first moment I *could* have stopped this? | Almost always earlier than the bet: opening the app "just to look", checking odds, reading a promo email. |
 | Which layer failed, and why? | Was the block off? Did you find an unblocked route? Did the money come from somewhere you hadn't covered? |
 | What was I feeling twenty minutes before? | Bored, angry, lonely, hopeful, celebrating. The emotional trigger repeats far more reliably than the situation does. |
 | What did I tell myself to make it OK? | "Just a small one." "I'm owed a win." "One last time before I stop properly." Learning your own scripts is how you catch the next one mid-sentence. |
@@ -46,13 +46,13 @@ Then close the specific gap. A slip through a browser you forgot means adding [d
 
 ## How Silex handles it
 
-Because it's the design question that matters most in an app like this: a lapse in Silex doesn't wipe anything. It routes you to a **Reset day** — a lesson built around the questions above — and your history and earned milestones stay exactly where they were. There is one milestone piece you can *only* earn by completing a Reset day after a lapse, because repairing something is a skill worth rewarding rather than a failure worth marking.
+Because it's the design question that matters most in an app like this: a lapse in Silex doesn't wipe anything. It routes you to a **Reset day** (a lesson built around the questions above), and your history and earned milestones stay exactly where they were. There is one milestone piece you can *only* earn by completing a Reset day after a lapse, because repairing something is a skill worth rewarding rather than a failure worth marking.
 
 ## If tonight is worse than a bad night
 
-Gambling losses and thoughts of suicide travel together more often than most people realise. If your thoughts have gone there, please use one of the numbers below now — they are free, confidential, and you do not have to be in crisis to call one.
+Gambling losses and thoughts of suicide travel together more often than most people realise. If your thoughts have gone there, please use one of the numbers below now. They are free, confidential, and you do not have to be in crisis to call one.
 
-## Quit for good. Keep the money.
+## Quit gambling. Keep the money.
 
 Silex blocks gambling across your phone and walks you through 90 days, one at a time.
 
@@ -66,7 +66,7 @@ Only if you decide to score it that way. You have not lost the weeks of learning
 
 ### What is the abstinence violation effect?
 
-A finding from relapse-prevention research (Marlatt and Gordon): after breaking a rule they set themselves, people commonly experience guilt and a sense of lost control, and that reaction — rather than the lapse itself — drives the return to full use. How you interpret the slip predicts the outcome better than the slip does.
+A finding from relapse-prevention research (Marlatt and Gordon): after breaking a rule they set themselves, people commonly experience guilt and a sense of lost control, and that reaction, rather than the lapse itself, drives the return to full use. How you interpret the slip predicts the outcome better than the slip does.
 
 ### Should I tell my partner I gambled again?
 

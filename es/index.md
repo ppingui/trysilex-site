@@ -1,47 +1,60 @@
 > For the complete index of this site, see [llms.txt](https://trysilex.com/llms.txt). This page on the web: https://trysilex.com/es/
 
-# Deja de apostar para siempre. Quédate con el dinero.
+# Deja de apostar. Quédate con el dinero.
 
 Silex es una app para iPhone y Android que bloquea el juego en todo tu teléfono, te acompaña durante 90 días, uno a uno, y cuenta el dinero que no perdiste. Sin cuentas. Sin anuncios. Sin perfil tuyo. Nunca.
 
-- Privada por diseño
-- Basada en evidencia
-- Sin anuncios
-- iPhone y Android
-
 [Descargar Silex para iPhone](https://apps.apple.com/app/id6798826038?mt=8) [Descargar Silex para Android](https://play.google.com/store/apps/details?id=com.klozovyi.stopgamble&referrer=utm_source%3Dtrysilex%26utm_campaign%3Des_home_hero)
 
-![Pantalla de inicio de Silex: 34 días libres, la lección de hoy y el dinero guardado.](https://trysilex.com/assets/shots/es/dashboard.jpg) ![El programa de 90 días con sus tres fases.](https://trysilex.com/assets/shots/es/program.jpg) ![Pantalla de protección con las cinco capas de bloqueo y su estado.](https://trysilex.com/assets/shots/es/protect.jpg) ![El botón SOS con respiración en caja y un temporizador para surfear el impulso.](https://trysilex.com/assets/shots/es/panic.jpg) ![Las piezas que ganas con los días limpios, la mayoría aún selladas.](https://trysilex.com/assets/shots/es/collection.jpg)
+Plan semanal, o anual con 7 días de prueba gratis. El precio en tu moneda aparece en la tienda antes de pagar.
 
-## Cuatro cosas, bien hechas
+![Pantalla de inicio de Silex: 34 días libres, el dinero guardado, el compromiso de hoy y la lección del programa.](https://trysilex.com/assets/shots/es/dashboard.jpg)
 
-### Cinco capas de bloqueo
+## Un bloqueador está a un toque de apagarse. Por eso Silex configura cinco.
 
-Un escudo DNS para todo el sistema que cubre cada app y cada navegador, en iPhone un bloqueador de Safari con una lista de cientos de miles de dominios de juego, y una configuración guiada de las tres defensas que de verdad aguantan: la autoprohibición, el bloqueo de pagos en el banco y cortar cada correo y notificación de promociones.
+1. **Un escudo DNS para todo el sistema** Cubre cada app y cada navegador.
+2. **Un bloqueador de Safari, en iPhone** Con una lista de cientos de miles de dominios de juego.
+3. **La autoprohibición** Configuración guiada del bloqueo que no puedes deshacer por impulso.
+4. **El bloqueo de pagos en el banco** Configuración guiada para que tu tarjeta rechace el pago.
+5. **Cortar las promociones** Cada correo y notificación que te hace volver.
 
 [Guía completa para bloquear el juego en iPhone](https://trysilex.com/es/bloquear-apuestas-iphone/)
 
-### Un programa de 90 días de verdad
+![Pantalla de protección: cuatro de cinco capas activas, entre automáticas y guiadas.](https://trysilex.com/assets/shots/es/protect.jpg)
 
-90 días escritos en tres fases —**Ver la Máquina**, **Recablear** y **Fortalecer**— a partir de manuales clínicos de terapia cognitivo-conductual y de la investigación sobre cómo se diseñan los productos de juego para engancharte. Una lección al día, no una biblioteca para darse un atracón.
+## Un programa de 90 días de verdad
+
+90 días escritos a partir de manuales clínicos de terapia cognitivo-conductual y de la investigación sobre cómo se diseñan los productos de juego para engancharte. Una lección al día, no una biblioteca para darse un atracón. Tres fases:
+
+1. Ver la Máquina
+2. Recablear
+3. Fortalecer
 
 [Todas las fuentes en las que se basa (en inglés)](https://trysilex.com/methodology/)
 
-### Un SOS para el peor minuto
+![El programa de 90 días, en el día 42, con las lecciones de la primera fase.](https://trysilex.com/assets/shots/es/program.jpg)
+
+## Un SOS para el peor minuto
 
 Un botón, siempre en pantalla, nunca detrás del pago. Puntúas el impulso, respiras para bajarlo y lo dejas pasar con un temporizador mientras la app te muestra tus propias razones para dejarlo y el dinero que llevas guardado.
 
 [Por qué pasan las ganas, y cuánto tardan](https://trysilex.com/es/cuanto-duran-las-ganas-de-apostar/)
 
-### El dinero, a la vista
+![La pantalla SOS pregunta qué tan fuerte es el impulso ahora mismo.](https://trysilex.com/assets/shots/es/panic.jpg)
 
-No apostado. Silex toma lo que le dijiste que metías cada semana y cuenta lo que has guardado en su lugar. Es el número que mantiene a la gente cuando se acaba la motivación.
+## El dinero, a la vista
+
+No apostado. Silex toma lo que le dijiste que metías cada semana y cuenta lo que has guardado en su lugar, para que tengas un número que mirar cuando se acabe la motivación.
 
 [Calcula cuánto te ha costado el juego hasta ahora](https://trysilex.com/es/calculadora-perdidas-apuestas/)
 
+![Pantalla de progreso: el dinero guardado, las piezas ganadas y los días del programa.](https://trysilex.com/assets/shots/es/money.jpg)
+
 ## Nunca te castiga por una recaída
 
-Dejar el juego no es una línea recta, y una app que pone tu progreso a cero en cuanto recaes te enseña a esconder la recaída. Silex hace lo contrario. Una recaída activa un **día de reinicio** —una lección concreta sobre qué pasó y qué cambiar— y tu historial nunca se borra. Lo que has ganado no se te quita nunca.
+Dejar el juego no es una línea recta, y una app que pone tu progreso a cero en cuanto recaes te enseña a esconder la recaída. Silex hace lo contrario. Una recaída activa un **día de reinicio**: una lección concreta sobre qué pasó y qué cambiar. Tu historial nunca se borra, y lo que has ganado no se te quita nunca.
+
+Arriba: Kintsugi, la pieza que ganas al completar un día de reinicio.
 
 ## Lo que cuesta, sin rodeos
 
@@ -55,17 +68,25 @@ Sin cuenta, sin correo, sin contraseña, sin red publicitaria, nada que te siga 
 
 [La política de privacidad completa (en inglés)](https://trysilex.com/privacy/)
 
+> “Hice esto porque vi a alguien cercano pasar por ello, y en ese momento no había mucho que yo pudiera hacer.”
+
+Kyrylo Lozovyi, el desarrollador, en Kyiv. No es médico y aquí no hay ninguna empresa: solo una persona, y todas las fuentes son públicas.
+
+[La historia completa (en inglés)](https://trysilex.com/about/) · [Las fuentes (en inglés)](https://trysilex.com/methodology/)
+
 ## Empieza por las guías
 
 Todo esto es gratis de leer, sin pedirte el correo.
 
 - [Cómo dejar de apostar: lo que de verdad funciona](https://trysilex.com/es/como-dejar-de-apostar/)
 - [Test de ludopatía (PGSI): 9 preguntas, no se guarda nada](https://trysilex.com/es/test-ludopatia/)
+
 - [Cuánto duran las ganas de apostar](https://trysilex.com/es/cuanto-duran-las-ganas-de-apostar/)
 - [Cómo bloquear apuestas y casinos en el iPhone](https://trysilex.com/es/bloquear-apuestas-iphone/)
+
 - [Calculadora: cuánto te ha costado el juego](https://trysilex.com/es/calculadora-perdidas-apuestas/)
 
-## Déjalo para siempre. Quédate con el dinero.
+## Deja de apostar. Quédate con el dinero.
 
 Silex bloquea el juego en todo tu teléfono y te acompaña durante 90 días, uno a uno.
 

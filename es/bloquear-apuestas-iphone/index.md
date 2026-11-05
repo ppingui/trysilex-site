@@ -61,7 +61,7 @@ Las dos barreras más fuertes no viven en el iPhone: **que tu banco rechace los 
 
 Cada capa te da tiempo en los noventa segundos en que el impulso está en su punto más alto. Lo que haces con ese tiempo decide si funciona. [Los impulsos suben y bajan de forma bastante predecible](https://trysilex.com/es/cuanto-duran-las-ganas-de-apostar/), y aprender a esperar uno es una habilidad que mejora con la práctica.
 
-## Déjalo para siempre. Quédate con el dinero.
+## Deja de apostar. Quédate con el dinero.
 
 Silex bloquea el juego en todo tu teléfono y te acompaña durante 90 días, uno a uno.
 

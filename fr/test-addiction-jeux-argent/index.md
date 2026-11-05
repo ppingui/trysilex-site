@@ -32,7 +32,7 @@ Instrument : Ferris, J. et Wynne, H. (2001), *The Canadian Problem Gambling Inde
 - **Mettez de la distance entre vous et le pari.** Pas de la volonté : de la friction. [Bloquez les jeux sur votre téléphone](https://trysilex.com/fr/bloquer-sites-paris-iphone/) et ajoutez les deux barrières qui ne se défont pas dans un moment de faiblesse : l'interdiction volontaire de jeux et le blocage bancaire ([expliqués ici](https://trysilex.com/fr/arreter-de-jouer-aux-jeux-d-argent/)).
 - **Comprenez l'envie.** Elle monte et redescend, en général en 20 à 30 minutes, que vous jouiez ou non. [C'est sur ce schéma que vous pouvez vous appuyer.](https://trysilex.com/fr/combien-de-temps-dure-une-envie-de-jouer/)
 
-## Arrêter pour de bon. Garder l'argent.
+## Arrêter de jouer. Garder l'argent.
 
 Silex bloque les jeux d'argent sur tout votre téléphone et vous accompagne pendant 90 jours, un à la fois.
 

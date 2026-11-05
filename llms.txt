@@ -1,6 +1,6 @@
 # Silex — Stop Gambling
 
-> An iPhone and Android app that blocks gambling across the phone, runs a 90-day evidence-based quit program, and tracks the money you keep. No accounts, no ads, and nothing a user writes leaves the phone. Built by Kyrylo Lozovyi. Weekly $2.99 or annual $29.99 with a 7-day free trial.
+> An iPhone and Android app that blocks gambling across the phone, runs a 90-day quit program built from CBT workbooks and gambling research, and tracks the money you keep. No accounts, no ads, and nothing a user writes leaves the phone. Built by Kyrylo Lozovyi. Weekly $2.99 or annual $29.99 with a 7-day free trial.
 
 Each link below is the Markdown version of a page; drop `index.md` for the web page.
 
@@ -10,7 +10,7 @@ Product documentation (setup, blocking, subscriptions, privacy): https://trysile
 
 ## Pages
 
-- [Quit gambling for good. Keep the money.](https://trysilex.com/index.md): Silex blocks gambling across your iPhone or Android phone, walks you through a 90-day evidence-based quit program, and counts the money you keep. No accounts, no ads, no profile of you.
+- [Quit gambling. Keep the money.](https://trysilex.com/index.md): Silex blocks gambling across your iPhone or Android phone, walks you through a 90-day quit program built from CBT workbooks, and counts the money you keep. No accounts, no ads, no profile of you.
 - [Who builds Silex](https://trysilex.com/about/index.md): Silex is built by one developer, Kyrylo Lozovyi, in Kyiv. No investors, no growth team, nothing that profiles you — and a short list of rules the app will not break.
 - [The best gambling blocker apps, compared honestly](https://trysilex.com/best-gambling-blocker-apps/index.md): Gamban, BetBlocker, GamBlock and the rest — what each one covers, what it costs, and which to pick. Prices verified from each vendor's own site, with a disclosure: we make one of these.
 - [How to block gambling on Android](https://trysilex.com/block-gambling-apps-android/index.md): Android's built-in Private DNS blocks gambling in every app and browser for free, in about two minutes. Plus Digital Wellbeing, Family Link, and which third-party blockers are worth it.
@@ -51,7 +51,7 @@ Product documentation (setup, blocking, subscriptions, privacy): https://trysile
 - [Spielsucht-Test: die 9 Fragen des PGSI](https://trysilex.com/de/spielsucht-test/index.md) (Deutsch): Mach den PGSI, den Standard-Fragebogen mit 9 Fragen zum Risiko von Glücksspielsucht. Läuft in deinem Browser: nichts wird gespeichert oder gesendet.
 - [Verlustrechner fürs Glücksspiel](https://trysilex.com/de/verlustrechner-gluecksspiel/index.md) (Deutsch): Gib ein, was du in einer normalen Woche verlierst, und sieh die Summe nach einem, fünf und zehn Jahren – und was aus dem Geld geworden wäre.
 - [Wie lange dauert Spieldruck?](https://trysilex.com/de/wie-lange-dauert-spieldruck/index.md) (Deutsch): Spieldruck verläuft wie eine Welle: Er steigt, bricht und fällt, meist innerhalb von 20 bis 30 Minuten. Was dich in den ersten Wochen erwartet.
-- [Deja de apostar para siempre. Quédate con el dinero.](https://trysilex.com/es/index.md) (Español): Silex bloquea el juego en tu iPhone o Android, te acompaña en un programa de 90 días basado en evidencia y cuenta el dinero que guardas. Sin cuentas.
+- [Deja de apostar. Quédate con el dinero.](https://trysilex.com/es/index.md) (Español): Silex bloquea el juego en tu iPhone o Android, te acompaña en un programa de 90 días con base en la TCC y cuenta el dinero que guardas. Sin cuentas.
 - [Cómo bloquear apuestas y casinos en el iPhone](https://trysilex.com/es/bloquear-apuestas-iphone/index.md) (Español): Cómo bloquear el juego en iPhone: Tiempo de uso, un perfil DNS para todo el dispositivo, bloqueadores de Safari y autoprohibición, y qué cubre cada uno.
 - [Calculadora de pérdidas en apuestas](https://trysilex.com/es/calculadora-perdidas-apuestas/index.md) (Español): Pon lo que pierdes en una semana y mira el total en uno, cinco y diez años, y en qué se habría convertido ese dinero. No guarda nada.
 - [Cómo dejar de apostar](https://trysilex.com/es/como-dejar-de-apostar/index.md) (Español): Un plan práctico para dejar el juego: las tres barreras que conviene poner hoy, cómo aguantar un impulso y dónde pedir ayuda gratuita en España y Latinoamérica.

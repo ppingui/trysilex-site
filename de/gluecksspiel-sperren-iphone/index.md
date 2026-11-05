@@ -61,7 +61,7 @@ Die zwei stärksten Sperren leben nicht auf dem iPhone: **die Bank lehnt Glücks
 
 Jede Schicht verschafft dir Zeit in den neunzig Sekunden, in denen der Druck am höchsten ist. Was du mit dieser Zeit machst, entscheidet, ob es klappt. [Spieldruck steigt und fällt ziemlich vorhersehbar](https://trysilex.com/de/wie-lange-dauert-spieldruck/), und einen auszuwarten ist eine Fähigkeit, die mit Übung besser wird.
 
-## Endgültig aufhören. Das Geld behalten.
+## Mit dem Glücksspiel aufhören. Das Geld behalten.
 
 Silex sperrt Glücksspiel auf deinem ganzen Handy und begleitet dich 90 Tage lang, Tag für Tag.
 

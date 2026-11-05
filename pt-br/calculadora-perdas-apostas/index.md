@@ -42,7 +42,7 @@ Essa reação é informação, não sentença. Dois passos:
 - [Faça o teste de vício em apostas (PGSI)](https://trysilex.com/pt-br/teste-vicio-em-apostas/): dois minutos para ver onde está o seu padrão.
 - [Coloque barreiras entre você e as bets](https://trysilex.com/pt-br/como-parar-de-apostar/), começando pelo [celular](https://trysilex.com/pt-br/bloquear-apostas-iphone/).
 
-## Pare de vez. Fique com o dinheiro.
+## Pare de apostar. Fique com o dinheiro.
 
 O Silex bloqueia apostas no celular inteiro e acompanha você por 90 dias, um de cada vez.
 
