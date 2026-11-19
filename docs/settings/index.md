@@ -24,7 +24,7 @@ Open Settings with the gear on the Today tab.
 ## Your data
 
 - A short statement of what is stored and where (see [Privacy and your data](https://trysilex.com/docs/privacy-and-data/)).
-- **Share anonymous usage:** on by default; turn it off to stop anonymous analytics.
+- **Share anonymous usage:** on by default; turn it off to stop anonymous analytics and ad measurement.
 
 ## Not in Settings
 

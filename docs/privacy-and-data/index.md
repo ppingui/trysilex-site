@@ -13,6 +13,7 @@ Silex has no accounts and no server of its own that stores anything about you. T
 
 - **Subscriptions (RevenueCat).** Purchase receipts and an anonymous app user ID, so your subscription works and can be restored. It also receives Apple's anonymous ad-attribution token, if one exists.
 - **Anonymous usage (TelemetryDeck).** Which screens and steps are used, with no names, answers or amounts. Turn it off in Settings with *Share anonymous usage*.
+- **Ad measurement (AppsFlyer).** That the app was installed, and whether a trial or purchase followed, so we can tell which ads are worth running. No advertising ID and nothing you write. The same *Share anonymous usage* switch turns it off.
 - **DNS lookups**, while the shield is on, go to Mullvad's DNS resolver under its no-logging policy. Silex never sees them.
 - **Blocklist updates.** Silex downloads the public gambling blocklist from a content-delivery network. Nothing about you is sent with the request.
 

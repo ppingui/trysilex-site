@@ -7,7 +7,7 @@
   "h1": "Privacy Policy"
 }
 -->
-<p class="small">Last updated: 30 October 2026. Canonical version of this notice; it
+<p class="small">Last updated: 19 November 2026. Canonical version of this notice; it
   replaces the Notion-hosted copy linked from older builds of the app.</p>
 
 <p class="lede">Silex is built on one principle: <strong>your recovery is nobody's
@@ -15,9 +15,10 @@
 
 <p><em>We</em> store nothing about you on any server, hold no accounts, and have no way to
   read anything you write in this app. (The one piece of code we run on a server is the
-  optional Notion connector in §14, which keeps nothing.) One third party does run a server that receives something: an
-  analytics service is sent the <em>names</em> of the screens you reach, and there is a
-  switch in Settings that stops it. This page explains exactly what that means —
+  optional Notion connector in §14, which keeps nothing.) Two third parties do run servers
+  that receive something: an analytics service is sent the <em>names</em> of the screens
+  you reach, and an ad-measurement service is told that the app was installed and whether
+  a trial or purchase followed. One switch in Settings stops both. This page explains exactly what that means —
   including the few places where data does leave your phone, because a privacy policy
   that only lists the reassuring parts is not a privacy policy.</p>
 
@@ -44,7 +45,7 @@
   we process it.</p>
 
 <h2>2. What actually reaches anyone else</h2>
-<p>Five narrow cases, all optional or technically unavoidable.</p>
+<p>Six narrow cases, all optional or technically unavoidable.</p>
 
 <h3>Purchases — Apple, and RevenueCat</h3>
 <p>Subscriptions are processed by Apple. We use RevenueCat to verify and manage
@@ -54,6 +55,9 @@
   <li>last-seen time, and Apple receipt files,</li>
   <li>optionally, a user identifier and attribution metadata.</li>
 </ul>
+<p>While "Share anonymous usage" is on, RevenueCat also passes the fact and price of a
+  trial or purchase to AppsFlyer, so that it can be counted against an ad campaign — see
+  <em>Ad measurement</em> below.</p>
 <p>It never receives your journal, answers, streak or any recovery content. See
   <a href="https://www.apple.com/legal/privacy/" rel="nofollow">Apple's privacy
   policy</a> and <a href="https://www.revenuecat.com/privacy/" rel="nofollow">RevenueCat's
@@ -100,6 +104,9 @@
     locale, region, app version and similar;</li>
   <li>a random identifier minted by the app for this install.</li>
 </ul>
+<p>We also add those event names up into a few running totals that the app shows during
+  onboarding, such as the number of program days people have finished. A total says
+  nothing about any one person.</p>
 <p>What is never sent: your quiz answers, your PGSI score, your weekly spend, your
   journal text, your lapse records — anything you wrote or chose. The signal is that a
   screen was reached, never what was on it and never what you put into it.</p>
@@ -123,16 +130,73 @@
   Turning it off stops new signals immediately, removes the sink from the app, and
   deletes the batch of unsent signals waiting on disk. What has already gone cannot be
   recalled — and nothing in it points back to you.</p>
-<p>In the App Store's own vocabulary, the app declares <strong>no tracking</strong>
-  (<code>NSPrivacyTracking</code> false, no tracking domains) and two collected data
-  types — Product Interaction and Device ID — both marked <em>not linked to your
-  identity</em> and <em>not used for tracking</em>, for the single purpose of analytics.
-  See <a href="https://telemetrydeck.com/privacy/" rel="nofollow">TelemetryDeck's
+<p>See <a href="https://telemetrydeck.com/privacy/" rel="nofollow">TelemetryDeck's
   privacy policy</a>.</p>
 
-<p><strong>Nothing else.</strong> Those four network paths are the only ones the app
+<h3>Ad measurement — AppsFlyer, under the same switch</h3>
+<p>We advertise Silex, and an ad is only worth paying for if people who install from it
+  go on to use the app. To count that, the app includes the SDK of <strong>AppsFlyer
+  Ltd.</strong>, 14 Maskit St., Herzliya, Israel. What it receives:</p>
+<ul>
+  <li>that the app was installed and opened, and when;</li>
+  <li>an identifier AppsFlyer's SDK generates for this install of this app;</li>
+  <li>AppsFlyer's default device payload: device model, operating-system version,
+    language, app version, and network information (Wi-Fi or carrier). Like any server
+    it sees your IP address, which AppsFlyer says it may resolve to a coarse region;</li>
+  <li>three event <strong>names</strong> and nothing about them: that the plans screen
+    was shown, that a free trial started, that a purchase was made;</li>
+  <li>from RevenueCat, the fact and price of a trial or purchase, attached to that same
+    install identifier.</li>
+</ul>
+<p>How an install is matched to an ad: through Apple's own aggregated reports
+  (SKAdNetwork and AdAttributionKit), which name a <em>campaign</em> and never a person.
+  Apple sends them to the ad network, and iOS sends AppsFlyer a copy.</p>
+<p>Ads in the App Store itself work slightly differently. For those, iOS gives the app a
+  one-time token (Apple's AdServices), and AppsFlyer and RevenueCat each exchange it with
+  Apple for the campaign and search term that led to this install. The token identifies
+  the tap on the ad, not you.</p>
+<p>What is not involved, and this is built in rather than promised: <strong>no
+  advertising identifier.</strong> The app never shows the "Allow tracking" prompt, it
+  links the build of AppsFlyer's SDK that has the advertising-identifier code removed,
+  and it switches off collection of <code>identifierForVendor</code>, the one identifier
+  shared between apps from the same developer. Nothing you wrote or chose is sent — the
+  same list as above.</p>
+<p><strong>One thing that differs from the analytics identifier, and we would rather say
+  it.</strong> AppsFlyer's identifier is not hashed on your phone the way TelemetryDeck's
+  is, and AppsFlyer's SDK keeps a small marker in the iPhone keychain so that it can tell
+  a reinstall from a new install. Keychain entries can outlive deleting an app. So for
+  AppsFlyer, unlike for TelemetryDeck, we do not claim that a reinstall looks like a
+  stranger.</p>
+<p><strong>The switch</strong> is the same one: Settings → Your data → <strong>Share
+  anonymous usage</strong>, off. It stops the SDK's requests, removes AppsFlyer's
+  identifier from RevenueCat so no further purchase event is forwarded, and deletes any
+  requests waiting on disk. AppsFlyer also offers its own opt-out form at
+  <a href="https://www.appsflyer.com/legal/opt-out/" rel="nofollow">appsflyer.com/legal/opt-out</a>.
+  See <a href="https://www.appsflyer.com/legal/services-privacy-policy/" rel="nofollow">AppsFlyer's
+  services privacy policy</a>.</p>
+
+<p>In the App Store's own vocabulary, the app declares <strong>no tracking</strong>
+  (<code>NSPrivacyTracking</code> false, no tracking domains) and three collected data
+  types — Product Interaction, Device ID and Purchase History — all marked <em>not linked
+  to your identity</em> and <em>not used for tracking</em>, for the purposes of analytics
+  and of measuring our own advertising (Purchase History also for providing the
+  subscription).</p>
+
+<p><strong>Nothing else.</strong> Those five network paths are the only ones the app
   has. There are no advertising identifiers, no cross-app tracking, and no profiling or
   automated decision-making that produces legal or similarly significant effects.</p>
+
+<h3>A line for other people — only if you send one</h3>
+<p>After you finish program Day 7, the app may ask once whether you would share a
+  sentence for someone just starting. If you choose to, it opens an email in your own
+  mail app, addressed to us, holding your words, your first initial, your day count and
+  your consent. You can change or delete any of it before sending, and nothing leaves
+  your device unless you press send.</p>
+<p>We then receive that email and your address, in a mailbox hosted by Google. We may
+  show your words, your first initial and your day count in the app and on our store
+  pages. We never publish your email address. Write to us at any time and we will stop
+  using your words: they come out of the store pages and the next app release, and we
+  delete the email unless we must keep it to show what you agreed to.</p>
 
 <h2>3. Legal bases (GDPR Art. 6 and Art. 9)</h2>
 <div class="table-scroll">
@@ -154,7 +218,7 @@
       <td>Event names, a hashed install-scoped identifier and TelemetryDeck's default
         device payload, while "Share anonymous usage" is on</td>
       <td>See where people abandon onboarding, so the screens that lose them can be
-        fixed</td>
+        fixed, and show the running totals described above</td>
       <td><strong>Art. 6(1)(f)</strong> — legitimate interests (making the app work for
         the people it is meant for). Our assessment: no content, no advertising
         identifier, an identifier that cannot follow you between apps or survive
@@ -163,10 +227,26 @@
         being asserted over you</td>
     </tr>
     <tr>
+      <td>An AppsFlyer install identifier, AppsFlyer's default device payload, three event
+        names and trial or purchase events, while "Share anonymous usage" is on</td>
+      <td>Know which of our ads lead to people actually using the app, so we stop paying
+        for the ones that do not</td>
+      <td><strong>Art. 6(1)(f)</strong> — legitimate interests (advertising a recovery app
+        without wasting what funds it). Our assessment: no advertising identifier, no
+        content, matching to ads only through Apple's aggregated campaign reports, and the
+        same switch in Settings that ends it</td>
+    </tr>
+    <tr>
       <td>DNS lookups, while the shield is enabled</td>
       <td>Block gambling domains device-wide</td>
       <td><strong>Art. 6(1)(a)</strong> — your consent, given by enabling the shield and
         approving the iOS dialog; withdrawable at any time by turning it off</td>
+    </tr>
+    <tr>
+      <td>A line you choose to email us for publication</td>
+      <td>Show people who are just starting that others have been here</td>
+      <td><strong>Art. 6(1)(a) and Art. 9(2)(a)</strong> — your explicit consent, given by
+        switching on the agreement and sending the email; withdrawable at any time</td>
     </tr>
     <tr>
       <td>What you write in the app</td>
@@ -181,7 +261,9 @@
   information about health and about a possible behavioural addiction, which is
   special-category data under <strong>Art. 9</strong>. That is exactly why the app is
   designed the way it is: that data never reaches us, so we never rely on an Art. 9
-  condition for it.</p>
+  condition for it. The one exception is a line you choose to email us for publication:
+  it can reveal the same thing, so for that we rely on your explicit consent under
+  Art. 9(2)(a).</p>
 <p>The harder question is the analytics, and we would rather work through it than wave
   it away. A signal reading <code>funnel.question_04</code> carries no content — but
   Silex is a gambling-recovery app, and the Court of Justice has held that data which
@@ -199,6 +281,13 @@
   the more cautious of the two readings is the one worth being wrong in. A subscription
   receipt is unchanged: it does not reveal a health condition beyond the fact that you
   bought an app.</p>
+<p>What reaches AppsFlyer is weaker on that test and we treat it accordingly. Its
+  identifier is random and scoped to this app, but it is not double-hashed, and it
+  arrives together with a device model, an IP address and purchase events. We treat it as
+  pseudonymous personal data, held by a processor under its data processing addendum
+  (§4), on the Art. 6 basis in the table and with the same opt-out. It says "this install
+  came to Silex and started a trial"; it does not say who you are, and it contains
+  nothing you recorded in the app.</p>
 <p>This is the one paragraph here where competent lawyers can reasonably land in
   different places, and we would rather say so than let it read as settled.</p>
 
@@ -237,6 +326,17 @@
   not available to us from this vendor, because it declines the role that creates them.
   <em>Verified against TelemetryDeck's published privacy policy, data processing
   agreement and architecture &amp; security pages on 17 August 2026.</em></p>
+<p><strong>AppsFlyer</strong> is an Israeli company (AppsFlyer Ltd., Herzliya). Israel has
+  a European Commission adequacy decision (2011/61/EU). AppsFlyer's data processing
+  addendum names it the <strong>processor</strong> and us the controller, and its
+  published sub-processor list gives its hosting providers as Amazon Web Services and
+  Google Cloud, in the "EU/USA". For transfers outside adequate countries the addendum
+  incorporates the <strong>Standard Contractual Clauses</strong> (Implementing Decision
+  (EU) 2021/914), <strong>Module Two — controller to processor</strong>, and for the UK
+  the ICO's <strong>International Data Transfer Addendum</strong>. We have not verified
+  which region our data is stored in. <em>Verified against AppsFlyer's published data
+  processing addendum (February 2023), sub-processor list and services privacy policy on
+  19 November 2026.</em></p>
 <p><strong>Apple</strong> — see Apple's privacy policy for its own transfer safeguards.
   Your private iCloud data is governed by Apple's terms and is not transferred by us,
   because we never hold it.</p>
@@ -245,19 +345,26 @@
   a direct collection rather than a Chapter V transfer (per EDPB Guidelines 05/2021 on
   the interplay of Art. 3 and Chapter V). In practice there is almost nothing to
   collect: there is no account, and the only personal data we can see is the pseudonymous
-  subscription record in RevenueCat's dashboard and the aggregate counts in
-  TelemetryDeck's.</p>
+  subscription record in RevenueCat's dashboard, the aggregate counts in
+  TelemetryDeck's, and the per-install records in AppsFlyer's.</p>
 
 <h2>5. How long anything is kept</h2>
 <ul>
   <li><strong>On your device and in your private iCloud:</strong> until you delete it.
     We cannot delete it for you, and we cannot stop you deleting it.</li>
-  <li><strong>On our systems:</strong> nothing, because we operate none. The only
-    third-party server holding anything of ours is TelemetryDeck's — see below.</li>
+  <li><strong>On our systems:</strong> nothing, because we operate none. The third-party
+    servers holding anything of ours are RevenueCat's, TelemetryDeck's and AppsFlyer's —
+    see below.</li>
+  <li><strong>A line you emailed us for publication:</strong> for as long as we use your
+    words, until you ask us to stop. See section 2.</li>
   <li><strong>Purchase records:</strong> retained by Apple and RevenueCat under their
     own retention schedules, and as required by tax and accounting law.</li>
   <li><strong>Usage counts on your device:</strong> removed when the app is
     deleted.</li>
+  <li><strong>Install and event records held by AppsFlyer:</strong> its services privacy
+    policy says it does not retain end-user data for more than <strong>twenty-four
+    months</strong>. A record can be deleted sooner through AppsFlyer's own form
+    (section 2).</li>
   <li><strong>Event names held by TelemetryDeck:</strong> <strong>it publishes no
     deletion schedule for them.</strong> Its plans quote a retention figure — 90 days on
     the free tier, longer on paid ones — but that is a <em>query</em> window: how far
@@ -306,6 +413,10 @@
     removes the sink and deletes the batch waiting on disk. You do not have to write to
     us and you do not have to give a reason. What was already sent cannot be pulled back,
     and cannot be found again either, because nothing in it identifies you.</li>
+  <li><strong>Ad measurement</strong> — the same switch is your objection to this too. To
+    have what AppsFlyer already holds about your install deleted, use AppsFlyer's own form
+    (section 2). We cannot look your install up for you, for the reason above: we hold
+    nothing that ties an install to a person.</li>
 </ul>
 <p>Write to <a href="mailto:support@trysilex.com">support@trysilex.com</a> and we will
   respond within one month, as required by Art. 12(3).</p>
@@ -338,6 +449,11 @@
   content stays on your phone, the identifier attached to those counts cannot be tied to
   you or followed between apps, and the whole thing has a switch. What we gave up is the
   ability to say the word <em>none</em>.</p>
+<p>In November 2026 a second vendor was added: AppsFlyer is told that an install happened
+  and whether a trial or purchase followed, so that we can tell which ads are worth
+  running. That is a second reduction, and the same things survive it — nothing you
+  recorded leaves your phone, no advertising identifier exists, and the switch covers
+  it.</p>
 
 <h2>10. Children</h2>
 <p>Silex is intended for adults and is not directed at children. We do not knowingly
@@ -355,6 +471,9 @@
   sent beside it — visible to anyone who looks, not pushed at anyone who does not. That
   is less than the old sentence promised, which is exactly why the sentence had to change
   rather than the account of what happened.</p>
+<p>Adding AppsFlyer in November 2026 is a material change of the same kind, and it ships
+  the same way: named here and in the release notes, under the switch that was already
+  there, with the sentence beside that switch changed to say so.</p>
 <p>So the promise now reads: material changes are named in this section and in the App
   Store release notes of the version that makes them, and any change that widens what
   leaves your device ships with the control for it in the same release.</p>
