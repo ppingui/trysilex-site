@@ -38,7 +38,7 @@
   <h1>Privacy Policy</h1>
 
 
-<p class="small">Last updated: 19 November 2026. Canonical version of this notice; it
+<p class="small">Last updated: 22 November 2026. Canonical version of this notice; it
   replaces the Notion-hosted copy linked from older builds of the app.</p>
 
 <p class="lede">Silex is built on one principle: <strong>your recovery is nobody's
@@ -181,7 +181,8 @@
 </ul>
 <p>How an install is matched to an ad: through Apple's own aggregated reports
   (SKAdNetwork and AdAttributionKit), which name a <em>campaign</em> and never a person.
-  Apple sends them to the ad network, and iOS sends AppsFlyer a copy.</p>
+  Apple sends them to the ad network, and iOS sends AppsFlyer a copy. There is one
+  exception, which began on 22 November 2026: see "Meta ads" below.</p>
 <p>Ads in the App Store itself work slightly differently. For those, iOS gives the app a
   one-time token (Apple's AdServices), and AppsFlyer and RevenueCat each exchange it with
   Apple for the campaign and search term that led to this install. The token identifies
@@ -206,6 +207,41 @@
   See <a href="https://www.appsflyer.com/legal/services-privacy-policy/" rel="nofollow">AppsFlyer's
   services privacy policy</a>.</p>
 
+<h3>Meta ads — from 22 November 2026</h3>
+<p>We are starting to advertise on Facebook and Instagram. Meta's install campaigns for
+  iPhone apps count installs only by Meta's own method (it calls it Aggregated Event
+  Measurement), and that method needs records from the app. Apple's aggregated reports
+  on their own were not offered to us as a way to count. So from 22 November 2026
+  AppsFlyer passes part of what it receives on to Meta (<strong>Meta Platforms Ireland
+  Ltd.</strong> for people in Europe, <strong>Meta Platforms, Inc.</strong>
+  elsewhere):</p>
+<ul>
+  <li>that the app was installed, and each time it is opened — for every install where
+    this switch is on, whether or not an ad had anything to do with it;</li>
+  <li>for installs that AppsFlyer puts down to one of our Meta ads, the three event
+    names listed above;</li>
+  <li>with each of these, AppsFlyer's identifier for the install, the IP address the
+    request came from, and the device model and iOS version.</li>
+</ul>
+<p>Still not sent: a name, an email address, an advertising identifier,
+  <code>identifierForVendor</code>, or anything you wrote or chose in the app.</p>
+<p><strong>What this changes, said plainly.</strong> Before this date, nothing about a
+  single install reached an advertising company. Now Meta receives one record per
+  install. Under its terms it may match such a record to a person who uses Facebook or
+  Instagram, use it to measure our ads and to decide who is shown ads, and keep it for
+  up to two years. The record says that a device installed an app for people who want
+  to stop gambling. That is the kind of fact section 3 treats with care. This sharing
+  runs only while we advertise on Meta: if we stop, or if Meta lets a campaign for
+  Silex be counted by Apple's aggregated reports alone, we will switch it off and put
+  the date here. What Meta has received by then stays under Meta's terms; we cannot
+  pull it back.</p>
+<p><strong>The switch covers this too.</strong> Settings → Your data → <strong>Share
+  anonymous usage</strong>, off: AppsFlyer receives nothing further from your phone, so
+  it has nothing to pass on. To ask Meta about what it already holds, use the tools in
+  your Facebook or Instagram account, or
+  <a href="https://www.facebook.com/privacy/policy/" rel="nofollow">Meta's privacy
+  policy</a>.</p>
+
 <p>In the App Store's own vocabulary, the app declares <strong>no tracking</strong>
   (<code>NSPrivacyTracking</code> false, no tracking domains) and three collected data
   types — Product Interaction, Device ID and Purchase History — all marked <em>not linked
@@ -214,8 +250,12 @@
   subscription).</p>
 
 <p><strong>Nothing else.</strong> Those five network paths are the only ones the app
-  has. There are no advertising identifiers, no cross-app tracking, and no profiling or
-  automated decision-making that produces legal or similarly significant effects.</p>
+  has. There are no advertising identifiers, and we do no profiling or automated
+  decision-making that produces legal or similarly significant effects. While the Meta
+  sharing above is on, it is the one place where a record of your install can be put
+  together with what another company already knows about you. The declaration in the
+  paragraph above was written before it began; we are reviewing whether it has to
+  change, and any change will be named in section 11.</p>
 
 <h3>A line for other people — only if you send one</h3>
 <p>After you finish program Day 7, the app may ask once whether you would share a
@@ -264,8 +304,20 @@
         for the ones that do not</td>
       <td><strong>Art. 6(1)(f)</strong> — legitimate interests (advertising a recovery app
         without wasting what funds it). Our assessment: no advertising identifier, no
-        content, matching to ads only through Apple's aggregated campaign reports, and the
-        same switch in Settings that ends it</td>
+        content, matching to ads only through Apple's aggregated campaign reports (apart
+        from the Meta sharing in the next row), and the same switch in Settings that ends
+        it</td>
+    </tr>
+    <tr>
+      <td>From 22 November 2026, while we advertise on Meta: the install and app-open
+        records AppsFlyer passes to Meta, with AppsFlyer's install identifier, IP address,
+        device model and iOS version (section 2, "Meta ads")</td>
+      <td>Let Meta count the installs its ads lead to, which its iPhone install campaigns
+        require</td>
+      <td><strong>Art. 6(1)(f)</strong> — legitimate interests, and the weakest use of
+        that basis in this table: the record goes to a company that can match it to an
+        account. Our assessment rests on nothing you recorded being in it, on it running
+        only while we advertise on Meta, and on the same switch ending it</td>
     </tr>
     <tr>
       <td>DNS lookups, while the shield is enabled</td>
@@ -368,6 +420,13 @@
   which region our data is stored in. <em>Verified against AppsFlyer's published data
   processing addendum (February 2023), sub-processor list and services privacy policy on
   19 November 2026.</em></p>
+<p><strong>Meta</strong> — for the sharing described in section 2. Meta Platforms Ireland
+  Ltd. is in the EU and passes data to Meta Platforms, Inc. in the United States under
+  Meta's own transfer terms. Under Meta's Business Tools Terms it acts as our processor
+  when it matches and measures, and as a joint controller with us when it uses what it
+  receives to decide who sees ads. <em>Read from Meta's Business Tools Terms on
+  20 November 2026; we have not verified Meta's transfer mechanism beyond what those
+  terms say.</em></p>
 <p><strong>Apple</strong> — see Apple's privacy policy for its own transfer safeguards.
   Your private iCloud data is governed by Apple's terms and is not transferred by us,
   because we never hold it.</p>
@@ -396,6 +455,9 @@
     policy says it does not retain end-user data for more than <strong>twenty-four
     months</strong>. A record can be deleted sooner through AppsFlyer's own form
     (section 2).</li>
+  <li><strong>Install and app-open records passed to Meta</strong> (section 2, "Meta
+    ads"): Meta's terms allow it to keep them for up to <strong>two
+    years</strong>.</li>
   <li><strong>Event names held by TelemetryDeck:</strong> <strong>it publishes no
     deletion schedule for them.</strong> Its plans quote a retention figure — 90 days on
     the free tier, longer on paid ones — but that is a <em>query</em> window: how far
@@ -485,6 +547,11 @@
   running. That is a second reduction, and the same things survive it — nothing you
   recorded leaves your phone, no advertising identifier exists, and the switch covers
   it.</p>
+<p>On 22 November 2026 there was a third, and it is the one we like least: while we
+  advertise on Facebook and Instagram, Meta is told that an install exists (section 2,
+  "Meta ads"). Nothing you recorded leaves your phone and the switch still covers it,
+  but for as long as it lasts we can no longer say that no advertising company learns
+  of a single install. If it ends, the date goes here.</p>
 
 <h2>10. Children</h2>
 <p>Silex is intended for adults and is not directed at children. We do not knowingly
@@ -508,6 +575,11 @@
 <p>So the promise now reads: material changes are named in this section and in the App
   Store release notes of the version that makes them, and any change that widens what
   leaves your device ships with the control for it in the same release.</p>
+<p>The Meta sharing of 22 November 2026 is a material change that this promise did not
+  foresee. Nothing new leaves your device; what changed is that AppsFlyer passes part of
+  it on, and that was switched on in AppsFlyer's settings, not in an app release. So
+  there were no release notes to name it in. It is named here on the day it began, the
+  existing switch covers it, and the next release's notes will mention it.</p>
 
 <h2>12. Contact</h2>
 <p><a href="mailto:support@trysilex.com">support@trysilex.com</a></p>

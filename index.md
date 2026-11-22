@@ -66,7 +66,7 @@ The crisis helplines are one tap away on the subscribe screen, free, whether or 
 
 ## Private because there is nothing to identify you by
 
-No account, no email, no password, no ad network, nothing that follows you between apps. Your answers, your spending figures, your journal and your lapses live on your phone, with an optional iCloud backup encrypted to your Apple account. We cannot read any of it. The one thing Silex sends is an anonymous count of which setup steps get finished, so what trips people up can be fixed. One switch in Settings turns it off.
+No account, no email, no password. Your answers, your spending figures, your journal and your lapses live on your phone, with an optional iCloud backup encrypted to your Apple account. We cannot read any of it. What Silex does send is an anonymous count of which setup steps get finished, so what trips people up can be fixed, and on iPhone a record that the app was installed, so we can tell which of our ads work. While we advertise on Facebook and Instagram, that install record is passed on to Meta. One switch in Settings turns all of it off.
 
 [The full privacy policy](https://trysilex.com/privacy/)
 
