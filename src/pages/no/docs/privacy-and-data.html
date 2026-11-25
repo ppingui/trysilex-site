@@ -1,0 +1,55 @@
+<!--meta
+{
+  "slug": "docs/privacy-and-data",
+  "en": "docs/privacy-and-data",
+  "type": "page",
+  "order": 8,
+  "updated": "2026-11-25",
+  "title": "Personvern i Silex: hvor dataene dine ligger",
+  "description": "Hva Silex lagrer og hvor (telefonen og din private iCloud), hvilke tjenester appen bruker, hvordan du slår av analyse, og hvordan du sletter alt.",
+  "h1": "Personvern og dataene dine"
+}
+-->
+<p class="lede">Silex har ingen kontoer og ingen egen server som lagrer noe om deg. Denne siden er den
+  praktiske oppsummeringen; <a href="/no/personvern/">personvernerklæringen</a> er den fullstendige, bindende
+  versjonen.</p>
+
+<h2>Hvor dataene dine ligger</h2>
+<ul>
+  <li><strong>På telefonen din.</strong> Svarene, dagene, sugene, sprekkene, løftene, dagboken og fremgangen
+    i programmet er lagret i appen.</li>
+  <li><strong>I din private iCloud</strong>, hvis iCloud er på for Apple-kontoen din. Silex speiler dataene
+    til din egen private iCloud-database, så de overlever en ny telefon. Bare Apple-kontoen din kan lese dem;
+    vi kan ikke. Uten iCloud blir dataene bare på telefonen.</li>
+</ul>
+
+<h2>Hva som forlater telefonen din</h2>
+<ul>
+  <li><strong>Abonnement (RevenueCat).</strong> Kjøpskvitteringer og en anonym bruker-ID for appen, så
+    abonnementet ditt virker og kan gjenopprettes. RevenueCat får også Apples anonyme token for
+    annonseattribusjon, hvis det finnes et.</li>
+  <li><strong>Anonym bruk (TelemetryDeck).</strong> Hvilke skjermer og steg som blir brukt, uten navn, svar
+    eller beløp. Slå det av i Innstillinger med <em>Del anonym bruk</em>.</li>
+  <li><strong>Annonsemåling (AppsFlyer).</strong> At appen ble installert, og om det førte til en
+    prøveperiode eller et kjøp, så vi kan se hvilke annonser det er verdt å betale for. Ingen annonse-ID og
+    ingenting du skriver. Fra 22. november 2026, så lenge vi annonserer på Facebook og Instagram, gir
+    AppsFlyer opplysningen om at appen er installert og åpnet videre til Meta, så Meta kan telle hva
+    annonsene deres fører til; <a href="/no/personvern/">personvernerklæringen</a> sier nøyaktig hva den
+    inneholder. Den samme bryteren, <em>Del anonym bruk</em>, slår av alt dette.</li>
+  <li><strong>DNS-oppslag</strong> går, mens skjoldet er på, til Mullvads DNS-tjeneste, som har en policy om
+    ikke å logge. Silex ser dem aldri.</li>
+  <li><strong>Oppdateringer av blokkeringslisten.</strong> Silex laster ned den offentlige blokkeringslisten
+    for pengespill fra et innholdsnettverk (CDN). Ingenting om deg sendes med forespørselen.</li>
+</ul>
+<p>Silex sender ingenting du skriver, og ingenting om nettstedene du besøker.</p>
+
+<h2>Å slette dataene dine</h2>
+<ol>
+  <li>Slett appen. Det fjerner alt på telefonen.</li>
+  <li>Hvis du brukte iCloud, må du også fjerne iCloud-kopien: <strong>Innstillinger › navnet ditt › iCloud ›
+    Administrer kontolagring › Silex</strong> (navnet på valget kan variere litt mellom iOS-versjoner).</li>
+  <li>For å fjerne DNS-skjoldet også: <strong>Innstillinger › Generelt › VPN, DNS og enhetsadministrering ›
+    DNS</strong>.</li>
+</ol>
+<p>Å slette appen avslutter ikke et abonnement; se <a href="/no/docs/subscriptions/">Abonnement</a>. Silex har
+  ingen eksport av data.</p>

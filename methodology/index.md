@@ -41,7 +41,7 @@ A lapse doesn't reset anything. It routes you to a **Reset day** built around re
 - **The program is not a clinical trial.** Silex applies material from evidence-based treatment; that is not the same as Silex itself having been trialled. Nobody has run a randomised study on this app, and until somebody has, we won't imply otherwise or quote an effectiveness figure.
 - **Screening is not diagnosis.** Every risk score in the app and on this site carries the same line: this isn't a diagnosis, it's a snapshot of risk based on a standard self-check.
 - **Helplines are re-verified every release**, because the numbers do change. The US national line changed in January 2026.
-- **The program is in English only** for now, and its self-exclusion and debt guidance is deepest for the United States and the United Kingdom.
+- **The program is written in English** and translated into 21 other languages. Its self-exclusion and debt guidance is deepest for the United States and the United Kingdom.
 
 If you spot something in the program that misrepresents a source, write to [support@trysilex.com](mailto:support@trysilex.com). That is a bug and it gets fixed like one.
 

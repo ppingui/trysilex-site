@@ -10,13 +10,13 @@ All Silex notifications are scheduled on your phone; none come from a server. Tu
 |---|---|
 | Today's program day | 9:00 each morning |
 | Evening pledge | 20:30 every evening, the classic urge window: a nudge to make today's pledge, or a reminder that SOS is one tap away if you already have |
-| Risky-hour heads-up | 30 minutes before the time you said urges hit hardest |
-| Milestones | 10:00 on days 3, 7, 14, 21, 30 and 90 |
+| Risky-hour heads-up | 30 minutes before the hour your urge log points to, or until it can tell, the time you said urges hit hardest. Evenings are left to the pledge reminder |
+| Milestones | The moment you reach 3, 7, 14, 21, 30 and 90 days free, or 10:00 if that falls outside 9:00 to 21:00 |
 | Still in your corner | After three days without opening the app |
-| Trial reminder | The day before a free trial ends |
-| After graduation | A check-in on day 120, then a weekly Sunday check |
+| Trial reminder | Two days before a free trial ends |
+| After graduation | A weekly Sunday check, and a check-in 30 days after you finish (day 120) |
 
-If you leave onboarding before subscribing, Silex sends up to three reminders, on days 1, 3 and 7. After a lapse, reminders are rescheduled.
+After a lapse, reminders are rescheduled.
 
 ## Discreet mode
 

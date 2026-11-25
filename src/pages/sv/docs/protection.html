@@ -1,0 +1,80 @@
+<!--meta
+{
+  "slug": "docs/protection",
+  "en": "docs/protection",
+  "type": "page",
+  "order": 2,
+  "updated": "2026-11-25",
+  "title": "Skyddslager: DNS-skölden och Safari-blockeraren",
+  "description": "Så blockerar Silex spel om pengar: DNS-skölden för hela systemet, Safari-blockeraren och lagren utanför appen: Spelpaus, banken och reklamen.",
+  "h1": "Skyddslager"
+}
+-->
+<p class="lede">Fliken Skydd visar fem lager som en ring, <em>Aktiva lager: N/5</em>. Två slår du på i appen,
+  och de kontrolleras direkt mot systemet. Tre ordnar du utanför appen och markerar själv som klara.</p>
+
+<h2>1. DNS-sköld för hela systemet</h2>
+<p>Skölden är det enskilt största lagret. Den lägger in en inställning för krypterad DNS (DNS över HTTPS), så
+  att speldomäner inte laddas i någon app eller webbläsare på telefonen, inte bara i Safari. Uppslagen
+  besvaras av Mullvads DNS-server för familjer, enligt Mullvads policy att inte logga. Silex är inte
+  inblandad i uppslagen och ser aldrig vad du surfar på. Förutom spel om pengar filtrerar servern också
+  annonser, spårare, skadlig kod och vuxensajter.</p>
+<ol>
+  <li>Öppna <strong>Skydd</strong> i Silex och tryck på DNS-skölden (eller på förslaget <em>Slå på din
+    sköld</em> mot slutet av dag 1).</li>
+  <li>Godkänn frågan från iOS om att lägga till en DNS-konfiguration.</li>
+  <li>Öppna <strong>Inställningar › Allmänt › VPN, DNS och enhetshantering › DNS</strong> och välj
+    <strong>Silex Shield</strong>. (Så länge ingen DNS-konfiguration är tillagd heter menyn bara VPN och
+    enhetshantering.)</li>
+</ol>
+<p>Raden i Silex lyder då <em>Aktiv — blockerar spel om pengar i dina appar och webbläsare</em>. Står det
+  <em>Installerad</em> är steg 3 inte klart än.</p>
+
+<h2>2. Safari-blockerare</h2>
+<p>En innehållsblockerare för Safari som heter <strong>Silex Site Blocker</strong> blockerar speldomäner i
+  Safari utifrån en lista som ligger på din telefon. Den inbyggda listan har ungefär 294 000 domäner, och
+  Silex lägger till en offentlig blocklista för spel (ungefär 698 000 domäner den
+  <time datetime="2026-11-25">25 november 2026</time>) som laddas ner och uppdateras
+  i bakgrunden med några dagars mellanrum. Kontrollen mot listan sker på telefonen, och inget om vad du
+  surfar på skickas någonstans.</p>
+<ol>
+  <li>Öppna <strong>Skydd</strong> i Silex och följ guiden för Safari, eller gå direkt till iPhonens
+    inställningar.</li>
+  <li>Öppna <strong>Inställningar › Appar › Safari › Tillägg</strong>.</li>
+  <li>Slå på <strong>Silex Site Blocker</strong>.</li>
+</ol>
+<p>När den är på visar raden hur många speldomäner som är blockerade. Den täcker bara Safari. Andra
+  webbläsare täcks av DNS-skölden.</p>
+
+<h2>3. Självavstängning</h2>
+<p>Självavstängning stänger dig ute från spelbolagen och går inte att häva på en impuls. Silex pekar på det
+  som gäller där du bor. I Sverige är det Spelpaus.se: en registrering stänger av dig från allt spel som
+  kräver registrering hos alla spelbolag med svensk licens, i 10 dagar, 1, 3 eller 6 månader eller tills
+  vidare (minst 12 månader). Du kan inte avsluta den i förtid. Vår
+  <a href="/sv/stang-av-dig-fran-spel/">guide till självavstängning</a> går igenom den i detalj. Tryck på
+  <em>Det har jag gjort</em> när den är på plats.</p>
+
+<h2>4. Spelspärr hos banken</h2>
+<p>En spelspärr gör att banken nekar betalningar till spelbolag, och den tar tid att häva. I Sverige är det
+  ovanligt: vi har inte hittat någon storbank som beskriver en sådan spärr för kunder, men Revolut har en,
+  och det är värt att fråga din bank. Silex visar hur du letar efter inställningen i bankappen. Läs mer om
+  <a href="/sv/sparra-speltransaktioner-banken/">spelspärrar hos banken</a>.</p>
+
+<h2>5. Bort med reklamen</h2>
+<p>Avregistrera dig från spelbolagens mejl och sms och stäng av pushnotiser från spelappar, så att
+  erbjudandena inte dyker upp när du är som mest utsatt. Silex listar stegen för mejl, sms och push.</p>
+
+<h2>Begränsningarna, ärligt</h2>
+<ul>
+  <li>Ingen iPhone-app kan göra sig själv omöjlig att ta bort. Den som är bestämd kan stänga av skölden
+    eller radera Silex på några sekunder. Därför är lager 3 och 4 så viktiga: Spelpaus går inte att häva
+    på en impuls, och en spelspärr tar tid att ta bort om din bank har en.</li>
+  <li>Skärmtid och Family Controls (att blockera enskilda appar) ingår inte i Silex än. Du kan ändå låta någon
+    du litar på ställa in en lösenkod för Skärmtid i iOS.
+    <a href="/sv/blockera-spel-iphone/">Guiden för iPhone</a> visar var den finns på iOS 27 och
+    iOS 26.</li>
+  <li>En profil för enhetshantering från jobbet eller skolan kan gå före skölden, och på en sådan telefon
+    kan skölden vara helt spärrad.</li>
+  <li>Skölden följer inte med vid en fabriksåterställning eller till en ny telefon. Gör om inställningen
+    då.</li>
+</ul>

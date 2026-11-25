@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="nb">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Personvern i Silex: hvor dataene dine ligger</title>
+<meta name="description" content="Hva Silex lagrer og hvor (telefonen og din private iCloud), hvilke tjenester appen bruker, hvordan du slår av analyse, og hvordan du sletter alt.">
+<link rel="canonical" href="https://trysilex.com/no/docs/privacy-and-data/">
+<link rel="alternate" hreflang="da" href="https://trysilex.com/da/docs/privacy-and-data/">
+<link rel="alternate" hreflang="en" href="https://trysilex.com/docs/privacy-and-data/">
+<link rel="alternate" hreflang="fi" href="https://trysilex.com/fi/docs/privacy-and-data/">
+<link rel="alternate" hreflang="no" href="https://trysilex.com/no/docs/privacy-and-data/">
+<link rel="alternate" hreflang="sv" href="https://trysilex.com/sv/docs/privacy-and-data/">
+<link rel="alternate" hreflang="x-default" href="https://trysilex.com/docs/privacy-and-data/">
+<meta name="apple-itunes-app" content="app-id=6798826038">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#F5F3EE">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#0E1014">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Silex">
+<meta property="og:locale" content="nb_NO">
+<meta property="og:title" content="Personvern i Silex: hvor dataene dine ligger">
+<meta property="og:description" content="Hva Silex lagrer og hvor (telefonen og din private iCloud), hvilke tjenester appen bruker, hvordan du slår av analyse, og hvordan du sletter alt.">
+<meta property="og:url" content="https://trysilex.com/no/docs/privacy-and-data/">
+<meta property="og:image" content="https://trysilex.com/assets/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/assets/favicon.png" sizes="any">
+<link rel="apple-touch-icon" href="/assets/icon-180.png">
+<link rel="stylesheet" href="/styles.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Person","@id":"https://www.vitalityrize.me/#kyrylo","name":"Kyrylo Lozovyi","url":"https://trysilex.com/about/","jobTitle":"Independent iOS developer","worksFor":{"@id":"https://trysilex.com/#org"},"sameAs":["https://github.com/ppingui","https://www.vitalityrize.me/about/"]},{"@type":"Organization","@id":"https://trysilex.com/#org","name":"Silex — Stop Gambling","url":"https://trysilex.com","founder":{"@id":"https://www.vitalityrize.me/#kyrylo"},"email":"support@trysilex.com"}]}</script>
+
+</head>
+<body class="">
+<a class="skip" href="#main">Hopp til innholdet</a>
+<p class="agent-hint" aria-hidden="true">For AI agents: an index of every page on this site is at <a href="/llms.txt" tabindex="-1">/llms.txt</a>, and every page has a Markdown copy at its URL plus index.md.</p>
+
+<header class="site-head">
+  <div class="wrap head-inner">
+    <a class="logo" href="/no/"><span>Silex</span></a>
+    <nav class="main-nav" aria-label="Hovedmeny"><a href="/no/slutte-a-spille/">Slik slutter du</a><a href="/no/beste-apper-blokkere-pengespill/">Blokkering</a><a href="/no/test-spilleavhengighet/">Selvtest</a><a href="/no/om-silex/">Om</a></nav>
+    <details class="langs"><summary>Norsk</summary><nav aria-label="Språk"><a href="/docs/privacy-and-data/" hreflang="en" lang="en">English</a><a href="/sv/docs/privacy-and-data/" hreflang="sv" lang="sv">Svenska</a><a href="/no/docs/privacy-and-data/" hreflang="no" lang="nb" aria-current="true">Norsk</a><a href="/da/docs/privacy-and-data/" hreflang="da" lang="da">Dansk</a><a href="/fi/docs/privacy-and-data/" hreflang="fi" lang="fi">Suomi</a></nav></details>
+  </div>
+</header>
+<main id="main" class="wrap page">
+  <h1>Personvern og dataene dine</h1>
+
+
+<p class="lede">Silex har ingen kontoer og ingen egen server som lagrer noe om deg. Denne siden er den
+  praktiske oppsummeringen; <a href="/no/personvern/">personvernerklæringen</a> er den fullstendige, bindende
+  versjonen.</p>
+
+<h2>Hvor dataene dine ligger</h2>
+<ul>
+  <li><strong>På telefonen din.</strong> Svarene, dagene, sugene, sprekkene, løftene, dagboken og fremgangen
+    i programmet er lagret i appen.</li>
+  <li><strong>I din private iCloud</strong>, hvis iCloud er på for Apple-kontoen din. Silex speiler dataene
+    til din egen private iCloud-database, så de overlever en ny telefon. Bare Apple-kontoen din kan lese dem;
+    vi kan ikke. Uten iCloud blir dataene bare på telefonen.</li>
+</ul>
+
+<h2>Hva som forlater telefonen din</h2>
+<ul>
+  <li><strong>Abonnement (RevenueCat).</strong> Kjøpskvitteringer og en anonym bruker-ID for appen, så
+    abonnementet ditt virker og kan gjenopprettes. RevenueCat får også Apples anonyme token for
+    annonseattribusjon, hvis det finnes et.</li>
+  <li><strong>Anonym bruk (TelemetryDeck).</strong> Hvilke skjermer og steg som blir brukt, uten navn, svar
+    eller beløp. Slå det av i Innstillinger med <em>Del anonym bruk</em>.</li>
+  <li><strong>Annonsemåling (AppsFlyer).</strong> At appen ble installert, og om det førte til en
+    prøveperiode eller et kjøp, så vi kan se hvilke annonser det er verdt å betale for. Ingen annonse-ID og
+    ingenting du skriver. Fra 22. november 2026, så lenge vi annonserer på Facebook og Instagram, gir
+    AppsFlyer opplysningen om at appen er installert og åpnet videre til Meta, så Meta kan telle hva
+    annonsene deres fører til; <a href="/no/personvern/">personvernerklæringen</a> sier nøyaktig hva den
+    inneholder. Den samme bryteren, <em>Del anonym bruk</em>, slår av alt dette.</li>
+  <li><strong>DNS-oppslag</strong> går, mens skjoldet er på, til Mullvads DNS-tjeneste, som har en policy om
+    ikke å logge. Silex ser dem aldri.</li>
+  <li><strong>Oppdateringer av blokkeringslisten.</strong> Silex laster ned den offentlige blokkeringslisten
+    for pengespill fra et innholdsnettverk (CDN). Ingenting om deg sendes med forespørselen.</li>
+</ul>
+<p>Silex sender ingenting du skriver, og ingenting om nettstedene du besøker.</p>
+
+<h2>Å slette dataene dine</h2>
+<ol>
+  <li>Slett appen. Det fjerner alt på telefonen.</li>
+  <li>Hvis du brukte iCloud, må du også fjerne iCloud-kopien: <strong>Innstillinger › navnet ditt › iCloud ›
+    Administrer kontolagring › Silex</strong> (navnet på valget kan variere litt mellom iOS-versjoner).</li>
+  <li>For å fjerne DNS-skjoldet også: <strong>Innstillinger › Generelt › VPN, DNS og enhetsadministrering ›
+    DNS</strong>.</li>
+</ol>
+<p>Å slette appen avslutter ikke et abonnement; se <a href="/no/docs/subscriptions/">Abonnement</a>. Silex har
+  ingen eksport av data.</p>
+  <section class="docs-toc">
+    <h2>Silex-dokumentasjon</h2>
+    <ul>
+      <li><a href="/no/docs/">Silex-dokumentasjon</a></li>
+      <li><a href="/no/docs/getting-started/">Kom i gang</a></li>
+      <li><a href="/no/docs/protection/">Beskyttelseslag</a></li>
+      <li><a href="/no/docs/sos/">SOS-knappen</a></li>
+      <li><a href="/no/docs/program/">90-dagersprogrammet</a></li>
+      <li><a href="/no/docs/progress/">Fremgang, penger beholdt og orber</a></li>
+      <li><a href="/no/docs/notifications/">Varsler og widgeter</a></li>
+      <li><a href="/no/docs/subscriptions/">Abonnement</a></li>
+      <li><a href="/no/docs/privacy-and-data/" aria-current="page">Personvern og dataene dine</a></li>
+      <li><a href="/no/docs/settings/">Oversikt over innstillingene</a></li>
+      <li><a href="/no/docs/troubleshooting/">Feilsøking</a></li>
+    </ul>
+  </section>
+</main>
+
+<div class="help-band">
+  <div class="wrap">
+  <aside class="helplines" aria-label="Hvis du trenger å snakke med noen nå">
+    <h2>Hvis du trenger å snakke med noen nå</h2>
+    <ul>
+      <li><span class="hl-region">Norge</span><a href="tel:80080040">800 800 40</a><span class="hl-note">Hjelpelinjen for pengespill: gratis og anonym, hverdager 09–18</span></li>
+      <li><span class="hl-region">Norge</span><a href="tel:116123">116 123</a><span class="hl-note">Mental Helse: gratis og døgnåpen, for alle som trenger noen å snakke med</span></li>
+      <li><span class="hl-region">Nødsituasjon</span><a href="tel:113">113</a><span class="hl-note">Fare for liv og helse</span></li>
+      <li><span class="hl-region">Andre land</span><a href="https://findahelpline.com">findahelpline.com</a><span class="hl-note">Krisetelefoner der du er</span></li>
+    </ul>
+  </aside>
+  </div>
+</div>
+
+<footer class="site-foot">
+  <div class="wrap">
+    <p class="disclaimer">Silex hjelper deg med å bygge sunnere vaner rundt pengespill. Det er ikke helsehjelp, stiller ingen diagnoser og behandler ingen tilstander. Er du i krise, bruk numrene over.</p>
+    <nav aria-label="Bunntekst"><a href="/no/">Hjem</a>
+      <a href="/no/om-silex/">Om Silex</a>
+      <a href="/no/metode/">Metode</a>
+      <a href="/no/docs/">Dokumentasjon</a>
+      <a href="/no/support/">Brukerstøtte</a>
+      <a href="/no/personvern/">Personvern</a>
+      <a href="/no/vilkar/">Vilkår</a></nav>
+    <p class="copy">© 2026 Silex · Laget av <a href="/no/om-silex/">Kyrylo Lozovyi</a> i Kyiv, Ukraina · <a href="mailto:support@trysilex.com">support@trysilex.com</a>
+      · Fra samme utvikler: <a href="https://www.vitalityrize.me/">VitalityRise</a>, bekkenbunnstrening for menn</p>
+  </div>
+</footer>
+</body>
+</html>

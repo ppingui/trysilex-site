@@ -2,7 +2,7 @@
 
 # The 90-day program
 
-The program is called *Storm to Clarity*: 90 authored days, one a day, each about four minutes. It is built from cognitive behavioural therapy for gambling and the research on how gambling products are designed; the sources are on the [methodology page](https://trysilex.com/methodology/).
+The program is called *Storm to Clarity*: 90 authored days, one a day, most of them about four minutes. It is built from cognitive behavioural therapy for gambling and the research on how gambling products are designed; the sources are on the [methodology page](https://trysilex.com/methodology/).
 
 ## Three phases
 
@@ -20,7 +20,7 @@ Each day is a short deck of cards: reading, quizzes, sliders, fill-ins, simulato
 
 ## How days unlock
 
-- One new day unlocks per calendar day. When you finish, Silex shows *Done for today. Day N unlocks tomorrow.* You can *Read again* any finished day.
+- One new day unlocks per calendar day. When you finish, Silex shows *Done for today. Day N unlocks tomorrow.* You can open any finished day and read it again.
 - Days never expire. If you miss a day, the program waits for you; it only moves on when you complete the current day.
 - After three or more quiet days, you're welcomed back where you left off.
 
@@ -34,7 +34,7 @@ A lapse is a moment, not the end of your recovery. Tap **I gambled — reset wit
 
 What changes afterwards:
 
-- Your **current run** starts again from the lapse. Your total **days free** is never wiped: it keeps every gamble-free day you've had.
+- One day comes off your **days free**. Everything else stays: the count isn't reset.
 - A **Reset day** is added before your next scheduled day. It doesn't use up a calendar day, and finishing it earns the *Kintsugi* orb.
 - Your reminders are rescheduled around the lapse.
 

@@ -6,7 +6,7 @@ An urge to gamble usually peaks and passes within about 20 to 30 minutes. The SO
 
 ## The four steps
 
-1. **Rate it.** *How strong is the urge right now?* on a 1 to 10 dial, then *Help me through it*.
+1. **Rate it.** *How strong is the urge right now?* on a 1 to 10 scale, then *Help me through it*.
 2. **Breathe.** Three rounds of slow breathing: in for 4, hold for 4, out for 6. *Skip to the wave* jumps ahead.
 3. **Ride the wave.** A 10-minute urge-surfing timer. It also runs as a Live Activity on the Lock Screen and in the Dynamic Island, so you can put the phone down. Tap *The urge has passed* whenever it has, or *I made it* when the timer ends.
 4. **Anchor.** Your own reasons for quitting, the money you've kept (unless you hide money amounts), and up to three of your own answers from the program. Then *How's the urge now?* and *I rode it out*.
@@ -19,7 +19,7 @@ On the Today tab, **Riding an urge?** offers *Log it*, a quick sheet to record t
 
 ## Opening SOS fast
 
-- **In the app:** the **SOS** button floats over every tab.
+- **In the app:** the **SOS** button sits in the corner of every tab.
 - **Control Center:** add the Silex **SOS** control to open the flow in one press. Control Center controls need iOS 18 or later.
 - **Siri and Shortcuts:** *Open SOS*. Silex also offers *Log an urge*, *Make today's pledge* and *Days free* as shortcuts.
 

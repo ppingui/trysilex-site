@@ -1,0 +1,97 @@
+<!--meta
+{
+  "slug": "rakna-ut-spelforluster",
+  "en": "gambling-loss-calculator",
+  "type": "article",
+  "published": "2026-11-25",
+  "title": "Räkna ut dina spelförluster: vad spelandet kostar per år",
+  "description": "Skriv in vad du förlorar en vanlig vecka och se summan på ett, fem och tio år, och vad samma pengar hade kunnat växa till. Inget sparas.",
+  "h1": "Räkna ut dina spelförluster",
+  "tldr": "Skriv in vad du förlorar en vanlig vecka. Årssumman är den siffran × 52. De långa summorna lägger till ränta på ränta, för att visa storleken. De flesta blir mindre chockade av veckosiffran än av den för tio år. Inget du skriver sparas eller skickas.",
+  "faq": [
+    ["Ska jag räkna förluster eller allt jag satsat?", "Räkna nettoförluster: pengar som är borta, inte pengar som satsats. Det du satsat sammanlagt är oftast mycket mer än det du förlorat, eftersom vinster spelas bort igen, och tar du med det ser siffran dramatisk ut men betyder ingenting."],
+    ["Jag vet inte vad jag förlorar på en vecka. Hur tar jag reda på det?", "Ta kontoutdragen för de senaste tre månaderna, lägg ihop varje betalning till ett spelbolag och dra ifrån varje uttag därifrån. Dela med 13. Kontoutdraget fångar det minnet missar. De flesta gissar alldeles för lågt."],
+    ["Varför finns det en jämförelse med sparande?", "För att den ärliga kostnaden för spelandet inte bara är pengarna du förlorat, utan vad de pengarna hade kunnat bli. Siffran räknar med 8 % genomsnittlig avkastning per år och ränta på ränta varje månad. Den visar storleken. Det är ingen prognos, ingen rekommendation och ingen ekonomisk rådgivning."],
+    ["Räknas mina skulder med?", "Nej. Här räknas bara löpande förluster. Om spelandet har gett dig skulder är kommunens budget- och skuldrådgivning ett bättre nästa steg än en kalkylator. Den finns i varje kommun och är gratis."]
+  ]
+}
+-->
+<form class="tool" id="calc">
+  <fieldset>
+    <legend><label for="amount">Vad förlorar du en vanlig vecka?</label></legend>
+    <p>
+      <select id="currency" aria-label="Valuta">
+        <option value="SEK">kr SEK</option>
+        <option value="EUR">€ EUR</option>
+        <option value="NOK">NOK</option>
+        <option value="DKK">DKK</option>
+        <option value="USD">$ USD</option>
+        <option value="GBP">£ GBP</option>
+      </select>
+    </p>
+    <p><input type="number" id="amount" min="0" step="50" value="1000" inputmode="numeric"></p>
+    <p class="small">Nettoförluster, inte allt du satsat. Är du osäker är tre månaders kontoutdrag delat
+      med 13 säkrare än minnet.</p>
+  </fieldset>
+
+  <div class="result" aria-live="polite">
+    <p class="small">Borta på ett år</p>
+    <span class="num" id="year">52 000 kr</span>
+    <div class="table-scroll">
+      <table>
+        <thead><tr><th>Period</th><th>Förlorat</th><th>Om det hade växt i stället*</th></tr></thead>
+        <tbody>
+          <tr><td>1 år</td><td id="l1">—</td><td id="i1">—</td></tr>
+          <tr><td>5 år</td><td id="l5">—</td><td id="i5">—</td></tr>
+          <tr><td>10 år</td><td id="l10">—</td><td id="i10">—</td></tr>
+          <tr><td>20 år</td><td id="l20">—</td><td id="i20">—</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="small">*Bara för att visa storleken: samma belopp sparat varje månad med 8 % genomsnittlig
+      avkastning per år och ränta på ränta varje månad. En illustration, ingen prognos och ingen
+      ekonomisk rådgivning. Inget du skrev har sparats eller skickats.</p>
+  </div>
+</form>
+
+<h2>Varför det är siffran för tio år som träffar</h2>
+<p>En helg för 700 kronor känns som priset för lite underhållning. Tio år med sådana helger är mer än
+  350 000 kronor, en kontantinsats till en lägenhet. Det är inget konstigt med räkningen. Det konstiga
+  är att nästan ingen gör den, för spelförluster kommer i små bitar och står aldrig samlade på en enda
+  rad i kontoutdraget.</p>
+<p>Det är också därför siffran fungerar som ett verktyg för att sluta och inte som en pekpinne. Silex
+  tar samma veckobelopp och räknar <em>uppåt</em> från dagen du slutar, så att summan du skulle ha
+  förlorat blir summan du behöll. Samma räkning, åt andra hållet.</p>
+
+<h2>Vad siffran inte räknar med</h2>
+<ul>
+  <li><strong>Lån.</strong> Räntan på pengar du lånat för att spela kostar ofta mer än själva
+    förlusterna. PGSI frågar om lån av ett skäl: det är ett av de tydligaste tecknen på ett tungt
+    mönster.</li>
+  <li><strong>Tid.</strong> Timmarna i en app klockan ett på natten syns inte i kronor, och det är ofta
+    den förlust folk ångrar mest.</li>
+  <li><strong>Nästan-vinsterna som höll dig kvar.</strong> Förluster förklädda till vinster (du får
+    tillbaka mindre än du satsade, men det firas med ljud och färg) är en medveten del av moderna slots
+    och spelappar, inte en slump. <a href="/sv/metod/">Forskningen om det är värd att läsa.</a></li>
+</ul>
+
+<h2>Om siffran är värre än du trodde</h2>
+<p>Den reaktionen är information, ingen dom. Två steg till, i den här ordningen:</p>
+<ul>
+  <li><a href="/sv/test-spelberoende/">Gör PGSI-testet med 9 frågor</a>. Det tar två minuter och visar
+    var mönstret ligger.</li>
+  <li><a href="/sv/blockera-spel-iphone/">Sätt spärrar mellan dig och spelbolagen</a>. Börja med
+    telefonen och fortsätt med det som inte hänger på viljestyrka:
+    <a href="/sv/stang-av-dig-fran-spel/">Spelpaus</a> och
+    <a href="/sv/sparra-speltransaktioner-banken/">en spärr mot spelbetalningar</a>, om din bank har
+    en.</li>
+</ul>
+<p>Om spelandet har gett dig skulder, ta tag i dem parallellt. Varje kommun har
+  <a href="https://www.konsumentverket.se/ekonomi/kommunal-budget-och-skuldradgivning/" rel="nofollow">budget-
+  och skuldrådgivning</a> som är gratis och konfidentiell. Väntetider förekommer, så hör av dig tidigt.
+  Ingen där kommer att läxa upp dig.</p>
+
+{{cta:sv_calculator}}
+
+<script>window.LOSSCALC = { locale: "sv-SE" };</script>
+<script src="/assets/losscalc.js"></script>

@@ -2,9 +2,9 @@
 
 # How to block gambling on Android
 
-By [Kyrylo Lozovyi](https://trysilex.com/about/) · August 10, 2026 · Updated November 3, 2026
+By [Kyrylo Lozovyi](https://trysilex.com/about/) · August 10, 2026 · Updated November 25, 2026
 
-**Short answer:** Android has the best free gambling block of any phone platform and almost nobody uses it: **Settings → Network & internet → Private DNS → Private DNS provider hostname**, set to a filtering resolver such as `family.dns.mullvad.net`. That covers every app and every browser, on Wi-Fi and mobile data, in about two minutes, at no cost. Then layer **Family Link** (so someone else controls the settings), a **bank gambling block**, and **self-exclusion**.
+**Short answer:** Android has the best free gambling block of any phone platform and almost nobody uses it: **Settings → Network & internet → Private DNS → Private DNS provider hostname**, set to a filtering resolver such as `family.dns.mullvad.net`. That covers every app and every browser, on Wi-Fi and mobile data, in about two minutes, at no cost. Then layer a **PIN someone else keeps** (parental controls on Android 17, an app-limits PIN before that), a **bank gambling block**, and **self-exclusion**.
 
 **Straight answer first:** Silex is on Android now, but you don't need it for anything on this page. It's the setup we'd give a friend on Android, and the free built-in option is better than most of the paid apps.
 
@@ -28,23 +28,27 @@ Resolvers that filter gambling:
 
 **The catch:** it's a Settings toggle, so you can undo it in about a minute. That's still meaningful (most relapses are impulsive and a minute of friction stops a lot of them), but it is not a wall. Which is what the next steps are for.
 
-## 2. Make the settings not yours to change
+## 2. Put a PIN on it that isn't yours
 
-This is the step that turns a speed bump into something sturdier.
+This is the step that turns a speed bump into something sturdier. Uninstall every betting app first. Then have a partner, a friend or someone in your family choose the PIN and keep it.
 
-- **Google Family Link.** Put the device under supervision with a partner, parent or friend holding the supervising account. They can restrict app installs from the Play Store and control settings changes. Yes, it's built for parents; it works fine between adults who've agreed to it.
-- **Remove the apps and block reinstalls.** Uninstall every betting app, then use Family Link's Play Store controls so reinstalling needs someone else's approval.
-- **Digital Wellbeing** can add app timers and Focus mode. Useful for habit friction; trivially reversible, so don't count on it as a block.
+- **Android 17 and later: Parental controls.** Settings → **Parental controls** → **Set up Parental controls PIN**. **App store filters** → Google Play Store limits new installs by age rating, and Google requires real-money gambling apps to carry an [adults-only rating](https://support.google.com/googleplay/android-developer/answer/9877032). **App limits** blocks an app that's still on the phone. While the controls are on, adding users and resetting the phone ask for the PIN too. The recovery account can reset the PIN, so it should be theirs, not yours ([Google's steps](https://support.google.com/android/answer/16766047)).
+- **Older Android: an App limits PIN.** Settings → **Digital Wellbeing** → **App limits** → **App limits PIN**. With a PIN someone else keeps, a limit of zero [blocks the app](https://support.google.com/android/answer/9346420). Without a PIN, app timers and Focus mode are trivially reversible.
+- **Google Play's own content restrictions.** Play Store → your profile icon → **Settings** → **Family** → **Content restrictions**. An older Play PIN [can be reset](https://support.google.com/googleplay/answer/1075738) by clearing the Play Store's data, so treat it as friction.
+
+**Not Family Link.** It gets recommended a lot, but Google describes it for children and teens, and [only under-18s need a parent's approval](https://support.google.com/families/answer/7106787) to stop it. It isn't built to hold between two adults.
+
+Menus differ between phone makers, and none of these is documented to lock Private DNS itself.
 
 ## 3. Third-party blockers worth the money
 
 | App | Price | Worth it for |
 |---|---|---|
-| **BetBlocker** | Free, no ads, charity-run | A restriction period you set from 1 day to 5 years and cannot shorten once it starts: a real commitment device, given away |
+| **BetBlocker** | Free, no ads, run by a non-profit | A restriction period you set from 1 day to 5 years and cannot shorten once it starts: a real commitment device, given away |
 | **Gamban** | £4.99/month or £29.99/year, 7-day trial | One subscription across Android, iOS, Windows and Mac, [or its alternatives](https://trysilex.com/gamban-alternatives/) |
 | **GamBlock** | Paid, pricing not published on its homepage | Claims removal "cannot happen" on Android, including blocking factory resets. The heaviest lock, if the claims hold on your device |
 
-Prices verified against each vendor's own site on 10 August 2026. [Full comparison →](https://trysilex.com/best-gambling-blocker-apps/)
+Prices verified against each vendor's own site on 25 November 2026. [Full comparison →](https://trysilex.com/best-gambling-blocker-apps/)
 
 ## 4. The two layers that aren't on your phone at all
 
@@ -70,7 +74,7 @@ Every layer above buys you time during an urge, and urges pass in roughly 20 to 
 
 ### What is the best free gambling blocker for Android?
 
-Android's own Private DNS setting, pointed at a filtering resolver, blocks more than most paid apps do: every app and browser, on mobile data as well as Wi-Fi. For an app with a lockable commitment period, BetBlocker is free, charity-run, and supports Android.
+Android's own Private DNS setting, pointed at a filtering resolver, blocks more than most paid apps do: every app and browser, on mobile data as well as Wi-Fi. For an app with a lockable commitment period, BetBlocker is free, run by a non-profit, and supports Android.
 
 ### Does Private DNS work on mobile data?
 
@@ -78,7 +82,7 @@ Yes. That's what makes it better than router-level or Wi-Fi-only blocking, which
 
 ### Can I stop myself turning Private DNS off?
 
-Not by itself. It's a Settings toggle, so it's a speed bump rather than a wall. To make it stick, put the device under Family Link with someone else holding the account, or use a blocker that resists removal. And rely on the layers you can't undo at all: self-exclusion and a bank block.
+Not by itself. It's a Settings toggle, so it's a speed bump rather than a wall. A parental controls PIN that someone else keeps (Android 17 and later) can block apps and installs, but Google doesn't list Private DNS among the settings it locks. Family Link won't do it either: Google describes it for children and teens, and only under-18s need a parent's approval to stop it. Use a blocker that resists removal if you need one, and rely on the layers you can't undo at all: self-exclusion and a bank block.
 
 ### Does Silex work on Android?
 

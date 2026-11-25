@@ -8,7 +8,7 @@ The Protect tab shows five layers as a ring, *N/5 layers*. Two are switched on i
 
 The shield is the single biggest layer. It installs an encrypted-DNS (DNS over HTTPS) setting so that gambling domains fail to load in every app and browser on the phone, not just Safari. Lookups are answered by Mullvad's family DNS resolver, under Mullvad's no-logging policy; Silex is not in that path and never sees your browsing. Besides gambling, the family resolver also filters ads, trackers, malware and adult sites.
 
-1. In Silex, open **Protect** and tap the DNS shield (or *Turn on the shield* during first-run setup).
+1. In Silex, open **Protect** and tap the DNS shield (or the *Turn on your shield* tip near the end of Day 1).
 2. Approve the iOS dialog that asks to add a DNS configuration.
 3. Open **Settings › General › VPN, DNS & Device Management › DNS** and select **Silex Shield**.
 
@@ -16,7 +16,7 @@ The row in Silex then reads *Active — blocking gambling across your apps and b
 
 ## 2. Safari blocker
 
-A Safari content blocker called **Silex Site Blocker** blocks gambling domains inside Safari from a list stored on your phone. The bundled list holds about 294,000 domains, and Silex adds a public gambling blocklist (about 385,000 domains) that it downloads and refreshes in the background every few days. Checking a site against the list happens on the phone; nothing about your browsing is sent anywhere.
+A Safari content blocker called **Silex Site Blocker** blocks gambling domains inside Safari from a list stored on your phone. The bundled list holds about 294,000 domains, and Silex adds a public gambling blocklist (about 698,000 domains on 25 November 2026) that it downloads and refreshes in the background every few days. Checking a site against the list happens on the phone; nothing about your browsing is sent anywhere.
 
 1. In Silex, open **Protect** and follow the Safari guide, or go straight to iOS Settings.
 2. Open **Settings › Apps › Safari › Extensions**.
@@ -39,7 +39,7 @@ Unsubscribe from gambling emails and texts, and turn off push notifications from
 ## Limits, honestly
 
 - No iPhone app can make itself impossible to remove. Anyone determined can switch off the shield or delete Silex in seconds, which is why layers 3 and 4 matter: they can't be undone on impulse.
-- Screen Time and Family Controls (blocking specific apps) are not part of Silex yet. You can still set an iOS Screen Time passcode yourself and give it to someone you trust.
+- Screen Time and Family Controls (blocking specific apps) are not part of Silex yet. You can still have someone you trust set an iOS Screen Time passcode; the [iPhone guide](https://trysilex.com/block-gambling-sites-iphone/) shows where it is on iOS 27 and iOS 26.
 - A work or school device-management profile can override the shield, and a managed phone may block it entirely.
 - The shield doesn't survive a factory reset or a move to a new phone. Run the setup again.
 

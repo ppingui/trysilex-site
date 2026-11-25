@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="da">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Beskyttelseslag: DNS-skjold og Safari-blokering</title>
+<meta name="description" content="Sådan blokerer Silex pengespil: DNS-skjoldet for hele systemet, Safari-blokeringen og lagene uden for appen: ROFUS, din bank og reklamerne.">
+<link rel="canonical" href="https://trysilex.com/da/docs/protection/">
+<link rel="alternate" hreflang="da" href="https://trysilex.com/da/docs/protection/">
+<link rel="alternate" hreflang="en" href="https://trysilex.com/docs/protection/">
+<link rel="alternate" hreflang="fi" href="https://trysilex.com/fi/docs/protection/">
+<link rel="alternate" hreflang="no" href="https://trysilex.com/no/docs/protection/">
+<link rel="alternate" hreflang="sv" href="https://trysilex.com/sv/docs/protection/">
+<link rel="alternate" hreflang="x-default" href="https://trysilex.com/docs/protection/">
+<meta name="apple-itunes-app" content="app-id=6798826038">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#F5F3EE">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#0E1014">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Silex">
+<meta property="og:locale" content="da_DK">
+<meta property="og:title" content="Beskyttelseslag: DNS-skjold og Safari-blokering">
+<meta property="og:description" content="Sådan blokerer Silex pengespil: DNS-skjoldet for hele systemet, Safari-blokeringen og lagene uden for appen: ROFUS, din bank og reklamerne.">
+<meta property="og:url" content="https://trysilex.com/da/docs/protection/">
+<meta property="og:image" content="https://trysilex.com/assets/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/assets/favicon.png" sizes="any">
+<link rel="apple-touch-icon" href="/assets/icon-180.png">
+<link rel="stylesheet" href="/styles.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Person","@id":"https://www.vitalityrize.me/#kyrylo","name":"Kyrylo Lozovyi","url":"https://trysilex.com/about/","jobTitle":"Independent iOS developer","worksFor":{"@id":"https://trysilex.com/#org"},"sameAs":["https://github.com/ppingui","https://www.vitalityrize.me/about/"]},{"@type":"Organization","@id":"https://trysilex.com/#org","name":"Silex — Stop Gambling","url":"https://trysilex.com","founder":{"@id":"https://www.vitalityrize.me/#kyrylo"},"email":"support@trysilex.com"}]}</script>
+
+</head>
+<body class="">
+<a class="skip" href="#main">Gå til indhold</a>
+<p class="agent-hint" aria-hidden="true">For AI agents: an index of every page on this site is at <a href="/llms.txt" tabindex="-1">/llms.txt</a>, and every page has a Markdown copy at its URL plus index.md.</p>
+
+<header class="site-head">
+  <div class="wrap head-inner">
+    <a class="logo" href="/da/"><span>Silex</span></a>
+    <nav class="main-nav" aria-label="Hovedmenu"><a href="/da/stop-med-at-spille/">Sådan stopper du</a><a href="/da/bedste-apps-blokere-pengespil/">Blokering</a><a href="/da/test-ludomani/">Selvtest</a><a href="/da/om-silex/">Om</a></nav>
+    <details class="langs"><summary>Dansk</summary><nav aria-label="Sprog"><a href="/docs/protection/" hreflang="en" lang="en">English</a><a href="/sv/docs/protection/" hreflang="sv" lang="sv">Svenska</a><a href="/no/docs/protection/" hreflang="no" lang="nb">Norsk</a><a href="/da/docs/protection/" hreflang="da" lang="da" aria-current="true">Dansk</a><a href="/fi/docs/protection/" hreflang="fi" lang="fi">Suomi</a></nav></details>
+  </div>
+</header>
+<main id="main" class="wrap page">
+  <h1>Beskyttelseslag</h1>
+
+
+<p class="lede">Fanen Beskyt viser fem lag som en ring, <em>N/5 lag</em>. To af dem slår du til i appen, og de bliver
+  kontrolleret direkte mod systemet. Tre ordner du uden for appen og markerer selv som gjort.</p>
+
+<h2>1. DNS-skjold for hele systemet</h2>
+<p>Skjoldet er det største enkelte lag. Det installerer en indstilling til krypteret DNS (DNS over HTTPS), så
+  spildomæner ikke kan indlæses i nogen app eller browser på telefonen, ikke kun i Safari. Opslagene bliver besvaret
+  af Mullvads DNS-server til familier under Mullvads politik om ikke at logge. Silex er ikke inde over opslagene og
+  ser aldrig, hvad du browser. Ud over pengespil filtrerer serveren også annoncer, sporing, skadelig software og
+  voksensider.</p>
+<ol>
+  <li>Åbn <strong>Beskyt</strong> i Silex, og tryk på DNS-skjoldet (eller på rådet <em>Slå dit skjold til</em> hen mod
+    slutningen af dag 1).</li>
+  <li>Godkend dialogboksen fra iOS, der spørger, om der må tilføjes en DNS-konfiguration.</li>
+  <li>Åbn <strong>Indstillinger › Generelt › VPN, DNS og Administration af enhed › DNS</strong>, og vælg <strong>Silex
+    Shield</strong>. (Kan du ikke finde en menu med det navn, så åbn VPN og Administration af enhed.)</li>
+</ol>
+<p>Så står der <em>Aktiv — blokerer spil om penge i dine apps og browsere</em> på rækken i Silex. Står der
+  <em>Installeret</em>, mangler du trin 3.</p>
+
+<h2>2. Safari-blokering</h2>
+<p>En indholdsblokering til Safari, der hedder <strong>Silex Site Blocker</strong>, blokerer spildomæner i Safari ud
+  fra en liste, der ligger på din telefon. Den indbyggede liste rummer omkring 294.000 domæner, og Silex tilføjer en
+  offentlig blokeringsliste over spil (omkring 698.000 domæner den
+  <time datetime="2026-11-25">25. november 2026</time>), som appen henter og opdaterer i baggrunden med få
+  dages mellemrum. Siderne bliver tjekket mod listen på telefonen, og intet om, hvad du browser, bliver sendt nogen
+  steder.</p>
+<ol>
+  <li>Åbn <strong>Beskyt</strong> i Silex, og følg guiden til Safari, eller gå direkte til iPhonens
+    indstillinger.</li>
+  <li>Åbn <strong>Indstillinger › Apps › Safari › Udvidelser</strong>.</li>
+  <li>Slå <strong>Silex Site Blocker</strong> til.</li>
+</ol>
+<p>Når den er slået til, viser rækken, hvor mange spildomæner der er blokeret. Den dækker kun Safari. Andre browsere
+  er dækket af DNS-skjoldet.</p>
+
+<h2>3. Selvudelukkelse</h2>
+<p>Selvudelukkelse lukker dig ude hos spiludbyderne og kan ikke ophæves på en indskydelse. Silex viser ordningen for
+  dit område. I Danmark er det <strong>ROFUS</strong>, Spillemyndighedens register: én registrering med MitID lukker
+  dig ude af onlinespil hos udbydere med dansk tilladelse, af alle landbaserede kasinoer og af væddemål i butikker, i
+  24 timer, 1, 3 eller 6 måneder eller endeligt. Andre spiltyper er ikke omfattet. Udelukkelsen kan ikke fortrydes
+  eller forkortes, og en endelig udelukkelse kan tidligst søges slettet efter et år. En midlertidig udelukkelse
+  slutter af sig selv, så hold øje med datoen. Vores <a href="/da/udeluk-dig-fra-spil/">guide til selvudelukkelse</a>
+  gennemgår det hele. Tryk på <em>Det har jeg gjort</em>, når den er på plads.</p>
+
+<h2>4. Spilspærring i banken</h2>
+<p>En spilspærring får banken til at afvise betalinger til spiludbydere, og det tager tid at fjerne den igen. I
+  Danmark er det sjældent: vi har kun fundet en dokumenteret spærring hos Revolut, men spørg alligevel din bank. Silex
+  viser dig, hvordan du leder efter indstillingen i din bankapp. Læs mere om
+  <a href="/da/spaerre-pengespil-banken/">spilspærringer i banken</a>.</p>
+
+<h2>5. Væk med reklamerne</h2>
+<p>Afmeld mails og sms'er fra spiludbydere, og slå pushnotifikationer fra spilapps fra, så tilbuddene ikke dukker op,
+  når du er mest sårbar. Silex viser trinene for mail, sms og push.</p>
+
+<h2>Begrænsningerne, helt ærligt</h2>
+<ul>
+  <li>Ingen iPhone-app kan gøre sig selv umulig at fjerne. Den, der er besluttet på det, kan slå skjoldet fra eller
+    slette Silex på få sekunder. Derfor betyder lag 3 og 4 så meget: ROFUS kan ikke ophæves på en indskydelse, og en
+    spilspærring tager tid at fjerne, hvis din bank har en.</li>
+  <li>Skærmtid og Family Controls (blokering af bestemte apps) er ikke en del af Silex endnu. Du kan stadig lade en,
+    du stoler på, sætte en kode til Skærmtid i iOS.
+    <a href="/da/blokere-pengespil-iphone/">Guiden til iPhone</a> viser, hvor den ligger på iOS 27 og
+    iOS 26.</li>
+  <li>En profil til administration af enheden fra arbejde eller skole kan gå forud for skjoldet, og på en
+    administreret telefon kan skjoldet være helt blokeret.</li>
+  <li>Skjoldet overlever ikke en gendannelse til fabriksindstillinger eller et skift til en ny telefon. Lav
+    opsætningen igen.</li>
+</ul>
+  <section class="docs-toc">
+    <h2>Silex-dokumentation</h2>
+    <ul>
+      <li><a href="/da/docs/">Dokumentation til Silex</a></li>
+      <li><a href="/da/docs/getting-started/">Kom i gang</a></li>
+      <li><a href="/da/docs/protection/" aria-current="page">Beskyttelseslag</a></li>
+      <li><a href="/da/docs/sos/">SOS-knappen</a></li>
+      <li><a href="/da/docs/program/">90-dagesprogrammet</a></li>
+      <li><a href="/da/docs/progress/">Fremskridt, penge i behold og sfærer</a></li>
+      <li><a href="/da/docs/notifications/">Notifikationer og widgets</a></li>
+      <li><a href="/da/docs/subscriptions/">Abonnement</a></li>
+      <li><a href="/da/docs/privacy-and-data/">Privatliv og dine data</a></li>
+      <li><a href="/da/docs/settings/">Indstillinger, punkt for punkt</a></li>
+      <li><a href="/da/docs/troubleshooting/">Fejlfinding</a></li>
+    </ul>
+  </section>
+</main>
+
+<div class="help-band">
+  <div class="wrap">
+  <aside class="helplines" aria-label="Hvis du har brug for at tale med nogen nu">
+    <h2>Hvis du har brug for at tale med nogen nu</h2>
+    <ul>
+      <li><span class="hl-region">Danmark</span><a href="tel:70222825">70 22 28 25</a><span class="hl-note">StopSpillet: gratis og fortroligt, man–tor 9–21, fre 9–17 (lukket i weekenden)</span></li>
+      <li><span class="hl-region">Danmark</span><a href="tel:70201201">70 201 201</a><span class="hl-note">Livslinien: hver dag kl. 9–5, anonymt, almindelig telefontakst</span></li>
+      <li><span class="hl-region">Nødsituation</span><a href="tel:112">112</a><span class="hl-note">Akut livsfare</span></li>
+      <li><span class="hl-region">Andre lande</span><a href="https://findahelpline.com">findahelpline.com</a><span class="hl-note">Krisetelefoner, hvor du er</span></li>
+    </ul>
+  </aside>
+  </div>
+</div>
+
+<footer class="site-foot">
+  <div class="wrap">
+    <p class="disclaimer">Silex hjælper dig med at opbygge sundere vaner omkring pengespil. Det er ikke sundhedsbehandling, stiller ingen diagnoser og behandler ingen tilstande. Er du i krise, så brug numrene ovenfor.</p>
+    <nav aria-label="Sidefod"><a href="/da/">Hjem</a>
+      <a href="/da/om-silex/">Om Silex</a>
+      <a href="/da/metode/">Metode</a>
+      <a href="/da/docs/">Dokumentation</a>
+      <a href="/da/support/">Support</a>
+      <a href="/da/privatliv/">Privatliv</a>
+      <a href="/da/vilkar/">Vilkår</a></nav>
+    <p class="copy">© 2026 Silex · Udviklet af <a href="/da/om-silex/">Kyrylo Lozovyi</a> i Kyiv, Ukraine · <a href="mailto:support@trysilex.com">support@trysilex.com</a>
+      · Fra samme udvikler: <a href="https://www.vitalityrize.me/">VitalityRise</a>, bækkenbundstræning for mænd</p>
+  </div>
+</footer>
+</body>
+</html>

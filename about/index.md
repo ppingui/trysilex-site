@@ -4,11 +4,11 @@
 
 I built this because I watched someone close to me go through it, and at the time there wasn't much I could actually do. So this is me being useful a bit late.
 
-Quick honesty: I'm not a doctor, and there's no company here. It's one person — **Kyrylo Lozovyi**, an iOS developer in Kyiv. No investors, no growth team, no data science department — the only thing the app reports back is which setup steps get finished, and even that is anonymous and switchable off.
+Quick honesty: I'm not a doctor, and there's no company here. It's one person — **Kyrylo Lozovyi**, an iOS developer in Kyiv. No investors, no growth team, no data science department — what the app reports back is an anonymous count of which setup steps get finished and, on iPhone, a record that it was installed, so I can tell which of my ads work. While I advertise on Facebook and Instagram, Meta gets that install record. One switch in Settings turns all of it off.
 
 When it's someone you know, you start reading. I went down a rabbit hole on how betting apps are actually designed — the near-misses, the losses dressed up as wins with a little celebration sound, the whole thing tuned to keep you on the screen. Once you've seen it you can't unsee it. It's not a fair fight. One person is up against a building full of people paid to keep them betting, and we act like willpower should be enough to win that.
 
-So I spent a few weeks of nights building the other side of it. No investors, no ads, no server sitting somewhere with your worst nights on it. And one rule from day one: nothing in this app spins, nothing is random, nothing ever gives you a near-miss. That stuff works — that's exactly why it's not going anywhere near a recovery app.
+So I spent a few weeks of nights building the other side of it. No investors, no ads, no server sitting somewhere with your worst nights on it. And one rule from day one: nothing in this app spins, no reward is random, nothing ever gives you a near-miss. That stuff works — that's exactly why it's not going anywhere near a recovery app.
 
 If it helps you keep your money, it did its job.
 
@@ -24,7 +24,7 @@ Being a solo developer has one real disadvantage worth naming: there is no suppo
 
 These were fixed before the first line of code and have survived every redesign since:
 
-- **Nothing playable, ever.** No slot animation you can spin, no randomised reward, no near-miss, no mystery box, no fear of missing out. Gambling products work by dosing uncertainty, and a recovery app that borrows those mechanics is feeding the thing it claims to treat. The cold open in onboarding shows a machine playing itself precisely so you cannot touch it.
+- **Nothing playable, ever.** No slot animation you can spin, no randomised reward, no near-miss, no mystery box, no fear of missing out. Gambling products work by dosing uncertainty, and a recovery app that borrows those mechanics is feeding the thing it claims to treat. The slot machine in the program's X-ray lesson is three fixed pictures you step through, precisely so there is nothing to play.
 - **The panic button is never paywalled.** Neither are the crisis helplines or the lapse support. Charging someone for the worst sixty seconds of their month is indefensible.
 - **No shame mechanics.** Your history is never zeroed. A lapse triggers a lesson, not a punishment, and every milestone you earn is permanent.
 - **Wellness language, never diagnosis.** The app is explicit that it isn't medical care and that its self-check is a snapshot of risk, not a diagnosis.

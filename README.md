@@ -30,6 +30,17 @@ Page sources live in `src/pages/*.html`. Each one starts with a metadata block:
 `{{cta:campaign_name}}` anywhere in the body renders the App Store call-to-action.
 The campaign name becomes the `ct=` attribution token once `PROVIDER_TOKEN` is set.
 
+Silex's own prices live in one place, `PRICES` in `i18n.py` (App Store prices per country,
+read from App Store Connect). Pages use `{{price_week}}`, `{{price_year}}` and, in the docs,
+`{{price_table}}`; each language shows its own market. After a price change, edit `PRICES` and
+`PRICES_CHECKED` and rebuild.
+
+Translations live in `src/pages/<locale>/`. `sv`, `no` (Norwegian Bokmål), `da` and `fi` cover
+every English page except the 404; the older locales cover five pages each. The country pages
+(self-exclusion, bank blocks, debt help) are adapted, not translated: their facts, helplines
+and phone numbers were verified on the services' own sites on 2026-11-25. Re-verify before
+changing them.
+
 Then rebuild:
 
 ```bash

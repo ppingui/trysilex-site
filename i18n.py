@@ -5,7 +5,7 @@ and carries an "en" key in its meta naming the English page it translates, which
 is how build.py groups pages for hreflang.
 
 CRISIS RESOURCES ARE SAFETY-CRITICAL. Every number below was verified against an
-official or institutional source on 2026-10-26 (see the comment on each). Re-verify
+official or institutional source on 2026-10-26 (see the comment on each); Nordic lines on 2026-11-25. Re-verify
 before every publish, the same rule as App/Services/RegionResources.swift. Anything
 that could not be confirmed is deliberately absent.
 """
@@ -21,9 +21,77 @@ MONTHS = {
            "August", "September", "Oktober", "November", "Dezember"),
     "fr": ("janvier", "février", "mars", "avril", "mai", "juin", "juillet",
            "août", "septembre", "octobre", "novembre", "décembre"),
+    "sv": ("januari", "februari", "mars", "april", "maj", "juni", "juli",
+           "augusti", "september", "oktober", "november", "december"),
+    "no": ("januar", "februar", "mars", "april", "mai", "juni", "juli",
+           "august", "september", "oktober", "november", "desember"),
+    "da": ("januar", "februar", "marts", "april", "maj", "juni", "juli",
+           "august", "september", "oktober", "november", "december"),
+    "fi": ("tammikuuta", "helmikuuta", "maaliskuuta", "huhtikuuta", "toukokuuta",
+           "kesäkuuta", "heinäkuuta", "elokuuta", "syyskuuta", "lokakuuta",
+           "marraskuuta", "joulukuuta"),
     "ru": ("января", "февраля", "марта", "апреля", "мая", "июня", "июля",
            "августа", "сентября", "октября", "ноября", "декабря"),
 }
+
+
+# --- prices ------------------------------------------------------------------
+# App Store prices, read live from App Store Connect (asc subscriptions pricing
+# summary) on PRICES_CHECKED: country -> (currency, weekly, annual). The annual plan has
+# a 7-day free trial, the weekly plan none. Google Play prices differ a little (SE 37/369,
+# NO 35/355, FI 3.39/33.99, GB 2.69/26.99), so pages say the store shows the exact price.
+# This is the only place Silex's prices live: pages use {{price_week}}, {{price_year}} and
+# {{price_table}}.
+PRICES_CHECKED = "2026-11-25"
+PRICES = {
+    "US": ("USD", "2.99", "29.99"),
+    "GB": ("GBP", "2.99", "29.99"),
+    "SE": ("SEK", "39", "399"),
+    "NO": ("NOK", "39", "399"),
+    "DK": ("DKK", "29", "249"),
+    "FI": ("EUR", "2.99", "34.99"),
+}
+COUNTRIES = {
+    "en": {"US": "United States", "GB": "United Kingdom", "SE": "Sweden", "NO": "Norway",
+           "DK": "Denmark", "FI": "Finland"},
+    "sv": {"US": "USA", "GB": "Storbritannien", "SE": "Sverige", "NO": "Norge",
+           "DK": "Danmark", "FI": "Finland"},
+    "no": {"US": "USA", "GB": "Storbritannia", "SE": "Sverige", "NO": "Norge",
+           "DK": "Danmark", "FI": "Finland"},
+    "da": {"US": "USA", "GB": "Storbritannien", "SE": "Sverige", "NO": "Norge",
+           "DK": "Danmark", "FI": "Finland"},
+    "fi": {"US": "Yhdysvallat", "GB": "Iso-Britannia", "SE": "Ruotsi", "NO": "Norja",
+           "DK": "Tanska", "FI": "Suomi"},
+}
+# Offer names for the schema on translated homepages that have their own market.
+SCHEMA_OFFERS = {
+    "sv": ("Veckovis", "\u00c5rsvis, 7 dagars gratis provperiod"),
+    "no": ("Ukentlig", "\u00c5rlig, 7 dagers gratis pr\u00f8veperiode"),
+    "da": ("Ugentligt", "\u00c5rligt, 7 dages gratis pr\u00f8veperiode"),
+    "fi": ("Viikkotilaus", "Vuositilaus, 7 p\u00e4iv\u00e4n ilmainen kokeilu"),
+}
+NBSP = "\u00a0"
+
+
+def country_name(country: str, loc: str) -> str:
+    return COUNTRIES.get(loc, COUNTRIES["en"])[country]
+
+
+def price(country: str, plan: str, loc: str) -> str:
+    """One price the way this language writes it."""
+    currency, week, year = PRICES[country]
+    amount = week if plan == "week" else year
+    if loc == "en":
+        return {"USD": f"${amount}", "GBP": f"\u00a3{amount}", "EUR": f"\u20ac{amount}"}.get(
+            currency, f"{amount}{NBSP}{currency}")
+    amount = amount.replace(".", ",")
+    home_currency = {"sv": "SEK", "no": "NOK", "da": "DKK"}.get(loc)
+    if currency == home_currency:
+        return f"{amount}{NBSP}kr." if loc == "da" else f"{amount}{NBSP}kr"
+    sign = {"USD": "USD", "GBP": "\u00a3", "EUR": "\u20ac"}.get(currency, currency)
+    if loc == "fi" and currency == "EUR":
+        return f"{amount}{NBSP}\u20ac"
+    return f"{amount}{NBSP}{sign}"
 
 
 def pretty_date(iso: str, loc: str) -> str:
@@ -33,11 +101,11 @@ def pretty_date(iso: str, loc: str) -> str:
     name = MONTHS[loc][m - 1]
     if loc == "en":
         return f"{name} {d}, {y}"
-    if loc == "de":
+    if loc in ("de", "no", "da", "fi"):
         return f"{d}. {name} {y}"
     if loc in ("es", "pt-br"):
         return f"{d} de {name} de {y}"
-    return f"{d} {name} {y}"            # fr, ru
+    return f"{d} {name} {y}"            # fr, ru, sv
 
 
 # folder -> settings. "hreflang" is what goes in <link rel=alternate>,
@@ -55,6 +123,7 @@ LOCALES = {
         cta_p="Silex blocks gambling across your phone and walks you through 90 days, one at a time.",
         cta_btn="Get Silex on iPhone",
         cta_btn_android="Get Silex on Android",
+        price_head=("Country", "Weekly", "Annual", "App Store prices, checked"),
         nav=[("/how-to-stop-gambling/", "How to stop"),
              ("/best-gambling-blocker-apps/", "Blockers"),
              ("/gambling-self-check/", "Self-check"),
@@ -266,6 +335,167 @@ LOCALES = {
              "全国问题赌博援助热线 — 每天 8:00–23:00"),
             ("其他地区", "findahelpline.com", "https://findahelpline.com",
              "你所在地区的危机热线"),
+        ],
+    ),
+    "sv": dict(
+        html="sv", hreflang="sv", og="sv_SE", label="Svenska",
+        skip="Hoppa till innehållet", short="Kort svar:", faq="Vanliga frågor",
+        by="Av", updated="Uppdaterad", home="Hem", reviewed_by="Granskad av",
+        help_title="Om du behöver prata med någon nu",
+        disclaimer="Silex hjälper dig att bygga sundare vanor kring spel om pengar. Det är inte "
+                   "vård, ställer inga diagnoser och behandlar inga tillstånd. Är du i kris, "
+                   "ring numren ovan.",
+        cta_h="Sluta spela. Behåll pengarna.",
+        cta_p="Silex blockerar spel om pengar i hela telefonen och följer dig genom 90 dagar, en i taget.",
+        cta_btn="Hämta Silex till iPhone",
+        cta_btn_android="Hämta Silex till Android",
+        price_country="SE",
+        price_head=("Land", "Per vecka", "Per år", "App Store-priser, kontrollerade"),
+        ext=["Lägg till i Chrome", "Lägg till i Edge"],
+        docs_h="Silex dokumentation", about="/sv/om-silex/",
+        aria_main="Huvudmeny", aria_footer="Sidfot", aria_lang="Språk",
+        nav=[("/sv/sluta-spela/", "Så slutar du"),
+             ("/sv/basta-apparna-blockera-spel/", "Blockerare"),
+             ("/sv/test-spelberoende/", "Självtest"),
+             ("/sv/om-silex/", "Om Silex")],
+        footer=[("/sv/", "Hem"), ("/sv/om-silex/", "Om Silex"), ("/sv/metod/", "Metod"),
+                ("/sv/docs/", "Dokumentation"), ("/sv/support/", "Support"),
+                ("/sv/integritet/", "Integritet"), ("/sv/villkor/", "Villkor")],
+        built_by="Byggt av", in_city="i Kyiv, Ukraina",
+        also_by="Från samma utvecklare", vr_desc="bäckenbottenträning för män",
+        helplines=[
+            # stodlinjen.se/om-oss/oppettider, read 2026-11-25: Mon 9-19, Tue-Wed 9-17, Thu 11-19, Fri 9-15
+            ("Sverige", "020-81 91 00", "tel:020819100",
+             "Stödlinjen, spel om pengar: gratis och anonymt, vardagar (mån 9–19, tis–ons 9–17, tors 11–19, fre 9–15)"),
+            # foreningenspelfriheten.se/for-spelare: peer charity, not clinicians, 24/7
+            ("Sverige", "08-37 43 00", "tel:08374300",
+             "Föreningen Spelfriheten, kamratstöd för spelare och anhöriga, dygnet runt"),
+            # mind.se (archived copy 31 Oct 2026), 1177.se/stodlinjer
+            ("Sverige", "90101", "tel:90101",
+             "Självmordslinjen (Mind), dygnet runt, anonymt"),
+            # hjalplinjen.se
+            ("Sverige", "90390", "tel:90390",
+             "Hjälplinjen, dygnet runt, gratis och anonymt"),
+            ("Nödläge", "112", "tel:112", "Vid direkt livsfara"),
+            ("Andra länder", "findahelpline.com", "https://findahelpline.com",
+             "Krislinjer där du är"),
+        ],
+    ),
+
+    "no": dict(
+        html="nb", hreflang="no", og="nb_NO", label="Norsk",
+        skip="Hopp til innholdet", short="Kort svar:", faq="Vanlige spørsmål",
+        by="Av", updated="Oppdatert", home="Hjem", reviewed_by="Gjennomgått av",
+        help_title="Hvis du trenger å snakke med noen nå",
+        disclaimer="Silex hjelper deg med å bygge sunnere vaner rundt pengespill. Det er ikke "
+                   "helsehjelp, stiller ingen diagnoser og behandler ingen tilstander. Er du i "
+                   "krise, bruk numrene over.",
+        cta_h="Slutt å spille. Behold pengene.",
+        cta_p="Silex blokkerer pengespill på hele telefonen og følger deg gjennom 90 dager, én om gangen.",
+        cta_btn="Last ned Silex til iPhone",
+        cta_btn_android="Last ned Silex til Android",
+        price_country="NO",
+        price_head=("Land", "Per uke", "Per år", "App Store-priser, sjekket"),
+        ext=["Legg til i Chrome", "Legg til i Edge"],
+        docs_h="Silex-dokumentasjon", about="/no/om-silex/",
+        aria_main="Hovedmeny", aria_footer="Bunntekst", aria_lang="Språk",
+        nav=[("/no/slutte-a-spille/", "Slik slutter du"),
+             ("/no/beste-apper-blokkere-pengespill/", "Blokkering"),
+             ("/no/test-spilleavhengighet/", "Selvtest"),
+             ("/no/om-silex/", "Om")],
+        footer=[("/no/", "Hjem"), ("/no/om-silex/", "Om Silex"), ("/no/metode/", "Metode"),
+                ("/no/docs/", "Dokumentasjon"), ("/no/support/", "Brukerstøtte"),
+                ("/no/personvern/", "Personvern"), ("/no/vilkar/", "Vilkår")],
+        built_by="Laget av", in_city="i Kyiv, Ukraina",
+        also_by="Fra samme utvikler", vr_desc="bekkenbunnstrening for menn",
+        helplines=[
+            # hjelpelinjen.no, read 2026-11-25: weekdays 09-18; free and anonymous per blakors.no
+            ("Norge", "800 800 40", "tel:80080040",
+             "Hjelpelinjen for pengespill: gratis og anonym, hverdager 09–18"),
+            # mentalhelse.no/fa-hjelp/hjelpetelefonen
+            ("Norge", "116 123", "tel:116123",
+             "Mental Helse: gratis og døgnåpen, for alle som trenger noen å snakke med"),
+            ("Nødsituasjon", "113", "tel:113", "Fare for liv og helse"),
+            ("Andre land", "findahelpline.com", "https://findahelpline.com",
+             "Krisetelefoner der du er"),
+        ],
+    ),
+
+    "da": dict(
+        html="da", hreflang="da", og="da_DK", label="Dansk",
+        skip="Gå til indhold", short="Kort svar:", faq="Ofte stillede spørgsmål",
+        by="Af", updated="Opdateret", home="Hjem", reviewed_by="Gennemgået af",
+        help_title="Hvis du har brug for at tale med nogen nu",
+        disclaimer="Silex hjælper dig med at opbygge sundere vaner omkring pengespil. Det er ikke "
+                   "sundhedsbehandling, stiller ingen diagnoser og behandler ingen tilstande. Er "
+                   "du i krise, så brug numrene ovenfor.",
+        cta_h="Stop med at spille. Behold pengene.",
+        cta_p="Silex blokerer pengespil på hele din telefon og følger dig gennem 90 dage, én ad gangen.",
+        cta_btn="Hent Silex til iPhone",
+        cta_btn_android="Hent Silex til Android",
+        price_country="DK",
+        price_head=("Land", "Pr. uge", "Pr. år", "App Store-priser, tjekket"),
+        ext=["Føj til Chrome", "Føj til Edge"],
+        docs_h="Silex-dokumentation", about="/da/om-silex/",
+        aria_main="Hovedmenu", aria_footer="Sidefod", aria_lang="Sprog",
+        nav=[("/da/stop-med-at-spille/", "Sådan stopper du"),
+             ("/da/bedste-apps-blokere-pengespil/", "Blokering"),
+             ("/da/test-ludomani/", "Selvtest"),
+             ("/da/om-silex/", "Om")],
+        footer=[("/da/", "Hjem"), ("/da/om-silex/", "Om Silex"), ("/da/metode/", "Metode"),
+                ("/da/docs/", "Dokumentation"), ("/da/support/", "Support"),
+                ("/da/privatliv/", "Privatliv"), ("/da/vilkar/", "Vilkår")],
+        built_by="Udviklet af", in_city="i Kyiv, Ukraine",
+        also_by="Fra samme udvikler", vr_desc="bækkenbundstræning for mænd",
+        helplines=[
+            # stopspillet.dk, read 2026-11-25: phone Mon-Thu 9-21, Fri 9-17; confidential, closed at weekends
+            ("Danmark", "70 22 28 25", "tel:70222825",
+             "StopSpillet: gratis og fortroligt, man–tor 9–21, fre 9–17 (lukket i weekenden)"),
+            # livslinien.dk: every day 09-05, ordinary phone rate
+            ("Danmark", "70 201 201", "tel:70201201",
+             "Livslinien: hver dag kl. 9–5, anonymt, almindelig telefontakst"),
+            ("Nødsituation", "112", "tel:112", "Akut livsfare"),
+            ("Andre lande", "findahelpline.com", "https://findahelpline.com",
+             "Krisetelefoner, hvor du er"),
+        ],
+    ),
+
+    "fi": dict(
+        html="fi", hreflang="fi", og="fi_FI", label="Suomi",
+        skip="Siirry sisältöön", short="Lyhyesti:", faq="Usein kysyttyä",
+        by="Kirjoittanut", updated="Päivitetty", home="Etusivu", reviewed_by="Tarkistanut",
+        help_title="Jos tarvitset jonkun juuri nyt",
+        disclaimer="Silex auttaa rakentamaan terveempiä tapoja rahapelaamisen suhteen. Se ei ole "
+                   "terveydenhoitoa, ei diagnosoi eikä hoida mitään sairautta. Jos olet kriisissä, "
+                   "käytä yllä olevia numeroita.",
+        cta_h="Lopeta rahapelaaminen. Pidä rahasi.",
+        cta_p="Silex estää rahapelit koko puhelimessa ja kulkee kanssasi 90 päivää, yhden kerrallaan.",
+        cta_btn="Lataa Silex iPhoneen",
+        cta_btn_android="Lataa Silex Androidiin",
+        price_country="FI",
+        price_head=("Maa", "Viikko", "Vuosi", "App Store -hinnat, tarkistettu"),
+        ext=["Lisää Chromeen", "Lisää Edgeen"],
+        docs_h="Silexin ohjeet", about="/fi/tietoa-silexista/",
+        aria_main="Päävalikko", aria_footer="Alatunniste", aria_lang="Kieli",
+        nav=[("/fi/lopeta-rahapelaaminen/", "Näin lopetat"),
+             ("/fi/parhaat-rahapelien-estosovellukset/", "Estot"),
+             ("/fi/peliriippuvuustesti/", "Testi"),
+             ("/fi/tietoa-silexista/", "Tietoa")],
+        footer=[("/fi/", "Etusivu"), ("/fi/tietoa-silexista/", "Tietoa Silexistä"),
+                ("/fi/menetelma/", "Menetelmä"), ("/fi/docs/", "Ohjeet"), ("/fi/tuki/", "Tuki"),
+                ("/fi/tietosuoja/", "Tietosuoja"), ("/fi/kayttoehdot/", "Käyttöehdot")],
+        built_by="Tekijä", in_city="Kiova, Ukraina",
+        also_by="Samalta tekijältä", vr_desc="lantionpohjan harjoittelua miehille",
+        helplines=[
+            # peluuri.fi, read 2026-11-25: weekdays 12-18, free
+            ("Suomi", "0800 100 101", "tel:0800100101",
+             "Peluuri, rahapelaaminen: ilmainen ja nimetön, arkisin klo 12–18"),
+            # mieli.fi/tukea-ja-apua/kriisipuhelin: 24/7, not free of charge
+            ("Suomi", "09 2525 0111", "tel:0925250111",
+             "MIELI Kriisipuhelin, ympäri vuorokauden (oman operaattorin hinta)"),
+            ("Hätätilanne", "112", "tel:112", "Välitön hengenvaara"),
+            ("Muut maat", "findahelpline.com", "https://findahelpline.com",
+             "Kriisilinjat siellä missä olet"),
         ],
     ),
 }

@@ -1,0 +1,79 @@
+<!--meta
+{
+  "slug": "docs/protection",
+  "en": "docs/protection",
+  "type": "page",
+  "order": 2,
+  "updated": "2026-11-25",
+  "title": "Beskyttelseslag: DNS-skjold og Safari-blokkering",
+  "description": "Hvordan Silex blokkerer pengespill: DNS-skjoldet for hele systemet, Safari-blokkeringen, og de tre lagene du setter opp utenfor appen.",
+  "h1": "Beskyttelseslag"
+}
+-->
+<p class="lede">Vern-fanen viser fem lag som en ring, <em>Beskyttelseslag: N/5</em>. To slås på i appen og
+  kontrolleres løpende mot systemet. Tre skjer utenfor appen, og dem merker du som gjort selv.</p>
+
+<h2>1. DNS-skjold for hele systemet</h2>
+<p>Skjoldet er det største enkeltlaget. Det installerer en innstilling for kryptert DNS (DNS over HTTPS) som
+  gjør at spilldomener ikke lastes i noen app eller nettleser på telefonen, ikke bare i Safari. Oppslagene
+  besvares av Mullvads DNS-tjeneste for familier, som har en policy om ikke å logge; Silex er ikke med i den
+  veien og ser aldri hva du surfer på. I tillegg til pengespill filtrerer familietjenesten også reklame,
+  sporing, skadelig programvare og voksensider.</p>
+<ol>
+  <li>Åpne <strong>Vern</strong> i Silex og trykk på DNS-skjoldet (eller på rådet <em>Slå på skjoldet
+    ditt</em> mot slutten av dag 1).</li>
+  <li>Godkjenn dialogen der iOS spør om å legge til en DNS-konfigurasjon.</li>
+  <li>Åpne <strong>Innstillinger › Generelt › VPN, DNS og enhetsadministrering › DNS</strong> og velg
+    <strong>Silex Shield</strong>. Menyen kan også hete <em>VPN og enhetsadministrering</em>.</li>
+</ol>
+<p>Da står det <em>Aktiv — blokkerer pengespill i appene og nettleserne dine</em> på raden i Silex. Står det
+  <em>Installert</em>, er steg 3 ikke gjort ennå.</p>
+
+<h2>2. Safari-blokkering</h2>
+<p>En innholdsblokkering for Safari som heter <strong>Silex Site Blocker</strong> blokkerer spilldomener i
+  Safari fra en liste som ligger på telefonen din. Listen som følger med, har rundt 294&nbsp;000 domener, og
+  Silex legger til en offentlig blokkeringsliste for pengespill (rundt 698&nbsp;000 domener
+  <time datetime="2026-11-25">25. november 2026</time>) som appen laster
+  ned og oppdaterer i bakgrunnen med noen dagers mellomrom. Kontrollen av et nettsted mot listen skjer på
+  telefonen; ingenting om surfingen din sendes noe sted.</p>
+<ol>
+  <li>Åpne <strong>Vern</strong> i Silex og følg veiledningen for Safari, eller gå rett til Innstillinger i
+    iOS.</li>
+  <li>Åpne <strong>Innstillinger › Apper › Safari › Utvidelser</strong>.</li>
+  <li>Slå på <strong>Silex Site Blocker</strong>.</li>
+</ol>
+<p>Når den er på, viser raden hvor mange spilldomener som er blokkert. Den dekker bare Safari; andre
+  nettlesere dekkes av DNS-skjoldet.</p>
+
+<h2>3. Selvutestengelse</h2>
+<p>Selvutestengelse stenger deg ute fra spillselskaper for en fast periode og kan ikke oppheves på en impuls.
+  Silex viser ordningen der du bor: GAMSTOP i Storbritannia, delstatenes programmer i USA, og utestengelse
+  selskap for selskap andre steder. I Norge betyr det Norsk Tipping, Norsk Rikstoto og hvert bingoselskap med
+  nettspill du bruker. <a href="/no/utesteng-deg-fra-pengespill/">Guiden vår til selvutestengelse</a> går gjennom det i detalj. Trykk
+  <em>Dette har jeg gjort</em> når det er på plass.</p>
+
+<h2>4. Spillsperre i banken</h2>
+<p>I mange land kan banken avvise betalinger til spillselskaper, og det tar noen dager å oppheve sperren. I
+  Norge må bankene stoppe betalinger til og fra utenlandske spillselskaper uten norsk lisens, men ikke
+  betalinger til Norsk Tipping og Norsk Rikstoto. Silex tar deg gjennom hvor du finner innstillingen, hvis
+  banken din har en. Se <a href="/no/sperre-pengespill-banken/">hvordan spillsperrer i banken
+  virker</a>.</p>
+
+<h2>5. Vekk med reklamen</h2>
+<p>Meld deg av e-poster og SMS-er fra spillselskaper, og slå av push-varsler fra spillapper, så tilbudene
+  slutter å komme når du er sårbar. Silex lister opp stegene for e-post, SMS og push.</p>
+
+<h2>Begrensningene, ærlig sagt</h2>
+<ul>
+  <li>Ingen iPhone-app kan gjøre seg selv umulig å fjerne. Den som er fast bestemt, kan slå av skjoldet eller
+    slette Silex på noen sekunder. Det er derfor lag 3 og 4 betyr noe: En utestengelse, og en sperre som bare banken
+    kan oppheve, kan ikke angres på en impuls.</li>
+  <li>Skjermtid og Family Controls (å blokkere bestemte apper) er ikke en del av Silex ennå. Du kan likevel la
+    noen du stoler på sette en kode for Skjermtid i iOS.
+    <a href="/no/blokkere-pengespill-iphone/">Guiden for iPhone</a> viser hvor den ligger på iOS 27 og
+    iOS 26.</li>
+  <li>En administrasjonsprofil fra jobb eller skole kan overstyre skjoldet, og en telefon som administreres
+    av andre, kan blokkere det helt.</li>
+  <li>Skjoldet overlever ikke at telefonen tilbakestilles til fabrikkinnstillinger, eller at du bytter til en
+    ny telefon. Kjør oppsettet på nytt.</li>
+</ul>

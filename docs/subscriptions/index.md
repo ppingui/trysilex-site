@@ -2,21 +2,29 @@
 
 # Subscriptions
 
-Subscriptions are sold and billed by Apple through the App Store. Silex never sees your payment details.
+Subscriptions are sold and billed by Apple through the App Store, or by Google through Google Play. Silex never sees your payment details.
 
 ## Plans
 
-| Plan | Price (US) | Trial |
-|---|---|---|
-| Annual | $29.99 a year | 7-day free trial |
-| Weekly | $2.99 a week | No trial, cancel any time |
+The annual plan starts with a 7-day free trial. The weekly plan has no trial, and you can cancel any time.
 
-Prices in other countries follow Apple's regional pricing; the paywall always shows your local price and the exact trial length before you confirm. If you close the annual payment sheet, Silex may offer the annual plan at a discount. If you bought the earlier lifetime plan, it keeps working.
+| Country | Weekly | Annual |
+|---|---|---|
+| United States | $2.99 | $29.99 |
+| United Kingdom | £2.99 | £29.99 |
+| Sweden | 39 SEK | 399 SEK |
+| Norway | 39 NOK | 399 NOK |
+| Denmark | 29 DKK | 249 DKK |
+| Finland | €2.99 | €34.99 |
+
+App Store prices, checked November 25, 2026.
+
+Prices are set country by country and are lower in many countries than in the US; the paywall always shows your local price and the exact trial length before you confirm. Google Play prices can differ a little from the App Store prices in the table. If you close the annual payment sheet, Silex may offer the annual plan at a discount. If you bought the earlier lifetime plan, it keeps working.
 
 ## The free trial
 
 - Nothing is charged when the trial starts.
-- Silex sends a notification the day before it ends (you allow notifications just before the paywall).
+- Silex sends a notification two days before it ends, if you've allowed notifications. It asks just before the paywall, and again near the end of Day 1.
 - Cancel any time before it ends and you pay nothing.
 
 ## Cancelling

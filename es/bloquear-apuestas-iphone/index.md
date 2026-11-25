@@ -2,7 +2,7 @@
 
 # Cómo bloquear apuestas y casinos en el iPhone
 
-Por [Kyrylo Lozovyi](https://trysilex.com/about/) · 26 de octubre de 2026
+Por [Kyrylo Lozovyi](https://trysilex.com/about/) · 26 de octubre de 2026 · Actualizado 25 de noviembre de 2026
 
 **Respuesta corta:** Tiempo de uso solo no basta. La combinación que aguanta es: un **perfil DNS para todo el dispositivo** (cubre todas las apps y navegadores), **Tiempo de uso con el código en manos de otra persona** (impide reinstalar) y las dos barreras que no se deshacen en un impulso: la **autoprohibición** y el **bloqueo de pagos en el banco**. Todo junto lleva unos 30 minutos.
 
@@ -24,13 +24,24 @@ Léelo como capas, no como un menú. Las tres primeras hacen el juego incómodo;
 
 Tiempo de uso es gratis, viene en el iPhone y es más útil por lo que *impide* que por lo que filtra.
 
-**Que no aparezcan apps nuevas:** Ajustes → Tiempo de uso → Restricciones de contenido y privacidad → actívalo → compras e instalación de apps → **No permitir**. Borra antes todas las apps de apuestas; a partir de ahí, reinstalarlas exige el código de Tiempo de uso.
+**Que no aparezcan apps nuevas.** Borra antes todas las apps de apuestas. Apple cambió los menús en iOS 27 (estos son los nombres en español de España; en Latinoamérica, Tiempo de uso se llama Tiempo en pantalla y alguno más cambia):
 
-**Bloquear webs en Safari:** dentro de Restricciones de contenido → Contenido web → **Limitar sitios web para adultos**, y añade cada casa de apuestas en **No permitir nunca**. Además desactiva la navegación privada de Safari.
+- **iOS 27:** Ajustes → Tiempo de uso → **Apps y sitios web** → **Restricciones** → desactiva **Instalar apps**. Si debajo aparecen App Store, Web y Tiendas de apps, ese interruptor pone las tres en **Bloqueado**.
+- **iOS 26 y anteriores:** Ajustes → Tiempo de uso → **Restricciones** → actívalas → **Compras en iTunes y App Store** → **Instalar apps** → **No permitir**.
+- **iOS 26 en la UE, Brasil o Japón:** también se pueden instalar apps fuera de la App Store, así que cerrarla no basta. El menú se llama **Instalación y compra de apps**: pon también **Tiendas de apps** y **Sitios web** en **No permitir**. [Apple avisa](https://support.apple.com/es-es/118128) de que las dos siguen permitidas tras una actualización aunque ya tuvieras restricciones.
 
-**El detalle que nadie cuenta:** iOS no tiene una categoría de juego. «Limitar sitios web para adultos» es un filtro de contenido adulto: pilla alguna web de apuestas por casualidad y se deja la mayoría.
+A partir de ahí, reinstalar exige el código de Tiempo de uso.
 
-**Hazlo bien:** pon un código de Tiempo de uso que tú no sepas. Que lo escriba tu pareja, un amigo o un familiar y que lo guarde.
+**Bloquear webs en Safari:**
+
+- **iOS 27:** Tiempo de uso → Apps y sitios web → **Bloqueado** → **+**, y escribe cada casa de apuestas o pega una lista entera. En **Restricciones** → **Filtrado**, elige además **Limitar el acceso a webs para adultos**: según iOS, también bloquea los proxies web. Con un código de Tiempo de uso puesto, iOS restringe además la navegación privada.
+- **iOS 26 y anteriores:** Restricciones → **App Store, contenido, internet y juegos** → **Contenido web** → **Limitar webs para adultos**, y en **No permitir nunca**, **Añadir sitio web** para cada casa de apuestas. Además desactiva la navegación privada de Safari.
+
+Comprobamos los menús de iOS 27 en iOS 27.1, en el simulador de Apple, el 25 de noviembre de 2026. La [ayuda de Apple](https://support.apple.com/es-es/105121) solo describe el bloqueo de instalaciones y webs en el dispositivo de un menor (Ajustes → Familia → nombre del menor), así que algún nombre puede cambiar en el tuyo.
+
+**El detalle que nadie cuenta:** iOS no tiene una categoría de juego. «Limitar webs para adultos» es un filtro de contenido adulto: pilla alguna web de apuestas por casualidad y se deja la mayoría.
+
+**Hazlo bien:** pon un código de Tiempo de uso que tú no sepas (iOS 27: Tiempo de uso → **Gestionar el tiempo de uso** → **Bloquear ajustes de tiempo de uso**). Que lo escriba tu pareja, un amigo o un familiar y que lo guarde. En **Recuperación del código de tiempo de uso** no pongas tu propia cuenta de Apple: la cuenta que se indique ahí puede restablecer el código. Y no lo tomes por un muro: las páginas de Apple no coinciden sobre cómo se cambia en iOS 27 ([una](https://support.apple.com/es-es/102677) pide Face ID o el código del teléfono; [la otra](https://support.apple.com/es-es/guide/iphone/iph272b4c4bd/ios), el código actual de Tiempo de uso).
 
 ## 2. Un perfil DNS: el que lo cubre todo
 
@@ -75,7 +86,7 @@ Sí. Tiempo de uso puede impedir instalar apps y bloquear webs concretas, y el i
 
 ### ¿Tiempo de uso bloquea las apps de apuestas?
 
-En parte. Puede impedir instalaciones nuevas y bloquear webs en Safari, pero no tiene una categoría de juego: «Limitar sitios web para adultos» no es un filtro de apuestas. Tienes que añadir los dominios a mano o usar un DNS que mantenga la lista por ti.
+En parte. Puede impedir instalaciones nuevas y bloquear webs en Safari, pero no tiene una categoría de juego: «Limitar webs para adultos» no es un filtro de apuestas. Tienes que añadir los dominios a mano o usar un DNS que mantenga la lista por ti.
 
 ### ¿Funciona con datos móviles además de con wifi?
 

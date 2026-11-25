@@ -1,0 +1,55 @@
+<!--meta
+{
+  "slug": "docs/privacy-and-data",
+  "en": "docs/privacy-and-data",
+  "type": "page",
+  "order": 8,
+  "updated": "2026-11-25",
+  "title": "Integritet i Silex: var dina data finns",
+  "description": "Vad Silex lagrar och var (din telefon och din privata iCloud), de tre tjänster appen använder, hur du stänger av analysen och hur du raderar allt.",
+  "h1": "Integritet och dina data"
+}
+-->
+<p class="lede">Silex har inga konton och ingen egen server som lagrar något om dig. Den här sidan är den
+  praktiska sammanfattningen. <a href="/sv/integritet/">Integritetspolicyn</a> är den fullständiga texten, och det är den som
+  gäller.</p>
+
+<h2>Var dina data finns</h2>
+<ul>
+  <li><strong>På din telefon.</strong> Dina svar, dagar, sug, snedsteg, löften, din dagbok och hur långt du
+    har kommit i programmet lagras i appen.</li>
+  <li><strong>I din privata iCloud</strong>, om iCloud är på för ditt Apple-konto. Silex speglar sina data
+    till din egen privata iCloud-databas så att de överlever ett telefonbyte. Bara ditt Apple-konto kan
+    läsa dem, vi kan det inte. Utan iCloud stannar data på telefonen.</li>
+</ul>
+
+<h2>Vad som lämnar din telefon</h2>
+<ul>
+  <li><strong>Prenumerationer (RevenueCat).</strong> Kvitton på köp och ett anonymt användar-ID för appen,
+    så att din prenumeration fungerar och kan återställas. RevenueCat får också Apples anonyma kod för
+    annonsattribuering, om det finns någon.</li>
+  <li><strong>Anonym användning (TelemetryDeck).</strong> Vilka skärmar och steg som används, utan namn,
+    svar eller belopp. Stäng av det i Inställningar med <em>Dela anonym användning</em>.</li>
+  <li><strong>Annonsmätning (AppsFlyer).</strong> Att appen installerades, och om det ledde till en
+    provperiod eller ett köp, så att vi kan se vilka annonser som är värda pengarna. Inget annons-ID och
+    inget du skriver. Från den 22 november 2026, så länge vi annonserar på Facebook och Instagram,
+    skickar AppsFlyer uppgiften om installation och öppnad app vidare till Meta, så att Meta kan räkna
+    vad deras annonser leder till. I <a href="/sv/integritet/">integritetspolicyn</a> står exakt vad som
+    ingår. Samma reglage, <em>Dela anonym användning</em>, stänger av allt detta.</li>
+  <li><strong>DNS-uppslag</strong>, medan skölden är på, går till Mullvads DNS-server enligt deras policy
+    att inte logga. Silex ser dem aldrig.</li>
+  <li><strong>Uppdateringar av blocklistan.</strong> Silex laddar ner den offentliga blocklistan över
+    speldomäner från ett innehållsnätverk (CDN). Inget om dig skickas med förfrågan.</li>
+</ul>
+<p>Silex skickar inget du skriver, och inget om vilka sajter du besöker.</p>
+
+<h2>Radera dina data</h2>
+<ol>
+  <li>Ta bort appen. Då försvinner allt på telefonen.</li>
+  <li>Om du har använt iCloud, ta också bort kopian där: <strong>Inställningar › ditt namn › iCloud ›
+    Hantera lagring för kontot › Silex</strong> (i vissa iOS-versioner Hantera lagring).</li>
+  <li>Vill du även ta bort DNS-skölden: <strong>Inställningar › Allmänt › VPN, DNS och enhetshantering ›
+    DNS</strong>.</li>
+</ol>
+<p>Att ta bort appen säger inte upp en prenumeration; se
+  <a href="/sv/docs/subscriptions/">Prenumerationer</a>. Silex har ingen export av data.</p>

@@ -2,7 +2,7 @@
 
 # Bloquer les sites de paris et casinos sur iPhone
 
-Par [Kyrylo Lozovyi](https://trysilex.com/about/) · 26 octobre 2026
+Par [Kyrylo Lozovyi](https://trysilex.com/about/) · 26 octobre 2026 · Mis à jour le 25 novembre 2026
 
 **En bref :** Temps d'écran seul ne suffit pas. La combinaison qui tient : un **profil DNS pour tout l'appareil** (couvre toutes les apps et tous les navigateurs), **Temps d'écran avec un code détenu par quelqu'un d'autre** (empêche de réinstaller), et les deux barrières qui ne se défont pas sur un coup de tête : l'**interdiction volontaire de jeux** de l'ANJ et le **blocage bancaire**. Le tout prend environ 30 minutes.
 
@@ -24,13 +24,24 @@ Lisez-le comme des couches, pas comme un menu. Les trois premières rendent le j
 
 Temps d'écran est gratuit, déjà sur l'iPhone, et surtout utile pour ce qu'il *empêche*.
 
-**Plus de nouvelles applis :** Réglages → Temps d'écran → Restrictions relatives au contenu et à la confidentialité → activer → achats et installation d'apps → **Refuser**. Supprimez d'abord toutes les applis de paris ; ensuite, toute réinstallation exige le code Temps d'écran.
+**Plus de nouvelles applis.** Supprimez d'abord toutes les applis de paris. Apple a déplacé les menus dans iOS 27 :
 
-**Bloquer des sites dans Safari :** dans Restrictions de contenu → Contenu web → **Limiter les sites web pour adultes**, puis ajoutez chaque opérateur dans **Ne jamais autoriser**. Cela désactive aussi la navigation privée dans Safari.
+- **iOS 27 :** Réglages → Temps d'écran → **Apps et sites web** → **Restrictions** → désactivez **Ajout d'apps**. Si App Store, Web et Marchés en ligne d'apps figurent dessous, ce bouton met les trois sur **Bloqué**.
+- **iOS 26 et versions antérieures :** Réglages → Temps d'écran → **Contenu et confidentialité** → activer → **Installation et achat d'apps** (dans certaines versions, **Achats dans l'iTunes et l'App Store**) → **Ajout d'apps** → **Ne pas autoriser**.
+- **Dans l'UE, sous iOS 26,** des apps peuvent aussi venir d'ailleurs que de l'App Store. Mettez également **Marchés en ligne d'apps** et **Web** sur **Ne pas autoriser**. [Apple précise](https://support.apple.com/fr-fr/118128) que les deux restent autorisés après une mise à jour, même si des restrictions étaient déjà actives.
 
-**Le détail que personne ne mentionne :** iOS n'a pas de catégorie jeux d'argent. « Limiter les sites web pour adultes » est un filtre de contenu pour adultes : il attrape quelques sites de paris par hasard et laisse passer la plupart.
+Ensuite, toute réinstallation exige le code Temps d'écran.
 
-**Faites-le bien :** choisissez un code Temps d'écran que vous ne connaissez pas. Faites-le saisir et garder par votre conjoint, un ami ou un proche.
+**Bloquer des sites dans Safari :**
+
+- **iOS 27 :** Temps d'écran → Apps et sites web → **Bloqué** → **+**, puis saisissez chaque opérateur ou collez toute une liste. Dans **Restrictions** → **Filtrage**, choisissez aussi **Limiter les sites pour adultes** : d'après iOS, cela bloque également les proxys web. Une fois un code Temps d'écran défini, iOS restreint aussi la navigation privée.
+- **iOS 26 et versions antérieures :** Contenu et confidentialité → **App Store, contenu multimédia, Web et jeux** → **Contenu web** → **Limiter les sites pour adultes**, puis **Ajouter un site web** sous **Ne jamais autoriser** pour chaque opérateur. Cela désactive aussi la navigation privée dans Safari.
+
+Nous avons vérifié les menus d'iOS 27 sous iOS 27.1, dans le simulateur d'Apple, le 25 novembre 2026. L'[aide d'Apple](https://support.apple.com/fr-fr/105121) ne décrit le blocage des installations et des sites que sur l'appareil d'un enfant (Réglages → Famille → nom de l'enfant) : un intitulé peut donc différer un peu sur le vôtre.
+
+**Le détail que personne ne mentionne :** iOS n'a pas de catégorie jeux d'argent. « Limiter les sites pour adultes » est un filtre de contenu pour adultes : il attrape quelques sites de paris par hasard et laisse passer la plupart.
+
+**Faites-le bien :** choisissez un code Temps d'écran que vous ne connaissez pas (iOS 27 : Temps d'écran → **Gérer le temps d'écran** → **Verrouiller les réglages « Temps d'écran »**). Faites-le saisir et garder par votre conjoint, un ami ou un proche. Pour le **Code de secours**, n'indiquez pas votre propre compte Apple : celui qui y est indiqué peut réinitialiser le code. Et ne le prenez pas pour un mur : les pages d'Apple ne disent pas la même chose sur sa modification sous iOS 27 ([l'une](https://support.apple.com/fr-fr/102677) demande Face ID ou le code de l'appareil, [l'autre](https://support.apple.com/fr-fr/guide/iphone/iph272b4c4bd/ios) le code Temps d'écran actuel).
 
 ## 2. Un profil DNS : celui qui couvre tout
 
@@ -75,7 +86,7 @@ Oui. Temps d'écran peut empêcher l'installation d'apps et bloquer des sites pr
 
 ### Temps d'écran bloque-t-il les applis de paris ?
 
-En partie. Il peut empêcher les nouvelles installations et bloquer des sites dans Safari, mais il n'a pas de catégorie jeux d'argent : « Limiter les sites web pour adultes » n'est pas un filtre anti-paris.
+En partie. Il peut empêcher les nouvelles installations et bloquer des sites dans Safari, mais il n'a pas de catégorie jeux d'argent : « Limiter les sites pour adultes » n'est pas un filtre anti-paris.
 
 ### Est-ce que ça marche aussi en 4G/5G ?
 

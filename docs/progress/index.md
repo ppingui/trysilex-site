@@ -2,26 +2,26 @@
 
 # Progress, money kept and orbs
 
-Silex shows three numbers on the Today tab. Each one is calculated on your phone from what you told it during onboarding and what you've logged since.
+The Today tab counts two things live: your days free and the money you've kept. Both are calculated on your phone from what you told Silex during onboarding and what you've logged since.
 
 ## Days free
 
-The number of full days since the date you last gambled (you set it during onboarding), minus any days you logged a lapse. It is never reset to zero: a lapse costs that day, not the ones before it.
+The number of full 24-hour days since you last gambled (you set the date during onboarding), with the hours, minutes and seconds of the current day running underneath. A lapse takes one day off, however many you log on the same calendar day, and never more than you have. It doesn't reset the count.
 
-## Current run
+## Longest run
 
-Days since your most recent lapse, or since your last-gambled date if you haven't lapsed. This is the streak that does start again.
+The Progress tab also shows your longest stretch without a lapse, and how many urges you've ridden out.
 
 ## Money kept
 
-**Days free × (your weekly stake ÷ 7) − whatever you logged losing in lapses**, never below zero. With a $140 weekly stake and 30 days free, that's $600 kept.
+**Time free × (your weekly stake ÷ 7 a day) − whatever you logged losing in lapses**, never below zero. It ticks up continuously rather than once a day. With a $140 weekly stake and 30 days free, that's $600 kept.
 
 - Set a goal, change the currency, or hide amounts in [Settings](https://trysilex.com/docs/settings/). *Hide money* on the Progress tab does the same.
 - Reaching your goal earns the *Kept Gold* orb.
 
 ## Today's pledge
 
-A daily check-in on the Today tab: *I won't gamble today*. Thirty pledges earn *Steady Hand*.
+A daily check-in on the Today tab: *I won't gamble today*. Thirty pledges earn *The Vow*.
 
 ## Journal
 
@@ -29,11 +29,11 @@ Opened from the Progress and Program tabs. A timeline of your urges, lapses and 
 
 ## Your orbs
 
-Twenty collectible orbs mark real progress, each opened with a short reveal. They can't be bought and there is no leaderboard.
+Twenty collectible orbs mark real progress. The first comes out of the stone on the opening screen; every other one opens with a short reveal. They can't be bought and there is no leaderboard. An orb you've earned is never taken away: if an earlier version gave you *The Vow* for signing, or *Steady Hand*, you keep it.
 
 | Orb | How you earn it |
 |---|---|
-| The Vow | Sign your commitment in onboarding |
+| The Spark | Open the stone on the first screen of onboarding |
 | First Light | Complete program day 1 |
 | Ember Held | Complete 3 program days |
 | One Week | Complete 7 program days |
@@ -52,7 +52,7 @@ Twenty collectible orbs mark real progress, each opened with a short reveal. The
 | Shieldbearer | Have all five protection layers on |
 | Kept Gold | Reach your money goal |
 | Scribe | Write 10 reflections |
-| Steady Hand | Make 30 pledges |
+| The Vow | Make 30 daily pledges |
 
 ## Silex documentation
 

@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="da">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fejlfinding i Silex</title>
+<meta name="description" content="Løsninger på almindelige problemer: DNS-skjoldet der bliver stående på Installeret, Safari-blokeringen der mangler, betalingsskærmen og notifikationer.">
+<link rel="canonical" href="https://trysilex.com/da/docs/troubleshooting/">
+<link rel="alternate" hreflang="da" href="https://trysilex.com/da/docs/troubleshooting/">
+<link rel="alternate" hreflang="en" href="https://trysilex.com/docs/troubleshooting/">
+<link rel="alternate" hreflang="fi" href="https://trysilex.com/fi/docs/troubleshooting/">
+<link rel="alternate" hreflang="no" href="https://trysilex.com/no/docs/troubleshooting/">
+<link rel="alternate" hreflang="sv" href="https://trysilex.com/sv/docs/troubleshooting/">
+<link rel="alternate" hreflang="x-default" href="https://trysilex.com/docs/troubleshooting/">
+<meta name="apple-itunes-app" content="app-id=6798826038">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#F5F3EE">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#0E1014">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Silex">
+<meta property="og:locale" content="da_DK">
+<meta property="og:title" content="Fejlfinding i Silex">
+<meta property="og:description" content="Løsninger på almindelige problemer: DNS-skjoldet der bliver stående på Installeret, Safari-blokeringen der mangler, betalingsskærmen og notifikationer.">
+<meta property="og:url" content="https://trysilex.com/da/docs/troubleshooting/">
+<meta property="og:image" content="https://trysilex.com/assets/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/assets/favicon.png" sizes="any">
+<link rel="apple-touch-icon" href="/assets/icon-180.png">
+<link rel="stylesheet" href="/styles.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Person","@id":"https://www.vitalityrize.me/#kyrylo","name":"Kyrylo Lozovyi","url":"https://trysilex.com/about/","jobTitle":"Independent iOS developer","worksFor":{"@id":"https://trysilex.com/#org"},"sameAs":["https://github.com/ppingui","https://www.vitalityrize.me/about/"]},{"@type":"Organization","@id":"https://trysilex.com/#org","name":"Silex — Stop Gambling","url":"https://trysilex.com","founder":{"@id":"https://www.vitalityrize.me/#kyrylo"},"email":"support@trysilex.com"}]}</script>
+
+</head>
+<body class="">
+<a class="skip" href="#main">Gå til indhold</a>
+<p class="agent-hint" aria-hidden="true">For AI agents: an index of every page on this site is at <a href="/llms.txt" tabindex="-1">/llms.txt</a>, and every page has a Markdown copy at its URL plus index.md.</p>
+
+<header class="site-head">
+  <div class="wrap head-inner">
+    <a class="logo" href="/da/"><span>Silex</span></a>
+    <nav class="main-nav" aria-label="Hovedmenu"><a href="/da/stop-med-at-spille/">Sådan stopper du</a><a href="/da/bedste-apps-blokere-pengespil/">Blokering</a><a href="/da/test-ludomani/">Selvtest</a><a href="/da/om-silex/">Om</a></nav>
+    <details class="langs"><summary>Dansk</summary><nav aria-label="Sprog"><a href="/docs/troubleshooting/" hreflang="en" lang="en">English</a><a href="/sv/docs/troubleshooting/" hreflang="sv" lang="sv">Svenska</a><a href="/no/docs/troubleshooting/" hreflang="no" lang="nb">Norsk</a><a href="/da/docs/troubleshooting/" hreflang="da" lang="da" aria-current="true">Dansk</a><a href="/fi/docs/troubleshooting/" hreflang="fi" lang="fi">Suomi</a></nav></details>
+  </div>
+</header>
+<main id="main" class="wrap page">
+  <h1>Fejlfinding</h1>
+
+
+<p class="lede">De fleste problemer er en iOS-indstilling, der mangler ét trin. Hjælper ingen af løsningerne, så skriv
+  til <a href="mailto:support@trysilex.com">support@trysilex.com</a>, og fortæl, hvilken iPhone-model og iOS-version
+  du har. Det er ét menneske, der læser med, og svaret tager som regel en dag.</p>
+
+<h2>DNS-skjoldet siger »Installeret«, ikke »Aktiv«</h2>
+<p>iOS har tilføjet konfigurationen, men den er ikke valgt. Åbn <strong>Indstillinger › Generelt › VPN, DNS og
+  Administration af enhed › DNS</strong>, og vælg <strong>Silex Shield</strong>. Mangler den skærm, eller er den låst,
+  er det en administrationsprofil fra arbejde eller skole, der styrer telefonens DNS, og det kan skjoldet ikke
+  tilsidesætte.</p>
+
+<h2>Spilsider kan stadig åbnes</h2>
+<ul>
+  <li>Tjek fanen Beskyt: skjoldet skal stå som <em>Aktiv</em>.</li>
+  <li>En anden VPN- eller DNS-app kan overtage DNS. Der bruges kun én DNS-indstilling ad gangen.</li>
+  <li>Et helt nyt spildomæne er måske ikke på nogen liste endnu. Listerne bliver opdateret med få dages
+    mellemrum.</li>
+</ul>
+
+<h2>Jeg kan ikke finde Silex Site Blocker i Safari</h2>
+<p>Åbn <strong>Indstillinger › Apps › Safari › Udvidelser</strong> (på iOS 17: <strong>Indstillinger › Safari ›
+  Udvidelser</strong>), og slå <strong>Silex Site Blocker</strong> til. Åbn Silex én gang bagefter, så listen bliver
+  indlæst.</p>
+
+<h2>Jeg har betalt, men Silex viser stadig betalingsskærmen</h2>
+<p>Tryk på <strong>Gendan køb</strong>, og tjek, at du er logget ind med den Apple-konto, du købte med. Virker det
+  stadig ikke, så skriv til os med købsdatoen.</p>
+
+<h2>Notifikationerne kommer ikke frem</h2>
+<p>Tjek, at notifikationer er slået til i iPhonens Indstillinger › Notifikationer › Silex, og tryk derefter på
+  <strong>Slå notifikationer til igen</strong> i Silex' Indstillinger for at sætte påmindelserne op på ny.
+  Fokusfunktioner kan holde notifikationer tilbage.</p>
+
+<h2>Ny telefon</h2>
+<p>Med iCloud slået til kommer dine fremskridt tilbage af sig selv. Gendan dit køb, og lav så opsætningen af
+  DNS-skjoldet og Safari-blokeringen igen: ingen af dem følger med til en ny enhed.</p>
+
+<h2>Jeg har brug for at tale med nogen nu</h2>
+<p>Vent ikke på en mail. Er der akut fare for liv, så ring <a href="tel:112">112</a>. Livslinien,
+  <a href="tel:70201201">70 201 201</a>, har åbent hver dag året rundt fra kl. 9 om morgenen til kl. 5 om natten
+  (almindelig telefontakst). StopSpillet, <a href="tel:70222825">70 22 28 25</a>, er gratis og fortrolig og har åbent
+  mandag til torsdag kl. 9–21 og fredag kl. 9–17, men er lukket i weekenden. Mellem kl. 5 og 9 om morgenen svarer
+  ingen af dem. Er du i fare på det tidspunkt, så ring 112. Der står flere numre nederst på siden, og knappen
+  <strong>Tal med nogen</strong> i Silex viser dem, der gælder i dit område.</p>
+  <section class="docs-toc">
+    <h2>Silex-dokumentation</h2>
+    <ul>
+      <li><a href="/da/docs/">Dokumentation til Silex</a></li>
+      <li><a href="/da/docs/getting-started/">Kom i gang</a></li>
+      <li><a href="/da/docs/protection/">Beskyttelseslag</a></li>
+      <li><a href="/da/docs/sos/">SOS-knappen</a></li>
+      <li><a href="/da/docs/program/">90-dagesprogrammet</a></li>
+      <li><a href="/da/docs/progress/">Fremskridt, penge i behold og sfærer</a></li>
+      <li><a href="/da/docs/notifications/">Notifikationer og widgets</a></li>
+      <li><a href="/da/docs/subscriptions/">Abonnement</a></li>
+      <li><a href="/da/docs/privacy-and-data/">Privatliv og dine data</a></li>
+      <li><a href="/da/docs/settings/">Indstillinger, punkt for punkt</a></li>
+      <li><a href="/da/docs/troubleshooting/" aria-current="page">Fejlfinding</a></li>
+    </ul>
+  </section>
+</main>
+
+<div class="help-band">
+  <div class="wrap">
+  <aside class="helplines" aria-label="Hvis du har brug for at tale med nogen nu">
+    <h2>Hvis du har brug for at tale med nogen nu</h2>
+    <ul>
+      <li><span class="hl-region">Danmark</span><a href="tel:70222825">70 22 28 25</a><span class="hl-note">StopSpillet: gratis og fortroligt, man–tor 9–21, fre 9–17 (lukket i weekenden)</span></li>
+      <li><span class="hl-region">Danmark</span><a href="tel:70201201">70 201 201</a><span class="hl-note">Livslinien: hver dag kl. 9–5, anonymt, almindelig telefontakst</span></li>
+      <li><span class="hl-region">Nødsituation</span><a href="tel:112">112</a><span class="hl-note">Akut livsfare</span></li>
+      <li><span class="hl-region">Andre lande</span><a href="https://findahelpline.com">findahelpline.com</a><span class="hl-note">Krisetelefoner, hvor du er</span></li>
+    </ul>
+  </aside>
+  </div>
+</div>
+
+<footer class="site-foot">
+  <div class="wrap">
+    <p class="disclaimer">Silex hjælper dig med at opbygge sundere vaner omkring pengespil. Det er ikke sundhedsbehandling, stiller ingen diagnoser og behandler ingen tilstande. Er du i krise, så brug numrene ovenfor.</p>
+    <nav aria-label="Sidefod"><a href="/da/">Hjem</a>
+      <a href="/da/om-silex/">Om Silex</a>
+      <a href="/da/metode/">Metode</a>
+      <a href="/da/docs/">Dokumentation</a>
+      <a href="/da/support/">Support</a>
+      <a href="/da/privatliv/">Privatliv</a>
+      <a href="/da/vilkar/">Vilkår</a></nav>
+    <p class="copy">© 2026 Silex · Udviklet af <a href="/da/om-silex/">Kyrylo Lozovyi</a> i Kyiv, Ukraine · <a href="mailto:support@trysilex.com">support@trysilex.com</a>
+      · Fra samme udvikler: <a href="https://www.vitalityrize.me/">VitalityRise</a>, bækkenbundstræning for mænd</p>
+  </div>
+</footer>
+</body>
+</html>

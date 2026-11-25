@@ -1,0 +1,731 @@
+<!doctype html>
+<html lang="fi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tietosuojakäytäntö – Silex</title>
+<meta name="description" content="Silex ei tallenna sinusta mitään palvelimelle, ei pidä tilejä eikä näe, mitä kirjoitat. Koko GDPR-seloste ja ne kohdat, joissa tietoa lähtee puhelimestasi.">
+<link rel="canonical" href="https://trysilex.com/fi/tietosuoja/">
+<link rel="alternate" hreflang="da" href="https://trysilex.com/da/privatliv/">
+<link rel="alternate" hreflang="en" href="https://trysilex.com/privacy/">
+<link rel="alternate" hreflang="fi" href="https://trysilex.com/fi/tietosuoja/">
+<link rel="alternate" hreflang="no" href="https://trysilex.com/no/personvern/">
+<link rel="alternate" hreflang="sv" href="https://trysilex.com/sv/integritet/">
+<link rel="alternate" hreflang="x-default" href="https://trysilex.com/privacy/">
+<meta name="apple-itunes-app" content="app-id=6798826038">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#F5F3EE">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#0E1014">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Silex">
+<meta property="og:locale" content="fi_FI">
+<meta property="og:title" content="Tietosuojakäytäntö – Silex">
+<meta property="og:description" content="Silex ei tallenna sinusta mitään palvelimelle, ei pidä tilejä eikä näe, mitä kirjoitat. Koko GDPR-seloste ja ne kohdat, joissa tietoa lähtee puhelimestasi.">
+<meta property="og:url" content="https://trysilex.com/fi/tietosuoja/">
+<meta property="og:image" content="https://trysilex.com/assets/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/assets/favicon.png" sizes="any">
+<link rel="apple-touch-icon" href="/assets/icon-180.png">
+<link rel="stylesheet" href="/styles.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Person","@id":"https://www.vitalityrize.me/#kyrylo","name":"Kyrylo Lozovyi","url":"https://trysilex.com/about/","jobTitle":"Independent iOS developer","worksFor":{"@id":"https://trysilex.com/#org"},"sameAs":["https://github.com/ppingui","https://www.vitalityrize.me/about/"]},{"@type":"Organization","@id":"https://trysilex.com/#org","name":"Silex — Stop Gambling","url":"https://trysilex.com","founder":{"@id":"https://www.vitalityrize.me/#kyrylo"},"email":"support@trysilex.com"}]}</script>
+
+</head>
+<body class="">
+<a class="skip" href="#main">Siirry sisältöön</a>
+<p class="agent-hint" aria-hidden="true">For AI agents: an index of every page on this site is at <a href="/llms.txt" tabindex="-1">/llms.txt</a>, and every page has a Markdown copy at its URL plus index.md.</p>
+
+<header class="site-head">
+  <div class="wrap head-inner">
+    <a class="logo" href="/fi/"><span>Silex</span></a>
+    <nav class="main-nav" aria-label="Päävalikko"><a href="/fi/lopeta-rahapelaaminen/">Näin lopetat</a><a href="/fi/parhaat-rahapelien-estosovellukset/">Estot</a><a href="/fi/peliriippuvuustesti/">Testi</a><a href="/fi/tietoa-silexista/">Tietoa</a></nav>
+    <details class="langs"><summary>Suomi</summary><nav aria-label="Kieli"><a href="/privacy/" hreflang="en" lang="en">English</a><a href="/sv/integritet/" hreflang="sv" lang="sv">Svenska</a><a href="/no/personvern/" hreflang="no" lang="nb">Norsk</a><a href="/da/privatliv/" hreflang="da" lang="da">Dansk</a><a href="/fi/tietosuoja/" hreflang="fi" lang="fi" aria-current="true">Suomi</a></nav></details>
+  </div>
+</header>
+<main id="main" class="wrap page">
+  <h1>Tietosuojakäytäntö</h1>
+
+
+<p class="small">Tämä on käännös. Jos se eroaa
+  <a href="https://trysilex.com/privacy/">englanninkielisestä versiosta</a>, sovelletaan
+  englanninkielistä versiota.</p>
+
+<p class="small">Päivitetty viimeksi 25. marraskuuta 2026. Selosteen varsinainen versio
+  julkaistaan tällä sivustolla; se korvaa Notionissa olleen kopion, johon sovelluksen
+  vanhemmat versiot linkittävät.</p>
+
+<p class="lede">Silex on rakennettu yhden periaatteen varaan: <strong>toipumisesi ei ole
+  kenenkään tietoaineisto.</strong></p>
+
+<p><em>Me</em> emme tallenna sinusta mitään millekään palvelimelle, meillä ei ole
+  käyttäjätilejä eikä meillä ole mitään keinoa lukea, mitä kirjoitat tässä sovelluksessa.
+  (Ainoa palvelimilla ajamamme koodi on kaksi vapaaehtoista työkalua, joilla ei ole tekemistä
+  sovelluksen kanssa: kohdan 14 Notion-liitin ja kohdan 15 Silex Help. Kumpikaan ei säilytä
+  mitään.) Kahdella ulkopuolisella taholla on kuitenkin palvelimia, jotka saavat
+  jotain: analytiikkapalvelulle lähetetään niiden näkymien <em>nimet</em>, joihin pääset,
+  ja mainosten mittauspalvelulle kerrotaan, että sovellus asennettiin ja seurasiko siitä
+  kokeilujakso tai osto. Yksi kytkin Asetuksissa lopettaa molemmat. Tällä sivulla kerrotaan
+  tarkasti, mitä tämä tarkoittaa, myös ne harvat kohdat, joissa tietoa lähtee puhelimestasi.
+  Tietosuojakäytäntö, joka luettelee vain rauhoittavat asiat, ei ole tietosuojakäytäntö.</p>
+
+<p>Tämä seloste on kirjoitettu täyttämään EU:n yleisen tietosuoja-asetuksen (GDPR) ja
+  Yhdistyneen kuningaskunnan tietosuoja-asetuksen (UK GDPR) vaatimukset. Jos olet
+  ETA-alueella tai Yhdistyneessä kuningaskunnassa, oikeusperusteita, siirtoja ja oikeuksiasi
+  koskevat kohdat koskevat sinua kokonaisuudessaan.</p>
+
+<h2>1. Se, minkä kirjaat, pysyy laitteellasi</h2>
+<p>Kaikki, minkä kirjaat (kyselyvastaukset, päivittäiset kirjaukset, päiväkirjan pohdinnat,
+  ohjelman vastaukset, himolokin merkinnät, lipsahdusmerkinnät, jaksojen päivämäärät,
+  rahasummat, allekirjoituksesi ja kehräkokoelmasi), tallentuu kahteen paikkaan, jotka
+  molemmat kuuluvat sinulle:</p>
+<ul>
+  <li><strong>iPhoneesi</strong>, sovelluksen paikalliseen tietokantaan.</li>
+  <li><strong>Yksityiseen iCloudiisi</strong>, Applen CloudKitin yksityiseen tietokantaan,
+    jotta historiasi säilyy, vaikka laite katoaisi tai vaihtuisi.</li>
+</ul>
+<p>Yksityiseen iCloud-tietokantaasi pääsee vain sinun Apple ID:lläsi. Me emme ole siinä
+  osapuolena emmekä voi lukea sitä. Jos iCloud ei ole saatavilla tai se on pois käytöstä,
+  sovellus tallentaa tiedot vain laitteellesi.</p>
+<p><strong>Me emme koskaan saa tätä sisältöä.</strong> Mikään rajapintakutsu ei lähetä sitä,
+  meillä ei ole siitä varmuuskopiota eikä avainta, jolla voisimme purkaa sen salauksen. Koska
+  emme pääse sisältöön emmekä voi käyttää sitä, emme katso olevamme sen rekisterinpitäjä,
+  mitä kirjoitat sovellukseen. Rekisterinpitäjä olet sinä. Kerromme siitä tässä avoimuuden
+  vuoksi, emme siksi, että käsittelisimme sitä.</p>
+
+<h2>2. Mitä muille todella välittyy</h2>
+<p>Kuusi rajattua tapausta, jotka kaikki ovat vapaaehtoisia tai teknisesti
+  väistämättömiä.</p>
+
+<h3>Ostot: Apple ja RevenueCat</h3>
+<p>Apple käsittelee tilaukset. Käytämme RevenueCatia tilauksen tilan tarkistamiseen ja
+  hallintaan. Se toimii henkilötietojen käsittelijänämme ja saa:</p>
+<ul>
+  <li>laitteen tyypin ja käyttöjärjestelmän,</li>
+  <li>viimeisimmän käyttöajan ja Applen kuittitiedostot,</li>
+  <li>mahdollisesti käyttäjätunnisteen ja tietoa siitä, mistä asennus on peräisin
+    (attribuutiometatiedot).</li>
+</ul>
+<p>Kun ”Jaa anonyymit käyttötiedot” on päällä, RevenueCat välittää lisäksi AppsFlyerille
+  tiedon kokeilujaksosta tai ostosta ja sen hinnan, jotta se voidaan laskea
+  mainoskampanjan ansioksi. Katso <em>Mainosten mittaus</em> alempana.</p>
+<p>RevenueCat ei koskaan saa päiväkirjaasi, vastauksiasi, jaksoasi eikä mitään
+  toipumiseesi liittyvää sisältöä. Katso
+  <a href="https://www.apple.com/legal/privacy/" rel="nofollow">Applen
+  tietosuojakäytäntö</a> ja
+  <a href="https://www.revenuecat.com/privacy/" rel="nofollow">RevenueCatin
+  tietosuojakäytäntö</a>.</p>
+
+<h3>DNS-kilpi, vain jos otat sen käyttöön</h3>
+<p>Kilpi asentaa salatun DNS-määrityksen (DoH), jonka ansiosta rahapelidomainit eivät avaudu
+  sovelluksissasi eivätkä selaimissasi. Kun kilpi on päällä, laitteesi DNS-kyselyihin vastaa
+  <a href="https://mullvad.net/en/help/dns-over-https-and-dns-over-tls" rel="nofollow">Mullvadin
+  julkinen DNS-palvelin</a>, joka noudattaa Mullvadin
+  <a href="https://mullvad.net/en/help/no-logging-data-policy/" rel="nofollow">lokittomuuskäytäntöä</a>.
+  Edistyneet käyttäjät voivat ohjata kyselyt sen sijaan omaan NextDNS-määritykseensä. Mullvad
+  ja NextDNS toimivat näiden kyselyiden osalta itsenäisinä rekisterinpitäjinä omien
+  käytäntöjensä mukaan. Me emme ole siinä välissä emmekä koskaan näe selaamistasi. Kun
+  kytket kilven pois iOS:n asetuksissa, tämä loppuu heti.</p>
+
+<h3>Estolistojen päivitykset</h3>
+<p>Sovellus lataa aika ajoin julkisia rahapelidomainien listoja jsDelivristä ja GitHubista.
+  Kuten minkä tahansa tiedoston latauksessa, nuo palvelimet näkevät pyynnön ja IP-osoitteesi.
+  Pyynnössä ei ole tunnistetta eikä mitään sinusta tai toipumisestasi.</p>
+
+<h3>Käyttömäärät: laskuri laitteellasi</h3>
+<p>Sovellus pitää omaa laskuria siitä, <em>miten sovellusta käytetään</em> (esimerkiksi
+  montako kertaa jokin näkymä avattiin tiettynä päivänä). Luvut tallentuvat päivittäin
+  yhteen tiedostoon sovelluksen omaan tallennustilaan. Siinä ei ole tunnisteita eikä mitään
+  kirjoittamaasi, ja <strong>tuo tiedosto ei koskaan lähde puhelimestasi</strong>. Sovelluksen
+  poistaminen poistaa sen. Samojen tapahtumien <em>nimet</em> lähetetään erikseen
+  TelemetryDeckille, ellet kytke sitä pois. Siitä kertoo seuraava kohta, ja siksi tässä
+  kohdassa ei rehellisyyden nimissä enää lue ”ei välity kenellekään”.</p>
+
+<h3>Käyttöanalytiikka: TelemetryDeck, ellet kytke sitä pois</h3>
+<p>Haluamme nähdä, missä kohtaa ihmiset jättävät käyttöönoton kesken. Silloin
+  näkymän voi korjata arvailematta. Siksi sovellus lähettää niiden vaiheiden <em>nimet</em>,
+  joihin se pääsee, yritykselle <strong>TelemetryDeck GmbH</strong>, Von-der-Tann-Str. 54,
+  86159 Augsburg, Saksa. Lähetettävät tiedot ovat:</p>
+<ul>
+  <li>jokaisen saavutetun käyttöönoton vaiheen <strong>nimi</strong> ja sen paikka
+    järjestyksessä (<code>funnel.question_04</code>, <code>funnel.paywall</code>), kukin
+    enintään kerran asennusta kohti;</li>
+  <li>muiden sovelluksen tapahtumien <strong>nimet</strong>, kuten ohjelmapäivä suoritettu
+    tai hätäpainike avattu, eikä niistä muuta kuin nimi;</li>
+  <li>TelemetryDeckin omat vakiotiedot: käyttöjärjestelmän versio, laitemalli,
+    kieliasetus, alue, sovelluksen versio ja vastaavat;</li>
+  <li>satunnainen tunniste, jonka sovellus luo tälle asennukselle.</li>
+</ul>
+<p>Laskemme näistä tapahtumien nimistä myös muutaman kokonaismäärän, jotka sovellus näyttää
+  käyttöönoton aikana, esimerkiksi montako ohjelmapäivää ihmiset ovat suorittaneet.
+  Kokonaismäärä ei kerro mitään kenestäkään yksittäisestä ihmisestä.</p>
+<p>Koskaan ei lähetetä kyselyvastauksiasi, PGSI-pisteitäsi, viikoittaista rahankäyttöäsi,
+  päiväkirjasi tekstiä tai lipsahdusmerkintöjäsi, eikä mitään muutakaan, minkä olet
+  kirjoittanut tai valinnut. Signaali kertoo, että näkymään päästiin. Se ei koskaan kerro,
+  mitä näkymässä oli tai mitä siihen kirjoitit.</p>
+<p><strong>Tuosta tunnisteesta.</strong> Se on satunnainen UUID, jonka sovellus luo, kun
+  avaat sen ensimmäisen kerran. Se <em>ei</em> tarkoituksella ole
+  <code>identifierForVendor</code>, jota iOS olisi muuten käyttänyt, koska se säilyy
+  sovelluksen poiston ja uudelleenasennuksen yli ja on yhteinen kaikille saman kehittäjän
+  sovelluksille. Meidän tunnisteemme ei ole yhteinen minkään kanssa, ja se häviää, kun poistat
+  sovelluksen. Ennen kuin se lähtee puhelimestasi, siitä lasketaan laitteella suolattu tiiviste
+  (hash). Perillä TelemetryDeck lisää oman suolansa ja laskee tiivisteen uudelleen, joten emme
+  me eivätkä he pysty päättelemään tallennetusta arvosta alkuperäistä. Yksi tiivistys olisi
+  pelkkää pseudonymisointia, ja siksi he tekevät toisen.</p>
+<p>Kytkemme lisäksi pois kaksi asiaa, jotka TelemetryDeck muuten keräisi: istunnon alkamisesta
+  kertovan signaalin ja istuntotilastot.</p>
+<p><strong>Kytkin.</strong> Asetukset → Tietosi → <strong>Jaa anonyymit
+  käyttötiedot</strong>. Se on <strong>oletuksena päällä</strong>, emmekä kaunistele syytä:
+  jos mittaus vaatisi erillisen suostumuksen, se mittaisi väärää joukkoa. Juuri ne, jotka
+  lopettavat ensimmäiseen näkymään, eivät koskaan pääse suostumuskysymykseen asti, joten
+  mitattava poistuma itse vääristäisi otosta. Oletuksen hinta on se, että kerromme suoraan,
+  mitä lähetetään, ja sitä varten tämä kohta on. Kun kytket sen pois, uusia signaaleja ei enää
+  lähde, lähetyskanava poistuu sovelluksesta ja levyllä odottavat lähettämättömät signaalit
+  poistetaan. Jo lähtenyttä ei voi vetää takaisin, eikä mikään siinä johda sinuun.</p>
+<p>Katso <a href="https://telemetrydeck.com/privacy/" rel="nofollow">TelemetryDeckin
+  tietosuojakäytäntö</a>.</p>
+
+<h3>Mainosten mittaus: AppsFlyer, saman kytkimen takana</h3>
+<p>Mainostamme Silexiä, ja mainoksesta kannattaa maksaa vain, jos sen kautta asentaneet
+  ihmiset myös käyttävät sovellusta. Tämän laskemiseksi sovelluksessa on
+  <strong>AppsFlyer Ltd.</strong> -yrityksen (14 Maskit St., Herzliya, Israel) SDK. Se
+  saa:</p>
+<ul>
+  <li>tiedon siitä, että sovellus asennettiin ja avattiin, ja milloin;</li>
+  <li>tunnisteen, jonka AppsFlyerin SDK luo tälle sovelluksen asennukselle;</li>
+  <li>AppsFlyerin vakiolaitetiedot: laitemalli, käyttöjärjestelmän versio, kieli, sovelluksen
+    versio ja verkkotiedot (Wi-Fi tai operaattori). Kuten mikä tahansa palvelin, se näkee
+    IP-osoitteesi, josta AppsFlyer kertoo voivansa päätellä karkean alueen;</li>
+  <li>kolmen tapahtuman <strong>nimet</strong> eikä niistä muuta: että tilausvaihtoehdot
+    näytettiin, että ilmainen kokeilujakso alkoi ja että ostos tehtiin;</li>
+  <li>RevenueCatilta tiedon kokeilujaksosta tai ostosta ja sen hinnan, liitettynä samaan
+    asennustunnisteeseen.</li>
+</ul>
+<p>Näin asennus yhdistetään mainokseen: Applen omilla koostetuilla raporteilla (SKAdNetwork ja
+  AdAttributionKit), joissa nimetään <em>kampanja</em> eikä koskaan ihmistä. Apple lähettää ne
+  mainosverkostolle, ja iOS lähettää niistä kopion AppsFlyerille. Poikkeuksia on yksi, ja se
+  alkoi 22. marraskuuta 2026: katso ”Metan mainokset” alempana.</p>
+<p>Itse App Storen mainokset toimivat hieman eri tavalla. Niitä varten iOS antaa sovellukselle
+  kertakäyttöisen tunnuksen (Applen AdServices), jonka AppsFlyer ja RevenueCat kumpikin
+  vaihtavat Applella tietoon siitä, mikä kampanja ja hakusana johti tähän asennukseen. Tunnus
+  yksilöi mainoksen napautuksen, ei sinua.</p>
+<p>Yhtä ei ole mukana lainkaan, ja se on rakennettu sovellukseen eikä vain luvattu:
+  <strong>mainostunnistetta.</strong> Sovellus ei koskaan näytä seurantaluvan kyselyä. Siinä on
+  AppsFlyerin SDK:n versio, josta mainostunnisteen koodi on poistettu, ja se kytkee pois
+  <code>identifierForVendor</code>-tunnisteen keräämisen. Se on ainoa tunniste, joka on
+  yhteinen saman kehittäjän sovelluksille. Mitään kirjoittamaasi tai valitsemaasi ei lähetetä:
+  sama luettelo kuin edellä.</p>
+<p><strong>Yksi asia on toisin kuin analytiikan tunnisteessa, ja sanomme sen mieluummin
+  ääneen.</strong> AppsFlyerin tunnisteesta ei lasketa tiivistettä puhelimessasi niin kuin
+  TelemetryDeckin tunnisteesta, ja AppsFlyerin SDK säilyttää iPhonen avainnipussa pientä
+  merkintää, jonka avulla se erottaa uudelleenasennuksen uudesta asennuksesta. Avainnipun
+  merkinnät voivat säilyä sovelluksen poistamisen jälkeenkin. Siksi AppsFlyerin kohdalla emme
+  väitä, toisin kuin TelemetryDeckin kohdalla, että uudelleenasennus näyttää
+  tuntemattomalta.</p>
+<p><strong>Kytkin</strong> on sama: Asetukset → Tietosi → <strong>Jaa anonyymit
+  käyttötiedot</strong>, pois. Se lopettaa SDK:n pyynnöt, poistaa AppsFlyerin tunnisteen
+  RevenueCatista, jotta yhtään ostotapahtumaa ei enää välitetä eteenpäin, ja poistaa levyllä
+  odottavat pyynnöt. AppsFlyerilla on lisäksi oma kieltolomake osoitteessa
+  <a href="https://www.appsflyer.com/legal/opt-out/" rel="nofollow">appsflyer.com/legal/opt-out</a>.
+  Katso <a href="https://www.appsflyer.com/legal/services-privacy-policy/" rel="nofollow">AppsFlyerin
+  palvelujen tietosuojakäytäntö</a>.</p>
+
+<h3>Metan mainokset, 22. marraskuuta 2026 alkaen</h3>
+<p>Aloitamme mainostamisen Facebookissa ja Instagramissa. Metan iPhone-sovellusten
+  asennuskampanjat laskevat asennukset vain Metan omalla menetelmällä (sen nimi on Aggregated
+  Event Measurement), ja menetelmä tarvitsee tietoja sovelluksesta. Meille ei tarjottu
+  mahdollisuutta laskea pelkillä Applen koostetuilla raporteilla. Siksi AppsFlyer välittää
+  22. marraskuuta 2026 alkaen osan saamistaan tiedoista Metalle (<strong>Meta Platforms Ireland
+  Ltd.</strong> Euroopassa oleville, <strong>Meta Platforms, Inc.</strong>
+  muualla):</p>
+<ul>
+  <li>että sovellus asennettiin, ja jokaisen avaamiskerran: jokaisesta asennuksesta, jossa tämä
+    kytkin on päällä, riippumatta siitä, oliko mainoksella siihen mitään tekemistä;</li>
+  <li>asennuksista, jotka AppsFlyer katsoo jonkin Meta-mainoksemme ansioksi, edellä luetellut
+    kolme tapahtuman nimeä;</li>
+  <li>näiden mukana aina AppsFlyerin tunnisteen asennukselle, IP-osoitteen, josta pyyntö tuli,
+    sekä laitemallin ja iOS-version.</li>
+</ul>
+<p>Edelleenkään ei lähetetä nimeä, sähköpostiosoitetta, mainostunnistetta,
+  <code>identifierForVendor</code>-tunnistetta eikä mitään, minkä olet kirjoittanut tai
+  valinnut sovelluksessa.</p>
+<p><strong>Mitä tämä muuttaa, suoraan sanottuna.</strong> Ennen tätä päivää yhdestäkään
+  yksittäisestä asennuksesta ei päätynyt mitään mainosyhtiölle. Nyt Meta saa yhden tietueen
+  asennusta kohti. Ehtojensa mukaan se voi yhdistää tällaisen tietueen ihmiseen, joka käyttää
+  Facebookia tai Instagramia, käyttää sitä mainostemme mittaamiseen ja sen päättämiseen,
+  kenelle mainoksia näytetään, ja säilyttää sen enintään kaksi vuotta. Tietue kertoo, että
+  laitteelle asennettiin sovellus ihmisille, jotka haluavat lopettaa rahapelaamisen. Se on
+  sellainen tieto, jota kohdassa 3 käsitellään varoen. Tietoa jaetaan vain niin kauan kuin
+  mainostamme Metassa: jos lopetamme tai jos Meta antaa Silexin kampanjan laskea asennukset
+  pelkillä Applen koostetuilla raporteilla, kytkemme jakamisen pois ja merkitsemme päivämäärän
+  tähän. Se, minkä Meta on siihen mennessä saanut, on Metan ehtojen alaista; emme voi vetää sitä
+  takaisin.</p>
+<p><strong>Kytkin kattaa myös tämän.</strong> Asetukset → Tietosi → <strong>Jaa anonyymit
+  käyttötiedot</strong>, pois: AppsFlyer ei saa puhelimestasi enää mitään, joten sillä ei ole
+  mitään välitettävää. Jos haluat kysyä Metalta siitä, mitä sillä jo on, käytä Facebook- tai
+  Instagram-tilisi työkaluja tai katso
+  <a href="https://www.facebook.com/privacy/policy/" rel="nofollow">Metan
+  tietosuojakäytäntö</a>.</p>
+
+<p>App Storen omin termein sovellus ilmoittaa: <strong>ei seurantaa</strong>
+  (<code>NSPrivacyTracking</code> false, ei seurantadomaineja). Kerättäviä tietotyyppejä se
+  ilmoittaa kolme: tuotteen käyttö (Product Interaction), laitetunniste (Device ID) ja
+  ostohistoria (Purchase History). Kaikki on merkitty tiedoiksi, <em>joita ei liitetä
+  henkilöllisyyteesi</em> ja <em>joita ei käytetä seurantaan</em>. Niiden käyttötarkoitukset ovat
+  analytiikka ja oman mainontamme mittaaminen (ostohistorian osalta myös tilauksen
+  toimittaminen).</p>
+
+<p><strong>Ei mitään muuta.</strong> Nämä viisi verkkoyhteyttä ovat sovelluksen ainoat.
+  Mainostunnisteita ei ole, emmekä tee profilointia tai automaattista päätöksentekoa, jolla
+  olisi oikeudellisia tai vastaavalla tavalla merkittäviä vaikutuksia. Niin kauan kuin edellä
+  kuvattu tietojen jakaminen Metalle on päällä, se on ainoa kohta, jossa tieto asennuksestasi
+  voidaan yhdistää siihen, mitä toinen yritys sinusta jo tietää. Edellisen kappaleen ilmoitus
+  kirjoitettiin ennen sen alkamista. Selvitämme, pitääkö ilmoitusta muuttaa, ja kerromme
+  mahdollisesta muutoksesta kohdassa 11.</p>
+
+<h3>Lause muille, vain jos lähetät sellaisen</h3>
+<p>Kun olet suorittanut ohjelman päivän 7, sovellus voi kysyä kerran, haluaisitko jakaa
+  lauseen jollekulle, joka on vasta aloittamassa. Jos haluat, omaan sähköpostisovellukseesi
+  avautuu meille osoitettu viesti, jossa on sanasi, etunimesi alkukirjain, päiviesi määrä ja
+  suostumuksesi. Voit muuttaa tai poistaa mitä tahansa siitä ennen lähettämistä, eikä mitään
+  lähde laitteeltasi, ellet paina lähetä.</p>
+<p>Saamme silloin tuon sähköpostin ja osoitteesi Googlen ylläpitämään postilaatikkoon. Voimme
+  näyttää sanasi, etunimesi alkukirjaimen ja päiviesi määrän sovelluksessa ja
+  sovelluskauppojen sivuillamme. Emme koskaan julkaise sähköpostiosoitettasi. Kirjoita meille
+  milloin tahansa, niin lakkaamme käyttämästä sanojasi: ne poistuvat kauppasivuilta ja sovelluksen
+  seuraavasta versiosta, ja poistamme sähköpostin, ellei meidän ole pakko säilyttää sitä
+  osoittaaksemme, mihin suostuit.</p>
+
+<h2>3. Oikeusperusteet (GDPR:n 6 ja 9 artikla)</h2>
+<div class="table-scroll">
+<table>
+  <thead><tr><th>Mitä</th><th>Tarkoitus</th><th>Oikeusperuste</th></tr></thead>
+  <tbody>
+    <tr>
+      <td>Oston ja tilauksen tila (Applen / RevenueCatin kautta)</td>
+      <td>Ostamasi tilauksen toimittaminen ja palauttaminen; vilpillisesti hankitun
+        käyttöoikeuden estäminen</td>
+      <td><strong>6 artiklan 1 kohdan b alakohta</strong>: kanssasi tehdyn sopimuksen
+        täytäntöönpano</td>
+    </tr>
+    <tr>
+      <td>IP-osoite, jonka estolistan jakeluverkko (CDN) näkee, kun sovellus lataa listan</td>
+      <td>Sen esto-ominaisuuden toimittaminen, jota varten sovellus on olemassa</td>
+      <td><strong>6 artiklan 1 kohdan f alakohta</strong>: oikeutettu etu (suojalistojen
+        pitäminen ajan tasalla). Arviomme: mahdollisimman vähän tietoa, ei profilointia, ei
+        yhteyttä sinuun</td>
+    </tr>
+    <tr>
+      <td>Tapahtumien nimet, asennuskohtainen tiivistetty tunniste ja TelemetryDeckin
+        vakiolaitetiedot, kun ”Jaa anonyymit käyttötiedot” on päällä</td>
+      <td>Sen näkeminen, missä kohtaa ihmiset jättävät käyttöönoton kesken, jotta ne näkymät
+        voidaan korjata, ja edellä kuvattujen kokonaismäärien näyttäminen</td>
+      <td><strong>6 artiklan 1 kohdan f alakohta</strong>: oikeutettu etu (sovelluksen
+        toimivuus niille, joille se on tarkoitettu). Arviomme: ei sisältöä, ei
+        mainostunnistetta, tunniste, joka ei voi seurata sinua sovelluksesta toiseen eikä säily
+        sovelluksen poistamisen yli, ja Asetuksissa kytkin, joka lopettaa tämän. Juuri kytkin
+        kantaa tasapainotestin: etu, josta voit kieltäytyä yhdellä napautuksella, ei ole etu,
+        joka ajaa sinun etusi yli</td>
+    </tr>
+    <tr>
+      <td>AppsFlyerin asennustunniste, AppsFlyerin vakiolaitetiedot, kolme tapahtuman nimeä sekä
+        kokeilujakso- ja ostotapahtumat, kun ”Jaa anonyymit käyttötiedot” on päällä</td>
+      <td>Sen tietäminen, mitkä mainoksistamme johtavat siihen, että ihmiset oikeasti käyttävät
+        sovellusta, jotta lakkaamme maksamasta muista</td>
+      <td><strong>6 artiklan 1 kohdan f alakohta</strong>: oikeutettu etu (toipumissovelluksen
+        mainostaminen hukkaamatta sitä rahaa, jolla se rahoitetaan). Arviomme: ei
+        mainostunnistetta, ei sisältöä, yhdistäminen mainoksiin vain Applen koostettujen
+        kampanjaraporttien kautta (lukuun ottamatta seuraavalla rivillä kuvattua tietojen
+        jakamista Metalle) ja sama kytkin Asetuksissa, joka lopettaa tämän</td>
+    </tr>
+    <tr>
+      <td>22. marraskuuta 2026 alkaen, niin kauan kuin mainostamme Metassa: asennus- ja
+        avaustiedot, jotka AppsFlyer välittää Metalle, sekä AppsFlyerin asennustunniste,
+        IP-osoite, laitemalli ja iOS-versio (kohta 2, ”Metan mainokset”)</td>
+      <td>Se, että Meta voi laskea mainostensa tuomat asennukset, mitä sen
+        iPhone-asennuskampanjat edellyttävät</td>
+      <td><strong>6 artiklan 1 kohdan f alakohta</strong>: oikeutettu etu, ja tässä taulukossa
+        tuon perusteen heikoin käyttö: tieto menee yritykselle, joka voi yhdistää sen tiliin.
+        Arviomme nojaa siihen, ettei tiedossa ole mitään kirjaamaasi, että sitä jaetaan vain
+        niin kauan kuin mainostamme Metassa ja että sama kytkin lopettaa sen</td>
+    </tr>
+    <tr>
+      <td>DNS-kyselyt, kun kilpi on käytössä</td>
+      <td>Rahapelidomainien estäminen koko laitteessa</td>
+      <td><strong>6 artiklan 1 kohdan a alakohta</strong>: suostumuksesi, jonka annat ottamalla
+        kilven käyttöön ja hyväksymällä iOS:n kysymyksen; voit peruuttaa sen milloin tahansa
+        kytkemällä kilven pois</td>
+    </tr>
+    <tr>
+      <td>Lause, jonka päätät lähettää meille sähköpostilla julkaistavaksi</td>
+      <td>Vasta aloittaville näyttäminen, että muutkin ovat olleet tässä</td>
+      <td><strong>6 artiklan 1 kohdan a alakohta ja 9 artiklan 2 kohdan a alakohta</strong>:
+        nimenomainen suostumuksesi, jonka annat kytkemällä hyväksynnän päälle ja lähettämällä
+        sähköpostin; voit peruuttaa sen milloin tahansa</td>
+    </tr>
+    <tr>
+      <td>Se, mitä kirjoitat sovellukseen</td>
+      <td>Toipumisohjelman toimittaminen sinulle omalla laitteellasi</td>
+      <td>Emme saa sitä, joten emme tee käsittelyä, jota pitäisi perustella. Siltä osin kuin
+        sitä ylipäätään käsitellään, se tapahtuu laitteellasi ja sinun hallinnassasi</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+<p><strong>Erityisiin henkilötietoryhmiin kuuluvat tiedot (terveystiedot).</strong> Se, mitä
+  kirjaat tähän sovellukseen, paljastaa tietoja terveydestäsi ja mahdollisesta
+  toiminnallisesta riippuvuudesta. Ne ovat <strong>9 artiklan</strong> mukaisia erityisiin
+  henkilötietoryhmiin kuuluvia tietoja. Juuri siksi sovellus on suunniteltu niin kuin se on:
+  nuo tiedot eivät koskaan päädy meille, joten emme koskaan nojaa niiden osalta 9 artiklan
+  edellytykseen. Ainoa poikkeus on lause, jonka päätät lähettää meille sähköpostilla
+  julkaistavaksi: se voi paljastaa saman asian, joten sen osalta nojaamme nimenomaiseen
+  suostumukseesi 9 artiklan 2 kohdan a alakohdan nojalla.</p>
+<p>Vaikeampi kysymys on analytiikka, ja käymme sen mieluummin läpi kuin sivuutamme sen.
+  Signaalissa <code>funnel.question_04</code> ei ole sisältöä. Silex on kuitenkin sovellus
+  rahapelaamisesta toipumiseen, ja unionin tuomioistuin on katsonut, että myös tieto, joka
+  paljastaa erityisen henkilötietoryhmän vain <em>välillisesti</em>, kuuluu säännön piiriin
+  (asia C-184/20, <em>OT</em>). Emme siis väitä, että nämä signaalit olisivat aiheeltaan
+  viattomia: ”tämä asennus tuli Silexin käyttöönottoon” kertoo puhelinta pitelevästä ihmisestä
+  jotain, mikä on lähellä terveyttä. Nojaamme 9 artiklan toiseen puoleen, joka koskee tietoja
+  <strong>tunnistetusta tai tunnistettavissa olevasta</strong> luonnollisesta henkilöstä. Näihin
+  signaaleihin liitetty tunniste on satunnainen, luotu yhdelle asennukselle, suolattu ja
+  tiivistetty laitteellasi, ja perillä siihen lisätään vielä TelemetryDeckin oma suola ja siitä
+  lasketaan uusi tiiviste. Kukaan osapuoli, emme mekään, pysty siis pääsemään siitä takaisin
+  ihmiseen tai yhdistämään sitä mihinkään muuhun. Tällä perusteella katsomme, että
+  TelemetryDeckille päätyvä tieto jää 9 artiklan ulkopuolelle. Käsittelemme sitä silti
+  6 artiklan mukaisena pseudonyymina henkilötietona, jolla on oikeusperuste ja toimiva
+  kieltomahdollisuus, koska näistä kahdesta tulkinnasta kannattaa olla väärässä varovaisemman
+  puolella. Tilauskuitin osalta mikään ei muutu: se ei paljasta terveydentilaa sen enempää kuin
+  että ostit sovelluksen.</p>
+<p>AppsFlyerille päätyvä tieto kestää tuon arvion heikommin, ja kohtelemme sitä sen mukaisesti.
+  Sen tunniste on satunnainen ja koskee vain tätä sovellusta, mutta siitä ei lasketa tiivistettä
+  kahdesti, ja se saapuu yhdessä laitemallin, IP-osoitteen ja ostotapahtumien kanssa.
+  Käsittelemme sitä pseudonyymina henkilötietona, joka on henkilötietojen käsittelijän hallussa
+  tietojenkäsittelyliitteen nojalla (kohta 4), taulukon mukaisella 6 artiklan oikeusperusteella
+  ja samalla kieltomahdollisuudella. Se sanoo: ”tämä asennus tuli Silexiin ja aloitti
+  kokeilujakson”. Se ei kerro, kuka olet, eikä siinä ole mitään sovellukseen kirjaamaasi.</p>
+<p>Tämä on selosteen ainoa kappale, jossa pätevät juristit voivat perustellusti päätyä eri
+  tuloksiin, ja sanomme sen mieluummin kuin annamme sen näyttää ratkaistulta.</p>
+
+<h2>4. Kansainväliset siirrot</h2>
+<p><strong>RevenueCat</strong> on yhdysvaltalainen yritys (Brandon, Florida), joka säilyttää
+  tietoja Amazon Web Services -palvelussa Yhdysvalloissa. Siirrot katetaan sen
+  tietojenkäsittelysopimuksella, johon sisältyvät Euroopan komission
+  <strong>vakiosopimuslausekkeet</strong> (täytäntöönpanopäätös (EU) 2021/914),
+  <strong>moduuli kaksi: rekisterinpitäjältä henkilötietojen käsittelijälle</strong>.
+  Yhdistyneen kuningaskunnan osalta sovelletaan lisäksi ICO:n liitettä <strong>International
+  Data Transfer Addendum</strong>, joka on päivätty 21. maaliskuuta 2022, ja Sveitsin osalta
+  Sveitsin tietosuojalakiin (FADP) sovitettuja vakiosopimuslausekkeita. RevenueCat
+  <strong>ei</strong> ole sertifioitu EU:n ja Yhdysvaltojen tietosuojakehyksen (EU–US Data Privacy
+  Framework) mukaisesti; siirto perustuu vakiosopimuslausekkeisiin. <em>Tarkistettu
+  RevenueCatin julkaisemasta tietojenkäsittelysopimuksesta 6. elokuuta 2026.</em></p>
+<p><strong>TelemetryDeck</strong> on saksalainen yritys (TelemetryDeck GmbH, Augsburg). Se
+  ilmoittaa, että käyttötiedot säilytetään <strong>yksinomaan Euroopan unionissa</strong>
+  Hetznerin palvelimilla Nürnbergissä. Osa käsittelyketjusta toimii vielä Azuressa Amsterdamissa
+  ja AWS:ssä Frankfurtissa, ja yrityksen ilmoitettu suunnitelma on siirtää kaikki Hetznerille
+  vuoden 2026 aikana. Sen yritystason tietosuojakäytäntö nimeää näiksi vastapuoliksi Hetzner
+  Online GmbH:n (Saksa), Microsoft Ireland Operations Ltd:n (Irlanti) ja Amazon Web Services,
+  Inc:n (Seattle, Yhdysvallat). AWS-yhtiö on amerikkalainen, mutta alue, jolla se säilyttää
+  tiedot, on Frankfurt. TelemetryDeckin oman ilmoituksen mukaan mikään meidän
+  analytiikkatietomme ei siis poistu ETA-alueelta, eikä <strong>V luvun siirtomekanismia
+  tarvita</strong>, koska siirtoa kolmanteen maahan ei ole. Emme ole itsenäisesti varmistaneet
+  noita säilytysalueita emmekä pysty siihen; kerromme, mitä TelemetryDeck julkaisee.</p>
+<p>Yhtä asiaa emme voi antaa sinulle, ja siksi tämä kohta on pidempi kuin RevenueCatin.
+  <strong>TelemetryDeck ei tarjoa 28 artiklan mukaista käsittelysopimusta.</strong> Sen
+  tietojenkäsittelyehdot ovat automaattisesti osa sen käyttöehtoja, joten mitään
+  allekirjoitettavaa ei ole. Niissä kuitenkin todetaan, että se ei toimi ”GDPR:n 4 artiklan
+  8 kohdassa tarkoitettuna henkilötietojen käsittelijänä eikä yhteisrekisterinpitäjänä” ja ettei
+  26 ja 28 artiklaa sovelleta, sillä perusteella, että sen saamat tiedot ovat anonyymejä eivätkä
+  henkilötietoja. Emme ole omaksuneet tätä kantaa: käsittelemme tiivistettyä asennustunnistetta
+  pseudonyymina henkilötietona, annamme sille joka tapauksessa 6 artiklan oikeusperusteen ja
+  kieltomahdollisuuden (kohta 3) ja kuvaamme TelemetryDeckin tosiasialliseksi henkilötietojen
+  käsittelijäksi, koska sitä se tekee. Sinun on hyvä tietää seuraus: 28 artiklan mukaisen
+  sopimuksen antamat takeet (dokumentoidut ohjeet, auditointioikeudet, sopimukseen perustuva
+  poistamisvelvollisuus) eivät ole meidän saatavillamme tältä toimittajalta, koska se torjuu
+  roolin, josta ne syntyvät. <em>Tarkistettu TelemetryDeckin julkaisemista
+  tietosuojakäytännöstä, tietojenkäsittelysopimuksesta sekä arkkitehtuuri- ja
+  tietoturvasivuista 17. elokuuta 2026.</em></p>
+<p><strong>AppsFlyer</strong> on israelilainen yritys (AppsFlyer Ltd., Herzliya). Israelista on
+  olemassa Euroopan komission päätös tietosuojan riittävyydestä (2011/61/EU). AppsFlyerin
+  tietojenkäsittelyliite nimeää sen <strong>henkilötietojen käsittelijäksi</strong> ja meidät
+  rekisterinpitäjäksi, ja sen julkaisema alikäsittelijäluettelo ilmoittaa palvelinten
+  tarjoajiksi Amazon Web Servicesin ja Google Cloudin, sijaintina ”EU/USA”. Riittävän suojan
+  maiden ulkopuolelle tehtäviin siirtoihin liite sisältää
+  <strong>vakiosopimuslausekkeet</strong> (täytäntöönpanopäätös (EU) 2021/914),
+  <strong>moduuli kaksi: rekisterinpitäjältä henkilötietojen käsittelijälle</strong>, ja
+  Yhdistyneen kuningaskunnan osalta ICO:n liitteen <strong>International Data Transfer
+  Addendum</strong>. Emme ole varmistaneet, millä alueella tietojamme säilytetään.
+  <em>Tarkistettu AppsFlyerin julkaisemasta tietojenkäsittelyliitteestä (helmikuu 2023),
+  alikäsittelijäluettelosta ja palvelujen tietosuojakäytännöstä 19. marraskuuta
+  2026.</em></p>
+<p><strong>Meta</strong>, kohdassa 2 kuvatun tietojen jakamisen osalta. Meta Platforms Ireland
+  Ltd. on EU:ssa ja välittää tietoja Meta Platforms, Inc:lle Yhdysvaltoihin Metan omien
+  siirtoehtojen mukaisesti. Metan Business Tools -ehtojen mukaan se toimii henkilötietojen
+  käsittelijänämme, kun se yhdistää tietoja ja mittaa, ja yhteisrekisterinpitäjänä kanssamme, kun
+  se käyttää saamiaan tietoja päättääkseen, kuka näkee mainoksia. <em>Luettu Metan Business
+  Tools -ehdoista 20. marraskuuta 2026; emme ole varmistaneet Metan siirtomekanismia enempää
+  kuin mitä noissa ehdoissa sanotaan.</em></p>
+<p><strong>Apple</strong>: katso Applen tietosuojakäytännöstä sen omat siirtoja koskevat
+  suojatoimet. Yksityisiä iCloud-tietojasi koskevat Applen ehdot, emmekä me siirrä niitä, koska
+  ne eivät koskaan ole meillä.</p>
+<p><strong>Me.</strong> Olemme sijoittautuneet Ukrainaan, joka on ETA-alueen ulkopuolella ja josta
+  ei ole Euroopan komission päätöstä tietosuojan riittävyydestä. Kun annat tietoja suoraan meille,
+  kyse on suorasta keräämisestä eikä V luvun mukaisesta siirrosta (Euroopan tietosuojaneuvoston
+  ohjeet 05/2021, jotka koskevat 3 artiklan ja V luvun välistä suhdetta). Käytännössä kerättävää
+  ei juuri ole: tiliä ei ole, ja ainoat henkilötiedot, jotka me näemme, ovat pseudonyymi
+  tilaustieto RevenueCatin hallintanäkymässä, kootut luvut TelemetryDeckin näkymässä ja
+  asennuskohtaiset tiedot AppsFlyerin näkymässä.</p>
+
+<h2>5. Kuinka kauan mitäkin säilytetään</h2>
+<ul>
+  <li><strong>Laitteellasi ja yksityisessä iCloudissasi:</strong> kunnes poistat ne. Me emme voi
+    poistaa niitä puolestasi emmekä estää sinua poistamasta niitä.</li>
+  <li><strong>Meidän järjestelmissämme:</strong> ei mitään. Kohtien 14 ja 15 kaksi pientä palvelua
+    eivät säilytä mitään tietoja.
+    Ulkopuoliset palvelimet, joilla on jotain meihin liittyvää, ovat RevenueCatin,
+    TelemetryDeckin ja AppsFlyerin; katso alla.</li>
+  <li><strong>Lause, jonka lähetit meille sähköpostilla julkaistavaksi:</strong> niin kauan kuin
+    käytämme sanojasi, kunnes pyydät meitä lopettamaan. Katso kohta 2.</li>
+  <li><strong>Ostotiedot:</strong> Apple ja RevenueCat säilyttävät ne omien säilytysaikojensa
+    mukaan sekä vero- ja kirjanpitolainsäädännön edellyttämällä tavalla.</li>
+  <li><strong>Laitteellasi olevat käyttömäärät:</strong> poistuvat, kun sovellus
+    poistetaan.</li>
+  <li><strong>AppsFlyerin hallussa olevat asennus- ja tapahtumatiedot:</strong> sen palvelujen
+    tietosuojakäytännön mukaan se ei säilytä loppukäyttäjien tietoja yli
+    <strong>kahtakymmentäneljää kuukautta</strong>. Tietueen voi saada poistetuksi aiemmin
+    AppsFlyerin omalla lomakkeella (kohta 2).</li>
+  <li><strong>Metalle välitetyt asennus- ja avaustiedot</strong> (kohta 2, ”Metan mainokset”):
+    Metan ehdot sallivat niiden säilyttämisen enintään <strong>kaksi vuotta</strong>.</li>
+  <li><strong>TelemetryDeckin hallussa olevat tapahtumien nimet:</strong> <strong>se ei julkaise
+    niille poistoaikataulua.</strong> Sen hinnoittelupaketeissa mainitaan säilytysaika, ilmaisella
+    tasolla 90 päivää ja maksullisilla enemmän, mutta se on <em>hakuikkuna</em>: kuinka kauas
+    taaksepäin sen näkymistä voi katsoa. Ikkunaa vanhemmat tiedot siirretään arkistotallennukseen
+    eikä niitä poisteta, ja ne voidaan ladata takaisin. TelemetryDeckin mukaan poistamisesta,
+    kertaluonteisesta tai aikataulutetusta, voi sopia pyynnöstä. Emme ole sopineet siitä, joten
+    oleta, että nämä signaalit säilyvät toistaiseksi. Koska ne ovat lukuja ilman tunnistetta, joka
+    johtaisi sinuun, asia on pienempi kuin miltä se kuulostaa. Se on kuitenkin täsmällinen, ja
+    kirjoitamme mieluummin sen kuin luvun, jonka keksimme itse.</li>
+</ul>
+
+<h2>6. Kuka on vastuussa</h2>
+<p><strong>Rekisterinpitäjä:</strong> Kyrylo Lozovyi<br>
+  <strong>Osoite:</strong> Vidpochinku 12, Kyiv, Ukraina<br>
+  <strong>Yhteydenotot tietosuoja-asioissa:</strong>
+  <a href="mailto:support@trysilex.com">support@trysilex.com</a>
+  (tavoitat meidät myös osoitteesta
+  <a href="mailto:stopgamblesupport@gmail.com">stopgamblesupport@gmail.com</a>, joka näkyy
+  sovelluksen nykyisissä versioissa)</p>
+<p>Emme ole nimittäneet tietosuojavastaavaa. Meidän ei tarvitse, koska emme tee laajamittaista
+  seurantaa emmekä säilytä järjestelmissämme erityisiin henkilötietoryhmiin kuuluvia tietoja
+  (katso kohta 3).</p>
+
+<h2>7. Oikeutesi</h2>
+<p>Jos olet ETA-alueella tai Yhdistyneessä kuningaskunnassa, sinulla on oikeus <strong>saada
+  pääsy</strong> tietoihisi, oikeus tietojen <strong>oikaisemiseen</strong>,
+  <strong>poistamiseen</strong>, käsittelyn <strong>rajoittamiseen</strong> ja tietojen
+  <strong>siirtämiseen järjestelmästä toiseen</strong>, oikeus <strong>vastustaa</strong>
+  oikeutettuun etuun perustuvaa käsittelyä ja oikeus <strong>peruuttaa suostumus</strong> milloin
+  tahansa silloin, kun käsittely perustuu suostumukseen (DNS-kilpi: peruuta se kytkemällä kilpi
+  pois; tämä ei vaikuta jo tehtyyn käsittelyyn).</p>
+<p><strong>Rehellinen rajoitus.</strong> Lähes mistään, mihin tämä sovellus liittyy, meillä ei ole
+  sinusta tunnistettavia tietoja eikä tiliä, joka voisi yhdistää pyynnön ihmiseen. <strong>GDPR:n
+  11 artiklan</strong> mukaan meidän ei tarvitse hankkia lisätietoja vain tunnistaaksemme sinut,
+  emmekä pyydä sinulta henkilöllisyystodistuksia voidaksemme vastata pyyntöön, johon meillä ei ole
+  tietoja. Käytännössä:</p>
+<ul>
+  <li><strong>Kirjoittamasi sisältö</strong>: käytä oikeuksiasi suoraan. Se on laitteellasi ja
+    iCloudissasi, ja sovelluksen (ja iCloud-kopion) poistaminen hävittää sen kokonaan.</li>
+  <li><strong>Ostotiedot</strong>: ota yhteyttä Appleen, tai ota yhteyttä meihin, niin välitämme
+    pyynnön RevenueCatille, joka toimii henkilötietojen käsittelijänämme.</li>
+  <li><strong>Käyttöanalytiikka</strong>: <strong>21 artiklan mukaisella oikeudellasi
+    vastustaa</strong> oikeutettua etuamme on kytkin eikä asiakaspalvelun jonoa: Asetukset →
+    Tietosi → <strong>Jaa anonyymit käyttötiedot</strong>, pois. Uusia signaaleja ei enää lähde,
+    lähetyskanava poistuu ja levyllä odottavat signaalit poistetaan. Sinun ei tarvitse kirjoittaa
+    meille eikä perustella. Jo lähetettyä ei voi vetää takaisin, eikä sitä voi enää löytääkään,
+    koska mikään siinä ei yksilöi sinua.</li>
+  <li><strong>Mainosten mittaus</strong>: sama kytkin on vastustuksesi tähänkin. Jos haluat, että
+    AppsFlyerin asennuksestasi jo hallussaan pitämät tiedot poistetaan, käytä AppsFlyerin omaa
+    lomaketta (kohta 2). Me emme voi etsiä asennustasi puolestasi edellä kerrotusta syystä: meillä
+    ei ole mitään, mikä yhdistäisi asennuksen ihmiseen.</li>
+</ul>
+<p>Kirjoita osoitteeseen <a href="mailto:support@trysilex.com">support@trysilex.com</a>, niin
+  vastaamme kuukauden kuluessa, kuten 12 artiklan 3 kohdassa edellytetään.</p>
+<p><strong>Oikeus tehdä valitus.</strong> Voit tehdä valituksen oman maasi
+  tietosuojaviranomaiselle. Luettelo on osoitteessa
+  <a href="https://edpb.europa.eu/about-edpb/board/members_en" rel="nofollow">edpb.europa.eu</a>;
+  Yhdistyneessä kuningaskunnassa viranomainen on
+  <a href="https://ico.org.uk/make-a-complaint/" rel="nofollow">ICO</a>. Sinun ei tarvitse ottaa
+  ensin yhteyttä meihin, vaikka toivommekin sitä.</p>
+
+<h2>8. Kaiken poistaminen</h2>
+<ul>
+  <li>Poista sovellus iPhonestasi.</li>
+  <li>Poista iCloud-kopio: Asetukset → [nimesi] → iCloud → Hallitse tilin tallennustilaa →
+    Silex.</li>
+  <li>Peruuta tilaus: Asetukset → [nimesi] → Tilaukset, tai sovelluksen Hallitse tilausta
+    -linkki.</li>
+</ul>
+
+<h2>9. Arkaluonteiset tiedot, ja miksi sovelluksen rakenne on varsinainen käytäntö</h2>
+<p>Se, mitä kirjaat tähän, koskee terveyttäsi ja rahojasi, ja kohtelemme sitä sen mukaisesti. Ei
+  tilejä, joihin murtautua, ei omilla palvelimillamme mitään, minkä voisi vaatia luovutettavaksi
+  oikeuden määräyksellä, eikä millään toimittajalla mitään, mikä olisi luettavissa takaisin <em>sinun</em> toipumiseksesi. Vahvin
+  suoja, jonka voimme tarjota, on se, ettei meillä ole tietojasi lainkaan. Se osa on rakenteellinen
+  eikä lupaus: avainta, varmuuskopiota ja kopiota ei ole, joten ei ole mitään, minkä suhteen voisimme hiljaa
+  muuttaa mieltämme.</p>
+<p><strong>Mikä muuttui.</strong> Elokuuhun 2026 asti tässä kohdassa sanottiin myös, ettei millään
+  analytiikkatoimittajalla ole kopiota. Se ei enää pidä paikkaansa: TelemetryDeckillä on luku
+  siitä, kuinka moni asennus pääsi mihinkin näkymään. Se on todellinen heikennys takuuseen, emmekä
+  aio kutsua sitä muuksi. Jäljellä on se osa, joka oikeasti merkitsee: sisältö pysyy puhelimessasi,
+  noihin lukuihin liitettyä tunnistetta ei voi yhdistää sinuun eikä seurata sovelluksesta toiseen,
+  ja kaikella tällä on kytkin. Luovuimme mahdollisuudesta sanoa <em>ei mitään</em>.</p>
+<p>Marraskuussa 2026 lisättiin toinen toimittaja: AppsFlyerille kerrotaan, että asennus tapahtui ja
+  seurasiko siitä kokeilujakso tai osto, jotta tiedämme, mitä mainoksia kannattaa pitää
+  käynnissä. Se on toinen heikennys, ja samat asiat jäävät siitäkin jäljelle: mitään kirjaamaasi ei
+  lähde puhelimestasi, mainostunnistetta ei ole, ja kytkin kattaa tämän.</p>
+<p>22. marraskuuta 2026 tuli kolmas, ja siitä pidämme vähiten: niin kauan kuin mainostamme
+  Facebookissa ja Instagramissa, Metalle kerrotaan, että asennus on olemassa (kohta 2, ”Metan
+  mainokset”). Mitään kirjaamaasi ei lähde puhelimestasi, ja kytkin kattaa tämänkin, mutta niin
+  kauan kuin tämä kestää, emme voi enää sanoa, ettei yksikään mainosyhtiö saa tietää yhdestäkään
+  asennuksesta. Jos se loppuu, päivämäärä tulee tähän.</p>
+
+<h2>10. Lapset</h2>
+<p>Silex on tarkoitettu aikuisille eikä sitä ole suunnattu lapsille. Emme tietoisesti kerää tietoja
+  alle 18-vuotiailta. App Storen ikäluokitus on tämän mukainen.</p>
+
+<h2>11. Muutokset</h2>
+<p>Jos tämä käytäntö muuttuu, muuttuu myös sivun alussa oleva päivämäärä, ja voimassa oleva versio
+  on aina julkaistu tässä osoitteessa.</p>
+<p>TelemetryDeckin lisääminen on olennainen muutos, ja tämän kohdan edellinen versio lupasi, että
+  olennaiset muutokset tuodaan esiin sovelluksessa. <strong>Olemme muuttaneet tuota lupausta sen
+  sijaan, että väittäisimme pitäneemme sen.</strong> Sovelluksessa ei ole keinoa näyttää
+  ilmoitusta päivityksen yhteydessä, emmekä aio kuvata sellaista, jota ei ole. Tämä julkaisu tuo
+  käytännössä kytkimen Asetuksiin ja sen viereen selkeän kuvauksen siitä, mitä lähetetään: näkyvillä
+  sille, joka katsoo, mutta ei tyrkytettynä sille, joka ei katso. Se on vähemmän kuin vanha lause
+  lupasi, ja juuri siksi lausetta piti muuttaa eikä kertomusta siitä, mitä tapahtui.</p>
+<p>AppsFlyerin lisääminen marraskuussa 2026 on samanlainen olennainen muutos, ja se tehdään samalla
+  tavalla: se nimetään tässä ja versiotiedoissa, se on jo olemassa olleen kytkimen alla, ja kytkimen
+  vieressä oleva lause on muutettu kertomaan siitä.</p>
+<p>Lupaus kuuluu nyt näin: olennaiset muutokset nimetään tässä kohdassa ja sen version App Store
+  -versiotiedoissa, joka tekee muutoksen, ja jokainen muutos, joka laajentaa sitä, mitä laitteeltasi
+  lähtee, julkaistaan samassa versiossa sen hallintaan
+  tarkoitetun kytkimen kanssa.</p>
+<p>22. marraskuuta 2026 alkanut tietojen jakaminen Metalle on olennainen muutos, jota tämä lupaus ei
+  osannut ennakoida. Mitään uutta ei lähde laitteeltasi. Muuttunut on se, että AppsFlyer välittää
+  osan siitä eteenpäin, ja se kytkettiin päälle AppsFlyerin asetuksissa eikä sovelluksen
+  julkaisussa. Siksi ei ollut versiotietoja, joissa sen olisi voinut nimetä. Se nimetään tässä
+  alkamispäivänään, olemassa oleva kytkin kattaa sen, ja seuraavan julkaisun versiotiedot
+  mainitsevat sen.</p>
+
+<h2>12. Yhteystiedot</h2>
+<p><a href="mailto:support@trysilex.com">support@trysilex.com</a></p>
+
+<h2>13. Ilmainen selainlaajennus</h2>
+<p>Tämä seloste kattaa myös <strong>Silex — Free Gambling Blocker</strong> -selainlaajennuksen
+  Chromelle, Microsoft Edgelle ja Firefoxille. Se on yksinkertaisempi kuin sovellus, ja niin on myös
+  tämä kohta:</p>
+<ul>
+  <li><strong>Se ei kerää mitään.</strong> Ei tiliä, ei analytiikkaa, ei tunnisteita, eikä se tee
+    omia verkkopyyntöjä. Sinusta tai selaamisestasi ei lähetetä mitään meille eikä kenellekään
+    muulle.</li>
+  <li><strong>Miten se estää.</strong> Laajennuksen sisällä on luettelo rahapelidomaineista.
+    Selaimesi vertaa avaamiasi sivuja tuohon luetteloon paikallisesti selaimen omalla
+    <code>declarativeNetRequest</code>-toiminnolla. Selain ei kerro laajennukselle eikä meille,
+    millä sivustoilla käyt tai mitkä niistä estettiin.</li>
+  <li><strong>Miksi se pyytää pääsyä kaikille sivustoille.</strong> Selaimet antavat laajennuksen
+    korvata estetyn sivun omalla apusivullaan virheilmoituksen sijaan vain, jos laajennuksella on
+    pääsy kyseisille sivustoille. Pääsyä ei käytetä mihinkään muuhun: laajennus ei lue, muuta tai
+    kerää minkään sivun sisältöä.</li>
+  <li><strong>Apusivulla</strong> näkyy kriisipuhelimia ja linkkejä tälle sivustolle. Linkin
+    avaaminen on tavallinen käynti trysilex.comissa, ja sen kattaa tämän selosteen muu osa.</li>
+  <li><strong>Puuttuvasta sivustosta ilmoittaminen</strong> avaa oman sähköpostisovelluksesi. Se,
+    mitä lähetät, on sinun päätettävissäsi. Käytämme sitä vain luettelon päivittämiseen ja
+    vastaamiseen.</li>
+  <li><strong>Laajennuksen poistaminen</strong> poistaa sen ja kaiken siinä olevan.</li>
+</ul>
+<p>Domainluettelo perustuu The Blocklist Project -hankkeeseen (public domain) ja Université Toulouse
+  Capitolen UT1-listoihin (CC BY-SA 4.0).</p>
+
+<h2>14. Toipumisen seurantasivu Notionissa</h2>
+<p><strong>Silex Recovery Tracker for Notion</strong> on vapaaehtoinen, ilmainen liitin, joka luo
+  toipumisen seurantasivun omaan Notion-työtilaasi. Se ei liity sovellukseen millään tavalla: toisen
+  käyttäminen ei vaikuta toiseen.</p>
+<ul>
+  <li><strong>Mitä ajetaan ja missä.</strong> Pieni itse kirjoittamamme funktio, jota Cloudflare
+    ylläpitää. Se toimii vain muutaman sekunnin ajan sen jälkeen, kun olet napsauttanut Connect ja
+    hyväksynyt pääsyn Notionissa.</li>
+  <li><strong>Mitä se saa.</strong> Notion lähettää sille kertakäyttöisen koodin, jonka se vaihtaa
+    työtilasi käyttöoikeustunnukseen. Notionin vastauksessa on myös työtilasi nimi ja
+    Notion-profiilisi (nimi sekä mahdollisesti sähköposti ja profiilikuva). Funktio lukee vain
+    tunnuksen ja ohittaa muun.</li>
+  <li><strong>Mitä se tekee tunnuksella.</strong> Se luo työtilaasi yhden sivun, kaksi taulukkoa ja
+    kaksi esimerkkiriviä ja ohjaa sinut sitten tuolle sivulle. Se ei lue tai etsi olemassa olevia
+    sivujasi, paitsi (vain jos Notion kieltää ylimmän tason sivun) löytääkseen sen yhden sivun,
+    jonka valitsit jaettavaksi, jotta seurantasivu voidaan sijoittaa sen sisään.</li>
+  <li><strong>Mitä se säilyttää.</strong> Ei mitään. Tunnus on muistissa vain tuon yhden pyynnön
+    ajan. Tietokantaa, tiedostoa tai kopiota siitä, mitä kirjoitat seurantasivulle, ei ole. Emme
+    voi avata seurantasivuasi jälkikäteen, ja jos Notion palauttaa virheen, lokiin tallentuu vain
+    Notionin virhekoodi, ei koskaan työtilan sisältöä.</li>
+  <li><strong>Poistaminen.</strong> Avaa Notionissa asetusten yhteydet (Settings → Connections) ja
+    poista Silex. Seurantasivu jää: se on tavallinen sivu, joka kuuluu sinulle. Poista se kuten
+    mikä tahansa sivu.</li>
+</ul>
+<p>Oikeusperuste: pyyntö, jonka teet napsauttamalla Connect (GDPR:n 6 artiklan 1 kohdan b alakohta).
+  Cloudflare käsittelee itse yhteyttä (IP-osoitettasi ja pyynnön otsaketietoja) henkilötietojen
+  käsittelijänämme; katso
+  <a href="https://www.cloudflare.com/privacypolicy/" rel="nofollow">Cloudflaren
+  tietosuojakäytäntö</a>. Se, mitä kirjoitat seurantasivulle, on sinun ja Notionin välinen asia
+  <a href="https://www.notion.com/trust/privacy-policy" rel="nofollow">Notionin
+  tietosuojakäytännön</a> mukaisesti.</p>
+
+<h2>15. Silex Help ChatGPT:ssä ja muissa tekoälyavustajissa</h2>
+<p><strong>Silex Help</strong> on ilmainen, vain luku -palvelu, jota ChatGPT:n kaltaiset
+  tekoälyavustajat voivat kutsua vastatakseen kysymyksiin rahapelaamisen lopettamisesta: maan
+  auttavat puhelimet, pelikieltojärjestelmät, onko verkkosivusto rahapelidomainien luettelossamme,
+  PGSI-itsearvio ja esto-ohjeet. Se ei liity sovellukseen, eikä siinä ole tilejä.</p>
+<ul>
+  <li><strong>Mitä se saa.</strong> Vain sen, mitä avustaja lähettää käyttäessään työkalua: maan,
+    tarkistettavat verkko-osoitteet tai yhdeksän itsearvion vastaustasi. Keskusteluasi, nimeäsi ja
+    avustajatiliäsi ei lähetetä meille.</li>
+  <li><strong>Mitä se tekee.</strong> Se hakee vastauksen palvelun mukana tulevista tiedoista ja
+    lähettää sen takaisin. Se ei tee pyyntöjä kenellekään muulle.</li>
+  <li><strong>Mitä se säilyttää.</strong> Ei mitään. Jokainen pyyntö käsitellään muistissa ja
+    unohdetaan. Tietokantaa ei ole, eikä lokia siitä, mitä kysyttiin.</li>
+  <li><strong>Itse avustaja.</strong> Se, mitä kirjoitat ChatGPT:lle tai muulle avustajalle, kuuluu
+    kyseisen palveluntarjoajan oman tietosuojakäytännön piiriin, ei tämän.</li>
+</ul>
+<p>Oikeusperuste: pyyntö, jonka avustajasi tekee puolestasi (GDPR:n 6 artiklan 1 kohdan b alakohta).
+  Cloudflare ajaa palvelua ja käsittelee jokaisen yhteyden (IP-osoitteen ja pyynnön otsaketiedot)
+  henkilötietojen käsittelijänämme; katso
+  <a href="https://www.cloudflare.com/privacypolicy/" rel="nofollow">Cloudflaren
+  tietosuojakäytäntö</a>.</p>
+
+</main>
+
+<div class="help-band">
+  <div class="wrap">
+  <aside class="helplines" aria-label="Jos tarvitset jonkun juuri nyt">
+    <h2>Jos tarvitset jonkun juuri nyt</h2>
+    <ul>
+      <li><span class="hl-region">Suomi</span><a href="tel:0800100101">0800 100 101</a><span class="hl-note">Peluuri, rahapelaaminen: ilmainen ja nimetön, arkisin klo 12–18</span></li>
+      <li><span class="hl-region">Suomi</span><a href="tel:0925250111">09 2525 0111</a><span class="hl-note">MIELI Kriisipuhelin, ympäri vuorokauden (oman operaattorin hinta)</span></li>
+      <li><span class="hl-region">Hätätilanne</span><a href="tel:112">112</a><span class="hl-note">Välitön hengenvaara</span></li>
+      <li><span class="hl-region">Muut maat</span><a href="https://findahelpline.com">findahelpline.com</a><span class="hl-note">Kriisilinjat siellä missä olet</span></li>
+    </ul>
+  </aside>
+  </div>
+</div>
+
+<footer class="site-foot">
+  <div class="wrap">
+    <p class="disclaimer">Silex auttaa rakentamaan terveempiä tapoja rahapelaamisen suhteen. Se ei ole terveydenhoitoa, ei diagnosoi eikä hoida mitään sairautta. Jos olet kriisissä, käytä yllä olevia numeroita.</p>
+    <nav aria-label="Alatunniste"><a href="/fi/">Etusivu</a>
+      <a href="/fi/tietoa-silexista/">Tietoa Silexistä</a>
+      <a href="/fi/menetelma/">Menetelmä</a>
+      <a href="/fi/docs/">Ohjeet</a>
+      <a href="/fi/tuki/">Tuki</a>
+      <a href="/fi/tietosuoja/">Tietosuoja</a>
+      <a href="/fi/kayttoehdot/">Käyttöehdot</a></nav>
+    <p class="copy">© 2026 Silex · Tekijä <a href="/fi/tietoa-silexista/">Kyrylo Lozovyi</a> Kiova, Ukraina · <a href="mailto:support@trysilex.com">support@trysilex.com</a>
+      · Samalta tekijältä: <a href="https://www.vitalityrize.me/">VitalityRise</a>, lantionpohjan harjoittelua miehille</p>
+  </div>
+</footer>
+</body>
+</html>

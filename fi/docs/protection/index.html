@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="fi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Suojakerrokset: DNS-kilpi ja Safari-esto</title>
+<meta name="description" content="Miten Silex estää rahapelit: koko järjestelmän DNS-kilpi, Safari-esto sekä pelikielto, pankin esto ja mainosten katkaisu, jotka teet sovelluksen ulkopuolella.">
+<link rel="canonical" href="https://trysilex.com/fi/docs/protection/">
+<link rel="alternate" hreflang="da" href="https://trysilex.com/da/docs/protection/">
+<link rel="alternate" hreflang="en" href="https://trysilex.com/docs/protection/">
+<link rel="alternate" hreflang="fi" href="https://trysilex.com/fi/docs/protection/">
+<link rel="alternate" hreflang="no" href="https://trysilex.com/no/docs/protection/">
+<link rel="alternate" hreflang="sv" href="https://trysilex.com/sv/docs/protection/">
+<link rel="alternate" hreflang="x-default" href="https://trysilex.com/docs/protection/">
+<meta name="apple-itunes-app" content="app-id=6798826038">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#F5F3EE">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#0E1014">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Silex">
+<meta property="og:locale" content="fi_FI">
+<meta property="og:title" content="Suojakerrokset: DNS-kilpi ja Safari-esto">
+<meta property="og:description" content="Miten Silex estää rahapelit: koko järjestelmän DNS-kilpi, Safari-esto sekä pelikielto, pankin esto ja mainosten katkaisu, jotka teet sovelluksen ulkopuolella.">
+<meta property="og:url" content="https://trysilex.com/fi/docs/protection/">
+<meta property="og:image" content="https://trysilex.com/assets/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/assets/favicon.png" sizes="any">
+<link rel="apple-touch-icon" href="/assets/icon-180.png">
+<link rel="stylesheet" href="/styles.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Person","@id":"https://www.vitalityrize.me/#kyrylo","name":"Kyrylo Lozovyi","url":"https://trysilex.com/about/","jobTitle":"Independent iOS developer","worksFor":{"@id":"https://trysilex.com/#org"},"sameAs":["https://github.com/ppingui","https://www.vitalityrize.me/about/"]},{"@type":"Organization","@id":"https://trysilex.com/#org","name":"Silex — Stop Gambling","url":"https://trysilex.com","founder":{"@id":"https://www.vitalityrize.me/#kyrylo"},"email":"support@trysilex.com"}]}</script>
+
+</head>
+<body class="">
+<a class="skip" href="#main">Siirry sisältöön</a>
+<p class="agent-hint" aria-hidden="true">For AI agents: an index of every page on this site is at <a href="/llms.txt" tabindex="-1">/llms.txt</a>, and every page has a Markdown copy at its URL plus index.md.</p>
+
+<header class="site-head">
+  <div class="wrap head-inner">
+    <a class="logo" href="/fi/"><span>Silex</span></a>
+    <nav class="main-nav" aria-label="Päävalikko"><a href="/fi/lopeta-rahapelaaminen/">Näin lopetat</a><a href="/fi/parhaat-rahapelien-estosovellukset/">Estot</a><a href="/fi/peliriippuvuustesti/">Testi</a><a href="/fi/tietoa-silexista/">Tietoa</a></nav>
+    <details class="langs"><summary>Suomi</summary><nav aria-label="Kieli"><a href="/docs/protection/" hreflang="en" lang="en">English</a><a href="/sv/docs/protection/" hreflang="sv" lang="sv">Svenska</a><a href="/no/docs/protection/" hreflang="no" lang="nb">Norsk</a><a href="/da/docs/protection/" hreflang="da" lang="da">Dansk</a><a href="/fi/docs/protection/" hreflang="fi" lang="fi" aria-current="true">Suomi</a></nav></details>
+  </div>
+</header>
+<main id="main" class="wrap page">
+  <h1>Suojakerrokset</h1>
+
+
+<p class="lede">Suoja-välilehti näyttää viisi kerrosta renkaana, <em>N/5 kerrosta</em>. Kaksi otetaan käyttöön
+  sovelluksessa, ja niiden tila tarkistetaan järjestelmästä. Kolme tehdään sovelluksen ulkopuolella, ja merkitset
+  ne itse tehdyiksi.</p>
+
+<h2>1. Koko järjestelmän DNS-kilpi</h2>
+<p>Kilpi on kerroksista suurin. Se asentaa salatun DNS-asetuksen (DNS over HTTPS), jonka ansiosta rahapelidomainit
+  eivät lataudu missään puhelimen sovelluksessa tai selaimessa, ei vain Safarissa. Kyselyihin vastaa Mullvadin
+  family-DNS-palvelin Mullvadin lokittomuuskäytännön mukaan. Silex ei ole siinä välissä eikä koskaan näe selaamistasi.
+  Family-palvelin suodattaa rahapelien lisäksi mainokset, seurantaohjelmat, haittaohjelmat ja
+  aikuisviihdesivustot.</p>
+<ol>
+  <li>Avaa Silexissä <strong>Suoja</strong> ja napauta DNS-kilpeä (tai neuvoa <em>Ota kilpesi käyttöön</em>
+    päivän 1 loppupuolella).</li>
+  <li>Hyväksy iOS:n kysymys, jossa pyydetään lupaa lisätä DNS-määritys.</li>
+  <li>Avaa <strong>Asetukset › Yleiset › VPN, DNS ja laitehallinta › DNS</strong> ja valitse
+    <strong>Silex Shield</strong>. Vanhemmissa iOS-versioissa valikon nimi on VPN ja laitehallinta.</li>
+</ol>
+<p>Silexin rivillä lukee sen jälkeen <em>Aktiivinen — estää rahapelaamisen apeissasi ja selaimissasi</em>. Jos siinä
+  lukee <em>Asennettu</em>, vaihe 3 on vielä tekemättä.</p>
+
+<h2>2. Safari-esto</h2>
+<p>Safarin sisällönesto nimeltään <strong>Silex Site Blocker</strong> estää rahapelidomainit Safarissa puhelimeesi
+  tallennetun listan perusteella. Mukana tulevassa listassa on noin 294 000 domainia, ja Silex lisää siihen julkisen
+  rahapelien estolistan (noin 698 000 domainia
+  <time datetime="2026-11-25">25. marraskuuta 2026</time>), jonka se lataa ja päivittää taustalla muutaman päivän välein. Sivuston
+  vertaaminen listaan tapahtuu puhelimessa; selaamisestasi ei lähetetä mitään mihinkään.</p>
+<ol>
+  <li>Avaa Silexissä <strong>Suoja</strong> ja noudata Safarin opastusta, tai mene suoraan iOS:n Asetuksiin.</li>
+  <li>Avaa <strong>Asetukset › Apit › Safari › Laajennukset</strong>.</li>
+  <li>Ota <strong>Silex Site Blocker</strong> käyttöön.</li>
+</ol>
+<p>Kun se on päällä, rivi näyttää, montako rahapelidomainia on estetty. Se kattaa vain Safarin; muut selaimet kattaa
+  DNS-kilpi.</p>
+
+<h2>3. Pelikielto</h2>
+<p>Pelikielto sulkee sinut peliyhtiön palveluista, eikä sitä voi purkaa hetken mielijohteesta. Suomessa ei ole vielä
+  yhtä rekisteriä, joka sulkisi sinut kaikkialta: keskitetty rekisteri tulee käyttöön vasta uuden järjestelmän alkaessa
+  heinäkuussa 2027. Siihen asti kielto asetetaan jokaiseen palveluun erikseen, ja Silex opastaa sen vaiheittain.
+  Veikkauksella kielto on nimeltään peliesto. <a href="/fi/pelikielto/">Pelikielto-oppaassamme</a> on
+  yksityiskohdat. Napauta <em>Tein tämän</em>, kun kielto on voimassa.</p>
+
+<h2>4. Pankin rahapeliesto</h2>
+<p>Jotkin pankit osaavat hylätä maksut rahapeliyrityksille. Suomessa esto on vahvistettu Nordealla: kortin asetuksissa
+  on kohta Verkkouhkapelaaminen, jonka voi sallia tai estää. Odotusaikaa ei mainita, joten oleta, että eston saa heti
+  pois. Muista pankeista kannattaa kysyä. Silex opastaa, mistä asetusta etsitään pankkisovelluksessasi. Katso
+  <a href="/fi/esta-rahapelimaksut-pankissa/">miten pankin esto toimii</a>.</p>
+
+<h2>5. Mainokset pois</h2>
+<p>Peruuta rahapelisähköpostit ja -tekstiviestit ja kytke vedonlyöntisovellusten push-ilmoitukset pois, jotta tarjoukset
+  eivät tule silloin, kun olet haavoittuva. Silex antaa ohjeet sähköpostiin, tekstiviesteihin ja
+  push-ilmoituksiin.</p>
+
+<h2>Rajat, suoraan sanottuna</h2>
+<ul>
+  <li>Mikään iPhone-sovellus ei voi tehdä itsestään mahdotonta poistaa. Kuka tahansa päättäväinen voi kytkeä kilven pois
+    tai poistaa Silexin sekunneissa. Siksi kerrokset 3 ja 4 ovat tärkeitä: pelikieltoa ei pureta hetken mielijohteesta,
+    ja pankin esto tuo yhden esteen lisää rahan tielle.</li>
+  <li>Ruutuaika ja Family Controls (yksittäisten sovellusten estäminen) eivät ole vielä osa Silexiä. Voit silti antaa
+    luottamasi ihmisen asettaa iOS:n Ruutuajan pääsykoodin.
+    <a href="/fi/esta-rahapelit-iphone/">iPhone-opas</a> näyttää, missä se on iOS 27:ssä ja iOS 26:ssa.</li>
+  <li>Työpaikan tai koulun laitehallintaprofiili voi ohittaa kilven, ja hallitussa puhelimessa se voi olla kokonaan
+    estetty.</li>
+  <li>Kilpi ei säily tehdasasetusten palautuksessa eikä siirtyessä uuteen puhelimeen. Tee asetukset silloin
+    uudelleen.</li>
+</ul>
+  <section class="docs-toc">
+    <h2>Silexin ohjeet</h2>
+    <ul>
+      <li><a href="/fi/docs/">Silexin ohjeet</a></li>
+      <li><a href="/fi/docs/getting-started/">Näin pääset alkuun</a></li>
+      <li><a href="/fi/docs/protection/" aria-current="page">Suojakerrokset</a></li>
+      <li><a href="/fi/docs/sos/">SOS-painike</a></li>
+      <li><a href="/fi/docs/program/">90 päivän ohjelma</a></li>
+      <li><a href="/fi/docs/progress/">Edistys, säästetyt rahat ja kehrät</a></li>
+      <li><a href="/fi/docs/notifications/">Ilmoitukset ja widgetit</a></li>
+      <li><a href="/fi/docs/subscriptions/">Tilaukset</a></li>
+      <li><a href="/fi/docs/privacy-and-data/">Tietosuoja ja tietosi</a></li>
+      <li><a href="/fi/docs/settings/">Asetukset-opas</a></li>
+      <li><a href="/fi/docs/troubleshooting/">Vianmääritys</a></li>
+    </ul>
+  </section>
+</main>
+
+<div class="help-band">
+  <div class="wrap">
+  <aside class="helplines" aria-label="Jos tarvitset jonkun juuri nyt">
+    <h2>Jos tarvitset jonkun juuri nyt</h2>
+    <ul>
+      <li><span class="hl-region">Suomi</span><a href="tel:0800100101">0800 100 101</a><span class="hl-note">Peluuri, rahapelaaminen: ilmainen ja nimetön, arkisin klo 12–18</span></li>
+      <li><span class="hl-region">Suomi</span><a href="tel:0925250111">09 2525 0111</a><span class="hl-note">MIELI Kriisipuhelin, ympäri vuorokauden (oman operaattorin hinta)</span></li>
+      <li><span class="hl-region">Hätätilanne</span><a href="tel:112">112</a><span class="hl-note">Välitön hengenvaara</span></li>
+      <li><span class="hl-region">Muut maat</span><a href="https://findahelpline.com">findahelpline.com</a><span class="hl-note">Kriisilinjat siellä missä olet</span></li>
+    </ul>
+  </aside>
+  </div>
+</div>
+
+<footer class="site-foot">
+  <div class="wrap">
+    <p class="disclaimer">Silex auttaa rakentamaan terveempiä tapoja rahapelaamisen suhteen. Se ei ole terveydenhoitoa, ei diagnosoi eikä hoida mitään sairautta. Jos olet kriisissä, käytä yllä olevia numeroita.</p>
+    <nav aria-label="Alatunniste"><a href="/fi/">Etusivu</a>
+      <a href="/fi/tietoa-silexista/">Tietoa Silexistä</a>
+      <a href="/fi/menetelma/">Menetelmä</a>
+      <a href="/fi/docs/">Ohjeet</a>
+      <a href="/fi/tuki/">Tuki</a>
+      <a href="/fi/tietosuoja/">Tietosuoja</a>
+      <a href="/fi/kayttoehdot/">Käyttöehdot</a></nav>
+    <p class="copy">© 2026 Silex · Tekijä <a href="/fi/tietoa-silexista/">Kyrylo Lozovyi</a> Kiova, Ukraina · <a href="mailto:support@trysilex.com">support@trysilex.com</a>
+      · Samalta tekijältä: <a href="https://www.vitalityrize.me/">VitalityRise</a>, lantionpohjan harjoittelua miehille</p>
+  </div>
+</footer>
+</body>
+</html>

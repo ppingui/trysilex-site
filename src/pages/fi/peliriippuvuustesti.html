@@ -1,0 +1,102 @@
+<!--meta
+{
+  "slug": "peliriippuvuustesti",
+  "en": "gambling-self-check",
+  "type": "article",
+  "published": "2026-11-25",
+  "title": "Peliriippuvuustesti (PGSI): 9 kysymystä, ilmainen ja nimetön",
+  "description": "Tee PGSI, vakiintunut yhdeksän kysymyksen testi rahapeliongelman riskistä. Toimii kokonaan selaimessasi: mitään ei tallenneta eikä lähetetä.",
+  "h1": "Peliriippuvuustesti: PGSI:n 9 kysymystä",
+  "tldr": "Nämä yhdeksän kysymystä ovat <strong>Problem Gambling Severity Index</strong> (PGSI), Canadian Problem Gambling Index -mittarin vakiintunut seulontatesti (Ferris &amp; Wynne, 2001). Pisteet ovat välillä 0–27, ja 8 tai enemmän sijoittaa sinut korkeimpaan riskiluokkaan. Testi toimii selaimessasi. Mitään ei tallenneta, mitään ei lähetetä minnekään, eikä lopussa kysytä sähköpostia. Kysymysten suomennos on omamme, ei virallinen versio.",
+  "faq": [
+    ["Mikä pistemäärä tarkoittaa rahapeliongelmaa?", "PGSI:ssä 0 tarkoittaa, ettei ongelmaa näy, 1–2 on matala riski, 3–7 kohtalainen riski ja 8 tai enemmän luokka, jota yleensä kutsutaan ongelmapelaamiseksi. PGSI on kuitenkin seula, ei diagnoosi. Rahapeliriippuvuuden voi todeta vain siihen pätevä ammattilainen, esimerkiksi DSM-5-kriteerien perusteella."],
+    ["Tallennetaanko tai jaetaanko vastaukseni?", "Ei. Pisteet lasketaan JavaScriptillä omassa selaimessasi. Lomaketta ei lähetetä, evästeitä ja analytiikkaa ei ole, eikä sähköpostia kysytä. Kun suljet välilehden, kaikki katoaa."],
+    ["Voinko tehdä testin jonkun toisen puolesta?", "PGSI on tarkoitettu ja validoitu itsearvioksi, joten kumppanin tai perheenjäsenen puolesta täytettynä se antaa korkeintaan karkean kuvan. Jos olet huolissasi jostakusta, myös läheinen voi soittaa Peluuriin, <a href=\"tel:0800100101\">0800 100 101</a>, maanantaista perjantaihin klo 12–18."],
+    ["Entä jos pisteeni ovat matalat, mutta tuntuu, ettei pelaaminen ole hallinnassa?", "Luota tunteeseen enemmän kuin lukuun. PGSI painottaa paljon taloudellisia ja sosiaalisia seurauksia. Siksi ihminen, jonka raskas pelaaminen on vasta alussa tai joka pelaa rahalla, johon hänellä periaatteessa on varaa, voi saada matalat pisteet ja olla silti pulassa."]
+  ]
+}
+-->
+<p>PGSI kysyy <strong>viimeisistä 12 kuukaudesta</strong>. Vastaa siltä ajalta, älä elämäsi pahimman
+  kuukauden äläkä viime viikon perusteella. On helppo olla rehellinen
+  sivulle, joka ei muista
+  vastauksiasi.</p>
+
+<form class="tool" id="pgsi">
+  <p class="noscript"><noscript>Tämä testi tarvitsee JavaScriptin pisteiden laskemiseen. Ilman sitä voit
+    laskea pisteet itse: Ei koskaan = 0, Joskus = 1, Useimmiten = 2, Lähes aina = 3.</noscript></p>
+  <div id="pgsi-questions"></div>
+  <div class="result" id="pgsi-result" hidden aria-live="polite">
+    <span class="num" id="pgsi-score">0</span>
+    <p><span class="band" id="pgsi-band"></span>: <span id="pgsi-line"></span></p>
+    <p class="small">Tämä ei ole diagnoosi. Se on tilannekuva riskistäsi standardoidun itsearvion (PGSI)
+      perusteella. Pisteet ovat välillä 0–27.</p>
+    <div id="pgsi-next"></div>
+  </div>
+  <p class="small" id="pgsi-progress">Vastaa kaikkiin yhdeksään kysymykseen, niin näet pisteesi.</p>
+</form>
+
+<h2>Miten pisteet lasketaan</h2>
+<p>Jokaisesta yhdeksästä kysymyksestä saa 0 (<em>ei koskaan</em>), 1 (<em>joskus</em>), 2
+  (<em>useimmiten</em>) tai 3 (<em>lähes aina</em>) pistettä, yhteensä 0–27. Luokat tulevat Canadian Problem
+  Gambling Index -mittarista:</p>
+<div class="table-scroll">
+<table>
+  <thead><tr><th>Pisteet</th><th>Mittarin luokka</th><th>Mitä se yleensä tarkoittaa</th></tr></thead>
+  <tbody>
+    <tr><td>0</td><td>Ei rahapeliongelmaa</td><td>Ei merkkejä viimeisten 12 kuukauden ajalta.</td></tr>
+    <tr><td>1–2</td><td>Matala riski</td><td>Varhaisia merkkejä, joita useimmat satunnaisesti pelaavat eivät kerro. Kannattaa seurata.</td></tr>
+    <tr><td>3–7</td><td>Kohtalainen riski</td><td>Raskaampaa pelaamista, josta on usein jo jokin taloudellinen tai sosiaalinen seuraus.</td></tr>
+    <tr><td>8–27</td><td>Ongelmapelaaminen</td><td>Seulan korkein luokka. Useimmat hyötyvät tässä jäsennellystä tuesta, eivät pelkästä tahdonvoimasta.</td></tr>
+  </tbody>
+</table>
+</div>
+<p class="src">Mittari: Ferris, J. &amp; Wynne, H. (2001), <em>The Canadian Problem Gambling Index: Final
+  Report</em>, Canadian Centre on Substance Abuse. Kysymysten suomennos on omamme, ei virallinen versio. PGSI
+  on seulontaväline. Rahapeliriippuvuuden toteaa siihen pätevä ammattilainen, esimerkiksi DSM-5-kriteerien
+  perusteella.</p>
+
+<h2>Seuraava askel on sama, olipa pistemäärä mikä tahansa</h2>
+<p>Luku ei yksin muuta mitään. Kaksi asiaa muuttaa, ja molemmat toimivat kaikilla pisteillä:</p>
+<ul>
+  <li><strong>Lisää etäisyyttä itsesi ja vedon välille.</strong> Ei tahdonvoimaa vaan kitkaa.
+    <a href="/fi/esta-rahapelit-iphone/">Estä rahapelit puhelimessasi</a>, aseta sitten
+    <a href="/fi/pelikielto/">pelikielto</a>, jota et voi perua himon keskellä, ja
+    <a href="/fi/esta-rahapelimaksut-pankissa/">sulje rahan reitit</a>.</li>
+  <li><strong>Opi, mitä himo oikeasti on.</strong> Himo nousee, huipentuu ja laskee, yleensä noin 20–30
+    minuutissa, pelasit tai et. <a href="/fi/kauanko-pelihimo-kestaa/">Siihen kaavaan kannattaa
+    nojata.</a></li>
+</ul>
+
+{{cta:fi_selfcheck}}
+
+<script>
+window.SELFCHECK = {
+  items: [
+    'Oletko viimeisten 12 kuukauden aikana pelannut rahapelejä suuremmilla summilla kuin sinulla olisi oikeasti varaa hävitä?',
+    'Oletko viimeisten 12 kuukauden aikana tarvinnut pelata suuremmilla summilla saadaksesi saman tunteen?',
+    'Oletko viimeisten 12 kuukauden aikana palannut toisena päivänä yrittämään voittaa häviämäsi rahat takaisin?',
+    'Oletko viimeisten 12 kuukauden aikana lainannut rahaa tai myynyt jotain pelataksesi rahapelejä?',
+    'Oletko viimeisten 12 kuukauden aikana tuntenut, että sinulla saattaa olla ongelma rahapelaamisen kanssa?',
+    'Onko rahapelaaminen viimeisten 12 kuukauden aikana aiheuttanut sinulle terveysongelmia, mukaan lukien stressiä tai ahdistusta?',
+    'Ovatko muut viimeisten 12 kuukauden aikana arvostelleet rahapelaamistasi tai sanoneet, että sinulla on rahapeliongelma?',
+    'Onko rahapelaamisesi viimeisten 12 kuukauden aikana aiheuttanut taloudellisia ongelmia sinulle tai kotitaloudellesi?',
+    'Oletko viimeisten 12 kuukauden aikana tuntenut syyllisyyttä siitä, miten pelaat rahapelejä tai mitä tapahtuu kun pelaat?'
+  ],
+  scale: [['Ei koskaan', 0], ['Joskus', 1], ['Useimmiten', 2], ['Lähes aina', 3]],
+  bands: [
+    { max: 0,  label: 'Matala riski',   line: 'vastaustesi perusteella rahapelaaminen ei ohjaa elämääsi. Pidetään se niin.' },
+    { max: 2,  label: 'Alkava riski',   line: 'vastauksissasi näkyy varhaisia varoitusmerkkejä, joita useimmilla satunnaisesti pelaavilla ei ole.' },
+    { max: 7,  label: 'Kohonnut riski', line: 'vastauksesi sijoittavat sinut kohtalaisen riskin luokkaan. Pelaat raskaammin kuin useimmat rahapelejä pelaavat.' },
+    { max: 27, label: 'Suuri riski',    line: 'vastauksesi sijoittavat sinut tämän seulan korkeimpaan riskiluokkaan. Olet oikeassa paikassa, etkä ole yksin.' }
+  ],
+  next: {
+    'Matala riski': '<p>Tänään ei ole mitään korjattavaa. Jos haluat pitää sen niin, halvin vakuutus on rahankäytön raja, jonka asetat rauhallisena etkä tappioita jahdatessa.</p>',
+    'Alkava riski': '<p>Tässä vaiheessa on helpointa toimia, ja juuri tämä vaihe yleensä ohitetaan. Laita estot kuntoon nyt, kun se tuntuu vielä turhalta: <a href="/fi/esta-rahapelit-iphone/">aloita puhelimesta</a>.</p>',
+    'Kohonnut riski': '<p>Tässä luokassa pelkkä esto ei yleensä pidä. Yhdistä se johonkin jäsenneltyyn: <a href="/fi/pelikielto/">aseta pelikielto niihin peliyhtiöihin, joita käytät</a>, ja harkitse soittoa Peluuriin, <a href="tel:0800100101">0800 100 101</a>, maanantaista perjantaihin klo 12–18. Puhelu on maksuton ja nimetön. Peluuri antaa neuvoja eikä ole hätänumero, eikä soitto sido sinua mihinkään.</p>',
+    'Suuri riski': '<p>Puhu ihmiselle kaiken sen lisäksi, mitä asennat. Peluuri, <a href="tel:0800100101">0800 100 101</a>, vastaa maanantaista perjantaihin klo 12–18 maksutta ja nimettömästi, ja sinne soittavat myös ne, jotka eivät ole lähelläkään lopettamista. Muina aikoina MIELI Kriisipuhelin, <a href="tel:+358925250111">09 2525 0111</a>, vastaa ympäri vuorokauden; puhelu maksaa oman operaattorisi hinnaston mukaan. Jos rahapelaaminen on jättänyt velkaa, josta et selviä, maksutonta neuvontaa antavat Takuusäätiön Velkalinja, <a href="tel:080098009">0800 9 8009</a>, ma–to klo 10–14, ja valtion talous- ja velkaneuvonta. <a href="/fi/pelikielto/">Pelikielto</a> pitää sillä välin oven kiinni.</p>'
+  },
+  progress: 'Vastattu {n}/9.',
+  done: 'Mitään ei tallennettu eikä lähetetty. Lataa sivu uudelleen, niin vastaukset katoavat.'
+};
+</script>
+<script src="/assets/selfcheck.js"></script>

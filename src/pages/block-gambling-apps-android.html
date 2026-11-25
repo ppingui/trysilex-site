@@ -3,15 +3,15 @@
   "slug": "block-gambling-apps-android",
   "type": "article",
   "published": "2026-08-10",
-  "updated": "2026-11-03",
+  "updated": "2026-11-25",
   "title": "How to block gambling apps and sites on Android (2026)",
-  "description": "Android's built-in Private DNS blocks gambling in every app and browser for free, in about two minutes. Plus Digital Wellbeing, Family Link, and which third-party blockers are worth it.",
+  "description": "Android's built-in Private DNS blocks gambling in every app and browser for free, in about two minutes. Plus a PIN someone else keeps, and which third-party blockers are worth it.",
   "h1": "How to block gambling on Android",
-  "tldr": "Android has the best free gambling block of any phone platform and almost nobody uses it: <strong>Settings → Network &amp; internet → Private DNS → Private DNS provider hostname</strong>, set to a filtering resolver such as <code>family.dns.mullvad.net</code>. That covers every app and every browser, on Wi-Fi and mobile data, in about two minutes, at no cost. Then layer <strong>Family Link</strong> (so someone else controls the settings), a <strong>bank gambling block</strong>, and <strong>self-exclusion</strong>.",
+  "tldr": "Android has the best free gambling block of any phone platform and almost nobody uses it: <strong>Settings → Network &amp; internet → Private DNS → Private DNS provider hostname</strong>, set to a filtering resolver such as <code>family.dns.mullvad.net</code>. That covers every app and every browser, on Wi-Fi and mobile data, in about two minutes, at no cost. Then layer a <strong>PIN someone else keeps</strong> (parental controls on Android 17, an app-limits PIN before that), a <strong>bank gambling block</strong>, and <strong>self-exclusion</strong>.",
   "faq": [
-    ["What is the best free gambling blocker for Android?", "Android's own Private DNS setting, pointed at a filtering resolver, blocks more than most paid apps do: every app and browser, on mobile data as well as Wi-Fi. For an app with a lockable commitment period, BetBlocker is free, charity-run, and supports Android."],
+    ["What is the best free gambling blocker for Android?", "Android's own Private DNS setting, pointed at a filtering resolver, blocks more than most paid apps do: every app and browser, on mobile data as well as Wi-Fi. For an app with a lockable commitment period, BetBlocker is free, run by a non-profit, and supports Android."],
     ["Does Private DNS work on mobile data?", "Yes. That's what makes it better than router-level or Wi-Fi-only blocking, which stops working the moment the phone leaves the house. Private DNS is a device setting and applies everywhere."],
-    ["Can I stop myself turning Private DNS off?", "Not by itself. It's a Settings toggle, so it's a speed bump rather than a wall. To make it stick, put the device under Family Link with someone else holding the account, or use a blocker that resists removal. And rely on the layers you can't undo at all: self-exclusion and a bank block."],
+    ["Can I stop myself turning Private DNS off?", "Not by itself. It's a Settings toggle, so it's a speed bump rather than a wall. A parental controls PIN that someone else keeps (Android 17 and later) can block apps and installs, but Google doesn't list Private DNS among the settings it locks. Family Link won't do it either: Google describes it for children and teens, and only under-18s need a parent's approval to stop it. Use a blocker that resists removal if you need one, and rely on the layers you can't undo at all: self-exclusion and a bank block."],
     ["Does Silex work on Android?", "Yes, on Android 8.0 and later, from Google Play. It sets up the Private DNS block from this page for you and adds a 90-day quit program, an urge button and a count of the money you keep; it is a paid subscription. If all you want is the block, the free setup on this page plus BetBlocker or Gamban does that job."],
     ["Will a VPN block gambling sites on Android?", "A standard VPN, no. It moves where your traffic exits, it doesn't filter it. Some privacy VPNs include a content-filtering DNS mode that does block gambling categories. Note that an active VPN can override your Private DNS setting, which is a common reason blocking silently stops working."]
   ]
@@ -57,18 +57,35 @@
   That's still meaningful (most relapses are impulsive and a minute of friction stops a lot of
   them), but it is not a wall. Which is what the next steps are for.</p>
 
-<h2>2. Make the settings not yours to change</h2>
-<p>This is the step that turns a speed bump into something sturdier.</p>
+<h2>2. Put a PIN on it that isn't yours</h2>
+<p>This is the step that turns a speed bump into something sturdier. Uninstall every betting app
+  first. Then have a partner, a friend or someone in your family choose the PIN and keep it.</p>
 <ul>
-  <li><strong>Google Family Link.</strong> Put the device under supervision with a partner,
-    parent or friend holding the supervising account. They can restrict app installs from the Play
-    Store and control settings changes. Yes, it's built for parents; it works fine between adults
-    who've agreed to it.</li>
-  <li><strong>Remove the apps and block reinstalls.</strong> Uninstall every betting app, then
-    use Family Link's Play Store controls so reinstalling needs someone else's approval.</li>
-  <li><strong>Digital Wellbeing</strong> can add app timers and Focus mode. Useful for habit
-    friction; trivially reversible, so don't count on it as a block.</li>
+  <li><strong>Android 17 and later: Parental controls.</strong> Settings → <strong>Parental
+    controls</strong> → <strong>Set up Parental controls PIN</strong>. <strong>App store
+    filters</strong> → Google Play Store limits new installs by age rating, and Google requires
+    real-money gambling apps to carry an
+    <a href="https://support.google.com/googleplay/android-developer/answer/9877032" rel="nofollow">adults-only
+    rating</a>. <strong>App limits</strong> blocks an app that's still on the phone. While the
+    controls are on, adding users and resetting the phone ask for the PIN too. The recovery account
+    can reset the PIN, so it should be theirs, not yours
+    (<a href="https://support.google.com/android/answer/16766047" rel="nofollow">Google's
+    steps</a>).</li>
+  <li><strong>Older Android: an App limits PIN.</strong> Settings → <strong>Digital
+    Wellbeing</strong> → <strong>App limits</strong> → <strong>App limits PIN</strong>. With a PIN
+    someone else keeps, a limit of zero
+    <a href="https://support.google.com/android/answer/9346420" rel="nofollow">blocks the app</a>.
+    Without a PIN, app timers and Focus mode are trivially reversible.</li>
+  <li><strong>Google Play's own content restrictions.</strong> Play Store → your profile icon →
+    <strong>Settings</strong> → <strong>Family</strong> → <strong>Content restrictions</strong>. An
+    older Play PIN <a href="https://support.google.com/googleplay/answer/1075738" rel="nofollow">can
+    be reset</a> by clearing the Play Store's data, so treat it as friction.</li>
 </ul>
+<p><strong>Not Family Link.</strong> It gets recommended a lot, but Google describes it for children
+  and teens, and
+  <a href="https://support.google.com/families/answer/7106787" rel="nofollow">only under-18s need a
+  parent's approval</a> to stop it. It isn't built to hold between two adults.</p>
+<p>Menus differ between phone makers, and none of these is documented to lock Private DNS itself.</p>
 
 <h2>3. Third-party blockers worth the money</h2>
 <div class="table-scroll">
@@ -77,7 +94,7 @@
   <tbody>
     <tr>
       <td><strong>BetBlocker</strong></td>
-      <td>Free, no ads, charity-run</td>
+      <td>Free, no ads, run by a non-profit</td>
       <td>A restriction period you set from 1 day to 5 years and cannot shorten once it starts: a real commitment device, given away</td>
     </tr>
     <tr>
@@ -95,7 +112,7 @@
 </table>
 </div>
 <p class="src">Prices verified against each vendor's own site on
-  <time datetime="2026-08-10">10 August 2026</time>.
+  <time datetime="2026-11-25">25 November 2026</time>.
   <a href="/best-gambling-blocker-apps/">Full comparison →</a></p>
 
 <h2>4. The two layers that aren't on your phone at all</h2>

@@ -2,11 +2,11 @@
 
 # Gamban alternatives
 
-By [Kyrylo Lozovyi](https://trysilex.com/about/) · August 10, 2026 · Updated November 3, 2026
+By [Kyrylo Lozovyi](https://trysilex.com/about/) · August 10, 2026 · Updated November 25, 2026
 
-**Short answer:** Gamban is **£4.99/month or £29.99/year** with a 7-day free trial, covering iOS, Android, Windows and Mac. If you want free, **BetBlocker** (charity-run) does the core job on more platforms than Gamban. If you want the strongest removal resistance on Windows or Android, look at **GamBlock**. If you want a quit program rather than just a wall, **Silex** (which we make) runs on iPhone and Android, with no desktop app. And if you only gamble on an iPhone, iOS's own DNS and Screen Time settings plus a free filtering resolver cost nothing at all.
+**Short answer:** Gamban is **£4.99/month or £29.99/year** with a 7-day free trial, covering iOS, Android, Windows and Mac. If you want free, **BetBlocker** (run by a non-profit) does the core job on more platforms than Gamban. If you want the strongest removal resistance on Windows or Android, look at **GamBlock**. If you want a quit program rather than just a wall, **Silex** (which we make) runs on iPhone and Android, with no desktop app. And if you only gamble on an iPhone, iOS's own DNS and Screen Time settings plus a free filtering resolver cost nothing at all.
 
-**Disclosure:** we make Silex, one of the options below. So this page verifies every price against the vendor's own site rather than repeating other comparisons, and it says where Gamban beats us. Prices checked 10 August 2026.
+**Disclosure:** we make Silex, one of the options below. So this page verifies every price against the vendor's own site rather than repeating other comparisons, and it says where Gamban beats us. Prices checked 25 November 2026.
 
 ## What you're actually replacing
 
@@ -21,12 +21,12 @@ People usually look for an alternative for one of four reasons: they want it fre
 | **BetBlocker** | Free, no ads | iOS, Android, Windows, Mac, Linux, Fire OS | Cost, platform breadth, lockable periods up to 5 years |
 | **GamBlock** | Paid, not published on homepage | Windows, Apple, Android | Removal resistance on Windows and Android |
 | **Silex** (ours) | $2.99/wk or $29.99/yr, 7-day trial | iPhone, Android | A 90-day program, urge tools, money-kept tracking |
-| **NextDNS or Control D** | Free tiers; paid from a few $/month | Anything that can set DNS | Whole-network coverage, granular control |
+| **NextDNS or Control D** | NextDNS free up to 300,000 queries a month, then $1.99/month or $19.90/year; Control D has free resolvers and paid plans | Anything that can set DNS | Whole-network coverage, granular control |
 | **iOS Screen Time + a filtering resolver** | Free | iPhone, iPad | Costing nothing, if iPhone is your only risk |
 
 ### BetBlocker: the free one that isn't a downgrade
 
-A charity project (founded by ThePOGG in 2017, independent charity from 2019, registered in Scotland SC049565). Free "absolutely nothing. Ever.", ad-free, and it states coverage of **356,000+ websites and 1,900+ apps** with 105,000+ active users. Its standout feature is a restriction period you set from **one day to five years** and cannot shorten once running.
+Started by ThePOGG in 2017 and its own organisation since 2019. It calls itself a 501(c)(3) non-profit registered in Delaware, US, and says it is funded by donations from gambling businesses. Free "absolutely nothing. Ever.", ad-free, and it states coverage of **1.5 million+ websites and 3,100+ apps** with 149,000+ active users. Its standout feature is a restriction period you set from **one day to five years** and cannot shorten once running.
 
 **Where Gamban wins:** polish, support, and heuristic detection of sites that aren't on a list yet. BetBlocker's setup is more manual. [betblocker.org](https://betblocker.org/)
 
@@ -75,11 +75,11 @@ Silex blocks gambling across your phone and walks you through 90 days, one at a 
 
 ### How much does Gamban cost?
 
-£4.99 billed monthly, or £29.99 billed annually, with a 7-day free trial and no payment up front. Checked against gamban.com/pricing on 10 August 2026. Older roundups still quoting £24.99 a year are out of date.
+£4.99 billed monthly, or £29.99 billed annually, with a 7-day free trial and no payment up front. Checked against gamban.com/pricing on 25 November 2026. Older roundups still quoting £24.99 a year are out of date.
 
 ### Is there a free alternative to Gamban?
 
-Yes: BetBlocker, run by a charity registered in Scotland (SC049565). It is free with no ads, states it blocks 356,000+ gambling sites and 1,900+ apps, and supports Windows, Mac, Linux, Android, iOS and Fire OS. It also lets you lock a restriction period of up to five years.
+Yes: BetBlocker, run by a non-profit that says it is registered in Delaware, US. It is free with no ads, states it blocks 1.5 million+ gambling sites and 3,100+ apps, and supports Windows, Mac, Linux, Android, iOS and Fire OS. It also lets you lock a restriction period of up to five years.
 
 ### Can I cancel Gamban if it stops working for me?
 

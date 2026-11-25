@@ -21,7 +21,8 @@ import shutil
 import unicodedata
 from pathlib import Path
 
-from i18n import LOCALES, pretty_date
+from i18n import (LOCALES, PRICES, PRICES_CHECKED, SCHEMA_OFFERS, country_name, price,
+                  pretty_date)
 from to_markdown import page_markdown
 
 ROOT = Path(__file__).parent
@@ -120,12 +121,33 @@ EXTENSION_TAG = "{{extension}}"
 H1_TAG = "{{hero_h1}}"
 
 
-def extension_block() -> str:
-    links = " ".join(f'<a class="btn btn-alt" href="{u}">{t}</a>' for t, u in EXTENSION_STORES)
+def extension_block(L: dict) -> str:
+    labels = L.get("ext", [t for t, _ in EXTENSION_STORES])
+    links = " ".join(f'<a class="btn btn-alt" href="{u}">{t}</a>'
+                     for t, (_, u) in zip(labels, EXTENSION_STORES))
     return f'  <p class="btns store-btns">{links}</p>'
 
 
 # --- template plumbing --------------------------------------------------------
+
+PRICE_RE = re.compile(r"\{\{price_(week|year)\}\}")
+PRICE_TABLE_TAG = "{{price_table}}"
+
+
+def price_table(L: dict, loc: str) -> str:
+    """App Store prices per country, the visitor's own market first."""
+    home = L.get("price_country", "US")
+    order = [home] + [c for c in PRICES if c != home]
+    rows = "\n".join(
+        f'    <tr><td>{country_name(c, loc)}</td><td>{price(c, "week", loc)}</td>'
+        f'<td>{price(c, "year", loc)}</td></tr>' for c in order)
+    h = L.get("price_head", LOCALES["en"]["price_head"])
+    return ('<div class="table-scroll">\n<table class="fit">\n'
+            f'  <thead><tr><th>{h[0]}</th><th>{h[1]}</th><th>{h[2]}</th></tr></thead>\n'
+            f"  <tbody>\n{rows}\n  </tbody>\n</table>\n</div>\n"
+            f'<p class="src">{h[3]} <time datetime="{PRICES_CHECKED}">'
+            f'{pretty_date(PRICES_CHECKED, loc)}</time>.</p>')
+
 
 META_RE = re.compile(r"^<!--meta\s*(\{.*?\})\s*-->\s*", re.DOTALL)
 SHORTCODE_RE = re.compile(r"\{\{cta:([a-z0-9_]+)\}\}")
@@ -133,6 +155,8 @@ SHORTCODE_RE = re.compile(r"\{\{cta:([a-z0-9_]+)\}\}")
 
 def parse_fragment(path: Path, loc: str) -> tuple[dict, str]:
     raw = path.read_text(encoding="utf-8")
+    raw = PRICE_RE.sub(lambda t: price(LOCALES[loc].get("price_country", "US"), t.group(1), loc), raw)
+    raw = raw.replace(PRICE_TABLE_TAG, price_table(LOCALES[loc], loc))
     m = META_RE.match(raw)
     if not m:
         raise SystemExit(f"{path}: missing leading <!--meta {{...}} --> block")
@@ -183,9 +207,10 @@ def byline_html(meta: dict, L: dict) -> str:
     updated = "" if pub == upd else \
         f' · {L["updated"]} <time datetime="{upd}">{pretty_date(upd, loc)}</time>'
     reviewer = meta.get("reviewer")
-    rev = f' · Reviewed by {html.escape(reviewer)}' if reviewer else ""
+    rev = f' · {L.get("reviewed_by", "Reviewed by")} {html.escape(reviewer)}' if reviewer else ""
+    about = L.get("about", "/about/")
     return (
-        f'  <p class="byline">{L["by"]} <a rel="author" href="/about/">'
+        f'  <p class="byline">{L["by"]} <a rel="author" href="{about}">'
         f"{AUTHOR}</a>{rev} · "
         f'<time datetime="{pub}">{pretty_date(pub, loc)}</time>{updated}</p>'
     )
@@ -210,27 +235,28 @@ def href_for(path: str) -> str:
 # its hub (the first nav item). Filled in by main() once all pages are loaded.
 ENTRY: dict[str, str] = {}
 
-# The product docs under /docs/, in reading order. Filled in by main().
-DOCS: list[dict] = []
+# The product docs under /docs/ (and /<locale>/docs/), in reading order, per locale.
+# Filled in by main().
+DOCS: dict[str, list[dict]] = {}
 
 
 def is_doc(meta: dict) -> bool:
-    return meta["path"] == "docs" or meta["path"].startswith("docs/")
+    return meta["group"] == "docs" or meta["group"].startswith("docs/")
 
 
 def llms_href(meta: dict) -> str:
     """The llms.txt an agent should start from: the docs keep their own index."""
-    return "/docs/llms.txt" if is_doc(meta) else "/llms.txt"
+    return "/docs/llms.txt" if is_doc(meta) and meta["loc"] == "en" else "/llms.txt"
 
 
 def docs_toc_html(meta: dict) -> str:
     """Contents list at the end of every docs page."""
     rows = []
-    for d in DOCS:
+    for d in DOCS[meta["loc"]]:
         cur = ' aria-current="page"' if d is meta else ""
         rows.append(f'      <li><a href="/{d["path"]}/"{cur}>{d["h1"]}</a></li>')
     items = "\n".join(rows)
-    return (f'  <section class="docs-toc">\n    <h2>Silex documentation</h2>\n'
+    return (f'  <section class="docs-toc">\n    <h2>{LOCALES[meta["loc"]].get("docs_h", "Silex documentation")}</h2>\n'
             f"    <ul>\n{items}\n    </ul>\n  </section>")
 
 
@@ -254,7 +280,13 @@ def langs_html(meta: dict, groups: dict) -> str:
     # without spending a whole row of a phone screen on them.
     current = LOCALES[meta["loc"]]["label"]
     return (f'    <details class="langs"><summary>{current}</summary>'
-            f'<nav aria-label="Language">{"".join(links)}</nav></details>')
+            f'<nav aria-label="{LOCALES[meta["loc"]].get("aria_lang", "Language")}">{"".join(links)}</nav></details>')
+
+
+def offers_for(country: str, week_name: str, year_name: str) -> list[dict]:
+    currency, week, year = PRICES[country]
+    return [{"@type": "Offer", "price": week, "priceCurrency": currency, "name": week_name},
+            {"@type": "Offer", "price": year, "priceCurrency": currency, "name": year_name}]
 
 
 def jsonld_for(meta: dict, L: dict) -> str:
@@ -295,14 +327,21 @@ def jsonld_for(meta: dict, L: dict) -> str:
                 "applicationCategory": "HealthApplication",
                 "url": app_store_url("schema"),
                 "author": {"@id": f"{SITE}/#org"},
-                "offers": [
-                    {"@type": "Offer", "price": "2.99", "priceCurrency": "USD",
-                     "name": "Weekly"},
-                    {"@type": "Offer", "price": "29.99", "priceCurrency": "USD",
-                     "name": "Annual, 7-day free trial"},
-                ],
+                "offers": offers_for("US", "Weekly", "Annual, 7-day free trial"),
             },
         ]
+    elif meta["group"] == "" and "price_country" in L:
+        graph.append({
+            "@type": "SoftwareApplication",
+            "@id": f"{SITE}/#app",
+            "name": "Silex: Stop Gambling",
+            "operatingSystem": "iOS 17.0 or later, Android 8.0 or later",
+            "applicationCategory": "HealthApplication",
+            "inLanguage": L["hreflang"],
+            "url": app_store_url("schema"),
+            "author": {"@id": f"{SITE}/#org"},
+            "offers": offers_for(L["price_country"], *SCHEMA_OFFERS[meta["loc"]]),
+        })
 
     if meta.get("type") == "article":
         graph.append({
@@ -344,7 +383,7 @@ def jsonld_for(meta: dict, L: dict) -> str:
 
 def footer_html(L: dict) -> tuple[str, str]:
     nav = "\n      ".join(f'<a href="{h}">{t}</a>' for h, t in L["footer"])
-    copy = (f'© 2026 {BRAND} · {L["built_by"]} <a href="/about/">{AUTHOR}</a> '
+    copy = (f'© 2026 {BRAND} · {L["built_by"]} <a href="{L.get("about", "/about/")}">{AUTHOR}</a> '
             f'{L["in_city"]} · <a href="mailto:support@trysilex.com">support@trysilex.com</a>\n'
             f'      · {L["also_by"]}: <a href="https://www.vitalityrize.me/">VitalityRise</a>, {L["vr_desc"]}')
     return nav, copy
@@ -353,7 +392,7 @@ def footer_html(L: dict) -> tuple[str, str]:
 def render(meta: dict, body: str, template: str, groups: dict) -> str:
     L = LOCALES[meta["loc"]]
     body = SHORTCODE_RE.sub(lambda m: cta_block(m.group(1), L), body)
-    body = body.replace(EXTENSION_TAG, extension_block())
+    body = body.replace(EXTENSION_TAG, extension_block(L))
     # The homepage places its own <h1> inside the hero; every other page gets it
     # from the template.
     is_home = meta.get("layout") == "home"
@@ -383,6 +422,8 @@ def render(meta: dict, body: str, template: str, groups: dict) -> str:
         "skip": L["skip"],
         "home_href": href_for(ENTRY.get(meta["loc"], "")),
         "nav": nav_html(L, meta["path"]),
+        "aria_main": L.get("aria_main", "Main"),
+        "aria_footer": L.get("aria_footer", "Footer"),
         "langs": langs_html(meta, groups),
         "h1_block": "" if is_home else f'  <h1>{meta["h1"]}</h1>',
         "body_class": "home-page" if is_home else "",
@@ -422,7 +463,7 @@ def load_pages() -> list[tuple[dict, str, Path]]:
     for loc in LOCALES:
         if loc == "en":
             continue
-        for p in sorted((PAGES / loc).glob("*.html")):
+        for p in sorted((PAGES / loc).glob("*.html")) + sorted((PAGES / loc / "docs").glob("*.html")):
             pages.append((*parse_fragment(p, loc), p))
     return pages
 
@@ -445,7 +486,9 @@ def main() -> None:
         if key not in english:
             raise SystemExit(f"translations point at English page '{key}', which does not exist")
 
-    DOCS[:] = sorted((m for m, _, _ in pages if is_doc(m)), key=lambda m: m.get("order", 0))
+    for loc in LOCALES:
+        DOCS[loc] = sorted((m for m, _, _ in pages if is_doc(m) and m["loc"] == loc),
+                           key=lambda m: m.get("order", 0))
 
     warnings = []
     bodies: dict[str, str] = {}
@@ -514,7 +557,8 @@ def main() -> None:
                "quit program built from CBT workbooks and gambling research, and tracks the money "
                "you keep. "
                "No accounts, no ads, and nothing a user writes leaves the phone. Built by "
-               f"{AUTHOR}. Weekly $2.99 or annual $29.99 with a 7-day free trial.")
+               f"{AUTHOR}. Weekly {price('US', 'week', 'en')} or annual {price('US', 'year', 'en')} "
+               "with a 7-day free trial (US prices; lower in many countries).")
     lines = [f"# {BRAND_FULL}", "", f"> {summary}",
              "", "Each link below is the Markdown version of a page; drop `index.md` for the "
              "web page.",
@@ -537,13 +581,13 @@ def main() -> None:
             "Each link is the Markdown version of a page; drop `index.md` for the web page.",
             "", f"Everything else on the site, including the free guides: {SITE}/llms.txt",
             "", "## Docs", ""]
-    for meta in DOCS:
+    for meta in DOCS["en"]:
         docs.append(f"- [{meta['h1']}]({md_url(meta['path'])}): {meta['description']}")
     (ROOT / "docs" / "llms.txt").write_text("\n".join(docs) + "\n", encoding="utf-8")
 
     # openapi.json: the site's machine-readable endpoints, all static GETs with no key.
     # Imported into the public Postman workspace; regenerated so it can't drift.
-    doc_pages = [m["path"].removeprefix("docs/") for m in DOCS if m["path"] != "docs"]
+    doc_pages = [m["path"].removeprefix("docs/") for m in DOCS["en"] if m["path"] != "docs"]
     guides = sorted(m["path"] for m in indexable if m["loc"] == "en" and m["path"]
                     and not is_doc(m) and m.get("type") == "article")
     text = lambda desc, mime: {"200": {"description": desc,
@@ -622,7 +666,7 @@ def main() -> None:
     order = list(LOCALES)
     full = [f"# {BRAND_FULL}", "", summary, "",
             "Silex is a wellness app, not medical care, and does not diagnose or treat any condition.",
-            "", f"Index: {SITE}/llms.txt", "", "## Crisis resources (verified 2026-10-26)", ""]
+            "", f"Index: {SITE}/llms.txt", "", "## Crisis resources (verified 2026-10-26; Nordic lines 2026-11-25)", ""]
     for loc in order:
         for region, name, url, desc in LOCALES[loc]["helplines"]:
             full.append(f"- [{LOCALES[loc]['label']}] {region}: {name} — {html.unescape(desc)}")

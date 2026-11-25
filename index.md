@@ -60,7 +60,7 @@ Above: Kintsugi, the piece you earn by finishing a Reset day.
 
 ## What it costs, plainly
 
-Silex is a paid app and it tells you so before you invest any time: after the intake questions you reach a paywall. **$2.99 per week**, or **$29.99 per year with a 7-day free trial** (US prices; the store shows yours before you pay). Cancel any time in your Apple or Google Play account.
+Silex is a paid app and it tells you so before you invest any time: after the intake questions you reach a paywall. **$2.99 per week**, or **$29.99 per year with a 7-day free trial** (US prices; £2.99 and £29.99 in the UK, and less in many countries: the store shows yours before you pay). Cancel any time in your Apple or Google Play account.
 
 The crisis helplines are one tap away on the subscribe screen, free, whether or not you ever pay. If a subscription ends, the urge button, the helplines and lapse support keep working. Those are safety features, and safety features should never sit behind a payment screen.
 

@@ -2,12 +2,13 @@
 {
   "slug": "support",
   "type": "page",
+  "updated": "2026-11-25",
   "title": "Silex support",
   "description": "Help with Silex: subscriptions and cancelling, restoring a purchase, the DNS shield, the Safari blocker, and how to reach a human.",
   "h1": "Support",
   "faq": [
     ["How do I cancel my Silex subscription?", "On your iPhone: Settings → your name → Subscriptions → Silex → Cancel Subscription. Cancelling in Apple's settings is the only way to stop billing; deleting the app does not cancel anything."],
-    ["I paid but Silex still shows the paywall.", "Open the paywall and tap Restore Purchases, and check you are signed into the same Apple Account you bought with. If it still fails, email support@trysilex.com with the date of purchase."],
+    ["I paid but Silex still shows the paywall.", "Open the paywall and tap Restore, and check you are signed into the same Apple Account you bought with. If it still fails, email support@trysilex.com with the date of purchase."],
     ["Why does the DNS shield need a profile?", "Blocking gambling in every app and browser, not just Safari, requires an encrypted-DNS configuration at the system level. iOS asks you to approve it in Settings. You can remove it at any time from Settings → General → VPN, DNS &amp; Device Management."],
     ["Does deleting the app delete my data?", "Yes, on the device. If iCloud backup was on, also remove the iCloud copy: Settings → your name → iCloud → Manage Account Storage → Silex."]
   ]
@@ -22,13 +23,14 @@
 
 <h2>Subscriptions</h2>
 <ul>
-  <li><strong>Prices.</strong> $2.99 per week, or $29.99 per year with a 7-day free
-    trial. Local prices follow Apple's and Google Play's regional pricing.</li>
+  <li><strong>Prices.</strong> {{price_week}} per week, or {{price_year}} per year with a 7-day free
+    trial (US prices). Prices are set country by country and are lower in many of them; the store
+    shows yours before you pay.</li>
   <li><strong>Cancelling.</strong> Settings → your name → Subscriptions → Silex → Cancel
     Subscription. On Android: Google Play → your profile → Payments &amp; subscriptions →
     Subscriptions → Silex → Cancel. Deleting the app does not cancel the subscription.</li>
   <li><strong>Trial.</strong> The annual plan's 7-day trial charges nothing up front, and
-    the app notifies you the day before it ends. Cancel any time before it ends and you
+    the app notifies you two days before it ends, if you've allowed notifications. Cancel any time before it ends and you
     pay nothing.</li>
   <li><strong>Refunds</strong> are handled by Apple or Google, not by us:
     <a href="https://reportaproblem.apple.com" rel="nofollow">reportaproblem.apple.com</a>
@@ -59,10 +61,12 @@
 <h3>Honest limits</h3>
 <p>No iOS app can make itself impossible to remove, and Silex doesn't claim to. Anyone
   determined enough can delete a blocker in thirty seconds. That's why the app pushes you
-  toward the layers you <em>can't</em> undo on impulse —
+  toward the layers you <em>can't</em> undo on impulse:
   <a href="/self-exclusion-guide/">operator self-exclusion</a> and a
-  <a href="/block-gambling-transactions-bank/">bank-level gambling block</a> — and why it
-  suggests giving a Screen Time passcode to someone you trust.</p>
+  <a href="/block-gambling-transactions-bank/">bank-level gambling block</a>. A Screen Time
+  passcode that someone you trust sets and keeps is worth adding; the
+  <a href="/block-gambling-sites-iphone/">iPhone guide</a> has the steps for iOS 27 and
+  iOS 26.</p>
 
 <h2>Feature requests and bugs</h2>
 <p>Both go to the same address. Requests that make the app better at helping people quit

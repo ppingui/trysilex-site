@@ -1,0 +1,93 @@
+> For the complete index of this site, see [llms.txt](https://trysilex.com/llms.txt). This page on the web: https://trysilex.com/da/stop-med-sportsvaeddemal/
+
+# Sådan stopper du med sportsbetting
+
+Af [Kyrylo Lozovyi](https://trysilex.com/da/om-silex/) · 25. november 2026
+
+**Kort svar:** Sportsbetting har et problem, andre pengespil ikke har: Triggeren er noget, du elsker og ikke vil undvære. Så det er ikke nok at blokere appene. Du skal også skille det at *se sport* fra det at *spille på den*. Luk hver konto ordentligt (udelukkelse, ikke sletning), bloker på telefonen, gør det svært at betale, slå notifikationer med odds fra, og regn med, at den første måned med kampe bliver den sværeste.
+
+At droppe en casinoapp handler om at undgå et sted. At stoppe med sportsbetting handler om at blive et sted, du holder af (sporten, gruppechatten, lørdagen), og tage én ting ud af det. Det er et sværere problem, og de fleste generelle råd om at stoppe springer det helt over.
+
+## Derfor er det her anderledes
+
+- **Triggeren er overalt, og du vil ikke af med den.** Odds bliver læst op i udsendelsen, står på skærmen, ligger i appen med højdepunkter og lander som notifikationer på telefonen. Ingen forventer, at du holder op med at gå op i fodbold.
+- **Det føles som evner.** Den fælde findes kun i sport. Taber du på en spilleautomat, ved du, at det var tilfældigt. Taber du på en kamp, tænker du, at du læste skadesnyhederne forkert, og så føles svaret som *mere research*, altså flere væddemål.
+- **Det er socialt.** Gruppechatten med alles kuponer er et rigtigt venskab, og at stoppe kan føles som at forlade det.
+- **Livebetting fjernede pauserne.** Før var der ét spil inden kampen. Nu er der en beslutning hvert par minutter i halvfems minutter.
+
+## Trin 1: Luk kontiene ordentligt
+
+At slette apps gør næsten ingen forskel. Mobilsiden virker, appen er tilbage på få sekunder, og din saldo og dit kort ligger der endnu. **Udeluk dig selv i stedet.** Så bliver du lukket ude, de må ikke tage imod dig, og det kan ikke laves om i et svagt øjeblik.
+
+- **ROFUS:** Én registrering på [rofus.nu](https://rofus.nu/) gælder for onlinespil hos alle udbydere med dansk licens, væddemål i butikker og alle fysiske casinoer. Du vælger 24 timer, 1, 3 eller 6 måneder eller en endelig udelukkelse. De midlertidige perioder slutter af sig selv. Registreringer fra før 1. oktober 2023, som ikke er fornyet siden, dækker ikke væddemål i butikker.
+- **Resten:** ROFUS når ikke udbydere uden dansk licens. Bed om permanent udelukkelse hos hver enkelt, også dem, du ikke bruger længere, og lad en blokering på telefonen tage sig af resten.
+
+[Hele guiden til selvudelukkelse, også det, den ikke dækker →](https://trysilex.com/da/udeluk-dig-fra-spil/)
+
+## Trin 2: Bloker vejene tilbage
+
+1. **DNS-blokering på hele telefonen.** Den dækker alle apps og browsere, på wi-fi og mobildata, ikke kun Safari. [Sådan gør du på iPhone →](https://trysilex.com/da/blokere-pengespil-iphone/) [på Android →](https://trysilex.com/da/blokere-pengespil-android/)
+2. **Gør det svært at betale.** Vi har kun kunnet bekræfte én bank, hvor du selv kan slå en spilspærring til: Revolut. Den er op til 48 timer om at blive fjernet igen. Spørg din egen bank. [Hvad du kan gøre, hvis din bank ingen har →](https://trysilex.com/da/spaerre-pengespil-banken/)
+3. **Slå notifikationerne fra.** Det er det punkt, alle springer over, når de spiller på sport. Slå notifikationer fra hos alle spiludbydere *og* i resultatapps, der viser odds. Frameld dig spilmails. Skru ned for lyden, når der bliver læst odds op.
+
+## Trin 3: Skil sporten fra spillet
+
+Det er den del, der afgør, om det holder længere end den første måned.
+
+At se og at spille er blevet til én ting. Indtil de er skilt ad igen, er hver kampstart en trigger. I praksis:
+
+- **Hold nogle ugers pause fra livekampe.** Ikke for altid, bare længe nok til, at »der er kamp« holder op med at betyde »der er en kupon«. Højdepunkter er en langt svagere trigger end live.
+- **Gør noget andet, mens du ser.** Se kampen sammen med nogen, hos en ven, på en bar, hvor som helst telefonen ikke er den anden skærm. Alene i sofaen med telefonen i hånden er den mest risikable opstilling, der findes.
+- **Giv indsatsen et andet job.** Nogle flytter det beløb, de plejede at spille for, over på en opsparing ved kampstart. Det lyder lidt fjollet, og det virker, for ritualet får lov at blive, mens resultatet ikke længere handler om penge.
+- **Hav et svar klar til gruppechatten.** Du skylder ingen en forklaring, men beslut, hvad du vil sige, før det kommer op. »Jeg er stoppet med at spille, men jeg er stadig med på fodbolden« lukker snakken hurtigere end en måned med undvigelser.
+
+## Trin 4: Den første måned med kampe
+
+Regn med forudsigelige toppe og ikke et jævnt fald: sæsonstart, et lokalopgør, en finale, en stor løbsdag og det øjeblik, hvor din kombi ville være gået hjem. Trangen topper og går over på cirka 20 til 30 minutter, uanset om du spiller eller ej. [Metoden til trangsurfing finder du her →](https://trysilex.com/da/hvor-laenge-varer-spilletrang/)
+
+Én bestemt fælde, hvis du spiller på sport: **kuponen, du ville have vundet på.** I starten vil du se et resultat, der ville have givet penge. Det beviser ikke, at du skulle have spillet. Det er den samme variable belønning, der holdt dig fast, og denne gang kostede den dig ingenting. Læg mærke til den, sæt ord på den, og lad den gå over.
+
+## Hvad du gør med pengene, der allerede er tabt
+
+Folk, der spiller på sport, jagter ofte deres tab mere end folk, der spiller casino, for »jeg kender jo den her sport« får det til at virke muligt at vinde det tilbage. Det er det ikke, og det er i jagten, den største skade sker. Har du gæld, så tag den som et problem for sig og ikke som noget, der skal vindes tilbage: [her er den gratis hjælp](https://trysilex.com/da/hjaelp-til-spillegaeld/), og intet af det handler om et væddemål.
+
+[Regn ud, hvad det faktisk har kostet indtil nu →](https://trysilex.com/da/beregn-spilletab/)
+
+## Hvis du får en smutter
+
+Det er meget almindeligt i den første sæson, og det er ikke slutningen. Timen bagefter betyder langt mere end spillet gør: [her er, hvad du gør i den](https://trysilex.com/da/tilbagefald-pengespil/).
+
+## Stop med at spille. Behold pengene.
+
+Silex blokerer pengespil på hele din telefon og følger dig gennem 90 dage, én ad gangen.
+
+[Hent Silex til iPhone](https://apps.apple.com/app/id6798826038?mt=8) [Hent Silex til Android](https://play.google.com/store/apps/details?id=com.klozovyi.stopgamble&referrer=utm_source%3Dtrysilex%26utm_campaign%3Dda_sports_betting)
+
+## Ofte stillede spørgsmål
+
+### Hvorfor er det så svært at stoppe med sportsbetting?
+
+Fordi triggeren aldrig forsvinder. Den, der stopper med spilleautomater, kan holde sig væk fra casinoer. Du kan ikke holde dig væk fra sport uden at give afkald på noget, du faktisk holder af, og hver kamp, hvert klip og hver gruppechat har en opfordring til at spille med. Oven i det føles sportsbetting som evner og ikke tilfældighed. Derfor ligner et tab dårlig research og ikke det forventede resultat, og så føles det fornuftigt at jagte det tabte.
+
+### Kan jeg stadig se sport, når jeg er stoppet med at spille?
+
+Det kan de fleste på et tidspunkt, men sjældent i den første måned. Den ærlige rækkefølge er: Stop med at spille først, hold pause fra livekampe i nogle uger, mens forbindelsen bliver svagere, og vend så bevidst tilbage til sporten. Går du direkte tilbage med appen på telefonen, sætter du din viljestyrke på prøve i præcis de halvfems sekunder, hvor den er svagest.
+
+### Skal jeg slette appen eller udelukke mig selv?
+
+Udeluk dig selv. En slettet app er tilbage på femten sekunder, og kontoen står og venter med penge på. ROFUS lukker dig ude hos alle udbydere med dansk licens på én gang, og det kan ikke fortrydes midt i en trang. Har du en konto et sted uden dansk licens, så bed om permanent udelukkelse dér også, og glem ikke de konti, du ikke bruger længere.
+
+### Hvad med de gratis spil og tilbud, de sender, når jeg stopper?
+
+Regn med dem, og regn med, at de rammer på det rigtige tidspunkt. Udbyderne kører kampagner mod folk, der er blevet stille. Er du i ROFUS, skal udbydere med dansk licens holde op med at sende dig reklamer. Kommer der stadig noget, så kontakt udbyderen og sig det til Spillemyndigheden. Frameld dig, bloker afsenderen, og slå også notifikationer fra i alle sportsapps.
+
+### Er fantasysport eller prediction markets en sikker erstatning?
+
+For de fleste, der er ved at stoppe: nej. Daglig fantasysport med indskud og prediction markets med sportskontrakter er den samme sløjfe (indsats, uvished, et resultat, der hænger på en kamp) med en anden tekst på knappen. Hvis det er spændingen ved at have penge på kampen, der trækker, er det dét mønster, der skal brydes. Det hjælper ikke at flytte det.
+
+## Hvis du har brug for at tale med nogen nu
+
+- Danmark: [70 22 28 25](tel:70222825) — StopSpillet: gratis og fortroligt, man–tor 9–21, fre 9–17 (lukket i weekenden)
+- Danmark: [70 201 201](tel:70201201) — Livslinien: hver dag kl. 9–5, anonymt, almindelig telefontakst
+- Nødsituation: [112](tel:112) — Akut livsfare
+- Andre lande: [findahelpline.com](https://findahelpline.com) — Krisetelefoner, hvor du er

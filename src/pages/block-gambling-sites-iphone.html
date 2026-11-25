@@ -3,13 +3,14 @@
   "slug": "block-gambling-sites-iphone",
   "type": "article",
   "published": "2026-08-10",
+  "updated": "2026-11-25",
   "title": "How to block gambling sites and apps on iPhone (2026)",
   "description": "Every working method for blocking gambling on an iPhone — Screen Time, a system-wide DNS profile, Safari content blockers, bank blocks and self-exclusion — with what each one actually covers and how easily you can undo it.",
   "h1": "How to block gambling sites and apps on iPhone",
   "tldr": "Screen Time alone won't do it. The combination that holds is: a <strong>system-wide DNS profile</strong> (covers every app and browser), <strong>Screen Time restrictions with the passcode held by someone else</strong> (stops reinstalling), and the two layers you cannot undo in a craving: <strong>operator self-exclusion</strong> and a <strong>bank gambling block</strong>. Setting up all four takes about 30 minutes.",
   "faq": [
     ["Can I block gambling apps on iPhone without an app?", "Yes. Screen Time can block the App Store and specific websites, and iOS can install a DNS configuration that makes gambling domains fail to resolve in every app. Both are free and built in. What iOS cannot do on its own is maintain the list of hundreds of thousands of gambling domains. That is what a blocker app or a filtering DNS service adds."],
-    ["Does Screen Time block gambling apps?", "Partly. Screen Time can stop new apps being installed, hide apps you have, and block specific websites in Safari. It has no gambling category, so 'Limit Adult Websites' is not a gambling filter. You have to add domains to Never Allow yourself, or use a filtering DNS resolver that keeps the list for you."],
+    ["Does Screen Time block gambling apps?", "Partly. Screen Time can stop new apps being installed, hide apps you have, and block specific websites in Safari. It has no gambling category, so 'Limit Adult Websites' is not a gambling filter. You have to add the domains yourself, or use a filtering DNS resolver that keeps the list for you."],
     ["Can gambling apps be blocked permanently on iPhone?", "No, and any app claiming otherwise is overselling. On iOS you can always remove a profile or delete an app. Permanence has to come from outside the phone: self-exclusion with the operator, and a block at your bank. Those two you genuinely cannot reverse in the ninety seconds a craving lasts."],
     ["Will a VPN block gambling sites?", "A general-purpose VPN will not. It changes where your traffic exits, not what it can reach. A filtering DNS service or DNS-based blocker is what you want. Some privacy VPNs bundle a content-filtering DNS option, which does work."],
     ["Does blocking work on cellular data as well as Wi-Fi?", "A DNS configuration installed on the iPhone does, because it belongs to the device. Router-level blocking does not. It stops at your front door, and the phone falls straight back to gambling as soon as it switches to 5G. This is the single most common reason home blocking fails."]
@@ -70,24 +71,62 @@
 
 <h2>1. Screen Time: block installs and named sites</h2>
 <p>Screen Time is free, built in, and more useful for what it <em>prevents</em> than for
-  what it filters.</p>
-<p><strong>Stop new gambling apps appearing:</strong> Settings → Screen Time → Content
-  &amp; Privacy Restrictions → turn on → iTunes &amp; App Store Purchases → Installing Apps
-  → <strong>Don't Allow</strong>. This is the highest-value switch on the whole phone. Delete
-  the sportsbook apps first, then flip it. Now reinstalling requires the Screen Time
-  passcode.</p>
-<p><strong>Block gambling websites in Safari:</strong> Content &amp; Privacy Restrictions →
-  Content Restrictions → Web Content → <strong>Limit Adult Websites</strong>, then add each
-  operator under <strong>Never Allow</strong>. Turning on Limit Adult Websites also disables
-  Private Browsing in Safari, which is a genuine bonus.</p>
+  what it filters. Apple moved its menus in iOS 27, so both paths are here.</p>
+<p><strong>Stop new gambling apps appearing.</strong> Delete the sportsbook apps first, then:</p>
+<ul>
+  <li><strong>iOS 27:</strong> Settings → Screen Time → <strong>Apps &amp; Websites</strong> →
+    <strong>Restrictions</strong> → turn off <strong>Installing Apps</strong>. Where App Store,
+    Web and App Marketplaces are listed under that switch, turning it off sets all three to
+    <strong>Blocked</strong>.</li>
+  <li><strong>iOS 26 and earlier:</strong> Settings → Screen Time → <strong>Content &amp; Privacy
+    Restrictions</strong> → turn on → <strong>iTunes &amp; App Store Purchases</strong> →
+    <strong>Installing Apps</strong> → <strong>Don't Allow</strong>.</li>
+  <li><strong>iOS 26 in the EU, Japan or Brazil:</strong> apps can also come from other
+    marketplaces or straight from the web, so closing the App Store alone leaves those doors
+    open. The menu there is <strong>App Installations &amp; Purchases</strong>: set
+    <strong>App Marketplaces</strong> and <strong>Web</strong> to <strong>Don't Allow</strong>
+    as well. <a href="https://support.apple.com/118128" rel="nofollow">Apple says</a> both stay
+    allowed after an update even on a phone that already had restrictions on, so look again.</li>
+</ul>
+<p>This is the highest-value switch on the whole phone. Once it's off, reinstalling needs the
+  Screen Time passcode.</p>
+<p><strong>Block gambling websites in Safari:</strong></p>
+<ul>
+  <li><strong>iOS 27:</strong> Screen Time → Apps &amp; Websites → <strong>Blocked</strong> →
+    <strong>+</strong>, then type each operator's address or paste a whole list. Under
+    <strong>Restrictions</strong> → <strong>Filtering</strong>, choose <strong>Limit Adult
+    Websites</strong>: iOS says it blocks web proxies too. Once a Screen Time passcode is set,
+    iOS also restricts Private Browsing.</li>
+  <li><strong>iOS 26 and earlier:</strong> Content &amp; Privacy Restrictions → <strong>App Store,
+    Media, Web, &amp; Games</strong> → <strong>Web Content</strong> → <strong>Limit Adult
+    Websites</strong>, then <strong>Add Website</strong> under <strong>Never Allow</strong> for
+    each operator. Turning on Limit Adult Websites also disables Private Browsing in Safari,
+    which is a genuine bonus.</li>
+</ul>
+<p class="src">We checked the iOS 27 menus on iOS 27.1 in Apple's simulator on
+  <time datetime="2026-11-25">25 November 2026</time>. Apple's own
+  <a href="https://support.apple.com/105121" rel="nofollow">help page</a> describes blocking
+  installs and websites only on a child's device (Settings → Family → the child's name → Apps
+  &amp; Websites), so a label may differ a little on yours.</p>
 <p><strong>The catch nobody mentions:</strong> iOS has no gambling category. "Limit Adult
   Websites" is an adult-content filter; it catches some gambling sites incidentally and
   misses most sportsbooks. If you rely on it alone you will be blocked from nothing you
-  actually use. The Never Allow list works, but you are maintaining it by hand against an
+  actually use. Blocking sites one by one works, but you are maintaining the list by hand against an
   industry with thousands of mirror domains.</p>
-<p><strong>Do this bit properly:</strong> set a Screen Time passcode you don't know. Have
-  your partner, a friend, or a family member type it in and keep it. Everything above is a
-  five-second undo for whoever holds that code, so make sure that isn't you at 1am.</p>
+<p><strong>Do this bit properly:</strong> set a Screen Time passcode you don't know. On iOS 27:
+  Screen Time → <strong>Passcode &amp; Management</strong> (iOS 27.1 calls it <strong>Manage Screen
+  Time</strong>) → <strong>Lock Screen Time Settings</strong>. On iOS 26, Lock Screen Time Settings
+  is on the Screen Time screen itself. Have your partner, a friend, or a family member type it in
+  and keep it. Everything above is a five-second undo for whoever holds that code, so make sure
+  that isn't you at 1am.</p>
+<p>When iOS offers <strong>Screen Time Passcode Recovery</strong>, don't use your own Apple Account:
+  the account entered there can reset the passcode. Let the other person enter theirs. And don't
+  mistake the passcode for a wall. Apple's pages disagree about changing it on iOS 27:
+  <a href="https://support.apple.com/102677" rel="nofollow">one</a> asks for Face ID or the phone's
+  own passcode, plus the recovery Apple Account "if asked";
+  <a href="https://support.apple.com/guide/iphone/iph272b4c4bd/ios" rel="nofollow">the other</a>
+  asks for the current Screen Time passcode. The layers outside the phone are the ones to lean
+  on.</p>
 
 <h2>2. A system-wide DNS profile: the one that covers everything</h2>
 <p>This is the method most guides skip, and it is the strongest thing that lives on the
@@ -163,8 +202,9 @@
   <li>Delete every gambling app. Sign out of any operator accounts still logged in on the
     browser.</li>
   <li>Turn on a filtering DNS profile, and confirm a gambling site fails to load.</li>
-  <li>Screen Time → Installing Apps → Don't Allow, plus Never Allow entries for the sites
-    you actually used. Hand the passcode to someone else.</li>
+  <li>Turn off Installing Apps in Screen Time, and App Marketplaces and Web with it if your
+    iPhone has them. Block the sites you actually used. Have someone else set the
+    passcode.</li>
   <li>Enable a Safari content blocker.</li>
   <li>Call or message your bank and ask for the gambling block.</li>
   <li>Self-exclude with every operator you have an account with, and with GAMSTOP if you

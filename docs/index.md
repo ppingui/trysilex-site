@@ -9,11 +9,11 @@ Silex is an iPhone app for people who want to stop gambling. It blocks gambling 
 - **Device:** iPhone with iOS 17.0 or later, in portrait, with a dark interface. Silex is also on Android (Google Play, Android 8.0 or later); these pages describe the iPhone app.
 - **Languages:** 22: English, Danish, Dutch, Finnish, French, German, Indonesian, Italian, Japanese, Korean, Norwegian, Polish, Portuguese (Brazil), Russian, Simplified Chinese, Spanish, Swedish, Thai, Traditional Chinese, Turkish, Ukrainian and Vietnamese.
 - **Account:** none. There is no sign-up and no login. Your data lives on your phone and, if you use iCloud, in your own private iCloud database.
-- **Price:** a subscription, $2.99 a week or $29.99 a year with a 7-day free trial. See [Subscriptions](https://trysilex.com/docs/subscriptions/).
+- **Price:** a subscription, $2.99 a week or $29.99 a year with a 7-day free trial (US prices). See [Subscriptions](https://trysilex.com/docs/subscriptions/).
 
 ## Where to start
 
-- [Getting started](https://trysilex.com/docs/getting-started/): what onboarding asks and the three setup steps after it.
+- [Getting started](https://trysilex.com/docs/getting-started/): what onboarding asks, and Day 1 with its three tips.
 - [Protection layers](https://trysilex.com/docs/protection/): the DNS shield, the Safari blocker and the three layers you set up outside the app.
 - [The SOS button](https://trysilex.com/docs/sos/): the urge flow, and how to reach it from the Lock Screen, Control Center and Siri.
 - [The 90-day program](https://trysilex.com/docs/program/): phases, how days unlock, and what happens after a lapse.

@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="sv">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dokumentation för Silex</title>
+<meta name="description" content="Så ställer du in och använder Silex, iPhone-appen som blockerar spel om pengar: skydd, SOS-knappen, 90-dagarsprogrammet, prenumeration och integritet.">
+<link rel="canonical" href="https://trysilex.com/sv/docs/">
+<link rel="alternate" hreflang="da" href="https://trysilex.com/da/docs/">
+<link rel="alternate" hreflang="en" href="https://trysilex.com/docs/">
+<link rel="alternate" hreflang="fi" href="https://trysilex.com/fi/docs/">
+<link rel="alternate" hreflang="no" href="https://trysilex.com/no/docs/">
+<link rel="alternate" hreflang="sv" href="https://trysilex.com/sv/docs/">
+<link rel="alternate" hreflang="x-default" href="https://trysilex.com/docs/">
+<meta name="apple-itunes-app" content="app-id=6798826038">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#F5F3EE">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#0E1014">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Silex">
+<meta property="og:locale" content="sv_SE">
+<meta property="og:title" content="Dokumentation för Silex">
+<meta property="og:description" content="Så ställer du in och använder Silex, iPhone-appen som blockerar spel om pengar: skydd, SOS-knappen, 90-dagarsprogrammet, prenumeration och integritet.">
+<meta property="og:url" content="https://trysilex.com/sv/docs/">
+<meta property="og:image" content="https://trysilex.com/assets/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/assets/favicon.png" sizes="any">
+<link rel="apple-touch-icon" href="/assets/icon-180.png">
+<link rel="stylesheet" href="/styles.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Person","@id":"https://www.vitalityrize.me/#kyrylo","name":"Kyrylo Lozovyi","url":"https://trysilex.com/about/","jobTitle":"Independent iOS developer","worksFor":{"@id":"https://trysilex.com/#org"},"sameAs":["https://github.com/ppingui","https://www.vitalityrize.me/about/"]},{"@type":"Organization","@id":"https://trysilex.com/#org","name":"Silex — Stop Gambling","url":"https://trysilex.com","founder":{"@id":"https://www.vitalityrize.me/#kyrylo"},"email":"support@trysilex.com"}]}</script>
+
+</head>
+<body class="">
+<a class="skip" href="#main">Hoppa till innehållet</a>
+<p class="agent-hint" aria-hidden="true">For AI agents: an index of every page on this site is at <a href="/llms.txt" tabindex="-1">/llms.txt</a>, and every page has a Markdown copy at its URL plus index.md.</p>
+
+<header class="site-head">
+  <div class="wrap head-inner">
+    <a class="logo" href="/sv/"><span>Silex</span></a>
+    <nav class="main-nav" aria-label="Huvudmeny"><a href="/sv/sluta-spela/">Så slutar du</a><a href="/sv/basta-apparna-blockera-spel/">Blockerare</a><a href="/sv/test-spelberoende/">Självtest</a><a href="/sv/om-silex/">Om Silex</a></nav>
+    <details class="langs"><summary>Svenska</summary><nav aria-label="Språk"><a href="/docs/" hreflang="en" lang="en">English</a><a href="/sv/docs/" hreflang="sv" lang="sv" aria-current="true">Svenska</a><a href="/no/docs/" hreflang="no" lang="nb">Norsk</a><a href="/da/docs/" hreflang="da" lang="da">Dansk</a><a href="/fi/docs/" hreflang="fi" lang="fi">Suomi</a></nav></details>
+  </div>
+</header>
+<main id="main" class="wrap page">
+  <h1>Dokumentation för Silex</h1>
+
+
+<p class="lede">Silex är en iPhone-app för dig som vill sluta spela om pengar. Den blockerar spelsajter och
+  spelappar på hela telefonen, har ett 90-dagarsprogram som tar en dag i taget, ger dig en SOS-knapp för
+  den värsta minuten av ett sug och räknar pengarna du behåller. De här sidorna förklarar hur varje del
+  fungerar och hur du ställer in den.</p>
+
+<h2>Krav</h2>
+<ul>
+  <li><strong>Enhet:</strong> iPhone med iOS 17.0 eller senare, i stående läge, med mörkt gränssnitt.
+    Silex finns också för Android (Google Play, Android 8.0 eller senare). De här sidorna beskriver
+    iPhone-appen.</li>
+  <li><strong>Språk:</strong> 22: engelska, danska, finska, franska, förenklad kinesiska, indonesiska,
+    italienska, japanska, koreanska, nederländska, norska, polska, portugisiska (Brasilien), ryska,
+    spanska, svenska, thailändska, traditionell kinesiska, turkiska, tyska, ukrainska och
+    vietnamesiska.</li>
+  <li><strong>Konto:</strong> inget. Det finns ingen registrering och ingen inloggning. Dina data finns på
+    din telefon och, om du använder iCloud, i din egen privata iCloud-databas.</li>
+  <li><strong>Pris:</strong> en prenumeration, 39 kr i veckan eller 399 kr om året med 7
+    dagars gratis provperiod. Se <a href="/sv/docs/subscriptions/">Prenumerationer</a>.</li>
+</ul>
+
+<h2>Var du börjar</h2>
+<ul>
+  <li><a href="/sv/docs/getting-started/">Kom igång</a>: vad introduktionen frågar om, och
+    dag 1 med sina tre förslag.</li>
+  <li><a href="/sv/docs/protection/">Skyddslager</a>: DNS-skölden, Safari-blockeraren och de tre lager du
+    ordnar utanför appen.</li>
+  <li><a href="/sv/docs/sos/">SOS-knappen</a>: flödet när suget slår till, och hur du når det från
+    låsskärmen, Kontrollcenter och Siri.</li>
+  <li><a href="/sv/docs/program/">90-dagarsprogrammet</a>: faserna, hur dagarna låses upp och vad som händer
+    efter ett snedsteg.</li>
+  <li><a href="/sv/docs/progress/">Framsteg, behållna pengar och klot</a>: hur varje siffra räknas ut.</li>
+  <li><a href="/sv/docs/notifications/">Notiser och widgetar</a>: vad Silex skickar, när, och de diskreta
+    formuleringarna.</li>
+  <li><a href="/sv/docs/subscriptions/">Prenumerationer</a>: alternativen, provperioden, att säga upp, att
+    återställa och vad som förblir gratis.</li>
+  <li><a href="/sv/docs/privacy-and-data/">Integritet och dina data</a>: vad som lagras var, analys och att
+    radera allt.</li>
+  <li><a href="/sv/docs/settings/">Inställningarna i detalj</a>: varje val i Inställningar.</li>
+  <li><a href="/sv/docs/troubleshooting/">Felsökning</a>: lösningar på de vanliga problemen och hur du når en
+    människa.</li>
+</ul>
+
+<h2>Vad Silex inte är</h2>
+<p>Silex är ett verktyg för självhjälp, inte sjukvård. Det ställer inte diagnos på och behandlar inte
+  spelberoende, och det är ingen krisjour. Om du är i fara ringer du <a href="tel:112">112</a>, eller
+  någon av stödlinjerna längst ner på varje sida.</p>
+  <section class="docs-toc">
+    <h2>Silex dokumentation</h2>
+    <ul>
+      <li><a href="/sv/docs/" aria-current="page">Dokumentation för Silex</a></li>
+      <li><a href="/sv/docs/getting-started/">Kom igång</a></li>
+      <li><a href="/sv/docs/protection/">Skyddslager</a></li>
+      <li><a href="/sv/docs/sos/">SOS-knappen</a></li>
+      <li><a href="/sv/docs/program/">90-dagarsprogrammet</a></li>
+      <li><a href="/sv/docs/progress/">Framsteg, behållna pengar och klot</a></li>
+      <li><a href="/sv/docs/notifications/">Notiser och widgetar</a></li>
+      <li><a href="/sv/docs/subscriptions/">Prenumerationer</a></li>
+      <li><a href="/sv/docs/privacy-and-data/">Integritet och dina data</a></li>
+      <li><a href="/sv/docs/settings/">Inställningarna i detalj</a></li>
+      <li><a href="/sv/docs/troubleshooting/">Felsökning</a></li>
+    </ul>
+  </section>
+</main>
+
+<div class="help-band">
+  <div class="wrap">
+  <aside class="helplines" aria-label="Om du behöver prata med någon nu">
+    <h2>Om du behöver prata med någon nu</h2>
+    <ul>
+      <li><span class="hl-region">Sverige</span><a href="tel:020819100">020-81 91 00</a><span class="hl-note">Stödlinjen, spel om pengar: gratis och anonymt, vardagar (mån 9–19, tis–ons 9–17, tors 11–19, fre 9–15)</span></li>
+      <li><span class="hl-region">Sverige</span><a href="tel:08374300">08-37 43 00</a><span class="hl-note">Föreningen Spelfriheten, kamratstöd för spelare och anhöriga, dygnet runt</span></li>
+      <li><span class="hl-region">Sverige</span><a href="tel:90101">90101</a><span class="hl-note">Självmordslinjen (Mind), dygnet runt, anonymt</span></li>
+      <li><span class="hl-region">Sverige</span><a href="tel:90390">90390</a><span class="hl-note">Hjälplinjen, dygnet runt, gratis och anonymt</span></li>
+      <li><span class="hl-region">Nödläge</span><a href="tel:112">112</a><span class="hl-note">Vid direkt livsfara</span></li>
+      <li><span class="hl-region">Andra länder</span><a href="https://findahelpline.com">findahelpline.com</a><span class="hl-note">Krislinjer där du är</span></li>
+    </ul>
+  </aside>
+  </div>
+</div>
+
+<footer class="site-foot">
+  <div class="wrap">
+    <p class="disclaimer">Silex hjälper dig att bygga sundare vanor kring spel om pengar. Det är inte vård, ställer inga diagnoser och behandlar inga tillstånd. Är du i kris, ring numren ovan.</p>
+    <nav aria-label="Sidfot"><a href="/sv/">Hem</a>
+      <a href="/sv/om-silex/">Om Silex</a>
+      <a href="/sv/metod/">Metod</a>
+      <a href="/sv/docs/">Dokumentation</a>
+      <a href="/sv/support/">Support</a>
+      <a href="/sv/integritet/">Integritet</a>
+      <a href="/sv/villkor/">Villkor</a></nav>
+    <p class="copy">© 2026 Silex · Byggt av <a href="/sv/om-silex/">Kyrylo Lozovyi</a> i Kyiv, Ukraina · <a href="mailto:support@trysilex.com">support@trysilex.com</a>
+      · Från samma utvecklare: <a href="https://www.vitalityrize.me/">VitalityRise</a>, bäckenbottenträning för män</p>
+  </div>
+</footer>
+</body>
+</html>

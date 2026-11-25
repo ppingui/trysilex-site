@@ -1,0 +1,103 @@
+<!--meta
+{
+  "slug": "test-ludomani",
+  "en": "gambling-self-check",
+  "type": "article",
+  "published": "2026-11-25",
+  "title": "Test for ludomani (PGSI): 9 spørgsmål, gratis og privat",
+  "description": "Tag Problem Gambling Severity Index (PGSI), standardskemaet med 9 spørgsmål om dit spil. Testen kører i din browser. Intet bliver gemt eller sendt.",
+  "h1": "Test dig selv for ludomani: de 9 spørgsmål i PGSI",
+  "tldr": "De ni spørgsmål er <strong>Problem Gambling Severity Index</strong> (PGSI), standardskemaet fra Canadian Problem Gambling Index (Ferris &amp; Wynne, 2001). Du kan få mellem 0 og 27 point, og 8 eller derover ligger i den højeste risikogruppe. Testen kører i din browser. Intet bliver gemt, intet bliver sendt nogen steder hen, og du bliver ikke bedt om din mail til sidst.",
+  "faq": [
+    ["Hvor mange point betyder, at jeg har et spilleproblem?", "På PGSI er 0 ingen spilleproblemer, 1–2 lav risiko, 3–7 moderat risiko, og 8 eller derover den gruppe, der som regel beskrives som problematisk spil. Men PGSI er en screening og ikke en diagnose. Kun en kvalificeret fagperson kan stille diagnosen, og det sker ud fra kriterierne i DSM-5."],
+    ["Bliver mine svar gemt eller delt?", "Nej. Pointene bliver regnet ud med JavaScript i din egen browser. Der bliver ikke sendt en formular, og der er ingen cookies, ingen statistik på dine svar og ingen mail, du skal opgive. Lukker du fanen, er det hele væk."],
+    ["Kan jeg tage testen på en andens vegne?", "PGSI er skrevet i første person og afprøvet som et skema, man udfylder om sig selv. Svarer du for en partner eller et familiemedlem, får du i bedste fald et groft indtryk. Er du bekymret for en anden, rådgiver StopSpillet også pårørende."],
+    ["Hvad hvis mit tal er lavt, men jeg stadig føler, at jeg har mistet kontrollen?", "Stol mere på følelsen end på tallet. PGSI lægger stor vægt på økonomiske og sociale følger, så er du tidligt i et tungt mønster, eller spiller du for penge, du teknisk set har råd til at undvære, kan du ende på et lavt tal og stadig være i vanskeligheder."]
+  ]
+}
+-->
+<p>PGSI spørger til de <strong>sidste 12 måneder</strong>. Svar for den periode, ikke for din værste måned
+  nogensinde og ikke for sidste uge. At være ærlig over for en side, der ikke kan huske dine svar, er den
+  letteste ærlighed, der findes.</p>
+
+<form class="tool" id="pgsi">
+  <p class="noscript"><noscript>Testen skal bruge JavaScript for at regne pointene ud. Uden JavaScript kan du
+    stadig svare på spørgsmålene og lægge sammen i hånden: Aldrig = 0, Nogle gange = 1, Det meste af
+    tiden = 2, Næsten altid = 3.</noscript></p>
+  <div id="pgsi-questions"></div>
+  <div class="result" id="pgsi-result" hidden aria-live="polite">
+    <span class="num" id="pgsi-score">0</span>
+    <p><span class="band" id="pgsi-band"></span>: <span id="pgsi-line"></span></p>
+    <p class="small">Det her er ikke en diagnose. Det er et øjebliksbillede af din risiko, baseret på en
+      standardiseret selvtest (PGSI). Pointene går fra 0 til 27.</p>
+    <div id="pgsi-next"></div>
+  </div>
+  <p class="small" id="pgsi-progress">Svar på alle ni spørgsmål for at se dine point.</p>
+</form>
+
+<h2>Sådan bliver pointene talt</h2>
+<p>Hvert af de ni spørgsmål giver 0 for <em>aldrig</em>, 1 for <em>nogle gange</em>, 2 for <em>det meste af
+  tiden</em> og 3 for <em>næsten altid</em>, i alt fra 0 til 27. Grupperne kommer fra Canadian Problem
+  Gambling Index:</p>
+<div class="table-scroll">
+<table>
+  <thead><tr><th>Point</th><th>Standardgruppe</th><th>Hvad det som regel betyder</th></tr></thead>
+  <tbody>
+    <tr><td>0</td><td>Ingen spilleproblemer</td><td>Ingen tegn i de sidste 12 måneder.</td></tr>
+    <tr><td>1–2</td><td>Lav risiko</td><td>Tidlige tegn, som de fleste, der spiller en gang imellem, ikke har. Værd at holde øje med.</td></tr>
+    <tr><td>3–7</td><td>Moderat risiko</td><td>Et tungere mønster, tit allerede med følger for økonomien eller andre mennesker.</td></tr>
+    <tr><td>8–27</td><td>Problematisk spil</td><td>Den højeste gruppe i skemaet. Her har de fleste gavn af struktureret hjælp og ikke kun viljestyrke.</td></tr>
+  </tbody>
+</table>
+</div>
+<p class="src">Skemaet: Ferris, J. &amp; Wynne, H. (2001), <em>The Canadian Problem Gambling Index: Final
+  Report</em>, Canadian Centre on Substance Abuse. De danske spørgsmål er vores egen oversættelse og ikke en
+  officiel udgave. PGSI er et screeningsredskab. Diagnosen stilles efter kriterierne i DSM-5 og kræver en
+  kvalificeret fagperson. Spillemyndigheden har også sin egen selvtest på
+  <a href="https://www.stopspillet.dk/" rel="nofollow">stopspillet.dk</a>, gratis og anonym.</p>
+
+<h2>Uanset dit tal er næste skridt det samme</h2>
+<p>Et tal ændrer ikke noget i sig selv. Det gør to ting, og begge virker ved alle pointtal:</p>
+<ul>
+  <li><strong>Skab afstand mellem dig og spillet.</strong> Ikke med viljestyrke, men ved at gøre det
+    besværligt. <a href="/da/blokere-pengespil-iphone/">Bloker pengespil på telefonen</a>, og læg så
+    <a href="/da/udeluk-dig-fra-spil/">ROFUS</a> til, som du ikke kan fortryde midt i en trang. Spørg også din
+    bank om en <a href="/da/spaerre-pengespil-banken/">spilspærring</a>.</li>
+  <li><strong>Lær, hvad trang egentlig er.</strong> Den stiger, topper og falder, som regel inden for cirka
+    20–30 minutter, uanset om du spiller eller ej.
+    <a href="/da/hvor-laenge-varer-spilletrang/">Det er det mønster, du kan læne dig op ad.</a></li>
+</ul>
+
+{{cta:da_selfcheck}}
+
+<script>
+window.SELFCHECK = {
+  items: [
+    "Har du inden for de sidste 12 måneder spillet for flere penge, end du reelt havde råd til at tabe?",
+    "Har du inden for de sidste 12 måneder haft behov for at spille for større beløb for at få den samme følelse?",
+    "Er du inden for de sidste 12 måneder vendt tilbage en anden dag for at prøve at vinde de tabte penge tilbage?",
+    "Har du inden for de sidste 12 måneder lånt penge eller solgt noget for at kunne spille?",
+    "Har du inden for de sidste 12 måneder følt, at du måske havde et problem med spil?",
+    "Har spil inden for de sidste 12 måneder givet dig helbredsproblemer, herunder stress eller angst?",
+    "Har andre inden for de sidste 12 måneder kritiseret dine spillevaner eller sagt, at du havde et problem?",
+    "Har dit spil inden for de sidste 12 måneder givet økonomiske problemer for dig eller din husstand?",
+    "Har du inden for de sidste 12 måneder følt skyld over den måde, du spiller på, eller over hvad der sker, når du spiller?"
+  ],
+  scale: [["Aldrig", 0], ["Nogle gange", 1], ["Det meste af tiden", 2], ["Næsten altid", 3]],
+  bands: [
+    { max: 0,  label: "Lav risiko",         line: "dine svar tyder på, at spillet ikke styrer dit liv. Lad os holde det sådan." },
+    { max: 2,  label: "Begyndende risiko",  line: "dine svar viser tidlige advarselstegn, som de fleste, der spiller afslappet, ikke har." },
+    { max: 7,  label: "Forhøjet risiko",    line: "dine svar placerer dig i gruppen med moderat risiko, et tungere mønster end hos de fleste, der spiller om penge." },
+    { max: 27, label: "Høj risiko",         line: "dine svar placerer dig i den højeste risikogruppe i den her screening. Du er det rigtige sted, og du er ikke alene." }
+  ],
+  next: {
+    "Lav risiko": '<p>Der er ikke noget, der skal rettes i dag. Vil du holde det sådan, er den billigste forsikring en grænse for, hvor meget du bruger, sat mens du er rolig, og ikke mens du jagter et tab.</p>',
+    "Begyndende risiko": '<p>Det er nu, det er lettest at gøre noget, og det er nu, folk springer det over. Sæt spærringerne op, mens det stadig føles unødvendigt: <a href="/da/blokere-pengespil-iphone/">begynd med telefonen</a>.</p>',
+    "Forhøjet risiko": '<p>Blokering alene plejer ikke at holde på det her niveau. Læg noget struktureret til: <a href="/da/udeluk-dig-fra-spil/">udeluk dig selv i ROFUS</a>, og overvej at ringe til StopSpillet, <a href="tel:70222825">70 22 28 25</a>. Det er gratis og fortroligt, og der er åbent på hverdage. Det er rådgivning, ikke en nødtelefon, og et opkald forpligter dig ikke til noget.</p>',
+    "Høj risiko": '<p>Tal også med et menneske, uanset hvad du installerer. StopSpillet, <a href="tel:70222825">70 22 28 25</a>, er gratis og fortrolig og taler med folk, der slet ikke er klar til at stoppe. Der er åbent mandag til torsdag 9–21 og fredag 9–17. Center for Ludomani, <a href="tel:70111810">70 11 18 10</a>, har gratis og anonym behandling uden henvisning. Er det ved at blive for meget, har Livslinien, <a href="tel:70201201">70 201 201</a>, åbent alle årets dage fra kl. 09 til 05, og ved akut fare ringer du <a href="tel:112">112</a>. Har spillet givet dig gæld, du ikke kan følge med på, så få <a href="/da/hjaelp-til-spillegaeld/">gratis gældsrådgivning</a>, før du låner mere. <a href="/da/udeluk-dig-fra-spil/">ROFUS</a> er den spærring, der holder imens.</p>'
+  },
+  progress: "{n} af 9 besvaret.",
+  done: "Intet er gemt eller sendt. Genindlæs siden for at slette svarene."
+};
+</script>
+<script src="/assets/selfcheck.js"></script>

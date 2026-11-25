@@ -2,11 +2,11 @@
 
 # Privacy Policy
 
-Last updated: 22 November 2026. Canonical version of this notice; it replaces the Notion-hosted copy linked from older builds of the app.
+Last updated: 25 November 2026. Canonical version of this notice; it replaces the Notion-hosted copy linked from older builds of the app.
 
 Silex is built on one principle: **your recovery is nobody's dataset.**
 
-*We* store nothing about you on any server, hold no accounts, and have no way to read anything you write in this app. (The one piece of code we run on a server is the optional Notion connector in §14, which keeps nothing.) Two third parties do run servers that receive something: an analytics service is sent the *names* of the screens you reach, and an ad-measurement service is told that the app was installed and whether a trial or purchase followed. One switch in Settings stops both. This page explains exactly what that means — including the few places where data does leave your phone, because a privacy policy that only lists the reassuring parts is not a privacy policy.
+*We* store nothing about you on any server, hold no accounts, and have no way to read anything you write in this app. (The only code we run on servers is two optional tools that have nothing to do with the app: the Notion connector in §14 and Silex Help in §15. Neither keeps anything.) Two third parties do run servers that receive something: an analytics service is sent the *names* of the screens you reach, and an ad-measurement service is told that the app was installed and whether a trial or purchase followed. One switch in Settings stops both. This page explains exactly what that means — including the few places where data does leave your phone, because a privacy policy that only lists the reassuring parts is not a privacy policy.
 
 This notice is written to meet the EU General Data Protection Regulation (GDPR) and the UK GDPR. If you are in the EEA or the UK, the sections on legal bases, transfers and your rights apply to you in full.
 
@@ -154,7 +154,7 @@ One thing we cannot give you, and it is why this entry is longer than RevenueCat
 ## 5. How long anything is kept
 
 - **On your device and in your private iCloud:** until you delete it. We cannot delete it for you, and we cannot stop you deleting it.
-- **On our systems:** nothing, because we operate none. The third-party servers holding anything of ours are RevenueCat's, TelemetryDeck's and AppsFlyer's — see below.
+- **On our systems:** nothing. The two small services in sections 14 and 15 keep no records. The third-party servers holding anything of ours are RevenueCat's, TelemetryDeck's and AppsFlyer's — see below.
 - **A line you emailed us for publication:** for as long as we use your words, until you ask us to stop. See section 2.
 - **Purchase records:** retained by Apple and RevenueCat under their own retention schedules, and as required by tax and accounting law.
 - **Usage counts on your device:** removed when the app is deleted.
@@ -193,7 +193,7 @@ Write to [support@trysilex.com](mailto:support@trysilex.com) and we will respond
 
 ## 9. Sensitive information, and why the design is the policy
 
-What you record here concerns your health and your finances, and we treat it that way. No accounts to breach, no servers of ours to subpoena, and nothing held by any vendor that could be read back as *your* recovery. The strongest protection we can offer is not holding your data at all — and that part is structural rather than a promise: there is no key, no backup and no copy, so there is nothing to quietly reverse a decision about.
+What you record here concerns your health and your finances, and we treat it that way. No accounts to breach, nothing on any server of ours to subpoena, and nothing held by any vendor that could be read back as *your* recovery. The strongest protection we can offer is not holding your data at all — and that part is structural rather than a promise: there is no key, no backup and no copy, so there is nothing to quietly reverse a decision about.
 
 **What changed.** Until August 2026 this section also said there was no analytics vendor holding a copy. That is no longer true: TelemetryDeck holds a count of how many installs reached each screen. It is a real reduction in the guarantee and we are not going to call it anything else. What survives is the part doing the work — the content stays on your phone, the identifier attached to those counts cannot be tied to you or followed between apps, and the whole thing has a switch. What we gave up is the ability to say the word *none*.
 

@@ -1,0 +1,97 @@
+<!--meta
+{
+  "slug": "kalkulator-spilletap",
+  "en": "gambling-loss-calculator",
+  "type": "article",
+  "published": "2026-11-25",
+  "title": "Kalkulator for spilletap: hva spillingen koster i året",
+  "description": "Skriv inn hva du taper en vanlig uke, og se summen etter ett, fem og ti år, og hva pengene kunne vokst til. Kjører i nettleseren din, ingenting lagres.",
+  "h1": "Kalkulator for spilletap",
+  "tldr": "Skriv inn hva du taper en vanlig uke. Årstallet er det tallet × 52, og tallene over lengre tid viser også renters rente, for å gi en målestokk. De fleste blir mindre sjokkert av uketallet enn av tallet etter ti år. Ingenting du skriver inn, lagres eller sendes.",
+  "faq": [
+    ["Skal jeg bruke tapene eller det jeg har satset?", "Bruk netto tap: penger som er borte, ikke penger som er satset. Samlede innsatser er som regel langt høyere enn tapene, fordi gevinster blir satset på nytt, og tar du dem med, blir tallet dramatisk, men meningsløst."],
+    ["Jeg vet ikke hva jeg taper i uken. Hvordan finner jeg det ut?", "Ta kontoutskriftene for de siste tre månedene, legg sammen hver betaling til et spillselskap, og trekk fra hvert uttak derfra. Del på 13. Kontoutskriften husker det hukommelsen ikke gjør. De fleste anslår altfor lavt."],
+    ["Hvorfor ta med en sammenligning med investering?", "Fordi den ærlige prisen på spillingen ikke bare er pengene du har tapt, men det de kunne ha blitt til. Tallet bruker 8 % gjennomsnittlig avkastning i året med månedlig rentesrente. Det er en illustrasjon av størrelsen, ikke en prognose, ikke en anbefaling og ikke økonomisk rådgivning."],
+    ["Er gjelden min med i tallet?", "Nei. Dette regner bare på løpende tap. Har spillingen gitt deg gjeld, er en gratis gjeldsrådgiver et bedre neste steg enn en kalkulator: NAVs økonomi- og gjeldsveiledning på 55 55 33 39, hverdager 9–15."]
+  ]
+}
+-->
+<form class="tool" id="calc">
+  <fieldset>
+    <legend><label for="amount">Hva taper du en vanlig uke?</label></legend>
+    <p>
+      <select id="currency" aria-label="Valuta">
+        <option value="NOK">kr NOK</option>
+        <option value="SEK">kr SEK</option>
+        <option value="DKK">kr. DKK</option>
+        <option value="EUR">€ EUR</option>
+        <option value="USD">$ USD</option>
+        <option value="GBP">£ GBP</option>
+      </select>
+    </p>
+    <p><input type="number" id="amount" min="0" step="50" value="1000" inputmode="numeric"></p>
+    <p class="small">Netto tap, ikke det du har satset. Er du usikker, er tre måneder med kontoutskrifter
+      delt på 13 mer nøyaktig enn hukommelsen.</p>
+  </fieldset>
+
+  <div class="result" aria-live="polite">
+    <p class="small">Borte på ett år</p>
+    <span class="num" id="year">52 000 kr</span>
+    <div class="table-scroll">
+      <table>
+        <thead><tr><th>Periode</th><th>Tapt</th><th>Hvis det hadde vokst i stedet*</th></tr></thead>
+        <tbody>
+          <tr><td>1 år</td><td id="l1">—</td><td id="i1">—</td></tr>
+          <tr><td>5 år</td><td id="l5">—</td><td id="i5">—</td></tr>
+          <tr><td>10 år</td><td id="l10">—</td><td id="i10">—</td></tr>
+          <tr><td>20 år</td><td id="l20">—</td><td id="i20">—</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="small">*Bare for å gi en målestokk: det samme beløpet satt inn hver måned med 8 %
+      gjennomsnittlig avkastning i året og månedlig rentesrente. En illustrasjon, ikke en prognose, og
+      ikke økonomisk rådgivning. Ingenting du skrev inn, ble lagret eller sendt.</p>
+  </div>
+</form>
+
+<h2>Hvorfor det er tallet etter ti år som treffer</h2>
+<p>Seks hundre kroner i løpet av en helg kjennes som prisen på underholdning. Ti år med slike helger er
+  egenkapital til en leilighet. Det er ikke noe overraskende ved regnestykket. Det overraskende er at
+  nesten ingen gjør det, fordi spilletap kommer i små biter og aldri står samlet på én linje i
+  kontoutskriften.</p>
+<p>Det er også derfor pengetallet virker som et verktøy for å slutte og ikke som dårlig samvittighet.
+  Silex tar det samme uketallet og teller <em>oppover</em> fra dagen du slutter, så summen du ville ha
+  tapt, blir summen du har beholdt. Samme regnestykke, motsatt vei.</p>
+
+<h2>Det tallet ikke tar med</h2>
+<ul>
+  <li><strong>Lån.</strong> Renter på penger lånt for å spille koster ofte mer enn selve tapene. Det er
+    ikke tilfeldig at PGSI spør om lån: Det er et av de sterkeste tegnene på et tungt mønster.</li>
+  <li><strong>Tid.</strong> Timene i en app klokken ett om natten vises ikke i kroner, og det er ofte det
+    tapet folk angrer mest på.</li>
+  <li><strong>Nestengevinstene som holdt deg fast.</strong> Tap forkledd som gevinster (en utbetaling som
+    er mindre enn innsatsen, vist frem med feiring i lyd og farger) er bygget inn i moderne
+    spilleautomater og spillapper, ikke et uhell.
+    <a href="/no/metode/">Forskningen på det er verdt å lese.</a></li>
+</ul>
+
+<h2>Hvis tallet er verre enn du trodde</h2>
+<p>Den reaksjonen er informasjon, ikke en dom. To steg videre, i denne rekkefølgen:</p>
+<ul>
+  <li><a href="/no/test-spilleavhengighet/">Ta selvtesten PGSI med 9 spørsmål</a>. Den tar to minutter og viser
+    hvor mønsteret ditt ligger.</li>
+  <li><a href="/no/blokkere-pengespill-iphone/">Sett sperrer mellom deg og spillselskapene</a>, først på
+    telefonen (Gamban er gratis i Norge gjennom Hjelpelinjen), og så det som ikke avhenger av
+    viljestyrke: <a href="/no/utesteng-deg-fra-pengespill/">utestenging</a> og
+    <a href="/no/sperre-pengespill-banken/">det banken kan sperre</a>.</li>
+</ul>
+<p>Har spillingen lagt igjen gjeld, ta den samtidig. Gratis gjeldsråd uten pekefinger får du hos
+  <a href="https://www.nav.no/okonomi-gjeld" rel="nofollow">NAVs økonomi- og gjeldsveiledning</a> på
+  <a href="tel:55553339">55 55 33 39</a>, hverdager 9–15, og hos
+  <a href="https://spillavhengighet.no/hjelpetilbud/gjeldsradgivning/" rel="nofollow">Spillavhengighet
+  Norge</a>, som har en gratis gjeldsguide med brevmaler. Ingen av dem tar betalt.</p>
+
+{{cta:no_calculator}}
+
+<script>window.LOSSCALC = { locale: "nb-NO" };</script>
+<script src="/assets/losscalc.js"></script>

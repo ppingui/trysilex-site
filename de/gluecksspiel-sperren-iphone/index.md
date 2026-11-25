@@ -2,7 +2,7 @@
 
 # Glücksspiel auf dem iPhone sperren
 
-Von [Kyrylo Lozovyi](https://trysilex.com/about/) · 26. Oktober 2026
+Von [Kyrylo Lozovyi](https://trysilex.com/about/) · 26. Oktober 2026 · Aktualisiert am 25. November 2026
 
 **Kurz gesagt:** Bildschirmzeit allein reicht nicht. Was hält, ist die Kombination: ein **DNS-Profil fürs ganze Gerät** (deckt alle Apps und Browser ab), **Bildschirmzeit mit einem Code, den jemand anderes kennt** (verhindert Neuinstallation) und die zwei Sperren, die sich im Impuls nicht aufheben lassen: die **OASIS-Selbstsperre** und die **Zahlungssperre bei der Bank**. Alles zusammen dauert etwa 30 Minuten.
 
@@ -24,13 +24,24 @@ Lies das als Schichten, nicht als Menü. Die ersten drei machen Glücksspiel unb
 
 Bildschirmzeit ist kostenlos, schon auf dem iPhone und vor allem durch das nützlich, was sie *verhindert*.
 
-**Keine neuen Apps:** Einstellungen → Bildschirmzeit → Inhalts- & Datenschutzbeschränkungen → aktivieren → Käufe und App-Installation → **Nicht erlauben**. Lösch vorher alle Wett- und Casino-Apps; danach braucht eine Neuinstallation den Bildschirmzeit-Code.
+**Keine neuen Apps.** Lösch vorher alle Wett- und Casino-Apps. Apple hat die Menüs in iOS 27 umgestellt:
 
-**Websites in Safari sperren:** unter Inhaltsbeschränkungen → Webinhalte → **Websites für Erwachsene beschränken**, dann jeden Anbieter unter **Nie erlauben** eintragen. Nebenbei wird damit das private Surfen in Safari abgeschaltet.
+- **iOS 27:** Einstellungen → Bildschirmzeit → **Apps & Websites** → **Beschränkungen** → **Apps installieren** ausschalten. Stehen darunter App Store, Web und App-Marktplätze, setzt der Schalter alle drei auf **Blockiert**.
+- **iOS 26 und älter:** Einstellungen → Bildschirmzeit → **Beschränkungen** → aktivieren → **App-Installationen & Käufe** (in manchen Versionen **Käufe im iTunes & App Store**) → **Apps installieren** → **Nicht erlauben**.
+- **In der EU unter iOS 26** kommen Apps auch am App Store vorbei aufs iPhone. Stell dort auch **App-Marktplätze** und **Internet** auf **Nicht erlauben**. [Laut Apple](https://support.apple.com/de-de/118128) bleiben beide nach einem Update erlaubt, auch wenn schon Beschränkungen aktiv waren.
 
-**Der Haken, den keiner erwähnt:** iOS hat keine Glücksspiel-Kategorie. «Websites für Erwachsene beschränken» ist ein Filter für Erwachseneninhalte – er erwischt zufällig ein paar Glücksspielseiten und lässt die meisten durch.
+Danach braucht eine Neuinstallation den Bildschirmzeit-Code.
 
-**Mach es richtig:** Leg einen Bildschirmzeit-Code fest, den du nicht kennst. Lass ihn von deinem Partner, einem Freund oder jemandem aus der Familie eingeben und aufbewahren.
+**Websites in Safari sperren:**
+
+- **iOS 27:** Bildschirmzeit → Apps & Websites → **Blockiert** → **+**, dann jeden Anbieter eintippen oder eine ganze Liste einfügen. Unter **Beschränkungen** → **Filtern** zusätzlich **Nicht jugendfreie Inhalte beschränken** wählen: Laut iOS sperrt das auch Web-Proxys. Ist ein Bildschirmzeit-Code gesetzt, schränkt iOS außerdem «Privates Surfen» ein.
+- **iOS 26 und älter:** Beschränkungen → **App Store, Medien, Web und Spiele** → **Webinhalt** → **Nur jugendfreie Websites**, dann unter **Nie erlauben** mit **Website hinzufügen** jeden Anbieter eintragen. Nebenbei wird damit das private Surfen in Safari abgeschaltet.
+
+Die Menüs von iOS 27 haben wir am 25. November 2026 unter iOS 27.1 in Apples Simulator geprüft. Apples eigene [Anleitung](https://support.apple.com/de-de/105121) beschreibt das Sperren von Installationen und Websites nur für das Gerät eines Kindes (Einstellungen → Familie → Name des Kindes), also kann eine Bezeichnung bei dir leicht abweichen.
+
+**Der Haken, den keiner erwähnt:** iOS hat keine Glücksspiel-Kategorie. «Nicht jugendfreie Inhalte beschränken» ist ein Filter für Erwachseneninhalte – er erwischt zufällig ein paar Glücksspielseiten und lässt die meisten durch.
+
+**Mach es richtig:** Leg einen Bildschirmzeit-Code fest, den du nicht kennst (iOS 27: Bildschirmzeit → **Bildschirmzeit verwalten** → **Einstellungen für Bildschirmzeit sperren**). Lass ihn von deinem Partner, einem Freund oder jemandem aus der Familie eingeben und aufbewahren. Nimm für die **Bildschirmzeit-Code-Wiederherstellung** nicht deinen eigenen Apple Account: Wer den dort angegebenen hat, kann den Code zurücksetzen. Und halte den Code nicht für eine Mauer: Apples Seiten sagen über das Ändern unter iOS 27 Verschiedenes ([die eine](https://support.apple.com/de-de/102677) verlangt Face ID oder den Gerätecode, [die andere](https://support.apple.com/de-de/guide/iphone/iph272b4c4bd/ios) den aktuellen Bildschirmzeit-Code).
 
 ## 2. Ein DNS-Profil: das, was alles abdeckt
 
@@ -75,7 +86,7 @@ Ja. Bildschirmzeit kann Installationen verhindern und einzelne Websites sperren,
 
 ### Sperrt Bildschirmzeit Glücksspiel-Apps?
 
-Teilweise. Sie verhindert neue Installationen und sperrt Websites in Safari, hat aber keine Glücksspiel-Kategorie: «Websites für Erwachsene beschränken» ist kein Glücksspielfilter. Du musst Domains selbst eintragen oder einen DNS-Dienst nutzen, der die Liste für dich pflegt.
+Teilweise. Sie verhindert neue Installationen und sperrt Websites in Safari, hat aber keine Glücksspiel-Kategorie: «Nicht jugendfreie Inhalte beschränken» ist kein Glücksspielfilter. Du musst Domains selbst eintragen oder einen DNS-Dienst nutzen, der die Liste für dich pflegt.
 
 ### Funktioniert das auch im Mobilfunknetz?
 

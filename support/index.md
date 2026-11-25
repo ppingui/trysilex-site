@@ -8,9 +8,9 @@ Email [support@trysilex.com](mailto:support@trysilex.com). One person reads it, 
 
 ## Subscriptions
 
-- **Prices.** $2.99 per week, or $29.99 per year with a 7-day free trial. Local prices follow Apple's and Google Play's regional pricing.
+- **Prices.** $2.99 per week, or $29.99 per year with a 7-day free trial (US prices). Prices are set country by country and are lower in many of them; the store shows yours before you pay.
 - **Cancelling.** Settings → your name → Subscriptions → Silex → Cancel Subscription. On Android: Google Play → your profile → Payments & subscriptions → Subscriptions → Silex → Cancel. Deleting the app does not cancel the subscription.
-- **Trial.** The annual plan's 7-day trial charges nothing up front, and the app notifies you the day before it ends. Cancel any time before it ends and you pay nothing.
+- **Trial.** The annual plan's 7-day trial charges nothing up front, and the app notifies you two days before it ends, if you've allowed notifications. Cancel any time before it ends and you pay nothing.
 - **Refunds** are handled by Apple or Google, not by us: [reportaproblem.apple.com](https://reportaproblem.apple.com) on iPhone, Google Play's order history on Android. We can't issue them, but tell us what went wrong anyway — it usually points at something worth fixing.
 - **If your subscription lapses**, the safety tools keep working. The urge button, the helplines and lapse support are free forever.
 
@@ -30,7 +30,7 @@ Safari content blockers are opt-in per browser: Settings → Apps → Safari →
 
 ### Honest limits
 
-No iOS app can make itself impossible to remove, and Silex doesn't claim to. Anyone determined enough can delete a blocker in thirty seconds. That's why the app pushes you toward the layers you *can't* undo on impulse — [operator self-exclusion](https://trysilex.com/self-exclusion-guide/) and a [bank-level gambling block](https://trysilex.com/block-gambling-transactions-bank/) — and why it suggests giving a Screen Time passcode to someone you trust.
+No iOS app can make itself impossible to remove, and Silex doesn't claim to. Anyone determined enough can delete a blocker in thirty seconds. That's why the app pushes you toward the layers you *can't* undo on impulse: [operator self-exclusion](https://trysilex.com/self-exclusion-guide/) and a [bank-level gambling block](https://trysilex.com/block-gambling-transactions-bank/). A Screen Time passcode that someone you trust sets and keeps is worth adding; the [iPhone guide](https://trysilex.com/block-gambling-sites-iphone/) has the steps for iOS 27 and iOS 26.
 
 ## Feature requests and bugs
 
@@ -48,7 +48,7 @@ On your iPhone: Settings → your name → Subscriptions → Silex → Cancel Su
 
 ### I paid but Silex still shows the paywall.
 
-Open the paywall and tap Restore Purchases, and check you are signed into the same Apple Account you bought with. If it still fails, email support@trysilex.com with the date of purchase.
+Open the paywall and tap Restore, and check you are signed into the same Apple Account you bought with. If it still fails, email support@trysilex.com with the date of purchase.
 
 ### Why does the DNS shield need a profile?
 

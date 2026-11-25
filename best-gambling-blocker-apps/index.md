@@ -2,11 +2,11 @@
 
 # The best gambling blocker apps, compared honestly
 
-By [Kyrylo Lozovyi](https://trysilex.com/about/) · August 10, 2026 · Updated November 3, 2026
+By [Kyrylo Lozovyi](https://trysilex.com/about/) · August 10, 2026 · Updated November 25, 2026
 
-**Short answer:** **BetBlocker** is free, run by a registered charity, and the right first install for almost everyone. **Gamban** (£4.99/month or £29.99/year) is the strongest cross-platform blocker if you gamble on more than a phone. **Silex** (which we make, so weigh that) is for people who want the 90-day quit program alongside the blocking. Whichever you choose, a blocker on its own is the weakest of the three layers that matter; the other two are self-exclusion and a bank block, and both are free.
+**Short answer:** **BetBlocker** is free, run by a non-profit, and the right first install for almost everyone. **Gamban** (£4.99/month or £29.99/year) is the strongest cross-platform blocker if you gamble on more than a phone. **Silex** (which we make, so weigh that) is for people who want the 90-day quit program alongside the blocking. Whichever you choose, a blocker on its own is the weakest of the three layers that matter; the other two are self-exclusion and a bank block, and both are free.
 
-**Disclosure first, because it changes how you should read this:** we make Silex, one of the apps below. So this page does two things to stay useful: it names what each competitor does better, and it verifies every price against the vendor's own website rather than repeating other roundups. Prices below were checked on 10 August 2026.
+**Disclosure first, because it changes how you should read this:** we make Silex, one of the apps below. So this page does two things to stay useful: it names what each competitor does better, and it verifies every price against the vendor's own website rather than repeating other roundups. Prices below were checked on 25 November 2026.
 
 ## How these were assessed
 
@@ -29,13 +29,13 @@ By [Kyrylo Lozovyi](https://trysilex.com/about/) · August 10, 2026 · Updated N
 
 ## BetBlocker: free, and not a lesser option
 
-BetBlocker is a charity project: founded by the dispute-resolution service ThePOGG in 2017 and established as an independent charity registered in Scotland (SC049565) in 2019. It costs "absolutely nothing. Ever.", carries no ads, and states it blocks **356,000+ gambling websites and 1,900+ apps** for more than 105,000 active users.
+BetBlocker began in 2017 as a project of the dispute-resolution service ThePOGG and became its own organisation in 2019. It now describes itself as a 501(c)(3) non-profit registered in Delaware, US, and says its funding comes from donations by businesses in the gambling industry. It costs "absolutely nothing. Ever.", carries no ads, and states it blocks **1.5 million+ gambling websites and 3,100+ apps** for more than 149,000 active users.
 
 **Its best feature is the one paid apps often lack:** you can set a restriction period from **one day up to five years** and you cannot shorten it once it starts. That's a real commitment device, given away.
 
 **Where it's weaker:** it is a blocker and nothing else. No program, no urge tools, no money tracking. Setup is more manual than a polished commercial app. But if you install exactly one thing today, install this, and only pay for something else if you find a gap it leaves.
 
-Source: [betblocker.org](https://betblocker.org/), checked 10 August 2026.
+Source: [betblocker.org](https://betblocker.org/), checked 25 November 2026.
 
 ## Gamban: the cross-platform choice
 
@@ -47,7 +47,7 @@ Gamban charges **£4.99 billed monthly or £29.99 billed annually**, with a **7-
 
 **A note on other roundups:** several currently list Gamban at £24.99/year. That figure is out of date; the pricing page says £29.99. It's a small thing that tells you how much of this niche's content is copied rather than checked.
 
-Source: [gamban.com/pricing](https://gamban.com/pricing), checked 10 August 2026. [Full Gamban alternatives comparison →](https://trysilex.com/gamban-alternatives/)
+Source: [gamban.com/pricing](https://gamban.com/pricing), checked 25 November 2026. [Full Gamban alternatives comparison →](https://trysilex.com/gamban-alternatives/)
 
 ## GamBlock: the heaviest lock, on the right platforms
 
@@ -99,7 +99,7 @@ Silex blocks gambling across your phone and walks you through 90 days, one at a 
 
 ### What is the best free gambling blocker?
 
-BetBlocker. It is genuinely free with no ads and no upsell, run by a charity registered in Scotland (SC049565), covers Windows, Mac, Linux, Android, iOS and Fire OS, and lets you lock a self-exclusion period from one day up to five years.
+BetBlocker. It is genuinely free with no ads and no upsell, run by a non-profit that says it is registered in Delaware, US, covers Windows, Mac, Linux, Android, iOS and Fire OS, and lets you lock a self-exclusion period from one day up to five years.
 
 ### Is Gamban worth paying for?
 

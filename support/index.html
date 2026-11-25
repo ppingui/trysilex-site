@@ -6,6 +6,12 @@
 <title>Silex support</title>
 <meta name="description" content="Help with Silex: subscriptions and cancelling, restoring a purchase, the DNS shield, the Safari blocker, and how to reach a human.">
 <link rel="canonical" href="https://trysilex.com/support/">
+<link rel="alternate" hreflang="da" href="https://trysilex.com/da/support/">
+<link rel="alternate" hreflang="en" href="https://trysilex.com/support/">
+<link rel="alternate" hreflang="fi" href="https://trysilex.com/fi/tuki/">
+<link rel="alternate" hreflang="no" href="https://trysilex.com/no/support/">
+<link rel="alternate" hreflang="sv" href="https://trysilex.com/sv/support/">
+<link rel="alternate" hreflang="x-default" href="https://trysilex.com/support/">
 <meta name="apple-itunes-app" content="app-id=6798826038">
 <meta name="theme-color" media="(prefers-color-scheme: light)" content="#F5F3EE">
 <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#0E1014">
@@ -20,7 +26,7 @@
 <link rel="icon" href="/assets/favicon.png" sizes="any">
 <link rel="apple-touch-icon" href="/assets/icon-180.png">
 <link rel="stylesheet" href="/styles.css">
-<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Person","@id":"https://www.vitalityrize.me/#kyrylo","name":"Kyrylo Lozovyi","url":"https://trysilex.com/about/","jobTitle":"Independent iOS developer","worksFor":{"@id":"https://trysilex.com/#org"},"sameAs":["https://github.com/ppingui","https://www.vitalityrize.me/about/"]},{"@type":"Organization","@id":"https://trysilex.com/#org","name":"Silex — Stop Gambling","url":"https://trysilex.com","founder":{"@id":"https://www.vitalityrize.me/#kyrylo"},"email":"support@trysilex.com"},{"@type":"FAQPage","inLanguage":"en","mainEntity":[{"@type":"Question","name":"How do I cancel my Silex subscription?","acceptedAnswer":{"@type":"Answer","text":"On your iPhone: Settings → your name → Subscriptions → Silex → Cancel Subscription. Cancelling in Apple's settings is the only way to stop billing; deleting the app does not cancel anything."}},{"@type":"Question","name":"I paid but Silex still shows the paywall.","acceptedAnswer":{"@type":"Answer","text":"Open the paywall and tap Restore Purchases, and check you are signed into the same Apple Account you bought with. If it still fails, email support@trysilex.com with the date of purchase."}},{"@type":"Question","name":"Why does the DNS shield need a profile?","acceptedAnswer":{"@type":"Answer","text":"Blocking gambling in every app and browser, not just Safari, requires an encrypted-DNS configuration at the system level. iOS asks you to approve it in Settings. You can remove it at any time from Settings → General → VPN, DNS &amp; Device Management."}},{"@type":"Question","name":"Does deleting the app delete my data?","acceptedAnswer":{"@type":"Answer","text":"Yes, on the device. If iCloud backup was on, also remove the iCloud copy: Settings → your name → iCloud → Manage Account Storage → Silex."}}]}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Person","@id":"https://www.vitalityrize.me/#kyrylo","name":"Kyrylo Lozovyi","url":"https://trysilex.com/about/","jobTitle":"Independent iOS developer","worksFor":{"@id":"https://trysilex.com/#org"},"sameAs":["https://github.com/ppingui","https://www.vitalityrize.me/about/"]},{"@type":"Organization","@id":"https://trysilex.com/#org","name":"Silex — Stop Gambling","url":"https://trysilex.com","founder":{"@id":"https://www.vitalityrize.me/#kyrylo"},"email":"support@trysilex.com"},{"@type":"FAQPage","inLanguage":"en","mainEntity":[{"@type":"Question","name":"How do I cancel my Silex subscription?","acceptedAnswer":{"@type":"Answer","text":"On your iPhone: Settings → your name → Subscriptions → Silex → Cancel Subscription. Cancelling in Apple's settings is the only way to stop billing; deleting the app does not cancel anything."}},{"@type":"Question","name":"I paid but Silex still shows the paywall.","acceptedAnswer":{"@type":"Answer","text":"Open the paywall and tap Restore, and check you are signed into the same Apple Account you bought with. If it still fails, email support@trysilex.com with the date of purchase."}},{"@type":"Question","name":"Why does the DNS shield need a profile?","acceptedAnswer":{"@type":"Answer","text":"Blocking gambling in every app and browser, not just Safari, requires an encrypted-DNS configuration at the system level. iOS asks you to approve it in Settings. You can remove it at any time from Settings → General → VPN, DNS &amp; Device Management."}},{"@type":"Question","name":"Does deleting the app delete my data?","acceptedAnswer":{"@type":"Answer","text":"Yes, on the device. If iCloud backup was on, also remove the iCloud copy: Settings → your name → iCloud → Manage Account Storage → Silex."}}]}]}</script>
 
 </head>
 <body class="">
@@ -31,7 +37,7 @@
   <div class="wrap head-inner">
     <a class="logo" href="/"><span>Silex</span></a>
     <nav class="main-nav" aria-label="Main"><a href="/how-to-stop-gambling/">How to stop</a><a href="/best-gambling-blocker-apps/">Blockers</a><a href="/gambling-self-check/">Self-check</a><a href="/about/">About</a></nav>
-
+    <details class="langs"><summary>English</summary><nav aria-label="Language"><a href="/support/" hreflang="en" lang="en" aria-current="true">English</a><a href="/sv/support/" hreflang="sv" lang="sv">Svenska</a><a href="/no/support/" hreflang="no" lang="nb">Norsk</a><a href="/da/support/" hreflang="da" lang="da">Dansk</a><a href="/fi/tuki/" hreflang="fi" lang="fi">Suomi</a></nav></details>
   </div>
 </header>
 <main id="main" class="wrap page">
@@ -48,12 +54,13 @@
 <h2>Subscriptions</h2>
 <ul>
   <li><strong>Prices.</strong> $2.99 per week, or $29.99 per year with a 7-day free
-    trial. Local prices follow Apple's and Google Play's regional pricing.</li>
+    trial (US prices). Prices are set country by country and are lower in many of them; the store
+    shows yours before you pay.</li>
   <li><strong>Cancelling.</strong> Settings → your name → Subscriptions → Silex → Cancel
     Subscription. On Android: Google Play → your profile → Payments &amp; subscriptions →
     Subscriptions → Silex → Cancel. Deleting the app does not cancel the subscription.</li>
   <li><strong>Trial.</strong> The annual plan's 7-day trial charges nothing up front, and
-    the app notifies you the day before it ends. Cancel any time before it ends and you
+    the app notifies you two days before it ends, if you've allowed notifications. Cancel any time before it ends and you
     pay nothing.</li>
   <li><strong>Refunds</strong> are handled by Apple or Google, not by us:
     <a href="https://reportaproblem.apple.com" rel="nofollow">reportaproblem.apple.com</a>
@@ -84,10 +91,12 @@
 <h3>Honest limits</h3>
 <p>No iOS app can make itself impossible to remove, and Silex doesn't claim to. Anyone
   determined enough can delete a blocker in thirty seconds. That's why the app pushes you
-  toward the layers you <em>can't</em> undo on impulse —
+  toward the layers you <em>can't</em> undo on impulse:
   <a href="/self-exclusion-guide/">operator self-exclusion</a> and a
-  <a href="/block-gambling-transactions-bank/">bank-level gambling block</a> — and why it
-  suggests giving a Screen Time passcode to someone you trust.</p>
+  <a href="/block-gambling-transactions-bank/">bank-level gambling block</a>. A Screen Time
+  passcode that someone you trust sets and keeps is worth adding; the
+  <a href="/block-gambling-sites-iphone/">iPhone guide</a> has the steps for iOS 27 and
+  iOS 26.</p>
 
 <h2>Feature requests and bugs</h2>
 <p>Both go to the same address. Requests that make the app better at helping people quit
@@ -102,7 +111,7 @@
     <h3>How do I cancel my Silex subscription?</h3>
     <p>On your iPhone: Settings → your name → Subscriptions → Silex → Cancel Subscription. Cancelling in Apple's settings is the only way to stop billing; deleting the app does not cancel anything.</p>
     <h3>I paid but Silex still shows the paywall.</h3>
-    <p>Open the paywall and tap Restore Purchases, and check you are signed into the same Apple Account you bought with. If it still fails, email support@trysilex.com with the date of purchase.</p>
+    <p>Open the paywall and tap Restore, and check you are signed into the same Apple Account you bought with. If it still fails, email support@trysilex.com with the date of purchase.</p>
     <h3>Why does the DNS shield need a profile?</h3>
     <p>Blocking gambling in every app and browser, not just Safari, requires an encrypted-DNS configuration at the system level. iOS asks you to approve it in Settings. You can remove it at any time from Settings → General → VPN, DNS &amp; Device Management.</p>
     <h3>Does deleting the app delete my data?</h3>

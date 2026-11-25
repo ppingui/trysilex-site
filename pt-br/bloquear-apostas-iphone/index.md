@@ -2,7 +2,7 @@
 
 # Como bloquear bets e cassinos no iPhone
 
-Por [Kyrylo Lozovyi](https://trysilex.com/about/) · 26 de outubro de 2026
+Por [Kyrylo Lozovyi](https://trysilex.com/about/) · 26 de outubro de 2026 · Atualizado em 25 de novembro de 2026
 
 **Resposta curta:** Só o Tempo de Uso não basta. A combinação que segura é: um **perfil DNS para o aparelho inteiro** (cobre todos os apps e navegadores), **Tempo de Uso com o código nas mãos de outra pessoa** (impede reinstalar) e as duas barreiras que não se desfazem num impulso: a **autoexclusão na plataforma do governo** e o **bloqueio de pagamentos no banco**. Tudo junto leva uns 30 minutos.
 
@@ -24,13 +24,24 @@ Leia como camadas, não como cardápio. As três primeiras deixam a aposta incô
 
 O Tempo de Uso é grátis, já vem no iPhone e é mais útil pelo que *impede* do que pelo que filtra.
 
-**Para não aparecerem apps novos:** Ajustes → Tempo de Uso → Restrições de Conteúdo e Privacidade → ative → compras e instalação de apps → **Não Permitir**. Apague antes todos os apps de bets; a partir daí, reinstalar exige o código do Tempo de Uso.
+**Para não aparecerem apps novos.** Apague antes todos os apps de bets. A Apple mudou os menus no iOS 27:
 
-**Bloquear sites no Safari:** em Restrições de Conteúdo → Conteúdo da Web → **Limitar Sites Adultos**, e adicione cada bet em **Nunca Permitir**. Isso também desativa a navegação privada no Safari.
+- **iOS 27:** Ajustes → Tempo de Uso → **Apps e Sites** → **Restrições** → desative **Instalar Apps**. Se App Store, Web e Lojas de Apps aparecerem embaixo, esse botão coloca as três como bloqueadas.
+- **iOS 26 e anteriores:** Ajustes → Tempo de Uso → **Conteúdo e Privacidade** → ative → **Compras no iTunes e App Store** → **Instalar Apps** → **Não Permitir**.
+- **No Brasil, com iOS 26,** também dá para instalar apps fora da App Store, então fechar só ela não basta. O menu se chama **Instalações e Compras de Apps**: coloque também **Lojas de Apps** e **Web** em **Não Permitir**. [A Apple avisa](https://support.apple.com/pt-br/118128) que as duas continuam permitidas depois de uma atualização, mesmo que você já tivesse restrições.
+
+A partir daí, reinstalar exige o código do Tempo de Uso.
+
+**Bloquear sites no Safari:**
+
+- **iOS 27:** Tempo de Uso → Apps e Sites → **Bloqueados** → **+**, e digite cada bet ou cole uma lista inteira. Em **Restrições** → **Filtragem**, escolha também **Limitar Sites Adultos**: segundo o iOS, isso bloqueia proxies da web. Com um código do Tempo de Uso definido, o iOS ainda restringe a navegação privada.
+- **iOS 26 e anteriores:** Conteúdo e Privacidade → **App Store, Mídia, Web e Jogos** → **Conteúdo da Web** → **Limitar Sites Adultos**, e em **Nunca Permitir**, **Adicionar Site** para cada bet. Isso também desativa a navegação privada no Safari.
+
+Conferimos os menus do iOS 27 no iOS 27.1, no simulador da Apple, em 25 de novembro de 2026. A [ajuda da Apple](https://support.apple.com/pt-br/105121) só descreve o bloqueio de instalações e sites no aparelho de uma criança (Ajustes → Família → nome da criança), então algum nome pode mudar no seu.
 
 **O detalhe que ninguém conta:** o iOS não tem uma categoria de apostas. «Limitar Sites Adultos» é um filtro de conteúdo adulto: pega uma ou outra bet por acaso e deixa passar a maioria.
 
-**Faça direito:** crie um código do Tempo de Uso que você não saiba. Peça para o seu parceiro, um amigo ou alguém da família digitar e guardar.
+**Faça direito:** crie um código do Tempo de Uso que você não saiba (iOS 27: Tempo de Uso → **Gerenciar o Tempo de Uso** → **Bloquear Ajustes do Tempo de Uso**). Peça para o seu parceiro, um amigo ou alguém da família digitar e guardar. Na **Recuperação do código do Tempo de Uso**, não coloque a sua própria Conta Apple: a conta informada ali pode redefinir o código. E não trate o código como um muro: as páginas da Apple não concordam sobre como ele é alterado no iOS 27 ([uma](https://support.apple.com/pt-br/102677) pede Face ID ou o código do aparelho; [a outra](https://support.apple.com/pt-br/guide/iphone/iph272b4c4bd/ios), o código atual do Tempo de Uso).
 
 ## 2. Um perfil DNS: o que cobre tudo
 

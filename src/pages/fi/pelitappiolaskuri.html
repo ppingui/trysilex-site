@@ -1,0 +1,95 @@
+<!--meta
+{
+  "slug": "pelitappiolaskuri",
+  "en": "gambling-loss-calculator",
+  "type": "article",
+  "published": "2026-11-25",
+  "title": "Pelitappiolaskuri: mitä rahapelaaminen maksaa vuodessa",
+  "description": "Syötä, paljonko häviät tavallisella viikolla, ja näe summa 1, 5 ja 10 vuodessa sekä mitä rahasta olisi voinut tulla. Mitään ei tallenneta.",
+  "h1": "Pelitappiolaskuri",
+  "tldr": "Syötä, paljonko häviät tavallisella viikolla. Vuosiluku on se kertaa 52, ja pitkän ajan luvuissa on mukana korkoa korolle mittakaavaksi. Useimpia ei säikäytä viikon luku vaan kymmenen vuoden luku. Mitään syöttämääsi ei tallenneta eikä lähetetä.",
+  "faq": [
+    ["Käytänkö häviöitä vai panosten summaa?", "Nettohäviöitä: rahaa, joka on mennyt, ei rahaa, jolla on pelattu. Panosten summa on yleensä paljon suurempi, koska voitot pelataan uudelleen, ja niiden laskeminen mukaan tekisi luvusta dramaattisen mutta tyhjän."],
+    ["En tiedä, paljonko häviän viikossa. Miten saan sen selville?", "Ota kolmen viime kuukauden tiliotteet tai korttitapahtumat. Laske yhteen kaikki siirrot peliyhtiöille ja vähennä siitä kaikki, mitä sieltä on tullut takaisin. Jaa 13:lla. Tiliote muistaa sen, mitä muisti ei. Useimmat arvioivat reilusti alakanttiin."],
+    ["Miksi mukana on vertailu sijoittamiseen?", "Koska rahapelaamisen todellinen hinta ei ole vain hävitty raha, vaan se, mitä siitä olisi voinut tulla. Laskuri käyttää 8 %:n keskimääräistä vuosituottoa kuukausittaisella korolla. Se havainnollistaa mittakaavaa. Se ei ole ennuste, suositus eikä sijoitusneuvontaa."],
+    ["Onko luvussa mukana se, mitä olen velkaa?", "Ei. Laskuri laskee vain jatkuvat häviöt. Jos rahapelaaminen on jättänyt velkaa, seuraava puhelu kannattaa soittaa maksuttomaan velkaneuvontaan: Takuusäätiön Velkalinja, <a href=\"tel:080098009\">0800 9 8009</a>, ma–to klo 10–14, tai valtion talous- ja velkaneuvonta."]
+  ]
+}
+-->
+<form class="tool" id="calc">
+  <fieldset>
+    <legend><label for="amount">Paljonko häviät tavallisella viikolla?</label></legend>
+    <p>
+      <select id="currency" aria-label="Valuutta">
+        <option value="EUR">€ EUR</option>
+        <option value="SEK">kr SEK</option>
+        <option value="GBP">£ GBP</option>
+        <option value="USD">$ USD</option>
+      </select>
+    </p>
+    <p><input type="number" id="amount" min="0" step="5" value="100" inputmode="numeric"></p>
+    <p class="small">Nettohäviöt, ei panosten summa. Jos et ole varma, kolmen kuukauden tiliotteet
+      jaettuna 13:lla on tarkempi kuin muisti.</p>
+  </fieldset>
+
+  <div class="result" aria-live="polite">
+    <p class="small">Hävitty vuodessa</p>
+    <span class="num" id="year">5 200 €</span>
+    <div class="table-scroll">
+      <table>
+        <thead><tr><th>Aika</th><th>Hävitty</th><th>Jos se olisi kasvanut korkoa*</th></tr></thead>
+        <tbody>
+          <tr><td>1 vuosi</td><td id="l1">—</td><td id="i1">—</td></tr>
+          <tr><td>5 vuotta</td><td id="l5">—</td><td id="i5">—</td></tr>
+          <tr><td>10 vuotta</td><td id="l10">—</td><td id="i10">—</td></tr>
+          <tr><td>20 vuotta</td><td id="l20">—</td><td id="i20">—</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="small">*Vain mittakaavaksi: sama summa säästettynä kuukausittain keskimäärin 8 %:n vuosituotolla, korko
+      laskettuna kuukausittain. Havainnollistus, ei ennuste eikä sijoitusneuvontaa. Mitään syöttämääsi ei
+      tallennettu eikä lähetetty.</p>
+  </div>
+</form>
+
+<h2>Miksi juuri kymmenen vuoden luku pysäyttää</h2>
+<p>60 euroa viikonlopussa tuntuu viihteen hinnalta. Kymmenen vuotta sellaisia viikonloppuja on asunnon
+  omarahoitusosuus. Laskutoimituksessa ei ole mitään yllättävää. Yllättävää on, ettei juuri kukaan tee sitä,
+  koska häviöt tulevat pieninä paloina eivätkä koskaan näy tiliotteella yhtenä summana.</p>
+<p>Siksi luku on lopettamisen väline eikä syyllistämistä. Silex ottaa saman viikkosumman ja laskee siitä päivästä
+  alkaen, jona lopetat, <em>ylöspäin</em>: summa, jonka olisit hävinnyt, muuttuu summaksi, jonka pidit. Sama
+  lasku, vastakkainen suunta.</p>
+
+<h2>Mitä luku ei sisällä</h2>
+<ul>
+  <li><strong>Lainaaminen.</strong> Pelaamista varten lainatun rahan korot maksavat usein enemmän kuin itse
+    häviöt. PGSI kysyy lainaamisesta syystä: se on yksi raskaan pelaamisen vahvimmista merkeistä.</li>
+  <li><strong>Aika.</strong> Kello yhden aikaan yöllä sovelluksessa vietetyt tunnit eivät
+    näy euroissa, ja usein juuri niitä kadutaan eniten.</li>
+  <li><strong>Melkein voitot, jotka pitivät sinut mukana.</strong> Voitoiksi naamioidut häviöt (palautus, joka
+    on pienempi kuin panoksesi mutta jota juhlitaan äänin ja värein) ovat nykyisten peliautomaattien ja
+    vedonlyöntisovellusten suunniteltu ominaisuus, eivät vahinko.
+    <a href="/fi/menetelma/">Siitä tehty tutkimus kannattaa lukea.</a></li>
+</ul>
+
+<h2>Jos luku on pahempi kuin odotit</h2>
+<p>Se, mitä tunnet, on tietoa, ei tuomio. Kaksi seuraavaa askelta tässä järjestyksessä:</p>
+<ul>
+  <li><a href="/fi/peliriippuvuustesti/">Tee 9 kysymyksen PGSI-itsearvio</a>. Se vie kaksi minuuttia ja kertoo,
+    missä mennään.</li>
+  <li><a href="/fi/esta-rahapelit-iphone/">Laita estoja itsesi ja peliyhtiöiden väliin</a>, ensin
+    puhelimeen ja sitten kaksi, jotka eivät ole tahdonvoiman varassa:
+    <a href="/fi/pelikielto/">pelikielto</a> ja
+    <a href="/fi/esta-rahapelimaksut-pankissa/">rahan reittien sulkeminen pankissa</a>.</li>
+</ul>
+<p>Jos rahapelaaminen on jättänyt velkaa, hoida sitä samaan aikaan. Maksutonta ja tuomitsematonta
+  velkaneuvontaa antavat
+  <a href="https://www.takuusaatio.fi/palvelut-ja-materiaalit/velkalinja-ja-kysy-rahasta-chat/" rel="nofollow">Takuusäätiön
+  Velkalinja</a>, <a href="tel:080098009">0800 9 8009</a>, ma–to klo 10–14, ja valtion
+  <a href="https://www.oikeuspalveluvirasto.fi/talous-ja-velkaneuvonta/palvelumme/yleinen-neuvonta/" rel="nofollow">talous-
+  ja velkaneuvonta</a>. Kumpikaan ei maksa mitään, eikä kumpikaan pidä sinulle saarnaa.</p>
+
+{{cta:fi_calculator}}
+
+<script>window.LOSSCALC = { locale: "fi-FI" };</script>
+<script src="/assets/losscalc.js"></script>

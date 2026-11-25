@@ -2,7 +2,7 @@
 
 # Getting started
 
-Onboarding takes a few minutes. Everything you answer stays on your phone, and a **Talk to someone** button in the header opens free crisis lines at any point.
+Onboarding takes a few minutes. Everything you answer stays on your phone. While you answer, a **Talk to someone** button in the header opens free crisis lines, and the paywall has its own link to them.
 
 ## 1. Install
 
@@ -10,7 +10,7 @@ Download Silex from the App Store on an iPhone running iOS 17.0 or later. There 
 
 ## 2. Onboarding
 
-Silex asks a short set of questions and builds your plan from the answers. You can go back with the arrow at the top of each question.
+The first screen is a stone you tap open. The orb inside it, *The Spark*, is your first. Silex then asks a short set of questions and builds your plan from the answers. You can go back with the arrow at the top of each question.
 
 - **Your name** (optional, *Skip for now* works).
 - **What you gamble on** and **how often**.
@@ -20,32 +20,32 @@ Silex asks a short set of questions and builds your plan from the answers. You c
 - **Whether you hide your gambling** from people close to you. If you say yes, Silex turns on discreet notification wording automatically, and if you say most of it, it also hides money amounts.
 - **What gambling is mostly for** (escape, the rush, or winning back losses), **when urges hit hardest**, and **why you're quitting**. Your reasons come back to you in the SOS flow.
 
-Silex then shows what your weekly stake adds up to over one and five years, and your risk score out of 27. The score is a screening result, not a diagnosis. Tap **See my plan**, commit to it, and sign with a press and hold. The signature earns your first orb, *The Vow*.
+Silex then shows what your weekly stake adds up to over five years, beside what the same money would come to if you invested it, and your risk score out of 27. The score is a screening result, not a diagnosis. Tap **See my plan**, commit to it, and sign with a press and hold.
 
 If you leave onboarding half way, Silex picks up where you stopped next time you open it.
 
 ## 3. Subscribe
 
-The program and the protection tools need a subscription. Before the paywall, Silex asks for permission to send notifications so it can remind you before a free trial ends. Plans and prices are on the paywall and in [Subscriptions](https://trysilex.com/docs/subscriptions/).
+The program and the protection tools need a subscription. If a free trial is on offer, a screen before the paywall offers to remind you two days before it ends and asks for permission to send notifications. *Not now* works. Plans and prices are on the paywall and in [Subscriptions](https://trysilex.com/docs/subscriptions/).
 
-## 4. First-run setup
+## 4. Day 1
 
-Right after you subscribe, three short steps run:
+Day 1 of the program opens right after you subscribe. It takes about four minutes, and finishing it lights your second orb, *First Light*. Near the end come **Three tips for your first week**:
 
 1. **Turn on your shield.** Installs the system-wide DNS shield. You approve one iOS dialog and switch it on in Settings; details in [Protection layers](https://trysilex.com/docs/protection/).
-2. **Let Silex reach you.** Allows notifications if you skipped them earlier.
-3. **Start Day 1.** The first lesson takes about four minutes and lights your second orb, *First Light*.
+2. **Allow notifications**, if you skipped them earlier.
+3. **When an urge hits, tap SOS.** Where to find it: the corner of every tab.
 
-Each step has a *Skip for now* or *Later* option, and the **Your first three days** checklist on the Today tab keeps track of what's left.
+None of them holds up *Continue*. During your first three days free, a checklist on the Today tab, **Your first three days**, keeps track of the shield, Day 1 and your first pledge.
 
 ## The four tabs
 
-- **Today:** days free, your current run, money kept, today's pledge, a quick urge log, your pattern this week, and *I gambled — reset with me*. The gear opens Settings.
+- **Today:** days free with a running timer, money kept, today's pledge, today's program day, a quick urge log with *I gambled — reset with me* under it, and your pattern this week. The gear opens Settings.
 - **Program:** the 90-day program, *Storm to Clarity*.
 - **Protect:** your five protection layers and their status.
-- **Progress:** money kept, your goal, your orbs, the 90-day timeline and your journal.
+- **Progress:** gamble-free days, your longest run and the urges you rode out, then money kept and your goal, your orbs, the 90-day ring and your journal.
 
-The **SOS** button floats over every tab.
+The **SOS** button sits in the corner of every tab.
 
 ## Silex documentation
 

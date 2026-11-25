@@ -18,6 +18,7 @@ Open Settings with the gear on the Today tab.
 
 - **Crisis resources & helplines:** free lines for your region.
 - **Send us a message:** email the developer.
+- **Rate Silex on the App Store.** Hidden for 48 hours after a lapse or an SOS.
 - **Restore purchases** and **Manage subscription**.
 - **Privacy policy.**
 
