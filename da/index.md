@@ -48,7 +48,7 @@ Ikke spillet væk. Silex tager det beløb, du sagde, du brugte om ugen, og tæll
 
 [Regn ud, hvad spillet har kostet dig indtil nu](https://trysilex.com/da/beregn-spilletab/)
 
-![Skærmen Fremskridt: 26.700 kr. i behold, 34 spillefrie dage og 7 af 20 sfærer.](https://trysilex.com/assets/shots/da/money.jpg)
+![Skærmen Fremskridt: 26.700 kr. i behold, 34 spillefrie dage og 8 af 20 sfærer.](https://trysilex.com/assets/shots/da/money.jpg)
 
 ## Du bliver aldrig straffet for en smutter
 

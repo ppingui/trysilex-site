@@ -48,7 +48,7 @@ Ei pelattu menemään. Kerrot Silexille, paljonko rahapeleihin meni viikossa, ja
 
 [Laske, mitä rahapelaaminen on maksanut sinulle tähän asti](https://trysilex.com/fi/pelitappiolaskuri/)
 
-![Edistys-näyttö: 34 rahapelitöntä päivää, säästetyt rahat 2 460 € ja seitsemän kehrää kahdestakymmenestä.](https://trysilex.com/assets/shots/fi/money.jpg)
+![Edistys-näyttö: 34 rahapelitöntä päivää, säästetyt rahat 2 460 € ja kahdeksan kehrää kahdestakymmenestä.](https://trysilex.com/assets/shots/fi/money.jpg)
 
 ## Lipsahduksesta ei rangaista
 

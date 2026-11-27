@@ -8,7 +8,7 @@ Silex is an app for iPhone and Android that blocks gambling across your whole ph
 
 $2.99 a week, or $29.99 a year with a 7-day free trial (US prices).
 
-![Silex home screen: 34 days free, $1,263 kept, today's pledge and today's program lesson.](https://trysilex.com/assets/shots/dashboard.jpg)
+![Silex home screen: 34 days free, a clock counting the hours, $2,670 kept, and today's pledge.](https://trysilex.com/assets/shots/dashboard.jpg)
 
 ## One blocker is one tap from off. So Silex sets up five.
 
@@ -20,7 +20,7 @@ $2.99 a week, or $29.99 a year with a 7-day free trial (US prices).
 
 [How this compares to other blockers](https://trysilex.com/best-gambling-blocker-apps/) · [The full iPhone guide](https://trysilex.com/block-gambling-sites-iphone/) · [Android](https://trysilex.com/block-gambling-apps-android/)
 
-![Protection screen: four of five layers active, split into automatic and guided layers.](https://trysilex.com/assets/shots/protect.jpg)
+![Protection screen: five of five layers active, split into automatic and guided layers.](https://trysilex.com/assets/shots/protect.jpg)
 
 ## A real 90-day program
 
@@ -32,7 +32,7 @@ $2.99 a week, or $29.99 a year with a 7-day free trial (US prices).
 
 [Every source we built it from](https://trysilex.com/methodology/)
 
-![The 90-day Storm to Clarity program, on day 42, with the first phase's lessons listed.](https://trysilex.com/assets/shots/program.jpg)
+![The 90-day Storm to Clarity program on day 34, with finished days above and the days ahead below.](https://trysilex.com/assets/shots/program.jpg)
 
 ## An SOS for the worst minute
 
@@ -40,7 +40,7 @@ One button, always on screen, never behind the paywall. Rate the urge, breathe i
 
 [Why urges pass, and how long it takes](https://trysilex.com/how-long-do-gambling-urges-last/)
 
-![The SOS screen asking how strong the urge is right now, rated 7 out of 9.](https://trysilex.com/assets/shots/panic.jpg)
+![The SOS screen asking how strong the urge is right now, rated 9 out of 10.](https://trysilex.com/assets/shots/panic.jpg)
 
 ## The money, made visible
 
@@ -48,7 +48,7 @@ Not gambled away. Silex takes what you told it you were putting in each week and
 
 [Work out what gambling has cost you so far](https://trysilex.com/gambling-loss-calculator/)
 
-![Progress screen: $1,263 kept, seven of twenty orbs earned, and 34 of 90 days on the program.](https://trysilex.com/assets/shots/money.jpg)
+![Progress screen: $2,670 kept, eight of twenty orbs earned, and 34 of 90 days on the program.](https://trysilex.com/assets/shots/money.jpg)
 
 ## It never punishes you for slipping
 

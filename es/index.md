@@ -8,7 +8,7 @@ Silex es una app para iPhone y Android que bloquea el juego en todo tu teléfono
 
 Plan semanal, o anual con 7 días de prueba gratis. El precio en tu moneda aparece en la tienda antes de pagar.
 
-![Pantalla de inicio de Silex: 34 días libres, el dinero guardado, el compromiso de hoy y la lección del programa.](https://trysilex.com/assets/shots/es/dashboard.jpg)
+![Pantalla de inicio de Silex: 34 días libres, un reloj que cuenta las horas, el dinero conservado y el compromiso de hoy.](https://trysilex.com/assets/shots/es/dashboard.jpg)
 
 ## Un bloqueador está a un toque de apagarse. Por eso Silex configura cinco.
 
@@ -20,7 +20,7 @@ Plan semanal, o anual con 7 días de prueba gratis. El precio en tu moneda apare
 
 [Guía completa para bloquear el juego en iPhone](https://trysilex.com/es/bloquear-apuestas-iphone/)
 
-![Pantalla de protección: cuatro de cinco capas activas, entre automáticas y guiadas.](https://trysilex.com/assets/shots/es/protect.jpg)
+![Pantalla de protección: cinco de cinco capas activas, entre automáticas y guiadas.](https://trysilex.com/assets/shots/es/protect.jpg)
 
 ## Un programa de 90 días de verdad
 
@@ -32,7 +32,7 @@ Plan semanal, o anual con 7 días de prueba gratis. El precio en tu moneda apare
 
 [Todas las fuentes en las que se basa (en inglés)](https://trysilex.com/methodology/)
 
-![El programa de 90 días, en el día 42, con las lecciones de la primera fase.](https://trysilex.com/assets/shots/es/program.jpg)
+![El programa de 90 días, en el día 34, con los días ya hechos arriba y los siguientes abajo.](https://trysilex.com/assets/shots/es/program.jpg)
 
 ## Un SOS para el peor minuto
 
@@ -48,7 +48,7 @@ No apostado. Silex toma lo que le dijiste que metías cada semana y cuenta lo qu
 
 [Calcula cuánto te ha costado el juego hasta ahora](https://trysilex.com/es/calculadora-perdidas-apuestas/)
 
-![Pantalla de progreso: el dinero guardado, las piezas ganadas y los días del programa.](https://trysilex.com/assets/shots/es/money.jpg)
+![Pantalla de progreso: 2460 € conservados, 8 de 20 orbes y 34 de 90 días del programa.](https://trysilex.com/assets/shots/es/money.jpg)
 
 ## Nunca te castiga por una recaída
 

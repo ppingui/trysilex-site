@@ -48,7 +48,7 @@ Ikke spilt bort. Silex tar det du sa at du brukte på spill hver uke, og teller 
 
 [Regn ut hva spillingen har kostet deg så langt](https://trysilex.com/no/kalkulator-spilletap/)
 
-![Fremgang-fanen i Silex: 26 700 kr i penger beholdt, 34 spillfrie dager og 7 av 20 orber.](https://trysilex.com/assets/shots/no/money.jpg)
+![Fremgang-fanen i Silex: 26 700 kr i penger beholdt, 34 spillfrie dager og 8 av 20 orber.](https://trysilex.com/assets/shots/no/money.jpg)
 
 ## Du blir aldri straffet for en sprekk
 

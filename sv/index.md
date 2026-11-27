@@ -48,7 +48,7 @@ Inte bortspelat. Silex tar det du sa att du lade på spel varje vecka och räkna
 
 [Räkna ut vad spelandet har kostat dig hittills](https://trysilex.com/sv/rakna-ut-spelforluster/)
 
-![Fliken Framsteg: 26 700 kr i behållna pengar, 34 spelfria dagar och 7 av 20 klot.](https://trysilex.com/assets/shots/sv/money.jpg)
+![Fliken Framsteg: 26 700 kr i behållna pengar, 34 spelfria dagar och 8 av 20 klot.](https://trysilex.com/assets/shots/sv/money.jpg)
 
 ## Du straffas aldrig för ett snedsteg
 
